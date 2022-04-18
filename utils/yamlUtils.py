@@ -3,6 +3,8 @@ import json
 import time
 import copy
 import hashlib
+import uuid
+
 from ruamel import yaml
 
 from git.repo import Repo
