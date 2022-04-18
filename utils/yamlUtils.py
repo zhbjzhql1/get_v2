@@ -58,13 +58,13 @@ class YamlUtils:
     def make_template(self, filelist, keyword="yaml", dirname=None):
         def check_proxy(proxy):
             return (
-                "server" in proxy
-                and proxy.get("cipher") not in self.not_support_ciphers
-                and proxy.get("alterId") is not None
-                and proxy.get("alterId") not in self.not_support_alterIds
-                and proxy.get("type") not in self.not_support_type
-                and type(proxy.get("port") == int)
-                and proxy.get("port") > 0
+                    "server" in proxy
+                    and proxy.get("cipher") not in self.not_support_ciphers
+                    and proxy.get("alterId") is not None
+                    and proxy.get("alterId") not in self.not_support_alterIds
+                    and proxy.get("type") not in self.not_support_type
+                    and type(proxy.get("port") == int)
+                    and proxy.get("port") > 0
             )
 
         for item in filelist:
@@ -82,7 +82,7 @@ class YamlUtils:
                             for proxy in proxies:
                                 if check_proxy(proxy):
                                     if proxy.get(
-                                        "network"
+                                            "network"
                                     ) in self.network and not proxy.get("tls"):
                                         deleted_proxy.append(proxy.get("name"))
                                         continue
@@ -97,12 +97,12 @@ class YamlUtils:
                                     if data_md5 not in self.proxies_md5_dict:
                                         if proxy.get("name") in self.proxy_names_set:
                                             proxy["name"] = (
-                                                proxy.get("name")
-                                                + "_"
-                                                + item
-                                                + "_"
-                                                + str(round(time.time() * 1000))
-                                                + uuid.uuid4()
+                                                    proxy.get("name")
+                                                    + "_"
+                                                    + item
+                                                    + "_"
+                                                    + str(round(time.time() * 1000))
+                                                    + uuid.uuid4()
                                             )
                                         self.proxy_names_set.add(proxy.get("name"))
                                         self.proxies_md5_dict[data_md5] = proxy
@@ -130,9 +130,9 @@ class YamlUtils:
                                 proxies = group.get("proxies")
                                 for proxy in proxies:
                                     if (
-                                        proxy not in deleted_proxy
-                                        and proxy not in saved_proxies
-                                        and proxy in self.proxy_names_set
+                                            proxy not in deleted_proxy
+                                            and proxy not in saved_proxies
+                                            and proxy in self.proxy_names_set
                                     ):
                                         for one in self.proxy_groups_test_set:
                                             proxy = proxy.replace(one, "♻️ 自动选择")
@@ -173,7 +173,7 @@ class YamlUtils:
                 yml.dump(template, outfile)
 
     def save_file_without_providers(
-        self, savepath="clash_without_providers.yaml", with_adguard_dns=False
+            self, savepath="clash_without_providers.yaml", with_adguard_dns=False
     ):
         if savepath is not None:
             template = copy.deepcopy(self.template)
