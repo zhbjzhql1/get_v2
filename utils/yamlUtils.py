@@ -30,10 +30,10 @@ class YamlUtils:
         with open(adguard_dns_path, "r", encoding="utf8") as template_file:
             self.adguard_dns = json.load(template_file)
 
-    def clone_repo(self, repo_url, branch=None):
+    def clone_repo(self, repo_url, branch=None, depth=1):
         git_local_path = os.path.join(self.local_path, ".git")
         if not is_git_dir(git_local_path):
-            Repo.clone_from(repo_url, to_path=self.local_path, branch=branch)
+            Repo.clone_from(repo_url, to_path=self.local_path, branch=branch, depth=depth)
         else:
             self.pull()
 
