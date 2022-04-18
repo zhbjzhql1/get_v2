@@ -15,7 +15,7 @@ def get_content():
     proxies = {}
 
     pawdroid = os.path.join("pawdroid")
-    yamlUtils = YamlUtils(pawdroid, template_path="../template.json", adguard_dns_path="../adguard_dns.json")
+    yamlUtils = YamlUtils(pawdroid)
     yamlUtils.clone_repo("https://ghproxy.com/https://github.com/Pawdroid/Free-servers.git")
     with open(os.path.join(pawdroid, "README.md"), "r", encoding='utf-8') as f:
         content = f.read()
