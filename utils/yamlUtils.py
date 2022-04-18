@@ -10,7 +10,7 @@ from git.repo.fun import is_git_dir
 
 
 class YamlUtils:
-    def __init__(self, local_path="./"):
+    def __init__(self, local_path="./", template_path="template.json", adguard_dns_path="adguard_dns.json"):
         self.local_path = local_path
         self.not_support_ciphers = ["chacha20", "rc4", "none"]
         self.not_support_alterIds = ["undefined"]
@@ -23,9 +23,9 @@ class YamlUtils:
         self.proxy_names_set = set()
         self.proxy_groups = dict()
         self.proxy_groups_test_set = set()
-        with open("template.json", "r", encoding="utf8") as template_file:
+        with open(template_path, "r", encoding="utf8") as template_file:
             self.template = json.load(template_file)
-        with open("adguard_dns.json", "r", encoding="utf8") as template_file:
+        with open(adguard_dns_path, "r", encoding="utf8") as template_file:
             self.adguard_dns = json.load(template_file)
 
     def clone_repo(self, repo_url, branch=None):

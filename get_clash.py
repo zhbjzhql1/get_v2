@@ -4,6 +4,7 @@ import shutil
 from utils.yamlUtils import YamlUtils
 from utils.jiang import get_content as jiang_content
 from utils.cfmem import get_content as cfmem_content
+from utils.pawdroid import get_content as pawdroid_content
 from utils.mattkaydiary import get_content as mattkaydiary_content
 
 changfengoss = os.path.join("changfengoss")
@@ -37,6 +38,7 @@ shutil.rmtree(ssr)
 
 jiang_content()
 cfmem_content()
+pawdroid_content()
 mattkaydiary_content()
 
 
