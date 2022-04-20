@@ -5,520 +5,129 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RU_1282 |33.47Mb, server: 217.30.10.66, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: _655, server: 198.57.27.14, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 _US_美国, server: 169.197.142.216, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_2920, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_2407, server: 38.68.134.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: ZZ_4316, server: 134.195.196.219, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ZZ_3864, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_4076, server: 134.195.196.149, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _663, server: 198.57.27.14, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_4108, server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: JP_772, server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_3201, server: 38.68.134.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_814, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 v2cross.com - 美国弗吉尼亚州阿什本Amazon数据中心 18, server: vpna1.herokuapp.com, port: 443, type: vmess, uuid: 8ccdfb2e-e039-47f9-a460-8ca6183d701c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: vpna1.herokuapp.com}}}
-  - {name: ZZ_3546, server: 134.195.196.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 _US_美国 2, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: IN_757, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
-  - {name: 🇺🇸 _US_美国 3, server: 169.197.142.216, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_3304, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_1888, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_2631, server: 38.75.136.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_2816, server: 38.75.136.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇯🇵 v2cross.com - 日本东京Amazon数据中心 8, server: jp.456url.com, port: 10086, type: trojan, password: fbd77250-a674-4a24-be1a-d1a76f695c34}
-  - {name: US_1778, server: 167.88.63.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_3698, server: 134.195.196.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 HK-v2cross.com, server: 330hk02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330hk02.fans8.xyz}}}
-  - {name: 付费推荐:dlj.tf/ssrsub__07, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: GB_736 | 7.34Mb, server: 152.89.210.84, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
-  - {name: FR_596, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_3224, server: 38.75.136.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_4031, server: 134.195.196.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 _US_美国 4, server: 169.197.143.157, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_302, server: 198.57.27.218, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_2231, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CA_344, server: 198.57.27.218, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ZZ_4237, server: 134.195.196.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_3180, server: 38.143.66.210, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_3418, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_3429, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}}
-  - {name: US_1933, server: 38.68.134.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_3702, server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 _US_美国 5, server: 169.197.143.157, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_2857, server: 38.121.43.27, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: SG_1356, server: 139.162.24.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: NL_1072, server: 85.208.108.106, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_3173, server: 38.114.114.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_303, server: 198.57.27.218, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: ZZ_4014, server: 134.195.196.199, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_2526, server: 38.68.135.18, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: ZZ_3922, server: 134.195.196.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_4033, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_2205, server: 38.91.100.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_2304, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 _US_美国 6, server: 169.197.142.216, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_2045, server: 142.202.48.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 _US_美国 7, server: 169.197.143.157, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: FR_556, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_3540, server: 134.195.196.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: FR_588, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_3425, server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false}
-  - {name: CA_247, server: 198.57.27.218, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_1698, server: 38.75.136.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ZZ_3802, server: 134.195.196.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: ZZ_4059, server: 134.195.196.41, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_2473, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_4307, server: 169.197.143.157, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇰🇷 _KR_韩国, server: 158.247.206.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_1985, server: 38.68.135.18, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: LT_31 | 2.14Mb, server: 213.183.53.200, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 🇺🇸 US-v2cross.com, server: vpna1.herokuapp.com, port: 443, type: vmess, uuid: 8ccdfb2e-e039-47f9-a460-8ca6183d701c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: vpna1.herokuapp.com}}}
+  - {name: 🇭🇰 v2cross.com - 香港Microsoft 1, server: 137.116.174.109, port: 80, type: vmess, uuid: a8b55d37-ccb1-46b5-ad8b-99a361922ba5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}}
+  - {name: 🇦🇺 AU-v2cross.com, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2073, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shuier, headers: {Host: xc1.v2rie.pp.ua}}}
+  - {name: 🇷🇺 v2cross.com - 俄罗斯  12, server: us.456url.com, port: 10086, type: trojan, password: fbd77250-a674-4a24-be1a-d1a76f695c34}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_301, server: 14.29.124.168, port: 24015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: RO_58 TG@peekfun, server: 185.126.116.125, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
+  - {name: v2cross.com, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_3699, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 4.ezydfdd.com}}}
+  - {name: 🇦🇺 v2cross.com - 澳大利亚悉尼Oracle云计算数据中心 20, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf}
+  - {name: US_3707, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_1282 |33.47Mb
-      - _655
-      - 🇺🇸 _US_美国
-      - US_2920
-      - US_2407
-      - ZZ_4316
-      - ZZ_3864
-      - ZZ_4076
-      - _663
-      - ZZ_4108
-      - JP_772
-      - US_3201
-      - JP_814
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州阿什本Amazon数据中心 18
-      - ZZ_3546
-      - 🇺🇸 _US_美国 2
-      - IN_757
-      - 🇺🇸 _US_美国 3
-      - US_3304
-      - US_1888
-      - US_2631
-      - US_2816
-      - 🇯🇵 v2cross.com - 日本东京Amazon数据中心 8
-      - US_1778
-      - ZZ_3698
-      - 🇭🇰 HK-v2cross.com
-      - 付费推荐:dlj.tf/ssrsub__07
-      - GB_736 | 7.34Mb
-      - FR_596
-      - US_3224
-      - ZZ_4031
-      - 🇺🇸 _US_美国 4
-      - CA_302
-      - US_2231
-      - CA_344
-      - ZZ_4237
-      - US_3180
-      - US_3418
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3429
-      - US_1933
-      - ZZ_3702
-      - 🇺🇸 _US_美国 5
-      - US_2857
-      - SG_1356
-      - NL_1072
-      - US_3173
-      - CA_303
-      - ZZ_4014
-      - US_2526
-      - ZZ_3922
-      - ZZ_4033
-      - US_2205
-      - US_2304
-      - 🇺🇸 _US_美国 6
-      - US_2045
-      - 🇺🇸 _US_美国 7
-      - FR_556
-      - ZZ_3540
-      - FR_588
-      - US_3425
-      - CA_247
-      - US_1698
-      - ZZ_3802
-      - ZZ_4059
-      - US_2473
-      - ZZ_4307
-      - 🇰🇷 _KR_韩国
-      - US_1985
+      - LT_31 | 2.14Mb
+      - 🇺🇸 US-v2cross.com
+      - 🇭🇰 v2cross.com - 香港Microsoft 1
+      - 🇦🇺 AU-v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2073
+      - 🇷🇺 v2cross.com - 俄罗斯  12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_301
+      - RO_58 TG@peekfun
+      - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3699
+      - 🇦🇺 v2cross.com - 澳大利亚悉尼Oracle云计算数据中心 20
+      - US_3707
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RU_1282 |33.47Mb
-      - _655
-      - 🇺🇸 _US_美国
-      - US_2920
-      - US_2407
-      - ZZ_4316
-      - ZZ_3864
-      - ZZ_4076
-      - _663
-      - ZZ_4108
-      - JP_772
-      - US_3201
-      - JP_814
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州阿什本Amazon数据中心 18
-      - ZZ_3546
-      - 🇺🇸 _US_美国 2
-      - IN_757
-      - 🇺🇸 _US_美国 3
-      - US_3304
-      - US_1888
-      - US_2631
-      - US_2816
-      - 🇯🇵 v2cross.com - 日本东京Amazon数据中心 8
-      - US_1778
-      - ZZ_3698
-      - 🇭🇰 HK-v2cross.com
-      - 付费推荐:dlj.tf/ssrsub__07
-      - GB_736 | 7.34Mb
-      - FR_596
-      - US_3224
-      - ZZ_4031
-      - 🇺🇸 _US_美国 4
-      - CA_302
-      - US_2231
-      - CA_344
-      - ZZ_4237
-      - US_3180
-      - US_3418
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3429
-      - US_1933
-      - ZZ_3702
-      - 🇺🇸 _US_美国 5
-      - US_2857
-      - SG_1356
-      - NL_1072
-      - US_3173
-      - CA_303
-      - ZZ_4014
-      - US_2526
-      - ZZ_3922
-      - ZZ_4033
-      - US_2205
-      - US_2304
-      - 🇺🇸 _US_美国 6
-      - US_2045
-      - 🇺🇸 _US_美国 7
-      - FR_556
-      - ZZ_3540
-      - FR_588
-      - US_3425
-      - CA_247
-      - US_1698
-      - ZZ_3802
-      - ZZ_4059
-      - US_2473
-      - ZZ_4307
-      - 🇰🇷 _KR_韩国
-      - US_1985
+      - LT_31 | 2.14Mb
+      - 🇺🇸 US-v2cross.com
+      - 🇭🇰 v2cross.com - 香港Microsoft 1
+      - 🇦🇺 AU-v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2073
+      - 🇷🇺 v2cross.com - 俄罗斯  12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_301
+      - RO_58 TG@peekfun
+      - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3699
+      - 🇦🇺 v2cross.com - 澳大利亚悉尼Oracle云计算数据中心 20
+      - US_3707
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_1282 |33.47Mb
-      - _655
-      - 🇺🇸 _US_美国
-      - US_2920
-      - US_2407
-      - ZZ_4316
-      - ZZ_3864
-      - ZZ_4076
-      - _663
-      - ZZ_4108
-      - JP_772
-      - US_3201
-      - JP_814
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州阿什本Amazon数据中心 18
-      - ZZ_3546
-      - 🇺🇸 _US_美国 2
-      - IN_757
-      - 🇺🇸 _US_美国 3
-      - US_3304
-      - US_1888
-      - US_2631
-      - US_2816
-      - 🇯🇵 v2cross.com - 日本东京Amazon数据中心 8
-      - US_1778
-      - ZZ_3698
-      - 🇭🇰 HK-v2cross.com
-      - 付费推荐:dlj.tf/ssrsub__07
-      - GB_736 | 7.34Mb
-      - FR_596
-      - US_3224
-      - ZZ_4031
-      - 🇺🇸 _US_美国 4
-      - CA_302
-      - US_2231
-      - CA_344
-      - ZZ_4237
-      - US_3180
-      - US_3418
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3429
-      - US_1933
-      - ZZ_3702
-      - 🇺🇸 _US_美国 5
-      - US_2857
-      - SG_1356
-      - NL_1072
-      - US_3173
-      - CA_303
-      - ZZ_4014
-      - US_2526
-      - ZZ_3922
-      - ZZ_4033
-      - US_2205
-      - US_2304
-      - 🇺🇸 _US_美国 6
-      - US_2045
-      - 🇺🇸 _US_美国 7
-      - FR_556
-      - ZZ_3540
-      - FR_588
-      - US_3425
-      - CA_247
-      - US_1698
-      - ZZ_3802
-      - ZZ_4059
-      - US_2473
-      - ZZ_4307
-      - 🇰🇷 _KR_韩国
-      - US_1985
+      - LT_31 | 2.14Mb
+      - 🇺🇸 US-v2cross.com
+      - 🇭🇰 v2cross.com - 香港Microsoft 1
+      - 🇦🇺 AU-v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2073
+      - 🇷🇺 v2cross.com - 俄罗斯  12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_301
+      - RO_58 TG@peekfun
+      - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3699
+      - 🇦🇺 v2cross.com - 澳大利亚悉尼Oracle云计算数据中心 20
+      - US_3707
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 v2cross.com - 香港Microsoft 1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RU_1282 |33.47Mb
-      - _655
-      - 🇺🇸 _US_美国
-      - US_2920
-      - US_2407
-      - ZZ_4316
-      - ZZ_3864
-      - ZZ_4076
-      - _663
-      - ZZ_4108
-      - JP_772
-      - US_3201
-      - JP_814
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州阿什本Amazon数据中心 18
-      - ZZ_3546
-      - 🇺🇸 _US_美国 2
-      - IN_757
-      - 🇺🇸 _US_美国 3
-      - US_3304
-      - US_1888
-      - US_2631
-      - US_2816
-      - 🇯🇵 v2cross.com - 日本东京Amazon数据中心 8
-      - US_1778
-      - ZZ_3698
-      - 🇭🇰 HK-v2cross.com
-      - 付费推荐:dlj.tf/ssrsub__07
-      - GB_736 | 7.34Mb
-      - FR_596
-      - US_3224
-      - ZZ_4031
-      - 🇺🇸 _US_美国 4
-      - CA_302
-      - US_2231
-      - CA_344
-      - ZZ_4237
-      - US_3180
-      - US_3418
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3429
-      - US_1933
-      - ZZ_3702
-      - 🇺🇸 _US_美国 5
-      - US_2857
-      - SG_1356
-      - NL_1072
-      - US_3173
-      - CA_303
-      - ZZ_4014
-      - US_2526
-      - ZZ_3922
-      - ZZ_4033
-      - US_2205
-      - US_2304
-      - 🇺🇸 _US_美国 6
-      - US_2045
-      - 🇺🇸 _US_美国 7
-      - FR_556
-      - ZZ_3540
-      - FR_588
-      - US_3425
-      - CA_247
-      - US_1698
-      - ZZ_3802
-      - ZZ_4059
-      - US_2473
-      - ZZ_4307
-      - 🇰🇷 _KR_韩国
-      - US_1985
+      - LT_31 | 2.14Mb
+      - 🇺🇸 US-v2cross.com
+      - 🇭🇰 v2cross.com - 香港Microsoft 1
+      - 🇦🇺 AU-v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2073
+      - 🇷🇺 v2cross.com - 俄罗斯  12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_301
+      - RO_58 TG@peekfun
+      - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3699
+      - 🇦🇺 v2cross.com - 澳大利亚悉尼Oracle云计算数据中心 20
+      - US_3707
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RU_1282 |33.47Mb
-      - _655
-      - 🇺🇸 _US_美国
-      - US_2920
-      - US_2407
-      - ZZ_4316
-      - ZZ_3864
-      - ZZ_4076
-      - _663
-      - ZZ_4108
-      - JP_772
-      - US_3201
-      - JP_814
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州阿什本Amazon数据中心 18
-      - ZZ_3546
-      - 🇺🇸 _US_美国 2
-      - IN_757
-      - 🇺🇸 _US_美国 3
-      - US_3304
-      - US_1888
-      - US_2631
-      - US_2816
-      - 🇯🇵 v2cross.com - 日本东京Amazon数据中心 8
-      - US_1778
-      - ZZ_3698
-      - 🇭🇰 HK-v2cross.com
-      - 付费推荐:dlj.tf/ssrsub__07
-      - GB_736 | 7.34Mb
-      - FR_596
-      - US_3224
-      - ZZ_4031
-      - 🇺🇸 _US_美国 4
-      - CA_302
-      - US_2231
-      - CA_344
-      - ZZ_4237
-      - US_3180
-      - US_3418
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3429
-      - US_1933
-      - ZZ_3702
-      - 🇺🇸 _US_美国 5
-      - US_2857
-      - SG_1356
-      - NL_1072
-      - US_3173
-      - CA_303
-      - ZZ_4014
-      - US_2526
-      - ZZ_3922
-      - ZZ_4033
-      - US_2205
-      - US_2304
-      - 🇺🇸 _US_美国 6
-      - US_2045
-      - 🇺🇸 _US_美国 7
-      - FR_556
-      - ZZ_3540
-      - FR_588
-      - US_3425
-      - CA_247
-      - US_1698
-      - ZZ_3802
-      - ZZ_4059
-      - US_2473
-      - ZZ_4307
-      - 🇰🇷 _KR_韩国
-      - US_1985
+      - LT_31 | 2.14Mb
+      - 🇺🇸 US-v2cross.com
+      - 🇭🇰 v2cross.com - 香港Microsoft 1
+      - 🇦🇺 AU-v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2073
+      - 🇷🇺 v2cross.com - 俄罗斯  12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_301
+      - RO_58 TG@peekfun
+      - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3699
+      - 🇦🇺 v2cross.com - 澳大利亚悉尼Oracle云计算数据中心 20
+      - US_3707
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU_1282 |33.47Mb
-      - _655
-      - 🇺🇸 _US_美国
-      - US_2920
-      - US_2407
-      - ZZ_4316
-      - ZZ_3864
-      - ZZ_4076
-      - _663
-      - ZZ_4108
-      - JP_772
-      - US_3201
-      - JP_814
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州阿什本Amazon数据中心 18
-      - ZZ_3546
-      - 🇺🇸 _US_美国 2
-      - IN_757
-      - 🇺🇸 _US_美国 3
-      - US_3304
-      - US_1888
-      - US_2631
-      - US_2816
-      - 🇯🇵 v2cross.com - 日本东京Amazon数据中心 8
-      - US_1778
-      - ZZ_3698
-      - 🇭🇰 HK-v2cross.com
-      - 付费推荐:dlj.tf/ssrsub__07
-      - GB_736 | 7.34Mb
-      - FR_596
-      - US_3224
-      - ZZ_4031
-      - 🇺🇸 _US_美国 4
-      - CA_302
-      - US_2231
-      - CA_344
-      - ZZ_4237
-      - US_3180
-      - US_3418
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3429
-      - US_1933
-      - ZZ_3702
-      - 🇺🇸 _US_美国 5
-      - US_2857
-      - SG_1356
-      - NL_1072
-      - US_3173
-      - CA_303
-      - ZZ_4014
-      - US_2526
-      - ZZ_3922
-      - ZZ_4033
-      - US_2205
-      - US_2304
-      - 🇺🇸 _US_美国 6
-      - US_2045
-      - 🇺🇸 _US_美国 7
-      - FR_556
-      - ZZ_3540
-      - FR_588
-      - US_3425
-      - CA_247
-      - US_1698
-      - ZZ_3802
-      - ZZ_4059
-      - US_2473
-      - ZZ_4307
-      - 🇰🇷 _KR_韩国
-      - US_1985
+      - LT_31 | 2.14Mb
+      - 🇺🇸 US-v2cross.com
+      - 🇭🇰 v2cross.com - 香港Microsoft 1
+      - 🇦🇺 AU-v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2073
+      - 🇷🇺 v2cross.com - 俄罗斯  12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_301
+      - RO_58 TG@peekfun
+      - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3699
+      - 🇦🇺 v2cross.com - 澳大利亚悉尼Oracle云计算数据中心 20
+      - US_3707
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -534,74 +143,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU_1282 |33.47Mb
-      - _655
-      - 🇺🇸 _US_美国
-      - US_2920
-      - US_2407
-      - ZZ_4316
-      - ZZ_3864
-      - ZZ_4076
-      - _663
-      - ZZ_4108
-      - JP_772
-      - US_3201
-      - JP_814
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州阿什本Amazon数据中心 18
-      - ZZ_3546
-      - 🇺🇸 _US_美国 2
-      - IN_757
-      - 🇺🇸 _US_美国 3
-      - US_3304
-      - US_1888
-      - US_2631
-      - US_2816
-      - 🇯🇵 v2cross.com - 日本东京Amazon数据中心 8
-      - US_1778
-      - ZZ_3698
-      - 🇭🇰 HK-v2cross.com
-      - 付费推荐:dlj.tf/ssrsub__07
-      - GB_736 | 7.34Mb
-      - FR_596
-      - US_3224
-      - ZZ_4031
-      - 🇺🇸 _US_美国 4
-      - CA_302
-      - US_2231
-      - CA_344
-      - ZZ_4237
-      - US_3180
-      - US_3418
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3429
-      - US_1933
-      - ZZ_3702
-      - 🇺🇸 _US_美国 5
-      - US_2857
-      - SG_1356
-      - NL_1072
-      - US_3173
-      - CA_303
-      - ZZ_4014
-      - US_2526
-      - ZZ_3922
-      - ZZ_4033
-      - US_2205
-      - US_2304
-      - 🇺🇸 _US_美国 6
-      - US_2045
-      - 🇺🇸 _US_美国 7
-      - FR_556
-      - ZZ_3540
-      - FR_588
-      - US_3425
-      - CA_247
-      - US_1698
-      - ZZ_3802
-      - ZZ_4059
-      - US_2473
-      - ZZ_4307
-      - 🇰🇷 _KR_韩国
-      - US_1985
+      - LT_31 | 2.14Mb
+      - 🇺🇸 US-v2cross.com
+      - 🇭🇰 v2cross.com - 香港Microsoft 1
+      - 🇦🇺 AU-v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2073
+      - 🇷🇺 v2cross.com - 俄罗斯  12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_301
+      - RO_58 TG@peekfun
+      - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3699
+      - 🇦🇺 v2cross.com - 澳大利亚悉尼Oracle云计算数据中心 20
+      - US_3707
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
