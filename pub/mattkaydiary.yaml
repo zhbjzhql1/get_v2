@@ -5,193 +5,333 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1","server":"tw01.xniuniu888.club","port":30139,"type":"vmess","uuid":"ef41958c-c145-3363-a332-20e9ec5e8a5c","alterId":2,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"mattkaydiary.com|韩国(KR)Korea/Seoul_2","server":"193.123.229.241","port":4301,"type":"vmess","uuid":"f78458a9-cd20-4353-fbc6-35055b8ddada","alterId":0,"cipher":"auto","country":"mattkaydiary.com|韩国(KR)Korea/Seoul_2","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3","server":"in02.dns2333.xyz","port":63086,"type":"vmess","uuid":"e701a942-fba5-3381-b15e-2838689b9c23","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}}}
-  - {"name":"mattkaydiary.com|美国(US)USA/SanJose_4","server":"185.148.15.49","port":28200,"type":"vmess","uuid":"056c9022-fb76-454a-a160-c5243ffe61ba","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/SanJose_4","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5","server":"in02.dns2333.xyz","port":63014,"type":"vmess","uuid":"e701a942-fba5-3381-b15e-2838689b9c23","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/mg","headers":{"host":"mugua-us01.covid19.rip"}}}
-  - {"name":"mattkaydiary.com|加拿大(CA)Canada/Toronto_6","server":"v2fly.sab.quest","port":443,"type":"vmess","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":1,"cipher":"auto","country":"mattkaydiary.com|加拿大(CA)Canada/Toronto_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/chcar","headers":{"host":"v2fly.samrt.website"}}}
-  - {"name":"mattkaydiary.com|加拿大(CA)Canada/Toronto_7","server":"104.19.3.32","port":443,"type":"vmess","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":1,"cipher":"auto","country":"mattkaydiary.com|加拿大(CA)Canada/Toronto_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/chcar","headers":{"host":"v2fly.samrt.website"}}}
-  - {"name":"mattkaydiary.com|美国(US)USA/SanJose_8","server":"142.4.127.67","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/SanJose_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/path/310910211916","headers":{"host":"www.47727450.xyz"}}}
-  - {"name":"mattkaydiary.com|美国(US)USA/SanFrancisco_9","server":"8.ezydfdd.com","port":443,"type":"vmess","uuid":"dc0887b9-4c05-428c-adce-4235d1636341","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/SanFrancisco_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"8.ezydfdd.com"}}}
-  - {"name":"mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10","server":"gyazm.susenl.com","port":10030,"type":"trojan","country":"mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
-  - {"name":"mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11","server":"141.164.37.29","port":8650,"type":"vmess","uuid":"29430b3d-f83f-3c74-94a2-e8c1a459219f","alterId":0,"cipher":"auto","country":"mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"141.164.37.29"}}}
-  - {"name":"mattkaydiary.com|伊朗(IR)Iran/Qom_12","server":"irancell.android-club.ir","port":80,"type":"vmess","uuid":"e2c5779c-76b1-4077-d829-9c7c31ef1a28","alterId":0,"cipher":"auto","country":"mattkaydiary.com|伊朗(IR)Iran/Qom_12","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/apiws","headers":{"host":"irancell.android-club.ir"}}}
-  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13","server":"in02.dns2333.xyz","port":63041,"type":"vmess","uuid":"e701a942-fba5-3381-b15e-2838689b9c23","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/mg","headers":{"host":"mugua-br01.covid19.rip"}}}
-  - {"name":"mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14","server":"330hk02.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
-  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15","server":"in03.dns2333.xyz","port":63086,"type":"vmess","uuid":"e701a942-fba5-3381-b15e-2838689b9c23","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}}}
-  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16","server":"in03.dns2333.xyz","port":63014,"type":"vmess","uuid":"e701a942-fba5-3381-b15e-2838689b9c23","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/mg","headers":{"host":"mugua-us01.covid19.rip"}}}
-  - {"name":"mattkaydiary.com|加拿大(CA)Canada/Toronto_17","server":"niaop.tk","port":443,"type":"vmess","uuid":"a0b0df87-bda2-440e-830f-347da6cc7760","alterId":0,"cipher":"auto","country":"mattkaydiary.com|加拿大(CA)Canada/Toronto_17","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/wsssdr1","headers":{"host":"niaop.tk"}}}
-  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18","server":"120.240.48.19","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}}}
-  - {"name":"mattkaydiary.com|美国(US)USA/NewYork_19","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"46312776-bd9e-11ec-b974-000017022008","alterId":64,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/NewYork_19","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
-  - {"name":"mattkaydiary.com|加拿大(CA)Canada/Toronto_20","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"mattkaydiary.com|加拿大(CA)Canada/Toronto_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"v4.xrenblog.com"}}}
-  - {"name":"mattkaydiary.com|日本(JP)Japan/Tokyo_21","server":"20.222.87.174","port":10001,"type":"vmess","uuid":"04d83e9e-d6ff-49ca-9c32-082b9b9c9c54","alterId":0,"cipher":"auto","country":"mattkaydiary.com|日本(JP)Japan/Tokyo_21","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"20.222.87.174"}}}
-  - {"name":"mattkaydiary.com|美国(US)USA/SanFrancisco_22","server":"hax2.hax01.ml","port":443,"type":"vmess","uuid":"25af03c3-27ff-4c14-c142-ad7694ec42f9","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/SanFrancisco_22","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1","server":"141.164.39.146","port":6697,"type":"ss","country":"mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2","server":"61.222.202.140","port":33792,"type":"vmess","uuid":"e55cd182-01b0-4fb7-a510-363701a491c5","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3","server":"V104.bgpnet.top","port":26104,"type":"vmess","uuid":"ef361c83-8b89-3950-9c9b-6ccc177e6285","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/admin","headers":{"host":"V104.bgpnet.top"}}}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4","server":"x.gotout.work","port":30031,"type":"ss","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4","cipher":"aes-256-gcm","password":"e0uyakendg7"}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5","server":"x.gotout.work","port":30012,"type":"ss","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5","cipher":"aes-256-gcm","password":"e0uyakendg7"}
+  - {"name":"mattkaydiary.com|美国(US)USA/LosAngeles_6","server":"us1.lolvps.xyz","port":60060,"type":"vmess","uuid":"95886c76-9207-48bd-9e64-d1422e75ad89","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/LosAngeles_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/AY920UMR","headers":{"host":"us1.lolvps.xyz"}}}
+  - {"name":"mattkaydiary.com|新加坡(SG)Singapore/Singapore_7","server":"v2-2.godlight.xyz","port":30526,"type":"vmess","uuid":"43308d27-94ec-408e-a8f6-d682cfb99ca9","alterId":0,"cipher":"auto","country":"mattkaydiary.com|新加坡(SG)Singapore/Singapore_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/54f634fs","headers":{"host":"v2-2.godlight.xyz"}}}
+  - {"name":"mattkaydiary.com|新加坡(SG)Singapore/Singapore_8","server":"cp-asus.ml","port":50275,"type":"trojan","country":"mattkaydiary.com|新加坡(SG)Singapore/Singapore_8","skip-cert-verify":true,"udp":true,"password":"7Z29DRr1ts"}
+  - {"name":"mattkaydiary.com|日本(JP)Japan/Osaka_9","server":"jgwdb2.gaox.ml","port":443,"type":"trojan","country":"mattkaydiary.com|日本(JP)Japan/Osaka_9","skip-cert-verify":true,"udp":true,"password":"c19d1432-8b3e-4818-8837-3d160cf65908"}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10","server":"shcu.forgebukkit.com","port":47389,"type":"vmess","uuid":"f680dfd8-3b59-48af-aea8-1d4bc09a1705","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"shcu.forgebukkit.com"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/LosAngeles_11","server":"45.76.71.233","port":46983,"type":"vmess","uuid":"69099258-1476-46dd-a51b-84e915e941be","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/LosAngeles_11","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/1tGK82lU/","headers":{"host":"45.76.71.233"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/Scottsdale_12","server":"usa-sr-105.mitoption.com","port":443,"type":"trojan","country":"mattkaydiary.com|美国(US)USA/Scottsdale_12","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
+  - {"name":"mattkaydiary.com|美国(US)USA/SanJose_13","server":"155.248.202.203","port":14564,"type":"vmess","uuid":"4a0da379-a7cc-4389-88d7-45514b896883","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/SanJose_13","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"155.248.202.203"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/PiscatawayTownship_14","server":"207.246.94.28","port":42383,"type":"vmess","uuid":"4773dfdc-9c85-4873-8720-ce8cf5f74f7c","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/PiscatawayTownship_14","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/xrenblog/","headers":{"host":"207.246.94.28"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/LosAngeles_15","server":"45.76.71.233","port":46983,"type":"vmess","uuid":"69099258-1476-46dd-a51b-84e915e941be","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/LosAngeles_15","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/1tGK82lU/"}}
+  - {"name":"mattkaydiary.com|日本(JP)Japan/Tokyo_16","server":"jgwdj3.gaox.ml","port":443,"type":"trojan","country":"mattkaydiary.com|日本(JP)Japan/Tokyo_16","skip-cert-verify":true,"udp":true,"password":"da777aae-defb-41d0-a183-2c27da2b4677"}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17","server":"shcu.forgebukkit.com","port":47389,"type":"vmess","uuid":"f680dfd8-3b59-48af-aea8-1d4bc09a1705","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/564dfa20/","headers":{"host":"shcu.forgebukkit.com"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/Clifton_18","server":"us3.31vpn.com","port":443,"type":"vmess","uuid":"2ef64dc8-ca3c-45b8-ad5f-20871452143b","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/Clifton_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/fastssh/3102637493qqcom/626cf7d8bd49b/","headers":{"host":"us3.31vpn.com"}}}
+  - {"name":"mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19","server":"426hk.fans8.xyz","port":443,"type":"vmess","uuid":"93bdaed5-13c5-3927-93d7-a6877c5ac8d2","alterId":2,"cipher":"auto","country":"mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"426hk.fans8.xyz"}}}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20","server":"V309.bgpnet.top","port":26309,"type":"vmess","uuid":"ef361c83-8b89-3950-9c9b-6ccc177e6285","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/admin","headers":{"host":"download.windowsupdate.com"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/SanJose_21","server":"155.248.202.203","port":14564,"type":"vmess","uuid":"4a0da379-a7cc-4389-88d7-45514b896883","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/SanJose_21","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"155.248.202.203"}}}
+  - {"name":"mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22","server":"61.222.202.140","port":33792,"type":"vmess","uuid":"e55cd182-01b0-4fb7-a510-363701a491c5","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"61.222.202.140"}}}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23","server":"V203.bgpnet.top","port":26203,"type":"vmess","uuid":"ef361c83-8b89-3950-9c9b-6ccc177e6285","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/admin","headers":{"host":"download.windowsupdate.com"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/SanJose_24","server":"155.248.202.203","port":14564,"type":"vmess","uuid":"4a0da379-a7cc-4389-88d7-45514b896883","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/SanJose_24","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25","server":"cn.speedabc.xyz","port":32002,"type":"trojan","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25","skip-cert-verify":true,"udp":true,"password":"cfbabf31-2cf6-40ca-9688-abbb682370aa","sni":"jp-bgp.speedaccelerate.com"}
+  - {"name":"mattkaydiary.com|印度(IN)India/Hyderabad_26","server":"jgwhdlb3.gaox.ml","port":443,"type":"trojan","country":"mattkaydiary.com|印度(IN)India/Hyderabad_26","skip-cert-verify":true,"udp":true,"password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11"}
+  - {"name":"mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27","server":"jgwld3.gaox.ml","port":443,"type":"trojan","country":"mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27","skip-cert-verify":true,"udp":true,"password":"71b55a84-3fac-4458-abff-eaad79219c91"}
+  - {"name":"mattkaydiary.com|新加坡(SG)Singapore/Singapore_28","server":"sg-sr-116.mitoption.com","port":443,"type":"trojan","country":"mattkaydiary.com|新加坡(SG)Singapore/Singapore_28","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
+  - {"name":"mattkaydiary.com|日本(JP)Japan/Tokyo_29","server":"140.238.48.194","port":8888,"type":"vmess","uuid":"24f1dfad-1267-4297-8e88-0e9b8ef47e47","alterId":0,"cipher":"auto","country":"mattkaydiary.com|日本(JP)Japan/Tokyo_29","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/s/c27821f.fm.icloud.com:16708","headers":{"host":"c27821f.rd.cloudflare.systems"}}}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30","server":"V203.bgpnet.top","port":26203,"type":"vmess","uuid":"ef361c83-8b89-3950-9c9b-6ccc177e6285","alterId":0,"cipher":"auto","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"mattkaydiary.com|美国(US)USA/Los+Angeles_31","server":"169.197.142.99","port":8009,"type":"ss","country":"mattkaydiary.com|美国(US)USA/Los+Angeles_31","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"mattkaydiary.com|美国(US)USA/SanFrancisco_32","server":"104.16.23.3","port":443,"type":"vmess","uuid":"248f4f6f-270c-47f7-bea8-ed9d89440054","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/SanFrancisco_32","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"yzkoyeb-7595333.koyeb.app"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/Los+Angeles_33","server":"169.197.142.99","port":8118,"type":"ss","country":"mattkaydiary.com|美国(US)USA/Los+Angeles_33","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"mattkaydiary.com|美国(US)USA/Washington_34","server":"1.ezydfdd.com","port":443,"type":"vmess","uuid":"4ee48ad8-178c-40a2-9c52-a14e90a06e49","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/Washington_34","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"1.ezydfdd.com"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/Los+Angeles_35","server":"169.197.142.99","port":9101,"type":"ss","country":"mattkaydiary.com|美国(US)USA/Los+Angeles_35","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"mattkaydiary.com|美国(US)USA/PiscatawayTownship_36","server":"207.246.94.28","port":42383,"type":"vmess","uuid":"4773dfdc-9c85-4873-8720-ce8cf5f74f7c","alterId":0,"cipher":"auto","country":"mattkaydiary.com|美国(US)USA/PiscatawayTownship_36","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"207.246.94.28"}}}
+  - {"name":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37","server":"x.gotout.work","port":30041,"type":"ss","country":"mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37","cipher":"aes-256-gcm","password":"e0uyakendg7"}
+  - {"name":"mattkaydiary.com|日本(JP)Japan/Tokyo_38","server":"140.238.48.194","port":8888,"type":"vmess","uuid":"24f1dfad-1267-4297-8e88-0e9b8ef47e47","alterId":0,"cipher":"auto","country":"mattkaydiary.com|日本(JP)Japan/Tokyo_38","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"140.238.48.194"}}}
+  - {"name":"mattkaydiary.com|美国(US)USA/Dallas_39","server":"38.68.135.19","port":8119,"type":"ss","country":"mattkaydiary.com|美国(US)USA/Dallas_39","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"mattkaydiary.com|日本(JP)Japan/Osaka_40","server":"158.247.205.87","port":5601,"type":"ss","country":"mattkaydiary.com|日本(JP)Japan/Osaka_40","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"mattkaydiary.com|日本(JP)Japan/Osaka_41","server":"158.247.205.87","port":443,"type":"ss","country":"mattkaydiary.com|日本(JP)Japan/Osaka_41","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42","server":"ssl.tcpbbr.net","port":443,"type":"trojan","country":"mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42","skip-cert-verify":true,"udp":true,"password":"7b4066ae-accc-11eb-a8bf-f23c91cfbbc9"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1
-      - mattkaydiary.com|韩国(KR)Korea/Seoul_2
+      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - mattkaydiary.com|美国(US)USA/SanJose_4
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_6
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_7
-      - mattkaydiary.com|美国(US)USA/SanJose_8
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_9
-      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10
-      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11
-      - mattkaydiary.com|伊朗(IR)Iran/Qom_12
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13
-      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_17
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18
-      - mattkaydiary.com|美国(US)USA/NewYork_19
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_20
-      - mattkaydiary.com|日本(JP)Japan/Tokyo_21
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_22
+      - mattkaydiary.com|美国(US)USA/LosAngeles_6
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_8
+      - mattkaydiary.com|日本(JP)Japan/Osaka_9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
+      - mattkaydiary.com|美国(US)USA/LosAngeles_11
+      - mattkaydiary.com|美国(US)USA/Scottsdale_12
+      - mattkaydiary.com|美国(US)USA/SanJose_13
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
+      - mattkaydiary.com|美国(US)USA/LosAngeles_15
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_16
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
+      - mattkaydiary.com|美国(US)USA/Clifton_18
+      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - mattkaydiary.com|美国(US)USA/SanJose_21
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - mattkaydiary.com|美国(US)USA/SanJose_24
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25
+      - mattkaydiary.com|印度(IN)India/Hyderabad_26
+      - mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_28
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_29
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_31
+      - mattkaydiary.com|美国(US)USA/SanFrancisco_32
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_33
+      - mattkaydiary.com|美国(US)USA/Washington_34
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_35
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_38
+      - mattkaydiary.com|美国(US)USA/Dallas_39
+      - mattkaydiary.com|日本(JP)Japan/Osaka_40
+      - mattkaydiary.com|日本(JP)Japan/Osaka_41
+      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1
-      - mattkaydiary.com|韩国(KR)Korea/Seoul_2
+      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - mattkaydiary.com|美国(US)USA/SanJose_4
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_6
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_7
-      - mattkaydiary.com|美国(US)USA/SanJose_8
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_9
-      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10
-      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11
-      - mattkaydiary.com|伊朗(IR)Iran/Qom_12
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13
-      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_17
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18
-      - mattkaydiary.com|美国(US)USA/NewYork_19
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_20
-      - mattkaydiary.com|日本(JP)Japan/Tokyo_21
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_22
+      - mattkaydiary.com|美国(US)USA/LosAngeles_6
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_8
+      - mattkaydiary.com|日本(JP)Japan/Osaka_9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
+      - mattkaydiary.com|美国(US)USA/LosAngeles_11
+      - mattkaydiary.com|美国(US)USA/Scottsdale_12
+      - mattkaydiary.com|美国(US)USA/SanJose_13
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
+      - mattkaydiary.com|美国(US)USA/LosAngeles_15
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_16
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
+      - mattkaydiary.com|美国(US)USA/Clifton_18
+      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - mattkaydiary.com|美国(US)USA/SanJose_21
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - mattkaydiary.com|美国(US)USA/SanJose_24
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25
+      - mattkaydiary.com|印度(IN)India/Hyderabad_26
+      - mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_28
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_29
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_31
+      - mattkaydiary.com|美国(US)USA/SanFrancisco_32
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_33
+      - mattkaydiary.com|美国(US)USA/Washington_34
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_35
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_38
+      - mattkaydiary.com|美国(US)USA/Dallas_39
+      - mattkaydiary.com|日本(JP)Japan/Osaka_40
+      - mattkaydiary.com|日本(JP)Japan/Osaka_41
+      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1
-      - mattkaydiary.com|韩国(KR)Korea/Seoul_2
+      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - mattkaydiary.com|美国(US)USA/SanJose_4
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_6
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_7
-      - mattkaydiary.com|美国(US)USA/SanJose_8
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_9
-      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10
-      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11
-      - mattkaydiary.com|伊朗(IR)Iran/Qom_12
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13
-      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_17
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18
-      - mattkaydiary.com|美国(US)USA/NewYork_19
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_20
-      - mattkaydiary.com|日本(JP)Japan/Tokyo_21
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_22
+      - mattkaydiary.com|美国(US)USA/LosAngeles_6
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_8
+      - mattkaydiary.com|日本(JP)Japan/Osaka_9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
+      - mattkaydiary.com|美国(US)USA/LosAngeles_11
+      - mattkaydiary.com|美国(US)USA/Scottsdale_12
+      - mattkaydiary.com|美国(US)USA/SanJose_13
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
+      - mattkaydiary.com|美国(US)USA/LosAngeles_15
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_16
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
+      - mattkaydiary.com|美国(US)USA/Clifton_18
+      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - mattkaydiary.com|美国(US)USA/SanJose_21
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - mattkaydiary.com|美国(US)USA/SanJose_24
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25
+      - mattkaydiary.com|印度(IN)India/Hyderabad_26
+      - mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_28
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_29
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_31
+      - mattkaydiary.com|美国(US)USA/SanFrancisco_32
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_33
+      - mattkaydiary.com|美国(US)USA/Washington_34
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_35
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_38
+      - mattkaydiary.com|美国(US)USA/Dallas_39
+      - mattkaydiary.com|日本(JP)Japan/Osaka_40
+      - mattkaydiary.com|日本(JP)Japan/Osaka_41
+      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1
-      - mattkaydiary.com|韩国(KR)Korea/Seoul_2
+      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - mattkaydiary.com|美国(US)USA/SanJose_4
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_6
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_7
-      - mattkaydiary.com|美国(US)USA/SanJose_8
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_9
-      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10
-      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11
-      - mattkaydiary.com|伊朗(IR)Iran/Qom_12
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13
-      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_17
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18
-      - mattkaydiary.com|美国(US)USA/NewYork_19
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_20
-      - mattkaydiary.com|日本(JP)Japan/Tokyo_21
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_22
+      - mattkaydiary.com|美国(US)USA/LosAngeles_6
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_8
+      - mattkaydiary.com|日本(JP)Japan/Osaka_9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
+      - mattkaydiary.com|美国(US)USA/LosAngeles_11
+      - mattkaydiary.com|美国(US)USA/Scottsdale_12
+      - mattkaydiary.com|美国(US)USA/SanJose_13
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
+      - mattkaydiary.com|美国(US)USA/LosAngeles_15
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_16
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
+      - mattkaydiary.com|美国(US)USA/Clifton_18
+      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - mattkaydiary.com|美国(US)USA/SanJose_21
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - mattkaydiary.com|美国(US)USA/SanJose_24
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25
+      - mattkaydiary.com|印度(IN)India/Hyderabad_26
+      - mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_28
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_29
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_31
+      - mattkaydiary.com|美国(US)USA/SanFrancisco_32
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_33
+      - mattkaydiary.com|美国(US)USA/Washington_34
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_35
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_38
+      - mattkaydiary.com|美国(US)USA/Dallas_39
+      - mattkaydiary.com|日本(JP)Japan/Osaka_40
+      - mattkaydiary.com|日本(JP)Japan/Osaka_41
+      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1
-      - mattkaydiary.com|韩国(KR)Korea/Seoul_2
+      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - mattkaydiary.com|美国(US)USA/SanJose_4
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_6
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_7
-      - mattkaydiary.com|美国(US)USA/SanJose_8
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_9
-      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10
-      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11
-      - mattkaydiary.com|伊朗(IR)Iran/Qom_12
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13
-      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_17
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18
-      - mattkaydiary.com|美国(US)USA/NewYork_19
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_20
-      - mattkaydiary.com|日本(JP)Japan/Tokyo_21
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_22
+      - mattkaydiary.com|美国(US)USA/LosAngeles_6
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_8
+      - mattkaydiary.com|日本(JP)Japan/Osaka_9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
+      - mattkaydiary.com|美国(US)USA/LosAngeles_11
+      - mattkaydiary.com|美国(US)USA/Scottsdale_12
+      - mattkaydiary.com|美国(US)USA/SanJose_13
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
+      - mattkaydiary.com|美国(US)USA/LosAngeles_15
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_16
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
+      - mattkaydiary.com|美国(US)USA/Clifton_18
+      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - mattkaydiary.com|美国(US)USA/SanJose_21
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - mattkaydiary.com|美国(US)USA/SanJose_24
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25
+      - mattkaydiary.com|印度(IN)India/Hyderabad_26
+      - mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_28
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_29
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_31
+      - mattkaydiary.com|美国(US)USA/SanFrancisco_32
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_33
+      - mattkaydiary.com|美国(US)USA/Washington_34
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_35
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_38
+      - mattkaydiary.com|美国(US)USA/Dallas_39
+      - mattkaydiary.com|日本(JP)Japan/Osaka_40
+      - mattkaydiary.com|日本(JP)Japan/Osaka_41
+      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1
-      - mattkaydiary.com|韩国(KR)Korea/Seoul_2
+      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - mattkaydiary.com|美国(US)USA/SanJose_4
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_6
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_7
-      - mattkaydiary.com|美国(US)USA/SanJose_8
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_9
-      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10
-      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11
-      - mattkaydiary.com|伊朗(IR)Iran/Qom_12
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13
-      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_17
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18
-      - mattkaydiary.com|美国(US)USA/NewYork_19
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_20
-      - mattkaydiary.com|日本(JP)Japan/Tokyo_21
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_22
+      - mattkaydiary.com|美国(US)USA/LosAngeles_6
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_8
+      - mattkaydiary.com|日本(JP)Japan/Osaka_9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
+      - mattkaydiary.com|美国(US)USA/LosAngeles_11
+      - mattkaydiary.com|美国(US)USA/Scottsdale_12
+      - mattkaydiary.com|美国(US)USA/SanJose_13
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
+      - mattkaydiary.com|美国(US)USA/LosAngeles_15
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_16
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
+      - mattkaydiary.com|美国(US)USA/Clifton_18
+      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - mattkaydiary.com|美国(US)USA/SanJose_21
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - mattkaydiary.com|美国(US)USA/SanJose_24
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25
+      - mattkaydiary.com|印度(IN)India/Hyderabad_26
+      - mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_28
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_29
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_31
+      - mattkaydiary.com|美国(US)USA/SanFrancisco_32
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_33
+      - mattkaydiary.com|美国(US)USA/Washington_34
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_35
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_38
+      - mattkaydiary.com|美国(US)USA/Dallas_39
+      - mattkaydiary.com|日本(JP)Japan/Osaka_40
+      - mattkaydiary.com|日本(JP)Japan/Osaka_41
+      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -214,28 +354,48 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_1
-      - mattkaydiary.com|韩国(KR)Korea/Seoul_2
+      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - mattkaydiary.com|美国(US)USA/SanJose_4
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_6
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_7
-      - mattkaydiary.com|美国(US)USA/SanJose_8
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_9
-      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_10
-      - mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_11
-      - mattkaydiary.com|伊朗(IR)Iran/Qom_12
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_13
-      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_14
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_16
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_17
-      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_18
-      - mattkaydiary.com|美国(US)USA/NewYork_19
-      - mattkaydiary.com|加拿大(CA)Canada/Toronto_20
-      - mattkaydiary.com|日本(JP)Japan/Tokyo_21
-      - mattkaydiary.com|美国(US)USA/SanFrancisco_22
+      - mattkaydiary.com|美国(US)USA/LosAngeles_6
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_8
+      - mattkaydiary.com|日本(JP)Japan/Osaka_9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
+      - mattkaydiary.com|美国(US)USA/LosAngeles_11
+      - mattkaydiary.com|美国(US)USA/Scottsdale_12
+      - mattkaydiary.com|美国(US)USA/SanJose_13
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
+      - mattkaydiary.com|美国(US)USA/LosAngeles_15
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_16
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
+      - mattkaydiary.com|美国(US)USA/Clifton_18
+      - mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - mattkaydiary.com|美国(US)USA/SanJose_21
+      - mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - mattkaydiary.com|美国(US)USA/SanJose_24
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25
+      - mattkaydiary.com|印度(IN)India/Hyderabad_26
+      - mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27
+      - mattkaydiary.com|新加坡(SG)Singapore/Singapore_28
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_29
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_31
+      - mattkaydiary.com|美国(US)USA/SanFrancisco_32
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_33
+      - mattkaydiary.com|美国(US)USA/Washington_34
+      - mattkaydiary.com|美国(US)USA/Los+Angeles_35
+      - mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37
+      - mattkaydiary.com|日本(JP)Japan/Tokyo_38
+      - mattkaydiary.com|美国(US)USA/Dallas_39
+      - mattkaydiary.com|日本(JP)Japan/Osaka_40
+      - mattkaydiary.com|日本(JP)Japan/Osaka_41
+      - mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
