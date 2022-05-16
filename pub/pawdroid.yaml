@@ -5,47 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇩🇪 德国, server: 20.79.186.124, port: 133, type: vmess, uuid: c1df959a-1da5-43ee-9ded-e802481a96f9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_349, server: jike-cccn2.jiserver.xyz, port: 39215, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jike1, headers: {Host: jike-cccn2.jiserver.xyz}}}
+  - {name: CN_413 |25.57Mb, server: jike-cccn2.jiserver.xyz, port: 39413, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jike1, headers: {Host: jike-cccn2.jiserver.xyz}}}
+  - {name: 🇨🇳 CN-高速节点推荐：v1.mk/vip, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a}
   - {name: v2cross.com, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, sni: v2cross.com.02.v2ce.com}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇫🇷FR_25, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_377, server: jike1-gzyd.jiserver.xyz, port: 39573, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jike1, headers: {Host: jike1-gzyd.jiserver.xyz}}}
-  - {name: LT_922, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🏁ZZ_388, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_360, server: 183.240.124.200, port: 44822, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇦🇺AU_348, server: 120.233.10.49, port: 29857, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jike1, headers: {Host: 120.233.10.49}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_391, server: jike-cccn2.jiserver.xyz, port: 39399, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jike1, headers: {Host: jike-cccn2.jiserver.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸 US-🇸🇬SG_1327, server: nn01.nfeng6.pp.ua, port: 60038, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}}
+  - {name: v2cross.com 2, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
+  - {name: ZZ_3286, server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 TW-高速节点推荐：v2cross.com, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
+  - {name: LT_917, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: LT_830, server: 213.183.63.218, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇸🇬SG_344, server: jike1-gzyd.jiserver.xyz, port: 39595, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jike1, headers: {Host: jike1-gzyd.jiserver.xyz}}}
+  - {name: ZZ_2892 | 7.08Mb, server: 103.172.116.9, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: 🇺🇸 Relay_🇺🇸 US-🇯🇵JP_1312, server: nn03.nfeng6.pp.ua, port: 60029, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}}
+  - {name: 🇸🇬 SG-高速节点推荐：v1.mk/vip, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2}
+  - {name: CN_409 | 7.79Mb, server: jike-cccn2.jiserver.xyz, port: 39509, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jike1, headers: {Host: jike-cccn2.jiserver.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇩🇪 德国
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_349
+      - CN_413 |25.57Mb
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
       - v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_25
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_377
-      - LT_922
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_388
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_360
+      - 🇨🇳 Relay_🇨🇳 CN-🇦🇺AU_348
+      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_391
+      - 🇺🇸 Relay_🇺🇸 US-🇸🇬SG_1327
+      - v2cross.com 2
+      - ZZ_3286
+      - 🇨🇳 TW-高速节点推荐：v2cross.com
+      - LT_917
+      - LT_830
+      - 🇨🇳 Relay_🇨🇳 CN-🇸🇬SG_344
+      - ZZ_2892 | 7.08Mb
+      - 🇺🇸 Relay_🇺🇸 US-🇯🇵JP_1312
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - CN_409 | 7.79Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇩🇪 德国
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_349
+      - CN_413 |25.57Mb
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
       - v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_25
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_377
-      - LT_922
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_388
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_360
+      - 🇨🇳 Relay_🇨🇳 CN-🇦🇺AU_348
+      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_391
+      - 🇺🇸 Relay_🇺🇸 US-🇸🇬SG_1327
+      - v2cross.com 2
+      - ZZ_3286
+      - 🇨🇳 TW-高速节点推荐：v2cross.com
+      - LT_917
+      - LT_830
+      - 🇨🇳 Relay_🇨🇳 CN-🇸🇬SG_344
+      - ZZ_2892 | 7.08Mb
+      - 🇺🇸 Relay_🇺🇸 US-🇯🇵JP_1312
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - CN_409 | 7.79Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇩🇪 德国
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_349
+      - CN_413 |25.57Mb
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
       - v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_25
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_377
-      - LT_922
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_388
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_360
+      - 🇨🇳 Relay_🇨🇳 CN-🇦🇺AU_348
+      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_391
+      - 🇺🇸 Relay_🇺🇸 US-🇸🇬SG_1327
+      - v2cross.com 2
+      - ZZ_3286
+      - 🇨🇳 TW-高速节点推荐：v2cross.com
+      - LT_917
+      - LT_830
+      - 🇨🇳 Relay_🇨🇳 CN-🇸🇬SG_344
+      - ZZ_2892 | 7.08Mb
+      - 🇺🇸 Relay_🇺🇸 US-🇯🇵JP_1312
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - CN_409 | 7.79Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -56,35 +104,71 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇩🇪 德国
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_349
+      - CN_413 |25.57Mb
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
       - v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_25
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_377
-      - LT_922
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_388
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_360
+      - 🇨🇳 Relay_🇨🇳 CN-🇦🇺AU_348
+      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_391
+      - 🇺🇸 Relay_🇺🇸 US-🇸🇬SG_1327
+      - v2cross.com 2
+      - ZZ_3286
+      - 🇨🇳 TW-高速节点推荐：v2cross.com
+      - LT_917
+      - LT_830
+      - 🇨🇳 Relay_🇨🇳 CN-🇸🇬SG_344
+      - ZZ_2892 | 7.08Mb
+      - 🇺🇸 Relay_🇺🇸 US-🇯🇵JP_1312
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - CN_409 | 7.79Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇩🇪 德国
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_349
+      - CN_413 |25.57Mb
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
       - v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_25
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_377
-      - LT_922
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_388
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_360
+      - 🇨🇳 Relay_🇨🇳 CN-🇦🇺AU_348
+      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_391
+      - 🇺🇸 Relay_🇺🇸 US-🇸🇬SG_1327
+      - v2cross.com 2
+      - ZZ_3286
+      - 🇨🇳 TW-高速节点推荐：v2cross.com
+      - LT_917
+      - LT_830
+      - 🇨🇳 Relay_🇨🇳 CN-🇸🇬SG_344
+      - ZZ_2892 | 7.08Mb
+      - 🇺🇸 Relay_🇺🇸 US-🇯🇵JP_1312
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - CN_409 | 7.79Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇩🇪 德国
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_349
+      - CN_413 |25.57Mb
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
       - v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_25
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_377
-      - LT_922
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_388
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_360
+      - 🇨🇳 Relay_🇨🇳 CN-🇦🇺AU_348
+      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_391
+      - 🇺🇸 Relay_🇺🇸 US-🇸🇬SG_1327
+      - v2cross.com 2
+      - ZZ_3286
+      - 🇨🇳 TW-高速节点推荐：v2cross.com
+      - LT_917
+      - LT_830
+      - 🇨🇳 Relay_🇨🇳 CN-🇸🇬SG_344
+      - ZZ_2892 | 7.08Mb
+      - 🇺🇸 Relay_🇺🇸 US-🇯🇵JP_1312
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - CN_409 | 7.79Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,12 +184,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇩🇪 德国
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_349
+      - CN_413 |25.57Mb
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
       - v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_25
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_377
-      - LT_922
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_388
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_360
+      - 🇨🇳 Relay_🇨🇳 CN-🇦🇺AU_348
+      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_391
+      - 🇺🇸 Relay_🇺🇸 US-🇸🇬SG_1327
+      - v2cross.com 2
+      - ZZ_3286
+      - 🇨🇳 TW-高速节点推荐：v2cross.com
+      - LT_917
+      - LT_830
+      - 🇨🇳 Relay_🇨🇳 CN-🇸🇬SG_344
+      - ZZ_2892 | 7.08Mb
+      - 🇺🇸 Relay_🇺🇸 US-🇯🇵JP_1312
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - CN_409 | 7.79Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
