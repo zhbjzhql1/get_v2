@@ -5,129 +5,142 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_383, server: 116.129.253.39, port: 55764, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_722, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
+  - {name: RU_1265, server: 217.30.10.64, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_1049, server: nl1.poduv.tk, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
+  - {name: SG_778, server: 157.230.41.220, port: 29596, type: ss, cipher: aes-256-cfb, password: e6c1cf51375c407d92d110881a825acb}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}}
+  - {name: 🇺🇸 v2cross.com - 美国  24, server: ty2-2.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t}
   - {name: v2cross.com, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com}
-  - {name: 🇨🇳 CN-高速节点推荐：v1.mk/vip, server: 183.240.124.200, port: 44822, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a}
-  - {name: GB_738, server: 185.167.117.171, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 51us.fans8.xyz}}}
-  - {name: v2cross.com 2, server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com}
-  - {name: 🇭🇰 香港1, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_3082, server: uszz22.bieqiangwo.xyz, port: 875, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false}
-  - {name: ZZ_3353, server: 103.172.116.9, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
-  - {name: GB_702, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: GB_759, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_388, server: aga136.bieqiangwo.xyz, port: 41236, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 37, server: 162.159.251.130, port: 443, type: vmess, uuid: 2e385ee8-a129-4c4a-d717-1d3f1c7acd71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /daa, headers: {Host: da.wodaming.ga}}}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: 116.129.253.39, port: 55764, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false}
+  - {name: ZZ_3005 | 6.13Mb, server: 103.172.116.9, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🏁ZZ_405, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
+  - {name: ZZ_2301, server: 103.172.116.9, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
+  - {name: 🇺🇸 US-高速节点推荐：v1.mk/vip, server: free.spcloud.us, port: 21011, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd}
+  - {name: GB_738, server: 185.167.117.171, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_383
+      - GB_722
+      - RU_1265
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_1049
+      - SG_778
+      - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 v2cross.com - 美国  24
       - v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 37
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - ZZ_3005 | 6.13Mb
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_405
+      - ZZ_2301
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
       - GB_738
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - v2cross.com 2
-      - 🇭🇰 香港1
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3082
-      - ZZ_3353
-      - GB_702
-      - GB_759
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_388
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_383
+      - GB_722
+      - RU_1265
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_1049
+      - SG_778
+      - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 v2cross.com - 美国  24
       - v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 37
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - ZZ_3005 | 6.13Mb
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_405
+      - ZZ_2301
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
       - GB_738
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - v2cross.com 2
-      - 🇭🇰 香港1
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3082
-      - ZZ_3353
-      - GB_702
-      - GB_759
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_388
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_383
+      - GB_722
+      - RU_1265
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_1049
+      - SG_778
+      - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 v2cross.com - 美国  24
       - v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 37
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - ZZ_3005 | 6.13Mb
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_405
+      - ZZ_2301
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
       - GB_738
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - v2cross.com 2
-      - 🇭🇰 香港1
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3082
-      - ZZ_3353
-      - GB_702
-      - GB_759
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_388
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_383
+      - GB_722
+      - RU_1265
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_1049
+      - SG_778
+      - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 v2cross.com - 美国  24
       - v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 37
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - ZZ_3005 | 6.13Mb
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_405
+      - ZZ_2301
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
       - GB_738
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - v2cross.com 2
-      - 🇭🇰 香港1
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3082
-      - ZZ_3353
-      - GB_702
-      - GB_759
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_388
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_383
+      - GB_722
+      - RU_1265
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_1049
+      - SG_778
+      - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 v2cross.com - 美国  24
       - v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 37
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - ZZ_3005 | 6.13Mb
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_405
+      - ZZ_2301
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
       - GB_738
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - v2cross.com 2
-      - 🇭🇰 香港1
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3082
-      - ZZ_3353
-      - GB_702
-      - GB_759
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_388
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_383
+      - GB_722
+      - RU_1265
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_1049
+      - SG_778
+      - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 v2cross.com - 美国  24
       - v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 37
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - ZZ_3005 | 6.13Mb
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_405
+      - ZZ_2301
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
       - GB_738
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - v2cross.com 2
-      - 🇭🇰 香港1
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3082
-      - ZZ_3353
-      - GB_702
-      - GB_759
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_388
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -143,18 +156,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_383
+      - GB_722
+      - RU_1265
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_1049
+      - SG_778
+      - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 v2cross.com - 美国  24
       - v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 37
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - ZZ_3005 | 6.13Mb
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_405
+      - ZZ_2301
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
       - GB_738
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - v2cross.com 2
-      - 🇭🇰 香港1
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3082
-      - ZZ_3353
-      - GB_702
-      - GB_759
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_388
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
