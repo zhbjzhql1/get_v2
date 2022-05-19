@@ -5,67 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_235, server: 211.91.243.131, port: 46703, type: ss, cipher: aes-256-gcm, password: fc10d769-ef2c-4221-98e3-65e2a4784689}
-  - {name: CN_443 | 3.61Mb, server: zzcm01.bdate.xyz, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm01.bdate.xyz}}}
-  - {name: RU_477, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: 01483648-ae6d-4dfb-a54e-493e7463f4a5, sni: ru.node.qchwnd.moe}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_224, server: 211.91.243.131, port: 38267, type: ss, cipher: aes-256-gcm, password: fc10d769-ef2c-4221-98e3-65e2a4784689}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_379, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}}
-  - {name: v2cross.com, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_213, server: zh01lv5in05.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: be9a0961-b894-4dab-945c-f9694e904d97}
-  - {name: CN_409 | 6.12Mb, server: 14.29.124.168, port: 24015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_358, server: bb01.nfeng6.pp.ua, port: 16030, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2932, server: us-ny-rn.licom.ga, port: 62008, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us-ny-rn.licom.ga}}}
+  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇳🇬NG_395, server: zzcm04.bdate.xyz, port: 1350, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm04.bdate.xyz}}}
+  - {name: CN_39 v2cross.com, server: 14.29.124.168, port: 24015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: v2cross.com, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com}
+  - {name: v2cross.com 2, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_372, server: 14.29.124.168, port: 24010, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_399, server: zzcm07.bdate.xyz, port: 1280, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm07.bdate.xyz}}}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_359, server: szcm.9218561.xyz, port: 24615, type: trojan, password: 270183d3-8fa4-3ec6-8946-3ac350e6838c, sni: szcm.9218561.xyz}
+  - {name: CA_338, server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 2, server: bb01.nfeng6.pp.ua, port: 16040, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG}
+  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇺🇸US_393, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 8c8578b9-3d56-425d-8bcc-880c4da3600a, sni: cm-jm.okvpn.xyz}
+  - {name: LT_606, server: 213.183.63.218, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9, server: lsj03.wangxd.life, port: 3052, type: trojan, password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_235
-      - CN_443 | 3.61Mb
-      - RU_477
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_224
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_379
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2932
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇳🇬NG_395
+      - CN_39 v2cross.com
       - v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_372
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_399
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_213
-      - CN_409 | 6.12Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_358
+      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_359
+      - CA_338
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇺🇸US_393
+      - LT_606
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_235
-      - CN_443 | 3.61Mb
-      - RU_477
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_224
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_379
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2932
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇳🇬NG_395
+      - CN_39 v2cross.com
       - v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_372
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_399
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_213
-      - CN_409 | 6.12Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_358
+      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_359
+      - CA_338
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇺🇸US_393
+      - LT_606
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_235
-      - CN_443 | 3.61Mb
-      - RU_477
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_224
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_379
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2932
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇳🇬NG_395
+      - CN_39 v2cross.com
       - v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_372
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_399
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_213
-      - CN_409 | 6.12Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_358
+      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_359
+      - CA_338
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇺🇸US_393
+      - LT_606
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -76,50 +88,59 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_235
-      - CN_443 | 3.61Mb
-      - RU_477
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_224
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_379
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2932
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇳🇬NG_395
+      - CN_39 v2cross.com
       - v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_372
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_399
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_213
-      - CN_409 | 6.12Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_358
+      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_359
+      - CA_338
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇺🇸US_393
+      - LT_606
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_235
-      - CN_443 | 3.61Mb
-      - RU_477
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_224
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_379
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2932
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇳🇬NG_395
+      - CN_39 v2cross.com
       - v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_372
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_399
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_213
-      - CN_409 | 6.12Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_358
+      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_359
+      - CA_338
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇺🇸US_393
+      - LT_606
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_235
-      - CN_443 | 3.61Mb
-      - RU_477
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_224
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_379
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2932
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇳🇬NG_395
+      - CN_39 v2cross.com
       - v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_372
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_399
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_213
-      - CN_409 | 6.12Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_358
+      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_359
+      - CA_338
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇺🇸US_393
+      - LT_606
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -135,17 +156,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_235
-      - CN_443 | 3.61Mb
-      - RU_477
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_224
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_379
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2932
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇳🇬NG_395
+      - CN_39 v2cross.com
       - v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_372
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_399
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_213
-      - CN_409 | 6.12Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_358
+      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_359
+      - CA_338
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇺🇸US_393
+      - LT_606
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
