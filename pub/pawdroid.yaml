@@ -5,87 +5,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: 26cda94e-fb7a-3ce3-9cca-d110505ad8be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mg, headers: {Host: mugua-us01.covid19.rip}}}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 2, server: zzcm01.bdate.xyz, port: 1510, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
-  - {name: 🇮🇳 Relay_🇮🇳IN-🇺🇸US_869, server: 206.189.130.75, port: 17745, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇭🇰 HK-高速节点推荐：v2cross.com, server: 43.129.221.110, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /free, headers: {Host: jp.sayuri.cf}}}
-  - {name: Relay_🏁ZZ-🏁ZZ_4027, server: vn05v2.vpnsieure.com, port: 80, type: vmess, uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnsieure, headers: {Host: livestream2.tv360.vn}}}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 3, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 4, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531}
-  - {name: DE_552 |32.97Mb, server: 5.183.179.139, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
-  - {name: AU_25 | 6.42Mb, server: 185.167.116.252, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: US_1449, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: AU_02 v2cross.com, server: 185.167.116.252, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
-  - {name: CN_349 【tg@freevpn8】 5.85Mb, server: zzcm07.bdate.xyz, port: 1420, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm07.bdate.xyz}}}
-  - {name: US_1716 | 6.35Mb, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 5, server: in02.dns2333.xyz, port: 63087, type: vmess, uuid: 26cda94e-fb7a-3ce3-9cca-d110505ad8be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}}
-  - {name: SG_1463 |27.34Mb, server: v2-3.godlight.xyz, port: 26944, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_854, server: hk-vi.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇰🇷 KR-高速节点推荐：v2cross.com, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998}
+  - {name: v2cross.com - 广东省揭阳市移动 12, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_378, server: 14.29.124.168, port: 24010, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: v2cross.com, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com}
+  - {name: AU_42, server: 185.167.116.252, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3027, server: ppy-cmcc.0098dns02in.work, port: 26010, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false}
+  - {name: 213.183.53.177:9014, server: 213.183.53.177, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3029, server: ppy-cmcc.0098dns02in.work, port: 26011, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🏁ZZ_416, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐:v2cross.com, server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com - 广东省揭阳市移动 12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_378
+      - v2cross.com
+      - AU_42
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
-      - 🇮🇳 Relay_🇮🇳IN-🇺🇸US_869
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - Relay_🏁ZZ-🏁ZZ_4027
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
-      - DE_552 |32.97Mb
-      - AU_25 | 6.42Mb
-      - US_1449
-      - AU_02 v2cross.com
-      - CN_349 【tg@freevpn8】 5.85Mb
-      - US_1716 | 6.35Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 5
-      - SG_1463 |27.34Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_854
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3027
+      - 213.183.53.177:9014
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3029
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_416
+      - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐:v2cross.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com - 广东省揭阳市移动 12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_378
+      - v2cross.com
+      - AU_42
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
-      - 🇮🇳 Relay_🇮🇳IN-🇺🇸US_869
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - Relay_🏁ZZ-🏁ZZ_4027
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
-      - DE_552 |32.97Mb
-      - AU_25 | 6.42Mb
-      - US_1449
-      - AU_02 v2cross.com
-      - CN_349 【tg@freevpn8】 5.85Mb
-      - US_1716 | 6.35Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 5
-      - SG_1463 |27.34Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_854
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3027
+      - 213.183.53.177:9014
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3029
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_416
+      - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐:v2cross.com
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com - 广东省揭阳市移动 12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_378
+      - v2cross.com
+      - AU_42
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
-      - 🇮🇳 Relay_🇮🇳IN-🇺🇸US_869
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - Relay_🏁ZZ-🏁ZZ_4027
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
-      - DE_552 |32.97Mb
-      - AU_25 | 6.42Mb
-      - US_1449
-      - AU_02 v2cross.com
-      - CN_349 【tg@freevpn8】 5.85Mb
-      - US_1716 | 6.35Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 5
-      - SG_1463 |27.34Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_854
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3027
+      - 213.183.53.177:9014
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3029
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_416
+      - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐:v2cross.com
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -96,65 +76,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com - 广东省揭阳市移动 12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_378
+      - v2cross.com
+      - AU_42
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
-      - 🇮🇳 Relay_🇮🇳IN-🇺🇸US_869
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - Relay_🏁ZZ-🏁ZZ_4027
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
-      - DE_552 |32.97Mb
-      - AU_25 | 6.42Mb
-      - US_1449
-      - AU_02 v2cross.com
-      - CN_349 【tg@freevpn8】 5.85Mb
-      - US_1716 | 6.35Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 5
-      - SG_1463 |27.34Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_854
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3027
+      - 213.183.53.177:9014
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3029
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_416
+      - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐:v2cross.com
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com - 广东省揭阳市移动 12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_378
+      - v2cross.com
+      - AU_42
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
-      - 🇮🇳 Relay_🇮🇳IN-🇺🇸US_869
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - Relay_🏁ZZ-🏁ZZ_4027
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
-      - DE_552 |32.97Mb
-      - AU_25 | 6.42Mb
-      - US_1449
-      - AU_02 v2cross.com
-      - CN_349 【tg@freevpn8】 5.85Mb
-      - US_1716 | 6.35Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 5
-      - SG_1463 |27.34Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_854
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3027
+      - 213.183.53.177:9014
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3029
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_416
+      - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐:v2cross.com
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com - 广东省揭阳市移动 12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_378
+      - v2cross.com
+      - AU_42
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
-      - 🇮🇳 Relay_🇮🇳IN-🇺🇸US_869
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - Relay_🏁ZZ-🏁ZZ_4027
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
-      - DE_552 |32.97Mb
-      - AU_25 | 6.42Mb
-      - US_1449
-      - AU_02 v2cross.com
-      - CN_349 【tg@freevpn8】 5.85Mb
-      - US_1716 | 6.35Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 5
-      - SG_1463 |27.34Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_854
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3027
+      - 213.183.53.177:9014
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3029
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_416
+      - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐:v2cross.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,22 +135,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com - 广东省揭阳市移动 12
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_378
+      - v2cross.com
+      - AU_42
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
-      - 🇮🇳 Relay_🇮🇳IN-🇺🇸US_869
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - Relay_🏁ZZ-🏁ZZ_4027
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
-      - DE_552 |32.97Mb
-      - AU_25 | 6.42Mb
-      - US_1449
-      - AU_02 v2cross.com
-      - CN_349 【tg@freevpn8】 5.85Mb
-      - US_1716 | 6.35Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com 5
-      - SG_1463 |27.34Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_854
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3027
+      - 213.183.53.177:9014
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_3029
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_416
+      - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐:v2cross.com
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
