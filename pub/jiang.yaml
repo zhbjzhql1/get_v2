@@ -4273,7 +4273,6 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
  - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
- - DOMAIN-SUFFIX,sugar.zhihu.com,🍃 应用净化
  - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
  - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
  - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
@@ -4849,6 +4848,9 @@ rules:
  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
  - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -4936,6 +4938,7 @@ rules:
  - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
  - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
+ - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
  - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
@@ -5592,13 +5595,29 @@ rules:
  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
+ - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,byted-static.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytedance.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytedance.net,🎯 全球直连
  - DOMAIN-SUFFIX,bytedns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bytednsdoc.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytegoofy.com,🎯 全球直连
  - DOMAIN-SUFFIX,byteimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytescm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
+ - DOMAIN-SUFFIX,feelgood.cn,🎯 全球直连
  - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
  - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
  - DOMAIN-SUFFIX,huoshan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huoshanzhibo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ibytedapm.com,🎯 全球直连
  - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
  - DOMAIN-SUFFIX,ixigua.com,🎯 全球直连
  - DOMAIN-SUFFIX,kspkg.com,🎯 全球直连
