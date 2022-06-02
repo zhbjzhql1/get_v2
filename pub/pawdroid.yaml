@@ -5,99 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_228, server: 14.29.124.174, port: 11015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908}
-  - {name: CN_399 | 7.48Mb, server: 120.232.239.6, port: 31220, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: node3.binghe.ga, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-bh5", headers: {Host: usv-1.openv2ray.com}}}
-  - {name: "@SSRSUB-V03-付费推荐:v2cross.com", server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: 高速节点推荐：v2cross.com, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239, server: 14.29.124.174, port: 11041, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_236, server: 14.29.124.174, port: 11036, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com 2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989}
-  - {name: US_2059 | 3.90Mb, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇷🇺RU_1536, server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v5.ssrsub.com}}}
-  - {name: Relay_-🇹🇼TW_02, server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com 3, server: 172.64.94.238, port: 2053, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: xxX3, headers: {Host: web1.wweblog.pw}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_229, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_249, server: 14.29.124.168, port: 24016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇯🇵 v2cross.com - 日本东京M247 8, server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com 4, server: vpn.xn--mesv7f5toqlp.club, port: 11115, type: trojan, password: 96bab8f0-5707-49fa-b124-2f83496e96aa, sni: vpn.xn--mesv7f5toqlp.club}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com 5, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_218, server: 14.29.124.174, port: 11013, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇸🇪 v2cross.com - 瑞典  103, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
+  - {name: 🇺🇸 _US_美国, server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: ZZ_2559, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 v2cross.com - 加拿大  118, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 527hk1.fans8.xyz}}}
+  - {name: AU_19, server: 185.167.116.24, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: CN_624, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: GB_519, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐:v2cross.com, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}}
+  - {name: ZZ_2698, server: 134.195.196.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: yzjd01-ublubeu.koyeb.app}}}
+  - {name: ZZ_2895, server: 134.195.196.231, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 US-高速节点推荐：v2cross.com 2, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_587, server: hk3.grpc.stream, port: 8300, type: vmess, uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /event, headers: {Host: hk3.grpc.stream}}}
+  - {name: GB_613 |32.23Mb, server: 152.89.210.84, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
+  - {name: AU_26 | 5.33Mb, server: 185.167.116.24, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_219, server: 14.29.124.174, port: 11001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇸🇬 SG-高速节点推荐：v2cross.com, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false}
+  - {name: 213.183.59.191:9064, server: 213.183.59.191, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
+  - {name: ZZ_2856, server: 134.195.196.231, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_211, server: 14.29.124.174, port: 11009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇸🇬 v2cross.com - 新加坡腾讯云 137, server: 129.226.216.4, port: 35562, type: vmess, uuid: 48409bbd-a9ee-4d9e-f725-4c81cc0d5009, alterId: 0, cipher: auto, tls: false}
+  - {name: SG_43, server: 129.226.93.161, port: 40236, type: vmess, uuid: 931416fe-98f2-4098-c8e7-3634e27ce6f4, alterId: 0, cipher: auto, tls: false}
+  - {name: _02 | 3.66Mb, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_203, server: 14.29.124.174, port: 11038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_1194, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
+  - {name: RU_1404 |32.64Mb, server: 217.30.10.65, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
+  - {name: AU_56 | 7.65Mb, server: 185.167.116.253, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
+  - {name: NL_898, server: 213.183.51.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
+  - {name: 🇺🇸 _US_美国 2, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: AU_51, server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: ZZ_2506, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 v2cross.com - 加拿大  136, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: US_1745 | 4.22Mb, server: 172.64.81.27, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX6, headers: {Host: sg.wweblog.pw}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_189, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - CN_399 | 7.48Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - "@SSRSUB-V03-付费推荐:v2cross.com"
-      - 高速节点推荐：v2cross.com
+      - 🇸🇪 v2cross.com - 瑞典  103
+      - 🇺🇸 _US_美国
+      - ZZ_2559
+      - 🇨🇦 v2cross.com - 加拿大  118
+      - AU_19
+      - CN_624
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_236
+      - GB_519
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐:v2cross.com
+      - ZZ_2698
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - ZZ_2895
       - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - US_2059 | 3.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇷🇺RU_1536
-      - Relay_-🇹🇼TW_02
-      - 🇺🇸 US-高速节点推荐：v2cross.com 3
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_229
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_249
-      - 🇯🇵 v2cross.com - 日本东京M247 8
-      - 🇺🇸 US-高速节点推荐：v2cross.com 4
-      - 🇺🇸 US-高速节点推荐：v2cross.com 5
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_218
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_587
+      - GB_613 |32.23Mb
+      - AU_26 | 5.33Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_219
+      - 🇸🇬 SG-高速节点推荐：v2cross.com
+      - 213.183.59.191:9064
+      - ZZ_2856
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_211
+      - 🇸🇬 v2cross.com - 新加坡腾讯云 137
+      - SG_43
+      - _02 | 3.66Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_1194
+      - RU_1404 |32.64Mb
+      - AU_56 | 7.65Mb
+      - NL_898
+      - 🇺🇸 _US_美国 2
+      - AU_51
+      - ZZ_2506
+      - 🇨🇦 v2cross.com - 加拿大  136
+      - US_1745 | 4.22Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_189
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - CN_399 | 7.48Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - "@SSRSUB-V03-付费推荐:v2cross.com"
-      - 高速节点推荐：v2cross.com
+      - 🇸🇪 v2cross.com - 瑞典  103
+      - 🇺🇸 _US_美国
+      - ZZ_2559
+      - 🇨🇦 v2cross.com - 加拿大  118
+      - AU_19
+      - CN_624
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_236
+      - GB_519
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐:v2cross.com
+      - ZZ_2698
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - ZZ_2895
       - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - US_2059 | 3.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇷🇺RU_1536
-      - Relay_-🇹🇼TW_02
-      - 🇺🇸 US-高速节点推荐：v2cross.com 3
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_229
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_249
-      - 🇯🇵 v2cross.com - 日本东京M247 8
-      - 🇺🇸 US-高速节点推荐：v2cross.com 4
-      - 🇺🇸 US-高速节点推荐：v2cross.com 5
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_218
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_587
+      - GB_613 |32.23Mb
+      - AU_26 | 5.33Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_219
+      - 🇸🇬 SG-高速节点推荐：v2cross.com
+      - 213.183.59.191:9064
+      - ZZ_2856
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_211
+      - 🇸🇬 v2cross.com - 新加坡腾讯云 137
+      - SG_43
+      - _02 | 3.66Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_1194
+      - RU_1404 |32.64Mb
+      - AU_56 | 7.65Mb
+      - NL_898
+      - 🇺🇸 _US_美国 2
+      - AU_51
+      - ZZ_2506
+      - 🇨🇦 v2cross.com - 加拿大  136
+      - US_1745 | 4.22Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_189
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - CN_399 | 7.48Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - "@SSRSUB-V03-付费推荐:v2cross.com"
-      - 高速节点推荐：v2cross.com
+      - 🇸🇪 v2cross.com - 瑞典  103
+      - 🇺🇸 _US_美国
+      - ZZ_2559
+      - 🇨🇦 v2cross.com - 加拿大  118
+      - AU_19
+      - CN_624
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_236
+      - GB_519
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐:v2cross.com
+      - ZZ_2698
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - ZZ_2895
       - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - US_2059 | 3.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇷🇺RU_1536
-      - Relay_-🇹🇼TW_02
-      - 🇺🇸 US-高速节点推荐：v2cross.com 3
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_229
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_249
-      - 🇯🇵 v2cross.com - 日本东京M247 8
-      - 🇺🇸 US-高速节点推荐：v2cross.com 4
-      - 🇺🇸 US-高速节点推荐：v2cross.com 5
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_218
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_587
+      - GB_613 |32.23Mb
+      - AU_26 | 5.33Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_219
+      - 🇸🇬 SG-高速节点推荐：v2cross.com
+      - 213.183.59.191:9064
+      - ZZ_2856
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_211
+      - 🇸🇬 v2cross.com - 新加坡腾讯云 137
+      - SG_43
+      - _02 | 3.66Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_1194
+      - RU_1404 |32.64Mb
+      - AU_56 | 7.65Mb
+      - NL_898
+      - 🇺🇸 _US_美国 2
+      - AU_51
+      - ZZ_2506
+      - 🇨🇦 v2cross.com - 加拿大  136
+      - US_1745 | 4.22Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_189
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -108,74 +176,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - CN_399 | 7.48Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - "@SSRSUB-V03-付费推荐:v2cross.com"
-      - 高速节点推荐：v2cross.com
+      - 🇸🇪 v2cross.com - 瑞典  103
+      - 🇺🇸 _US_美国
+      - ZZ_2559
+      - 🇨🇦 v2cross.com - 加拿大  118
+      - AU_19
+      - CN_624
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_236
+      - GB_519
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐:v2cross.com
+      - ZZ_2698
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - ZZ_2895
       - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - US_2059 | 3.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇷🇺RU_1536
-      - Relay_-🇹🇼TW_02
-      - 🇺🇸 US-高速节点推荐：v2cross.com 3
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_229
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_249
-      - 🇯🇵 v2cross.com - 日本东京M247 8
-      - 🇺🇸 US-高速节点推荐：v2cross.com 4
-      - 🇺🇸 US-高速节点推荐：v2cross.com 5
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_218
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_587
+      - GB_613 |32.23Mb
+      - AU_26 | 5.33Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_219
+      - 🇸🇬 SG-高速节点推荐：v2cross.com
+      - 213.183.59.191:9064
+      - ZZ_2856
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_211
+      - 🇸🇬 v2cross.com - 新加坡腾讯云 137
+      - SG_43
+      - _02 | 3.66Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_1194
+      - RU_1404 |32.64Mb
+      - AU_56 | 7.65Mb
+      - NL_898
+      - 🇺🇸 _US_美国 2
+      - AU_51
+      - ZZ_2506
+      - 🇨🇦 v2cross.com - 加拿大  136
+      - US_1745 | 4.22Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_189
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - CN_399 | 7.48Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - "@SSRSUB-V03-付费推荐:v2cross.com"
-      - 高速节点推荐：v2cross.com
+      - 🇸🇪 v2cross.com - 瑞典  103
+      - 🇺🇸 _US_美国
+      - ZZ_2559
+      - 🇨🇦 v2cross.com - 加拿大  118
+      - AU_19
+      - CN_624
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_236
+      - GB_519
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐:v2cross.com
+      - ZZ_2698
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - ZZ_2895
       - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - US_2059 | 3.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇷🇺RU_1536
-      - Relay_-🇹🇼TW_02
-      - 🇺🇸 US-高速节点推荐：v2cross.com 3
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_229
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_249
-      - 🇯🇵 v2cross.com - 日本东京M247 8
-      - 🇺🇸 US-高速节点推荐：v2cross.com 4
-      - 🇺🇸 US-高速节点推荐：v2cross.com 5
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_218
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_587
+      - GB_613 |32.23Mb
+      - AU_26 | 5.33Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_219
+      - 🇸🇬 SG-高速节点推荐：v2cross.com
+      - 213.183.59.191:9064
+      - ZZ_2856
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_211
+      - 🇸🇬 v2cross.com - 新加坡腾讯云 137
+      - SG_43
+      - _02 | 3.66Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_1194
+      - RU_1404 |32.64Mb
+      - AU_56 | 7.65Mb
+      - NL_898
+      - 🇺🇸 _US_美国 2
+      - AU_51
+      - ZZ_2506
+      - 🇨🇦 v2cross.com - 加拿大  136
+      - US_1745 | 4.22Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_189
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - CN_399 | 7.48Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - "@SSRSUB-V03-付费推荐:v2cross.com"
-      - 高速节点推荐：v2cross.com
+      - 🇸🇪 v2cross.com - 瑞典  103
+      - 🇺🇸 _US_美国
+      - ZZ_2559
+      - 🇨🇦 v2cross.com - 加拿大  118
+      - AU_19
+      - CN_624
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_236
+      - GB_519
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐:v2cross.com
+      - ZZ_2698
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - ZZ_2895
       - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - US_2059 | 3.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇷🇺RU_1536
-      - Relay_-🇹🇼TW_02
-      - 🇺🇸 US-高速节点推荐：v2cross.com 3
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_229
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_249
-      - 🇯🇵 v2cross.com - 日本东京M247 8
-      - 🇺🇸 US-高速节点推荐：v2cross.com 4
-      - 🇺🇸 US-高速节点推荐：v2cross.com 5
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_218
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_587
+      - GB_613 |32.23Mb
+      - AU_26 | 5.33Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_219
+      - 🇸🇬 SG-高速节点推荐：v2cross.com
+      - 213.183.59.191:9064
+      - ZZ_2856
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_211
+      - 🇸🇬 v2cross.com - 新加坡腾讯云 137
+      - SG_43
+      - _02 | 3.66Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_1194
+      - RU_1404 |32.64Mb
+      - AU_56 | 7.65Mb
+      - NL_898
+      - 🇺🇸 _US_美国 2
+      - AU_51
+      - ZZ_2506
+      - 🇨🇦 v2cross.com - 加拿大  136
+      - US_1745 | 4.22Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_189
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -191,25 +310,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - CN_399 | 7.48Mb
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - "@SSRSUB-V03-付费推荐:v2cross.com"
-      - 高速节点推荐：v2cross.com
+      - 🇸🇪 v2cross.com - 瑞典  103
+      - 🇺🇸 _US_美国
+      - ZZ_2559
+      - 🇨🇦 v2cross.com - 加拿大  118
+      - AU_19
+      - CN_624
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_239
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_236
+      - GB_519
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐:v2cross.com
+      - ZZ_2698
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - ZZ_2895
       - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - US_2059 | 3.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇷🇺RU_1536
-      - Relay_-🇹🇼TW_02
-      - 🇺🇸 US-高速节点推荐：v2cross.com 3
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_229
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_249
-      - 🇯🇵 v2cross.com - 日本东京M247 8
-      - 🇺🇸 US-高速节点推荐：v2cross.com 4
-      - 🇺🇸 US-高速节点推荐：v2cross.com 5
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_218
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_587
+      - GB_613 |32.23Mb
+      - AU_26 | 5.33Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_219
+      - 🇸🇬 SG-高速节点推荐：v2cross.com
+      - 213.183.59.191:9064
+      - ZZ_2856
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_211
+      - 🇸🇬 v2cross.com - 新加坡腾讯云 137
+      - SG_43
+      - _02 | 3.66Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_1194
+      - RU_1404 |32.64Mb
+      - AU_56 | 7.65Mb
+      - NL_898
+      - 🇺🇸 _US_美国 2
+      - AU_51
+      - ZZ_2506
+      - 🇨🇦 v2cross.com - 加拿大  136
+      - US_1745 | 4.22Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_189
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
