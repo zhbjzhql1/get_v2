@@ -5,15 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908}
-  - {name: 🇷🇺 RU-高速节点推荐：v2cross.com, server: 165.154.243.157, port: 48002, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, sni: huayun.xyz}
-  - {name: 高速节点推荐：v2cross.com, server: sg01.czsx1624.tk, port: 443, type: vmess, uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3a8545177/, headers: {Host: sg01.czsx1624.tk}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160, server: 14.29.124.174, port: 11018, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_187, server: 14.29.124.174, port: 11003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_175, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com 2, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_183, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 25265, type: trojan, password: 4c9fa489-d576-47a6-8f42-a4664e454061, sni: bai-piao-wang-zhe-iplc12.98848.xyz}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 2, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
   - {name: v2cross.com, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_182, server: 14.29.124.174, port: 11002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_199, server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: Pool_🇺🇸US_2495, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: "@SSRSUB-V12-付费推荐:v2cross.com", server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_150, server: 14.29.124.174, port: 11016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 3, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 4, server: gycd1.csccdd.xyz, port: 52340, type: vmess, uuid: 1dc13504-e4ba-3c49-8e0b-6a3eb4e40335, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: gycd1.csccdd.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -21,28 +23,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇷🇺 RU-高速节点推荐：v2cross.com
-      - 高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_187
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_175
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_183
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
       - v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_182
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_199
+      - Pool_🇺🇸US_2495
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_150
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇷🇺 RU-高速节点推荐：v2cross.com
-      - 高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_187
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_175
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_183
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
       - v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_182
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_199
+      - Pool_🇺🇸US_2495
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_150
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -50,14 +56,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇷🇺 RU-高速节点推荐：v2cross.com
-      - 高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_187
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_175
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_183
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
       - v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_182
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_199
+      - Pool_🇺🇸US_2495
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_150
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -69,28 +77,32 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇷🇺 RU-高速节点推荐：v2cross.com
-      - 高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_187
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_175
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_183
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
       - v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_182
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_199
+      - Pool_🇺🇸US_2495
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_150
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇷🇺 RU-高速节点推荐：v2cross.com
-      - 高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_187
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_175
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_183
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
       - v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_182
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_199
+      - Pool_🇺🇸US_2495
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_150
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -98,14 +110,16 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇷🇺 RU-高速节点推荐：v2cross.com
-      - 高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_187
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_175
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_183
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
       - v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_182
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_199
+      - Pool_🇺🇸US_2495
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_150
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -122,14 +136,16 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇷🇺 RU-高速节点推荐：v2cross.com
-      - 高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_187
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_175
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_183
+      - 🇨🇳 CN-高速节点推荐：v2cross.com
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
       - v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_182
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_199
+      - Pool_🇺🇸US_2495
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_150
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
