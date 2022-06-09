@@ -5,63 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_39 v2cross.com, server: 14.29.124.174, port: 11007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_191, server: 14.29.124.174, port: 11038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇰🇷 v2cross.com - 韩国KT电信 7, server: cm01.db-link.in, port: 13302, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /db, headers: {Host: cm01.db-link.in}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_177, server: 14.29.124.174, port: 11032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, sni: bai-piao-wang-zhe-iplc12.98848.xyz}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: gy.ziqiyun.xyz, port: 17565, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57}
-  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_259, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 TW-高速节点推荐：v2cross.com, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: 🇸🇬 v2cross.com - 北京市新国信通信有限公司 4, server: gycd1.csccdd.xyz, port: 52340, type: vmess, uuid: 1dc13504-e4ba-3c49-8e0b-6a3eb4e40335, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: gycd1.csccdd.xyz}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: v2cross.com, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: lt.feethree.top, port: 38358, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: lt.feethree.top}}}
+  - {name: 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶LeaseWeb数据中心 9, server: 23.19.26.218, port: 6082, type: vmess, uuid: 9674b201-ac76-4322-a9a3-2afd7f746513, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_157, server: 14.29.124.174, port: 11039, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 2, server: zj.haojiahuo.ml, port: 60046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /videos, headers: {Host: "%25257B%252522host%252522:%252522xuexi.cn%252522%25257D"}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2376, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇷TR_211, server: zj.haojiahuo.ml, port: 30069, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /videos, headers: {Host: "%7B%22host%22:%22xuexi.cn%22%7D"}}}
+  - {name: 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 21, server: sg01.czsx1624.tk, port: 443, type: vmess, uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3a8545177/, headers: {Host: sg01.czsx1624.tk}}}
+  - {name: 🇰🇷 KR-高速节点推荐：v2cross.com, server: jgwcc.356930.xyz, port: 10021, type: vmess, uuid: 0d19129c-a925-4f21-8252-849838959a64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jgwcc.356930.xyz}}}
+  - {name: v2cross.com 2, server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_148, server: 14.29.124.174, port: 11009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: US_162 v2cross.com, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_175, server: 14.29.124.174, port: 11013, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: v2cross.com 3, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com}
+  - {name: RU_1426, server: 46.3.240.10, port: 443, type: vmess, uuid: a9f93c36-6b1f-4f68-c067-aa1cff941f97, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: biliroam, headers: {Host: "%7B%22host%22:%22biubiu.homurawwmm.xyz%22%7D"}}}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 3, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com 4, server: Intranet.dedicated.line.monaiyun.top, port: 53101, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false}
+  - {name: v2cross.com 4, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
+  - {name: v2cross.com 5, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_39 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_191
-      - 🇰🇷 v2cross.com - 韩国KT电信 7
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_177
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - v2cross.com
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_259
-      - 🇨🇳 TW-高速节点推荐：v2cross.com
-      - 🇸🇬 v2cross.com - 北京市新国信通信有限公司 4
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶LeaseWeb数据中心 9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_157
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2376
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇷TR_211
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 21
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_148
+      - US_162 v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_175
+      - v2cross.com 3
+      - RU_1426
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
+      - v2cross.com 4
+      - v2cross.com 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_39 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_191
-      - 🇰🇷 v2cross.com - 韩国KT电信 7
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_177
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - v2cross.com
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_259
-      - 🇨🇳 TW-高速节点推荐：v2cross.com
-      - 🇸🇬 v2cross.com - 北京市新国信通信有限公司 4
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶LeaseWeb数据中心 9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_157
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2376
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇷TR_211
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 21
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_148
+      - US_162 v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_175
+      - v2cross.com 3
+      - RU_1426
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
+      - v2cross.com 4
+      - v2cross.com 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_39 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_191
-      - 🇰🇷 v2cross.com - 韩国KT电信 7
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_177
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - v2cross.com
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_259
-      - 🇨🇳 TW-高速节点推荐：v2cross.com
-      - 🇸🇬 v2cross.com - 北京市新国信通信有限公司 4
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶LeaseWeb数据中心 9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_157
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2376
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇷TR_211
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 21
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_148
+      - US_162 v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_175
+      - v2cross.com 3
+      - RU_1426
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
+      - v2cross.com 4
+      - v2cross.com 5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -72,47 +112,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_39 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_191
-      - 🇰🇷 v2cross.com - 韩国KT电信 7
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_177
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - v2cross.com
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_259
-      - 🇨🇳 TW-高速节点推荐：v2cross.com
-      - 🇸🇬 v2cross.com - 北京市新国信通信有限公司 4
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶LeaseWeb数据中心 9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_157
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2376
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇷TR_211
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 21
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_148
+      - US_162 v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_175
+      - v2cross.com 3
+      - RU_1426
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
+      - v2cross.com 4
+      - v2cross.com 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_39 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_191
-      - 🇰🇷 v2cross.com - 韩国KT电信 7
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_177
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - v2cross.com
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_259
-      - 🇨🇳 TW-高速节点推荐：v2cross.com
-      - 🇸🇬 v2cross.com - 北京市新国信通信有限公司 4
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶LeaseWeb数据中心 9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_157
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2376
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇷TR_211
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 21
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_148
+      - US_162 v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_175
+      - v2cross.com 3
+      - RU_1426
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
+      - v2cross.com 4
+      - v2cross.com 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_39 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_191
-      - 🇰🇷 v2cross.com - 韩国KT电信 7
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_177
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - v2cross.com
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_259
-      - 🇨🇳 TW-高速节点推荐：v2cross.com
-      - 🇸🇬 v2cross.com - 北京市新国信通信有限公司 4
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶LeaseWeb数据中心 9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_157
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2376
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇷TR_211
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 21
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_148
+      - US_162 v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_175
+      - v2cross.com 3
+      - RU_1426
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
+      - v2cross.com 4
+      - v2cross.com 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,16 +198,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_39 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_191
-      - 🇰🇷 v2cross.com - 韩国KT电信 7
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_177
-      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - v2cross.com
       - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_259
-      - 🇨🇳 TW-高速节点推荐：v2cross.com
-      - 🇸🇬 v2cross.com - 北京市新国信通信有限公司 4
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶LeaseWeb数据中心 9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_157
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2376
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇷TR_211
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 21
+      - 🇰🇷 KR-高速节点推荐：v2cross.com
+      - v2cross.com 2
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_148
+      - US_162 v2cross.com
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_175
+      - v2cross.com 3
+      - RU_1426
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 3
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
+      - 🇨🇳 CN-高速节点推荐：v2cross.com 4
+      - v2cross.com 4
+      - v2cross.com 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
