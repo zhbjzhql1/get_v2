@@ -5,129 +5,184 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: sg.yaoyaocat.com, port: 443, type: vmess, uuid: f465ac86-0ce1-4fda-b0a4-97ca3f684ee1, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_161, server: 14.29.124.174, port: 11031, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com 2, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 25265, type: trojan, password: 4c9fa489-d576-47a6-8f42-a4664e454061, sni: bai-piao-wang-zhe-iplc12.98848.xyz}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_27, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_216, server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇬🇧 Relay_🇬🇧GB-🇺🇸US_482, server: cmi.db-link.in, port: 21152, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /db, headers: {Host: cmi.db-link.in}}}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com, server: gycd1.csccdd.xyz, port: 52340, type: vmess, uuid: 1dc13504-e4ba-3c49-8e0b-6a3eb4e40335, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: gycd1.csccdd.xyz}}}
-  - {name: 🇭🇰 v2cross.com - 香港阿里云 1, server: 47.243.87.171, port: 443, type: vmess, uuid: 4af38112-0854-48d8-9387-5ece4078a599, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 47.243.87.171}}}
+  - {name: 🇸🇪 v2cross.com - 瑞典  9, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_254, server: 14.29.124.174, port: 11005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245, server: 14.29.124.174, port: 11020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3908b44d1be0a4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}}
+  - {name: ZZ_2765, server: 134.195.196.150, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_208, server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: ZZ_2649, server: 134.195.196.150, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_2632, server: 134.195.196.150, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 US-高速节点推荐：v2cross.com, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 25265, type: trojan, password: 4c9fa489-d576-47a6-8f42-a4664e454061, sni: bai-piao-wang-zhe-iplc12.98848.xyz}
+  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 17, server: sg01.czsx1624.tk, port: 443, type: vmess, uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3a8545177/, headers: {Host: sg01.czsx1624.tk}}}
+  - {name: 🇯🇵 v2cross.com - 日本  1, server: 43.154.235.119, port: 10064, type: vmess, uuid: 8b115f89-27cc-4ea9-85af-dda2de597928, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 v2cross.com - 广东省广州市移动 21, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_242, server: 14.29.124.174, port: 11015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_33, server: gcfree.galaxy-cloud.icu, port: 443, type: vmess, uuid: 3f0613b2-fbff-4aa1-8731-3e13f0d6992d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /UAVwoa, headers: {Host: gcfree.galaxy-cloud.icu}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_31, server: mc.vpshax.ml, port: 443, type: vmess, uuid: 48ac743a-2d49-4191-b804-0c7fa7e01146, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ejpevws, headers: {Host: mc.vpshax.ml}}}
+  - {name: 🇦🇺 AU-高速节点推荐：v2cross.com, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819}
+  - {name: ZZ_2722, server: 134.195.196.150, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_205, server: 14.29.124.168, port: 24046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_256, server: 14.29.124.174, port: 11007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: v2cross.com, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com}
-  - {name: 🇯🇵 JP-高速节点推荐：v2cross.com, server: jpaz3.xmrth-node.xyz, port: 15944, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: 🇨🇦 v2cross.com - 加拿大  14, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 527hk1.fans8.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_161
+      - 🇸🇪 v2cross.com - 瑞典  9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_254
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_216
-      - 🇬🇧 Relay_🇬🇧GB-🇺🇸US_482
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇭🇰 v2cross.com - 香港阿里云 1
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
+      - ZZ_2765
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_208
+      - ZZ_2649
+      - ZZ_2632
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇯🇵 v2cross.com - 日本  1
+      - 🇨🇳 v2cross.com - 广东省广州市移动 21
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_242
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31
+      - 🇦🇺 AU-高速节点推荐：v2cross.com
+      - ZZ_2722
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_205
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_256
       - v2cross.com
-      - 🇯🇵 JP-高速节点推荐：v2cross.com
-      - 🇨🇦 v2cross.com - 加拿大  14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_161
+      - 🇸🇪 v2cross.com - 瑞典  9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_254
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_216
-      - 🇬🇧 Relay_🇬🇧GB-🇺🇸US_482
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇭🇰 v2cross.com - 香港阿里云 1
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
+      - ZZ_2765
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_208
+      - ZZ_2649
+      - ZZ_2632
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇯🇵 v2cross.com - 日本  1
+      - 🇨🇳 v2cross.com - 广东省广州市移动 21
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_242
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31
+      - 🇦🇺 AU-高速节点推荐：v2cross.com
+      - ZZ_2722
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_205
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_256
       - v2cross.com
-      - 🇯🇵 JP-高速节点推荐：v2cross.com
-      - 🇨🇦 v2cross.com - 加拿大  14
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_161
+      - 🇸🇪 v2cross.com - 瑞典  9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_254
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_216
-      - 🇬🇧 Relay_🇬🇧GB-🇺🇸US_482
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇭🇰 v2cross.com - 香港阿里云 1
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
+      - ZZ_2765
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_208
+      - ZZ_2649
+      - ZZ_2632
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇯🇵 v2cross.com - 日本  1
+      - 🇨🇳 v2cross.com - 广东省广州市移动 21
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_242
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31
+      - 🇦🇺 AU-高速节点推荐：v2cross.com
+      - ZZ_2722
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_205
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_256
       - v2cross.com
-      - 🇯🇵 JP-高速节点推荐：v2cross.com
-      - 🇨🇦 v2cross.com - 加拿大  14
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 v2cross.com - 香港阿里云 1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_161
+      - 🇸🇪 v2cross.com - 瑞典  9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_254
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_216
-      - 🇬🇧 Relay_🇬🇧GB-🇺🇸US_482
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇭🇰 v2cross.com - 香港阿里云 1
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
+      - ZZ_2765
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_208
+      - ZZ_2649
+      - ZZ_2632
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇯🇵 v2cross.com - 日本  1
+      - 🇨🇳 v2cross.com - 广东省广州市移动 21
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_242
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31
+      - 🇦🇺 AU-高速节点推荐：v2cross.com
+      - ZZ_2722
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_205
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_256
       - v2cross.com
-      - 🇯🇵 JP-高速节点推荐：v2cross.com
-      - 🇨🇦 v2cross.com - 加拿大  14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_161
+      - 🇸🇪 v2cross.com - 瑞典  9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_254
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_216
-      - 🇬🇧 Relay_🇬🇧GB-🇺🇸US_482
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇭🇰 v2cross.com - 香港阿里云 1
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
+      - ZZ_2765
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_208
+      - ZZ_2649
+      - ZZ_2632
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇯🇵 v2cross.com - 日本  1
+      - 🇨🇳 v2cross.com - 广东省广州市移动 21
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_242
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31
+      - 🇦🇺 AU-高速节点推荐：v2cross.com
+      - ZZ_2722
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_205
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_256
       - v2cross.com
-      - 🇯🇵 JP-高速节点推荐：v2cross.com
-      - 🇨🇦 v2cross.com - 加拿大  14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_161
+      - 🇸🇪 v2cross.com - 瑞典  9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_254
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_216
-      - 🇬🇧 Relay_🇬🇧GB-🇺🇸US_482
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇭🇰 v2cross.com - 香港阿里云 1
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
+      - ZZ_2765
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_208
+      - ZZ_2649
+      - ZZ_2632
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇯🇵 v2cross.com - 日本  1
+      - 🇨🇳 v2cross.com - 广东省广州市移动 21
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_242
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31
+      - 🇦🇺 AU-高速节点推荐：v2cross.com
+      - ZZ_2722
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_205
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_256
       - v2cross.com
-      - 🇯🇵 JP-高速节点推荐：v2cross.com
-      - 🇨🇦 v2cross.com - 加拿大  14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -143,18 +198,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US-高速节点推荐：v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_161
+      - 🇸🇪 v2cross.com - 瑞典  9
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_254
       - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_245
-      - 🇺🇸 US-高速节点推荐：v2cross.com 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_216
-      - 🇬🇧 Relay_🇬🇧GB-🇺🇸US_482
-      - 🇨🇳 CN-高速节点推荐：v2cross.com
-      - 🇭🇰 v2cross.com - 香港阿里云 1
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
+      - ZZ_2765
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_208
+      - ZZ_2649
+      - ZZ_2632
+      - 🇺🇸 US-高速节点推荐：v2cross.com
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 17
+      - 🇯🇵 v2cross.com - 日本  1
+      - 🇨🇳 v2cross.com - 广东省广州市移动 21
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_242
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31
+      - 🇦🇺 AU-高速节点推荐：v2cross.com
+      - ZZ_2722
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_205
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_256
       - v2cross.com
-      - 🇯🇵 JP-高速节点推荐：v2cross.com
-      - 🇨🇦 v2cross.com - 加拿大  14
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
