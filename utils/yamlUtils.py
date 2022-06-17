@@ -24,6 +24,7 @@ class YamlUtils:
         self.filtered_rules = list()
         self.proxy_names_set = set()
         self.proxy_groups = dict()
+        self.proxy_group_names = set()
         self.proxy_groups_test_set = set()
         with open(template_path, "r", encoding="utf8") as template_file:
             self.template = json.load(template_file)
@@ -118,6 +119,7 @@ class YamlUtils:
 
                             for index, group in enumerate(proxy_groups):
                                 group_name = group.get("name")
+                                self.proxy_group_names.add(group_name)
                                 if group.get("type") == "url-test":
                                     self.proxy_groups_test_set.add(group_name)
                                     group["name"] = "♻️ 自动选择"
@@ -125,6 +127,7 @@ class YamlUtils:
 
                             for group in proxy_groups:
                                 group_name = group.get("name")
+                                self.proxy_group_names.add(group_name)
                                 saved_group = self.proxy_groups.get(group_name, dict())
                                 saved_proxies = saved_group.get("proxies", list())
                                 proxies = group.get("proxies")
@@ -152,6 +155,9 @@ class YamlUtils:
 
         filtered_rules_set = set()
         for item in self.filtered_rules:
+            for one_group in self.proxy_group_names:
+                if one_group in item:
+                    filtered_rules_set.add(item)
             for one in self.proxy_groups_test_set:
                 filtered_rules_set.add(item.replace(one, "♻️ 自动选择"))
 
