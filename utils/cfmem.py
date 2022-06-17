@@ -19,8 +19,9 @@ def get_content():
         name="a",
         attrs={"href": re.compile(r"https?://www\.cfmem\.com/\d{4}/\d{2}/\S+v2rayclash-vpn.html")},
     )
+
     a_list = []
-    p = re.compile(r"\d{4}年\d+月\d{2}日更新")
+    p = re.compile(r"\d{4}年\d+月\d{2}日\S+更新")
     for val in div_list[:1]:
         print(val.text)
         if p.search(val.text):
@@ -30,11 +31,13 @@ def get_content():
     new_v2ray_data = requests.get(new_v2ray_url, proxies=proxies)
     new_v2ray_data_html = new_v2ray_data.text
     doc = PyQuery(new_v2ray_data_html)
+    print(new_v2ray_url)
     urls = re.findall(
-        "https?://raw.githubusercontent\.com/changfengoss/pub/main/data/\S+\.yaml", doc.text()
+        "clash订阅链接：https://tt.vg/\S+", doc.text()
     )
     for url in urls:
-        file = requests.get(url, proxies=proxies)
+        print(url)
+        file = requests.get(url.replace('clash订阅链接：', ''), proxies=proxies)
         with open("pub/cfmem.yaml", "wb") as f:
             f.write(file.content)
 
