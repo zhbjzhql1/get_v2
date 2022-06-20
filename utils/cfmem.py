@@ -5,19 +5,12 @@ from pyquery import PyQuery
 from ruamel import yaml
 
 from utils.formatUtils import reset_yaml_stream
+from utils.proxyUtils import get_proxy
 
 
 def get_content():
     url = "https://www.cfmem.com/search/label/free"
-    proxies = {}
-    try:
-        requests.get("http://localhost:1080")
-        proxies = {
-            "http": "http://localhost:1080",
-            "https": "http://localhost:1080",
-        }
-    except Exception as e:
-        pass
+    proxies = get_proxy()
 
     data = requests.get(url, proxies=proxies)
     text = data.text

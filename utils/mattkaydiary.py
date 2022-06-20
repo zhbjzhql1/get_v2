@@ -4,14 +4,12 @@ import requests
 from bs4 import BeautifulSoup
 from pyquery import PyQuery
 
+from utils.proxyUtils import get_proxy
+
 
 def get_content():
     url = "https://www.mattkaydiary.com/"
-    # proxies = {
-    #     "http": "http://localhost:1080",
-    #     "https": "http://localhost:1080",
-    # }
-    proxies = {}
+    proxies = get_proxy()
 
     data = requests.get(url, proxies=proxies)
     text = data.text

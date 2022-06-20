@@ -4,15 +4,12 @@ import shutil
 
 import requests
 
+from utils.proxyUtils import get_proxy
 from utils.yamlUtils import YamlUtils
 
 
 def get_content():
-    # proxies = {
-    #     "http": "http://localhost:1080",
-    #     "https": "http://localhost:1080",
-    # }
-    proxies = {}
+    proxies = get_proxy()
 
     pawdroid = os.path.join("pawdroid")
     yamlUtils = YamlUtils(pawdroid)
