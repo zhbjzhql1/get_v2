@@ -5,211 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇮🇳 Relay_🇮🇳IN-🇮🇳IN_339, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
-  - {name: US_1775, server: 38.107.226.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇭🇰 HK-高速节点推荐：v2cross.com, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, tls: false}
-  - {name: ZZ_2453, server: 103.172.116.8, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
-  - {name: LT_444, server: 213.183.53.221, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
-  - {name: ZZ_2255, server: 134.195.196.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_2088, server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_1700, server: 172.99.188.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _210, server: 194.15.196.78, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_1413, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _168, server: 38.121.43.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: ZZ_2423, server: 134.195.196.231, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_107, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: ZZ_2429, server: 169.197.141.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_1448, server: 38.86.135.36, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CA_489, server: 72.140.224.197, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 28, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}}
-  - {name: RU_535, server: 217.30.10.65, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
-  - {name: US_1739, server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: Pool_🇸🇬SG_600, server: 194.124.35.42, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: GB_344, server: 195.12.49.82, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ZZ_2499, server: 134.195.196.231, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: RU_1077, server: 217.30.10.68, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_130, server: 14.29.124.174, port: 11005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: JP_380, server: 185.160.24.217, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ZZ_2290, server: 103.172.116.8, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
-  - {name: US_930, server: 38.114.114.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: AE_451, server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ZZ_2403, server: 103.172.116.8, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
-  - {name: RU_1113, server: 45.144.176.135, port: 3004, type: ss, cipher: aes-256-cfb, password: 3682oiuvefwwmbc1475}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_44, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: _389, server: 134.195.196.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: NL_27, server: 213.183.59.206, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: NL_837, server: 185.246.155.35, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: US_2115, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_1095, server: 167.88.63.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_1787, server: 167.88.63.82, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_1741, server: 142.202.48.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: Pool_🇸🇬SG_1251, server: 194.124.35.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇸🇬 SG-高速节点推荐：v2cross.com, server: gy02.20220512.cyou, port: 56655, type: trojan, password: 4021eb2b-2e7c-4bd8-a66a-a350a661f320, sni: gy02.20220512.cyou}
-  - {name: ZZ_818, server: 134.195.196.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: DE_199, server: 193.108.118.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_1612, server: 167.88.63.79, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _374, server: 134.195.196.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: GR_356, server: 185.243.214.55, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130}
-  - {name: US_1502, server: 167.88.63.82, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_1181, server: 167.88.63.82, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_1892, server: 167.88.62.62, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: AU_30, server: 185.167.116.253, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: US_1650, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: v2cross.com, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
+  - {name: 167.88.62.68:8009, server: 167.88.62.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇳 CN-高速节点推荐：v1.mk/vip, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: US_1470, server: 172.99.188.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: AU_49, server: 185.167.116.24, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: DE_211, server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170, server: 14.29.124.174, port: 11050, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: CA_120, server: 72.140.224.197, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: US_1584, server: 172.99.188.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: ZZ_2320, server: 169.197.141.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: ZZ_2391, server: 134.195.196.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US-高速节点推荐：v1.mk/vip, server: t.jap7.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.jap7.skyinternet.vip, skip-cert-verify: true}
+  - {name: LT_452, server: 213.183.53.197, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
+  - {name: ZZ_2472, server: 103.172.116.8, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: US_1504, server: 38.107.226.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 SG-高速节点推荐：v1.mk/vip, server: t.sin3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.sin3.skyinternet.vip, skip-cert-verify: true}
+  - {name: US_1777, server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_1437, server: 38.121.43.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: US_1572, server: 38.121.43.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: US_1767, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇩🇪 DE-高速节点推荐：v1.mk/vip, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true}
+  - {name: LT_538, server: 213.183.63.221, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
+  - {name: 🇸🇬 SG-高速节点推荐：v1.mk/vip 2, server: gy02.20220512.cyou, port: 56655, type: trojan, password: 4021eb2b-2e7c-4bd8-a66a-a350a661f320, skip-cert-verify: true}
+  - {name: US_2092, server: 167.88.63.79, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160, server: 14.29.124.174, port: 11008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 213.183.51.171:9084, server: 213.183.51.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
+  - {name: DE_228, server: 193.108.117.24, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: AU_93, server: 185.167.116.24, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
+  - {name: HU_395, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: US_1547, server: 38.91.100.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_2478, server: 134.195.196.19, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 72.140.224.197:806, server: 72.140.224.197, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: LT_606, server: 213.183.53.221, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
+  - {name: US_1416, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: v2cross.com 2, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com}
+  - {name: US_1941, server: 142.202.48.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_1963, server: 172.99.188.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_159, server: 14.29.124.168, port: 24003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: US_1988, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US-高速节点推荐：v1.mk/vip 2, server: t.jap6.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.jap6.skyinternet.vip, skip-cert-verify: true}
+  - {name: 14.29.124.168:24007, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: DE_242, server: 193.108.117.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 v2cross.com - 美国  11, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇳 Relay_🇮🇳IN-🇮🇳IN_339
-      - US_1775
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - ZZ_2453
-      - LT_444
-      - ZZ_2255
-      - US_2088
-      - US_1700
-      - _210
-      - US_1413
-      - _168
-      - ZZ_2423
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_107
-      - ZZ_2429
-      - US_1448
-      - CA_489
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 28
-      - RU_535
-      - US_1739
-      - Pool_🇸🇬SG_600
-      - GB_344
-      - ZZ_2499
-      - RU_1077
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_130
-      - JP_380
-      - ZZ_2290
-      - US_930
-      - AE_451
-      - ZZ_2403
-      - RU_1113
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_44
-      - _389
-      - NL_27
-      - NL_837
-      - US_2115
-      - US_1095
-      - US_1787
-      - US_1741
-      - Pool_🇸🇬SG_1251
-      - 🇸🇬 SG-高速节点推荐：v2cross.com
-      - ZZ_818
-      - DE_199
-      - US_1612
-      - _374
-      - GR_356
-      - US_1502
-      - US_1181
+      - US_1892
+      - AU_30
+      - US_1650
+      - v2cross.com
+      - 167.88.62.68:8009
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - US_1470
+      - AU_49
+      - DE_211
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - CA_120
+      - US_1584
+      - ZZ_2320
+      - ZZ_2391
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
+      - LT_452
+      - ZZ_2472
+      - US_1504
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - US_1777
+      - US_1437
+      - US_1572
+      - US_1767
+      - 🇩🇪 DE-高速节点推荐：v1.mk/vip
+      - LT_538
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip 2
+      - US_2092
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
+      - 213.183.51.171:9084
+      - DE_228
+      - AU_93
+      - HU_395
+      - US_1547
+      - ZZ_2478
+      - 72.140.224.197:806
+      - LT_606
+      - US_1416
+      - v2cross.com 2
+      - US_1941
+      - US_1963
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_159
+      - US_1988
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip 2
+      - 14.29.124.168:24007
+      - DE_242
+      - 🇺🇸 v2cross.com - 美国  11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇮🇳 Relay_🇮🇳IN-🇮🇳IN_339
-      - US_1775
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - ZZ_2453
-      - LT_444
-      - ZZ_2255
-      - US_2088
-      - US_1700
-      - _210
-      - US_1413
-      - _168
-      - ZZ_2423
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_107
-      - ZZ_2429
-      - US_1448
-      - CA_489
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 28
-      - RU_535
-      - US_1739
-      - Pool_🇸🇬SG_600
-      - GB_344
-      - ZZ_2499
-      - RU_1077
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_130
-      - JP_380
-      - ZZ_2290
-      - US_930
-      - AE_451
-      - ZZ_2403
-      - RU_1113
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_44
-      - _389
-      - NL_27
-      - NL_837
-      - US_2115
-      - US_1095
-      - US_1787
-      - US_1741
-      - Pool_🇸🇬SG_1251
-      - 🇸🇬 SG-高速节点推荐：v2cross.com
-      - ZZ_818
-      - DE_199
-      - US_1612
-      - _374
-      - GR_356
-      - US_1502
-      - US_1181
+      - US_1892
+      - AU_30
+      - US_1650
+      - v2cross.com
+      - 167.88.62.68:8009
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - US_1470
+      - AU_49
+      - DE_211
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - CA_120
+      - US_1584
+      - ZZ_2320
+      - ZZ_2391
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
+      - LT_452
+      - ZZ_2472
+      - US_1504
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - US_1777
+      - US_1437
+      - US_1572
+      - US_1767
+      - 🇩🇪 DE-高速节点推荐：v1.mk/vip
+      - LT_538
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip 2
+      - US_2092
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
+      - 213.183.51.171:9084
+      - DE_228
+      - AU_93
+      - HU_395
+      - US_1547
+      - ZZ_2478
+      - 72.140.224.197:806
+      - LT_606
+      - US_1416
+      - v2cross.com 2
+      - US_1941
+      - US_1963
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_159
+      - US_1988
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip 2
+      - 14.29.124.168:24007
+      - DE_242
+      - 🇺🇸 v2cross.com - 美国  11
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇳 Relay_🇮🇳IN-🇮🇳IN_339
-      - US_1775
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - ZZ_2453
-      - LT_444
-      - ZZ_2255
-      - US_2088
-      - US_1700
-      - _210
-      - US_1413
-      - _168
-      - ZZ_2423
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_107
-      - ZZ_2429
-      - US_1448
-      - CA_489
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 28
-      - RU_535
-      - US_1739
-      - Pool_🇸🇬SG_600
-      - GB_344
-      - ZZ_2499
-      - RU_1077
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_130
-      - JP_380
-      - ZZ_2290
-      - US_930
-      - AE_451
-      - ZZ_2403
-      - RU_1113
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_44
-      - _389
-      - NL_27
-      - NL_837
-      - US_2115
-      - US_1095
-      - US_1787
-      - US_1741
-      - Pool_🇸🇬SG_1251
-      - 🇸🇬 SG-高速节点推荐：v2cross.com
-      - ZZ_818
-      - DE_199
-      - US_1612
-      - _374
-      - GR_356
-      - US_1502
-      - US_1181
+      - US_1892
+      - AU_30
+      - US_1650
+      - v2cross.com
+      - 167.88.62.68:8009
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - US_1470
+      - AU_49
+      - DE_211
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - CA_120
+      - US_1584
+      - ZZ_2320
+      - ZZ_2391
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
+      - LT_452
+      - ZZ_2472
+      - US_1504
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - US_1777
+      - US_1437
+      - US_1572
+      - US_1767
+      - 🇩🇪 DE-高速节点推荐：v1.mk/vip
+      - LT_538
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip 2
+      - US_2092
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
+      - 213.183.51.171:9084
+      - DE_228
+      - AU_93
+      - HU_395
+      - US_1547
+      - ZZ_2478
+      - 72.140.224.197:806
+      - LT_606
+      - US_1416
+      - v2cross.com 2
+      - US_1941
+      - US_1963
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_159
+      - US_1988
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip 2
+      - 14.29.124.168:24007
+      - DE_242
+      - 🇺🇸 v2cross.com - 美国  11
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -220,158 +216,155 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇮🇳 Relay_🇮🇳IN-🇮🇳IN_339
-      - US_1775
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - ZZ_2453
-      - LT_444
-      - ZZ_2255
-      - US_2088
-      - US_1700
-      - _210
-      - US_1413
-      - _168
-      - ZZ_2423
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_107
-      - ZZ_2429
-      - US_1448
-      - CA_489
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 28
-      - RU_535
-      - US_1739
-      - Pool_🇸🇬SG_600
-      - GB_344
-      - ZZ_2499
-      - RU_1077
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_130
-      - JP_380
-      - ZZ_2290
-      - US_930
-      - AE_451
-      - ZZ_2403
-      - RU_1113
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_44
-      - _389
-      - NL_27
-      - NL_837
-      - US_2115
-      - US_1095
-      - US_1787
-      - US_1741
-      - Pool_🇸🇬SG_1251
-      - 🇸🇬 SG-高速节点推荐：v2cross.com
-      - ZZ_818
-      - DE_199
-      - US_1612
-      - _374
-      - GR_356
-      - US_1502
-      - US_1181
+      - US_1892
+      - AU_30
+      - US_1650
+      - v2cross.com
+      - 167.88.62.68:8009
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - US_1470
+      - AU_49
+      - DE_211
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - CA_120
+      - US_1584
+      - ZZ_2320
+      - ZZ_2391
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
+      - LT_452
+      - ZZ_2472
+      - US_1504
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - US_1777
+      - US_1437
+      - US_1572
+      - US_1767
+      - 🇩🇪 DE-高速节点推荐：v1.mk/vip
+      - LT_538
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip 2
+      - US_2092
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
+      - 213.183.51.171:9084
+      - DE_228
+      - AU_93
+      - HU_395
+      - US_1547
+      - ZZ_2478
+      - 72.140.224.197:806
+      - LT_606
+      - US_1416
+      - v2cross.com 2
+      - US_1941
+      - US_1963
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_159
+      - US_1988
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip 2
+      - 14.29.124.168:24007
+      - DE_242
+      - 🇺🇸 v2cross.com - 美国  11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇮🇳 Relay_🇮🇳IN-🇮🇳IN_339
-      - US_1775
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - ZZ_2453
-      - LT_444
-      - ZZ_2255
-      - US_2088
-      - US_1700
-      - _210
-      - US_1413
-      - _168
-      - ZZ_2423
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_107
-      - ZZ_2429
-      - US_1448
-      - CA_489
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 28
-      - RU_535
-      - US_1739
-      - Pool_🇸🇬SG_600
-      - GB_344
-      - ZZ_2499
-      - RU_1077
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_130
-      - JP_380
-      - ZZ_2290
-      - US_930
-      - AE_451
-      - ZZ_2403
-      - RU_1113
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_44
-      - _389
-      - NL_27
-      - NL_837
-      - US_2115
-      - US_1095
-      - US_1787
-      - US_1741
-      - Pool_🇸🇬SG_1251
-      - 🇸🇬 SG-高速节点推荐：v2cross.com
-      - ZZ_818
-      - DE_199
-      - US_1612
-      - _374
-      - GR_356
-      - US_1502
-      - US_1181
+      - US_1892
+      - AU_30
+      - US_1650
+      - v2cross.com
+      - 167.88.62.68:8009
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - US_1470
+      - AU_49
+      - DE_211
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - CA_120
+      - US_1584
+      - ZZ_2320
+      - ZZ_2391
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
+      - LT_452
+      - ZZ_2472
+      - US_1504
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - US_1777
+      - US_1437
+      - US_1572
+      - US_1767
+      - 🇩🇪 DE-高速节点推荐：v1.mk/vip
+      - LT_538
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip 2
+      - US_2092
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
+      - 213.183.51.171:9084
+      - DE_228
+      - AU_93
+      - HU_395
+      - US_1547
+      - ZZ_2478
+      - 72.140.224.197:806
+      - LT_606
+      - US_1416
+      - v2cross.com 2
+      - US_1941
+      - US_1963
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_159
+      - US_1988
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip 2
+      - 14.29.124.168:24007
+      - DE_242
+      - 🇺🇸 v2cross.com - 美国  11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇳 Relay_🇮🇳IN-🇮🇳IN_339
-      - US_1775
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - ZZ_2453
-      - LT_444
-      - ZZ_2255
-      - US_2088
-      - US_1700
-      - _210
-      - US_1413
-      - _168
-      - ZZ_2423
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_107
-      - ZZ_2429
-      - US_1448
-      - CA_489
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 28
-      - RU_535
-      - US_1739
-      - Pool_🇸🇬SG_600
-      - GB_344
-      - ZZ_2499
-      - RU_1077
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_130
-      - JP_380
-      - ZZ_2290
-      - US_930
-      - AE_451
-      - ZZ_2403
-      - RU_1113
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_44
-      - _389
-      - NL_27
-      - NL_837
-      - US_2115
-      - US_1095
-      - US_1787
-      - US_1741
-      - Pool_🇸🇬SG_1251
-      - 🇸🇬 SG-高速节点推荐：v2cross.com
-      - ZZ_818
-      - DE_199
-      - US_1612
-      - _374
-      - GR_356
-      - US_1502
-      - US_1181
+      - US_1892
+      - AU_30
+      - US_1650
+      - v2cross.com
+      - 167.88.62.68:8009
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - US_1470
+      - AU_49
+      - DE_211
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - CA_120
+      - US_1584
+      - ZZ_2320
+      - ZZ_2391
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
+      - LT_452
+      - ZZ_2472
+      - US_1504
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - US_1777
+      - US_1437
+      - US_1572
+      - US_1767
+      - 🇩🇪 DE-高速节点推荐：v1.mk/vip
+      - LT_538
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip 2
+      - US_2092
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
+      - 213.183.51.171:9084
+      - DE_228
+      - AU_93
+      - HU_395
+      - US_1547
+      - ZZ_2478
+      - 72.140.224.197:806
+      - LT_606
+      - US_1416
+      - v2cross.com 2
+      - US_1941
+      - US_1963
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_159
+      - US_1988
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip 2
+      - 14.29.124.168:24007
+      - DE_242
+      - 🇺🇸 v2cross.com - 美国  11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -387,53 +380,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇳 Relay_🇮🇳IN-🇮🇳IN_339
-      - US_1775
-      - 🇭🇰 HK-高速节点推荐：v2cross.com
-      - ZZ_2453
-      - LT_444
-      - ZZ_2255
-      - US_2088
-      - US_1700
-      - _210
-      - US_1413
-      - _168
-      - ZZ_2423
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_107
-      - ZZ_2429
-      - US_1448
-      - CA_489
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 28
-      - RU_535
-      - US_1739
-      - Pool_🇸🇬SG_600
-      - GB_344
-      - ZZ_2499
-      - RU_1077
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_130
-      - JP_380
-      - ZZ_2290
-      - US_930
-      - AE_451
-      - ZZ_2403
-      - RU_1113
-      - 🇨🇳 Relay_🇨🇳CN-🇰🇷KR_44
-      - _389
-      - NL_27
-      - NL_837
-      - US_2115
-      - US_1095
-      - US_1787
-      - US_1741
-      - Pool_🇸🇬SG_1251
-      - 🇸🇬 SG-高速节点推荐：v2cross.com
-      - ZZ_818
-      - DE_199
-      - US_1612
-      - _374
-      - GR_356
-      - US_1502
-      - US_1181
+      - US_1892
+      - AU_30
+      - US_1650
+      - v2cross.com
+      - 167.88.62.68:8009
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip
+      - US_1470
+      - AU_49
+      - DE_211
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_170
+      - CA_120
+      - US_1584
+      - ZZ_2320
+      - ZZ_2391
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip
+      - LT_452
+      - ZZ_2472
+      - US_1504
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip
+      - US_1777
+      - US_1437
+      - US_1572
+      - US_1767
+      - 🇩🇪 DE-高速节点推荐：v1.mk/vip
+      - LT_538
+      - 🇸🇬 SG-高速节点推荐：v1.mk/vip 2
+      - US_2092
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
+      - 213.183.51.171:9084
+      - DE_228
+      - AU_93
+      - HU_395
+      - US_1547
+      - ZZ_2478
+      - 72.140.224.197:806
+      - LT_606
+      - US_1416
+      - v2cross.com 2
+      - US_1941
+      - US_1963
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_159
+      - US_1988
+      - 🇺🇸 US-高速节点推荐：v1.mk/vip 2
+      - 14.29.124.168:24007
+      - DE_242
+      - 🇺🇸 v2cross.com - 美国  11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
