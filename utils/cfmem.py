@@ -10,11 +10,11 @@ from utils.formatUtils import reset_yaml_stream
 
 def get_content():
     url = "https://www.cfmem.com/search/label/free"
-    proxies = {
-        "http": "http://localhost:1080",
-        "https": "http://localhost:1080",
-    }
-    # proxies = {}
+    # proxies = {
+    #     "http": "http://localhost:1080",
+    #     "https": "http://localhost:1080",
+    # }
+    proxies = {}
 
     data = requests.get(url, proxies=proxies)
     text = data.text
