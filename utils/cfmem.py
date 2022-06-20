@@ -20,26 +20,29 @@ def get_content():
         attrs={"href": re.compile(r"https?://www\.cfmem\.com/\d{4}/\d{2}/\S+v2rayclash-vpn.html")},
     )
 
-    a_list = []
-    p = re.compile(r"\d{4}年\d+月\d{2}日\S+更新")
-    for val in div_list[:1]:
-        print(val.text)
-        if p.search(val.text):
-            a_list.append(val.get("href"))
+    try:
+        a_list = []
+        p = re.compile(r"\d{4}年\d+月\d{2}日\S*更新")
+        for val in div_list[:1]:
+            print(val.text)
+            if p.search(val.text):
+                a_list.append(val.get("href"))
 
-    new_v2ray_url = a_list[0]
-    new_v2ray_data = requests.get(new_v2ray_url, proxies=proxies)
-    new_v2ray_data_html = new_v2ray_data.text
-    doc = PyQuery(new_v2ray_data_html)
-    print(new_v2ray_url)
-    urls = re.findall(
-        "clash订阅链接：https://tt.vg/\S+", doc.text()
-    )
-    for url in urls:
-        print(url)
-        file = requests.get(url.replace('clash订阅链接：', ''), proxies=proxies)
-        with open("pub/cfmem.yaml", "wb") as f:
-            f.write(file.content)
+        new_v2ray_url = a_list[0]
+        new_v2ray_data = requests.get(new_v2ray_url, proxies=proxies)
+        new_v2ray_data_html = new_v2ray_data.text
+        doc = PyQuery(new_v2ray_data_html)
+        print(new_v2ray_url)
+        urls = re.findall(
+            "clash订阅链接：https://tt.vg/\S+", doc.text()
+        )
+        for url in urls:
+            print(url)
+            file = requests.get(url.replace('clash订阅链接：', ''), proxies=proxies)
+            with open("pub/cfmem.yaml", "wb") as f:
+                f.write(file.content)
+    except Exception as e:
+        pass
 
 
 if __name__ == '__main__':
