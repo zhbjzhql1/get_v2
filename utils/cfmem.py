@@ -1,4 +1,3 @@
-import json
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -10,11 +9,15 @@ from utils.formatUtils import reset_yaml_stream
 
 def get_content():
     url = "https://www.cfmem.com/search/label/free"
-    # proxies = {
-    #     "http": "http://localhost:1080",
-    #     "https": "http://localhost:1080",
-    # }
     proxies = {}
+    try:
+        requests.get("http://localhost:1080")
+        proxies = {
+            "http": "http://localhost:1080",
+            "https": "http://localhost:1080",
+        }
+    except Exception as e:
+        pass
 
     data = requests.get(url, proxies=proxies)
     text = data.text
