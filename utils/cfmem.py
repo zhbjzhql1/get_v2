@@ -1,16 +1,20 @@
+import json
 import re
 import requests
 from bs4 import BeautifulSoup
 from pyquery import PyQuery
+from ruamel import yaml
+
+from utils.formatUtils import reset_yaml_stream
 
 
 def get_content():
     url = "https://www.cfmem.com/search/label/free"
-    # proxies = {
-    #     "http": "http://localhost:1080",
-    #     "https": "http://localhost:1080",
-    # }
-    proxies = {}
+    proxies = {
+        "http": "http://localhost:1080",
+        "https": "http://localhost:1080",
+    }
+    # proxies = {}
 
     data = requests.get(url, proxies=proxies)
     text = data.text
@@ -38,10 +42,13 @@ def get_content():
         )
         for url in urls:
             print(url)
-            file = requests.get(url.replace('clash订阅链接：', ''), proxies=proxies)
-            with open("pub/cfmem.yaml", "wb") as f:
-                f.write(file.content)
+            file = requests.get(url.replace('clash订阅链接：', ''), proxies=proxies, stream=True)
+            yml = yaml.YAML()
+            yml.indent(mapping=2, sequence=4, offset=2)
+            with open("pub/cfmem.yaml", "w+", encoding="utf8") as outfile:
+                yml.dump(reset_yaml_stream(file.content), outfile)
     except Exception as e:
+        print(e)
         pass
 
 
