@@ -5,55 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US-高速节点推荐：v1.mk/vip（浏览器打开）, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true}
-  - {name: CN_73, server: 14.29.124.168, port: 24073, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: Relay_-🇹🇼TW_01, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_153, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: v2cross.com, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com}
-  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216, server: 14.29.124.174, port: 11020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195, server: 14.29.124.174, port: 11034, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 高速节点推荐：v2cross.com（浏览器打开） 4, server: g1.v2.gay, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.v2dns.bar}}}
+  - {name: 🇨🇳 CN-高速节点推荐：v1.mk/vip（浏览器打开） 9, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true}
+  - {name: 🇯🇵 JP-高速节点推荐：v2cross.com（浏览器打开） 2, server: jp1.wanss.win, port: 23344, type: vmess, uuid: 48C166B2-BFC2-512E-4D67-47C2F7B2CE5C, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp1.wanss.win}}}
+  - {name: CN_40 v2cross.com, server: 14.29.124.174, port: 11043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_200, server: 14.29.124.168, port: 24016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 80, server: 139.227.78.64, port: 17004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_67, server: 14.29.124.168, port: 24026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇺🇸 v2cross.com - 美国  5, server: 150.230.43.106, port: 54829, type: vmess, uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US-高速节点推荐：v1.mk/vip（浏览器打开）
-      - CN_73
-      - Relay_-🇹🇼TW_01
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_153
-      - v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
-      - 高速节点推荐：v2cross.com（浏览器打开） 4
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip（浏览器打开） 9
+      - 🇯🇵 JP-高速节点推荐：v2cross.com（浏览器打开） 2
+      - CN_40 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_200
+      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 80
+      - CN_67
+      - 🇺🇸 v2cross.com - 美国  5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 US-高速节点推荐：v1.mk/vip（浏览器打开）
-      - CN_73
-      - Relay_-🇹🇼TW_01
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_153
-      - v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
-      - 高速节点推荐：v2cross.com（浏览器打开） 4
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip（浏览器打开） 9
+      - 🇯🇵 JP-高速节点推荐：v2cross.com（浏览器打开） 2
+      - CN_40 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_200
+      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 80
+      - CN_67
+      - 🇺🇸 v2cross.com - 美国  5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US-高速节点推荐：v1.mk/vip（浏览器打开）
-      - CN_73
-      - Relay_-🇹🇼TW_01
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_153
-      - v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
-      - 高速节点推荐：v2cross.com（浏览器打开） 4
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip（浏览器打开） 9
+      - 🇯🇵 JP-高速节点推荐：v2cross.com（浏览器打开） 2
+      - CN_40 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_200
+      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 80
+      - CN_67
+      - 🇺🇸 v2cross.com - 美国  5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -64,41 +60,38 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 US-高速节点推荐：v1.mk/vip（浏览器打开）
-      - CN_73
-      - Relay_-🇹🇼TW_01
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_153
-      - v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
-      - 高速节点推荐：v2cross.com（浏览器打开） 4
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip（浏览器打开） 9
+      - 🇯🇵 JP-高速节点推荐：v2cross.com（浏览器打开） 2
+      - CN_40 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_200
+      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 80
+      - CN_67
+      - 🇺🇸 v2cross.com - 美国  5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US-高速节点推荐：v1.mk/vip（浏览器打开）
-      - CN_73
-      - Relay_-🇹🇼TW_01
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_153
-      - v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
-      - 高速节点推荐：v2cross.com（浏览器打开） 4
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip（浏览器打开） 9
+      - 🇯🇵 JP-高速节点推荐：v2cross.com（浏览器打开） 2
+      - CN_40 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_200
+      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 80
+      - CN_67
+      - 🇺🇸 v2cross.com - 美国  5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US-高速节点推荐：v1.mk/vip（浏览器打开）
-      - CN_73
-      - Relay_-🇹🇼TW_01
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_153
-      - v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
-      - 高速节点推荐：v2cross.com（浏览器打开） 4
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip（浏览器打开） 9
+      - 🇯🇵 JP-高速节点推荐：v2cross.com（浏览器打开） 2
+      - CN_40 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_200
+      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 80
+      - CN_67
+      - 🇺🇸 v2cross.com - 美国  5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,14 +107,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US-高速节点推荐：v1.mk/vip（浏览器打开）
-      - CN_73
-      - Relay_-🇹🇼TW_01
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_153
-      - v2cross.com
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
-      - 高速节点推荐：v2cross.com（浏览器打开） 4
+      - 🇨🇳 CN-高速节点推荐：v1.mk/vip（浏览器打开） 9
+      - 🇯🇵 JP-高速节点推荐：v2cross.com（浏览器打开） 2
+      - CN_40 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_200
+      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 80
+      - CN_67
+      - 🇺🇸 v2cross.com - 美国  5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
