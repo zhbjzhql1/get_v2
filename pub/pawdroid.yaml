@@ -5,79 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_768, server: 167.88.62.62, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_762, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开）, server: 120.233.7.221, port: 32006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: US_720, server: 38.68.134.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: HK_548, server: 42.3.19.58, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true}
-  - {name: AU_442, server: 185.167.116.252, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: 🇺🇸 US-高速节点推荐：v2cross.com（浏览器打开）, server: g2.v2.gay, port: 443, type: vmess, uuid: a6458eee-549a-3d60-b559-0bf0a4fbf65b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: xxX5, headers: {Host: link2.wweblog.pw}}}
-  - {name: 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 2, server: 120.233.7.221, port: 32002, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_117, server: 14.29.124.174, port: 11018, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: US_714, server: 167.88.61.2, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ZZ_1319, server: 134.195.196.231, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CN_66, server: 14.29.124.168, port: 24046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: Pool_🇨🇦CA_51, server: 196.247.59.156, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: DE_218, server: 193.108.117.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CN_266 【tg@freevpn8】10.25Mb, server: 14.29.124.174, port: 11009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: v2cross.com, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
+  - {name: v2cross.com 2, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
+  - {name: IT_122, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg}
+  - {name: 14.29.124.168:24002, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇬🇧 GB-高速节点推荐：v2cross.com（浏览器打开）, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: bea6470b-a7b8-465f-b95d-7f0c681dba1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}}
+  - {name: 14.29.124.174:11006, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: "@SSRSUB-V05-付费推荐:v2cross.com", server: zc.9900.sd20211007.xyz, port: 32001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_70, server: 14.29.124.174, port: 11040, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: CN_45 v2cross.com, server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_768
-      - US_762
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开）
-      - US_720
-      - HK_548
-      - AU_442
-      - 🇺🇸 US-高速节点推荐：v2cross.com（浏览器打开）
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_117
-      - US_714
-      - ZZ_1319
-      - CN_66
-      - Pool_🇨🇦CA_51
-      - DE_218
+      - CN_266 【tg@freevpn8】10.25Mb
+      - v2cross.com
+      - v2cross.com 2
+      - IT_122
+      - 14.29.124.168:24002
+      - 🇬🇧 GB-高速节点推荐：v2cross.com（浏览器打开）
+      - 14.29.124.174:11006
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - CN_70
+      - CN_45 v2cross.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_768
-      - US_762
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开）
-      - US_720
-      - HK_548
-      - AU_442
-      - 🇺🇸 US-高速节点推荐：v2cross.com（浏览器打开）
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_117
-      - US_714
-      - ZZ_1319
-      - CN_66
-      - Pool_🇨🇦CA_51
-      - DE_218
+      - CN_266 【tg@freevpn8】10.25Mb
+      - v2cross.com
+      - v2cross.com 2
+      - IT_122
+      - 14.29.124.168:24002
+      - 🇬🇧 GB-高速节点推荐：v2cross.com（浏览器打开）
+      - 14.29.124.174:11006
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - CN_70
+      - CN_45 v2cross.com
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_768
-      - US_762
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开）
-      - US_720
-      - HK_548
-      - AU_442
-      - 🇺🇸 US-高速节点推荐：v2cross.com（浏览器打开）
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_117
-      - US_714
-      - ZZ_1319
-      - CN_66
-      - Pool_🇨🇦CA_51
-      - DE_218
+      - CN_266 【tg@freevpn8】10.25Mb
+      - v2cross.com
+      - v2cross.com 2
+      - IT_122
+      - 14.29.124.168:24002
+      - 🇬🇧 GB-高速节点推荐：v2cross.com（浏览器打开）
+      - 14.29.124.174:11006
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - CN_70
+      - CN_45 v2cross.com
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -88,59 +72,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_768
-      - US_762
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开）
-      - US_720
-      - HK_548
-      - AU_442
-      - 🇺🇸 US-高速节点推荐：v2cross.com（浏览器打开）
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_117
-      - US_714
-      - ZZ_1319
-      - CN_66
-      - Pool_🇨🇦CA_51
-      - DE_218
+      - CN_266 【tg@freevpn8】10.25Mb
+      - v2cross.com
+      - v2cross.com 2
+      - IT_122
+      - 14.29.124.168:24002
+      - 🇬🇧 GB-高速节点推荐：v2cross.com（浏览器打开）
+      - 14.29.124.174:11006
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - CN_70
+      - CN_45 v2cross.com
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_768
-      - US_762
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开）
-      - US_720
-      - HK_548
-      - AU_442
-      - 🇺🇸 US-高速节点推荐：v2cross.com（浏览器打开）
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_117
-      - US_714
-      - ZZ_1319
-      - CN_66
-      - Pool_🇨🇦CA_51
-      - DE_218
+      - CN_266 【tg@freevpn8】10.25Mb
+      - v2cross.com
+      - v2cross.com 2
+      - IT_122
+      - 14.29.124.168:24002
+      - 🇬🇧 GB-高速节点推荐：v2cross.com（浏览器打开）
+      - 14.29.124.174:11006
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - CN_70
+      - CN_45 v2cross.com
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_768
-      - US_762
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开）
-      - US_720
-      - HK_548
-      - AU_442
-      - 🇺🇸 US-高速节点推荐：v2cross.com（浏览器打开）
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_117
-      - US_714
-      - ZZ_1319
-      - CN_66
-      - Pool_🇨🇦CA_51
-      - DE_218
+      - CN_266 【tg@freevpn8】10.25Mb
+      - v2cross.com
+      - v2cross.com 2
+      - IT_122
+      - 14.29.124.168:24002
+      - 🇬🇧 GB-高速节点推荐：v2cross.com（浏览器打开）
+      - 14.29.124.174:11006
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - CN_70
+      - CN_45 v2cross.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,20 +128,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_768
-      - US_762
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开）
-      - US_720
-      - HK_548
-      - AU_442
-      - 🇺🇸 US-高速节点推荐：v2cross.com（浏览器打开）
-      - 🇨🇳 CN-高速节点推荐：v2cross.com（浏览器打开） 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_117
-      - US_714
-      - ZZ_1319
-      - CN_66
-      - Pool_🇨🇦CA_51
-      - DE_218
+      - CN_266 【tg@freevpn8】10.25Mb
+      - v2cross.com
+      - v2cross.com 2
+      - IT_122
+      - 14.29.124.168:24002
+      - 🇬🇧 GB-高速节点推荐：v2cross.com（浏览器打开）
+      - 14.29.124.174:11006
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - CN_70
+      - CN_45 v2cross.com
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
