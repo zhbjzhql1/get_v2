@@ -5,9 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v2cross.com, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, sni: v2cross.com.02.v2ce.com}
-  - {name: v2cross.com 2, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com}
-  - {name: v2cross.com 3, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
+  - {name: v2cross.com, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
+  - {name: US_1415, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CN_362, server: 14.29.124.168, port: 24003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: v2cross.com 2, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com}
+  - {name: US_1409, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇭🇰HK_54, server: 172.64.157.139, port: 443, type: vmess, uuid: 81e1d228-6d1a-4212-b45f-2abe61fc3791, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hk.pengui.xyz, headers: {Host: hk.pengui.xyz}}}
+  - {name: IS_581, server: 37.235.49.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: v2cross.com - 广东省移动 60, server: 120.233.7.221, port: 32006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: US_1926, server: 45.78.78.62, port: 38212, type: vmess, uuid: 5349d03e-7ef8-4aa1-e8a3-87d6f0fcd9c0, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_365, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -15,16 +22,30 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - v2cross.com
+      - US_1415
+      - CN_362
       - v2cross.com 2
-      - v2cross.com 3
+      - US_1409
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_54
+      - IS_581
+      - v2cross.com - 广东省移动 60
+      - US_1926
+      - CN_365
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - v2cross.com
+      - US_1415
+      - CN_362
       - v2cross.com 2
-      - v2cross.com 3
+      - US_1409
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_54
+      - IS_581
+      - v2cross.com - 广东省移动 60
+      - US_1926
+      - CN_365
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -32,8 +53,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - v2cross.com
+      - US_1415
+      - CN_362
       - v2cross.com 2
-      - v2cross.com 3
+      - US_1409
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_54
+      - IS_581
+      - v2cross.com - 广东省移动 60
+      - US_1926
+      - CN_365
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -45,16 +73,30 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - v2cross.com
+      - US_1415
+      - CN_362
       - v2cross.com 2
-      - v2cross.com 3
+      - US_1409
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_54
+      - IS_581
+      - v2cross.com - 广东省移动 60
+      - US_1926
+      - CN_365
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - v2cross.com
+      - US_1415
+      - CN_362
       - v2cross.com 2
-      - v2cross.com 3
+      - US_1409
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_54
+      - IS_581
+      - v2cross.com - 广东省移动 60
+      - US_1926
+      - CN_365
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -62,8 +104,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - v2cross.com
+      - US_1415
+      - CN_362
       - v2cross.com 2
-      - v2cross.com 3
+      - US_1409
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_54
+      - IS_581
+      - v2cross.com - 广东省移动 60
+      - US_1926
+      - CN_365
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -80,8 +129,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - v2cross.com
+      - US_1415
+      - CN_362
       - v2cross.com 2
-      - v2cross.com 3
+      - US_1409
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_54
+      - IS_581
+      - v2cross.com - 广东省移动 60
+      - US_1926
+      - CN_365
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
