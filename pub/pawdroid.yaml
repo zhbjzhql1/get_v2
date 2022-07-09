@@ -5,147 +5,179 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: LT_502, server: 213.183.53.179, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
-  - {name: LT_415, server: 213.183.53.182, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
-  - {name: v2cross.com, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com}
-  - {name: US_1830, server: 51.81.223.26, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: US_1836, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: US_1825, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: LT_447, server: 213.183.53.182, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: LT_496, server: 213.183.53.182, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
-  - {name: RU_404, server: 217.30.10.63, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
-  - {name: LT_471, server: 213.183.63.221, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
-  - {name: NL_709, server: 213.183.51.171, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_133, server: 14.29.124.174, port: 11009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: NL_655, server: 213.183.59.177, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
-  - {name: LT_503, server: 213.183.53.179, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
-  - {name: 🇺🇸 v2cross.com - 美国惠普公司 47, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc}
-  - {name: LT_411, server: 213.183.53.207, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
-  - {name: LT_319, server: 213.183.63.221, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
-  - {name: US_1409, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_1798, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: RU_799, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
+  - {name: US_1319, server: 38.121.43.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: US_1281, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: NL_682, server: 213.183.59.185, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
-  - {name: US_1640, server: 38.68.134.85, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_1127, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: LT_456, server: 213.183.53.182, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 6, server: 51.81.223.15, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: US_1225, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: NL_654, server: 213.183.59.185, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
-  - {name: NL_668, server: 213.183.59.177, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP}
-  - {name: US_154, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: RU_876, server: 217.30.10.65, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn}
+  - {name: LT_499, server: 213.183.53.208, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: LT_465, server: 213.183.53.214, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: RU_892, server: 217.30.10.63, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: NL_677, server: 37.120.192.158, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: US_1210, server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: TW_818, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
+  - {name: NL_673, server: 213.183.59.177, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_122, server: 14.29.124.174, port: 11002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: LT_445, server: 213.183.53.214, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
+  - {name: NL_659, server: 213.183.59.218, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: RU_891, server: 217.30.10.63, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
+  - {name: CN_31 v2cross.com, server: 14.29.124.174, port: 11008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: LT_444, server: 213.183.53.182, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: RU_874, server: 217.30.10.68, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
+  - {name: LT_434, server: 213.183.53.182, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 38, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: RU_906, server: 217.30.10.65, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
+  - {name: US_1416, server: 38.121.43.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: LT_402, server: 213.183.63.221, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: US_1598, server: 38.121.43.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Relay_-🇹🇼TW_03, server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: LT_509, server: 213.183.63.217, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_137, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: NL_706, server: 213.183.59.229, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
+  - {name: NL_614, server: 213.183.59.177, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
+  - {name: NL_655, server: 213.183.59.229, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
+  - {name: LT_408, server: 213.183.53.207, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: LT_523, server: 213.183.53.212, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
+  - {name: HU_571, server: 194.71.130.194, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130}
+  - {name: LT_520, server: 213.183.63.221, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: LT_396, server: 213.183.53.202, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
+  - {name: HK_350, server: 42.3.19.58, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true}
+  - {name: US_1373, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: US_1673, server: 38.68.134.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: LT_495, server: 213.183.53.214, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: LT_455, server: 213.183.53.214, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
+  - {name: RU_863, server: 217.30.10.65, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - LT_502
-      - LT_415
-      - v2cross.com
-      - US_1830
-      - US_1836
-      - US_1825
-      - LT_447
-      - LT_496
-      - RU_404
-      - LT_471
-      - NL_709
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_133
-      - NL_655
-      - LT_503
-      - 🇺🇸 v2cross.com - 美国惠普公司 47
-      - LT_411
-      - LT_319
-      - US_1409
-      - US_1798
-      - RU_799
+      - US_1319
       - US_1281
-      - NL_682
-      - US_1640
-      - US_1127
-      - LT_456
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - US_1225
-      - NL_654
-      - NL_668
-      - US_154
-      - RU_876
+      - LT_499
+      - LT_465
+      - RU_892
+      - NL_677
+      - US_1210
+      - TW_818
+      - NL_673
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_122
+      - LT_445
+      - NL_659
+      - RU_891
+      - CN_31 v2cross.com
+      - LT_444
+      - RU_874
+      - LT_434
+      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 38
+      - RU_906
+      - US_1416
+      - LT_402
+      - US_1598
+      - Relay_-🇹🇼TW_03
+      - LT_509
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_137
+      - NL_706
+      - NL_614
+      - NL_655
+      - LT_408
+      - LT_523
+      - HU_571
+      - LT_520
+      - LT_396
+      - HK_350
+      - US_1373
+      - US_1673
+      - LT_495
+      - LT_455
+      - RU_863
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - LT_502
-      - LT_415
-      - v2cross.com
-      - US_1830
-      - US_1836
-      - US_1825
-      - LT_447
-      - LT_496
-      - RU_404
-      - LT_471
-      - NL_709
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_133
-      - NL_655
-      - LT_503
-      - 🇺🇸 v2cross.com - 美国惠普公司 47
-      - LT_411
-      - LT_319
-      - US_1409
-      - US_1798
-      - RU_799
+      - US_1319
       - US_1281
-      - NL_682
-      - US_1640
-      - US_1127
-      - LT_456
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - US_1225
-      - NL_654
-      - NL_668
-      - US_154
-      - RU_876
+      - LT_499
+      - LT_465
+      - RU_892
+      - NL_677
+      - US_1210
+      - TW_818
+      - NL_673
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_122
+      - LT_445
+      - NL_659
+      - RU_891
+      - CN_31 v2cross.com
+      - LT_444
+      - RU_874
+      - LT_434
+      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 38
+      - RU_906
+      - US_1416
+      - LT_402
+      - US_1598
+      - Relay_-🇹🇼TW_03
+      - LT_509
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_137
+      - NL_706
+      - NL_614
+      - NL_655
+      - LT_408
+      - LT_523
+      - HU_571
+      - LT_520
+      - LT_396
+      - HK_350
+      - US_1373
+      - US_1673
+      - LT_495
+      - LT_455
+      - RU_863
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - LT_502
-      - LT_415
-      - v2cross.com
-      - US_1830
-      - US_1836
-      - US_1825
-      - LT_447
-      - LT_496
-      - RU_404
-      - LT_471
-      - NL_709
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_133
-      - NL_655
-      - LT_503
-      - 🇺🇸 v2cross.com - 美国惠普公司 47
-      - LT_411
-      - LT_319
-      - US_1409
-      - US_1798
-      - RU_799
+      - US_1319
       - US_1281
-      - NL_682
-      - US_1640
-      - US_1127
-      - LT_456
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - US_1225
-      - NL_654
-      - NL_668
-      - US_154
-      - RU_876
+      - LT_499
+      - LT_465
+      - RU_892
+      - NL_677
+      - US_1210
+      - TW_818
+      - NL_673
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_122
+      - LT_445
+      - NL_659
+      - RU_891
+      - CN_31 v2cross.com
+      - LT_444
+      - RU_874
+      - LT_434
+      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 38
+      - RU_906
+      - US_1416
+      - LT_402
+      - US_1598
+      - Relay_-🇹🇼TW_03
+      - LT_509
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_137
+      - NL_706
+      - NL_614
+      - NL_655
+      - LT_408
+      - LT_523
+      - HU_571
+      - LT_520
+      - LT_396
+      - HK_350
+      - US_1373
+      - US_1673
+      - LT_495
+      - LT_455
+      - RU_863
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -156,110 +188,134 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - LT_502
-      - LT_415
-      - v2cross.com
-      - US_1830
-      - US_1836
-      - US_1825
-      - LT_447
-      - LT_496
-      - RU_404
-      - LT_471
-      - NL_709
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_133
-      - NL_655
-      - LT_503
-      - 🇺🇸 v2cross.com - 美国惠普公司 47
-      - LT_411
-      - LT_319
-      - US_1409
-      - US_1798
-      - RU_799
+      - US_1319
       - US_1281
-      - NL_682
-      - US_1640
-      - US_1127
-      - LT_456
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - US_1225
-      - NL_654
-      - NL_668
-      - US_154
-      - RU_876
+      - LT_499
+      - LT_465
+      - RU_892
+      - NL_677
+      - US_1210
+      - TW_818
+      - NL_673
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_122
+      - LT_445
+      - NL_659
+      - RU_891
+      - CN_31 v2cross.com
+      - LT_444
+      - RU_874
+      - LT_434
+      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 38
+      - RU_906
+      - US_1416
+      - LT_402
+      - US_1598
+      - Relay_-🇹🇼TW_03
+      - LT_509
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_137
+      - NL_706
+      - NL_614
+      - NL_655
+      - LT_408
+      - LT_523
+      - HU_571
+      - LT_520
+      - LT_396
+      - HK_350
+      - US_1373
+      - US_1673
+      - LT_495
+      - LT_455
+      - RU_863
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - LT_502
-      - LT_415
-      - v2cross.com
-      - US_1830
-      - US_1836
-      - US_1825
-      - LT_447
-      - LT_496
-      - RU_404
-      - LT_471
-      - NL_709
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_133
-      - NL_655
-      - LT_503
-      - 🇺🇸 v2cross.com - 美国惠普公司 47
-      - LT_411
-      - LT_319
-      - US_1409
-      - US_1798
-      - RU_799
+      - US_1319
       - US_1281
-      - NL_682
-      - US_1640
-      - US_1127
-      - LT_456
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - US_1225
-      - NL_654
-      - NL_668
-      - US_154
-      - RU_876
+      - LT_499
+      - LT_465
+      - RU_892
+      - NL_677
+      - US_1210
+      - TW_818
+      - NL_673
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_122
+      - LT_445
+      - NL_659
+      - RU_891
+      - CN_31 v2cross.com
+      - LT_444
+      - RU_874
+      - LT_434
+      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 38
+      - RU_906
+      - US_1416
+      - LT_402
+      - US_1598
+      - Relay_-🇹🇼TW_03
+      - LT_509
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_137
+      - NL_706
+      - NL_614
+      - NL_655
+      - LT_408
+      - LT_523
+      - HU_571
+      - LT_520
+      - LT_396
+      - HK_350
+      - US_1373
+      - US_1673
+      - LT_495
+      - LT_455
+      - RU_863
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - LT_502
-      - LT_415
-      - v2cross.com
-      - US_1830
-      - US_1836
-      - US_1825
-      - LT_447
-      - LT_496
-      - RU_404
-      - LT_471
-      - NL_709
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_133
-      - NL_655
-      - LT_503
-      - 🇺🇸 v2cross.com - 美国惠普公司 47
-      - LT_411
-      - LT_319
-      - US_1409
-      - US_1798
-      - RU_799
+      - US_1319
       - US_1281
-      - NL_682
-      - US_1640
-      - US_1127
-      - LT_456
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - US_1225
-      - NL_654
-      - NL_668
-      - US_154
-      - RU_876
+      - LT_499
+      - LT_465
+      - RU_892
+      - NL_677
+      - US_1210
+      - TW_818
+      - NL_673
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_122
+      - LT_445
+      - NL_659
+      - RU_891
+      - CN_31 v2cross.com
+      - LT_444
+      - RU_874
+      - LT_434
+      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 38
+      - RU_906
+      - US_1416
+      - LT_402
+      - US_1598
+      - Relay_-🇹🇼TW_03
+      - LT_509
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_137
+      - NL_706
+      - NL_614
+      - NL_655
+      - LT_408
+      - LT_523
+      - HU_571
+      - LT_520
+      - LT_396
+      - HK_350
+      - US_1373
+      - US_1673
+      - LT_495
+      - LT_455
+      - RU_863
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -275,37 +331,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - LT_502
-      - LT_415
-      - v2cross.com
-      - US_1830
-      - US_1836
-      - US_1825
-      - LT_447
-      - LT_496
-      - RU_404
-      - LT_471
-      - NL_709
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_133
-      - NL_655
-      - LT_503
-      - 🇺🇸 v2cross.com - 美国惠普公司 47
-      - LT_411
-      - LT_319
-      - US_1409
-      - US_1798
-      - RU_799
+      - US_1319
       - US_1281
-      - NL_682
-      - US_1640
-      - US_1127
-      - LT_456
-      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - US_1225
-      - NL_654
-      - NL_668
-      - US_154
-      - RU_876
+      - LT_499
+      - LT_465
+      - RU_892
+      - NL_677
+      - US_1210
+      - TW_818
+      - NL_673
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_122
+      - LT_445
+      - NL_659
+      - RU_891
+      - CN_31 v2cross.com
+      - LT_444
+      - RU_874
+      - LT_434
+      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 38
+      - RU_906
+      - US_1416
+      - LT_402
+      - US_1598
+      - Relay_-🇹🇼TW_03
+      - LT_509
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_137
+      - NL_706
+      - NL_614
+      - NL_655
+      - LT_408
+      - LT_523
+      - HU_571
+      - LT_520
+      - LT_396
+      - HK_350
+      - US_1373
+      - US_1673
+      - LT_495
+      - LT_455
+      - RU_863
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
