@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: argo-01, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: pending-searches-command-universe.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: pending-searches-command-universe.trycloudflare.com}}}
-  - {name: argo-02, server: 172.64.155.133, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: pending-searches-command-universe.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: pending-searches-command-universe.trycloudflare.com}}}
+  - {name: argo, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
+  - {name: argo-02, server: 172.64.155.133, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
   - {name: US_二爷翻墙网 https://1808.ga   节点_1, server: 172.64.155.133, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: US_二爷翻墙网 https://1808.ga   节点_2, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: AU_二爷翻墙网 https://1808.ga   节点_3, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26}
@@ -79,7 +79,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - argo-01
+      - argo
       - argo-02
       - US_二爷翻墙网 https://1808.ga   节点_1
       - US_二爷翻墙网 https://1808.ga   节点_2
@@ -153,7 +153,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - argo-01
+      - argo
       - argo-02
       - US_二爷翻墙网 https://1808.ga   节点_1
       - US_二爷翻墙网 https://1808.ga   节点_2
@@ -227,7 +227,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - argo-01
+      - argo
       - argo-02
       - US_二爷翻墙网 https://1808.ga   节点_1
       - US_二爷翻墙网 https://1808.ga   节点_2
@@ -300,7 +300,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - argo-01
+      - argo
       - argo-02
       - US_二爷翻墙网 https://1808.ga   节点_1
       - US_二爷翻墙网 https://1808.ga   节点_2
@@ -373,7 +373,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - argo-01
+      - argo
       - argo-02
       - US_二爷翻墙网 https://1808.ga   节点_1
       - US_二爷翻墙网 https://1808.ga   节点_2
@@ -446,7 +446,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - argo-01
+      - argo
       - argo-02
       - US_二爷翻墙网 https://1808.ga   节点_1
       - US_二爷翻墙网 https://1808.ga   节点_2
@@ -520,7 +520,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - argo-01
+      - argo
       - argo-02
       - US_二爷翻墙网 https://1808.ga   节点_1
       - US_二爷翻墙网 https://1808.ga   节点_2
@@ -610,7 +610,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - argo-01
+      - argo
       - argo-02
       - US_二爷翻墙网 https://1808.ga   节点_1
       - US_二爷翻墙网 https://1808.ga   节点_2
