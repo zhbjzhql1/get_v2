@@ -5,589 +5,205 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: argo, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
-  - {name: argo-02, server: 172.64.155.133, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_1, server: 172.64.155.133, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_2, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: AU_二爷翻墙网 https://1808.ga   节点_3, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26}
-  - {name: AU_二爷翻墙网 https://1808.ga   节点_4, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf}
-  - {name: JP_二爷翻墙网 https://1808.ga   节点_5, server: jp2.autlinzh.xyz, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_6, server: 625us.ok365.cyou, port: 443, type: trojan, password: 6a582cd4-559f-4874-98e7-76f3465412ae}
-  - {name: TW_二爷翻墙网 https://1808.ga   节点_7, server: 724tw01.ok365.cyou, port: 443, type: trojan, password: 6a582cd4-559f-4874-98e7-76f3465412ae}
-  - {name: CZ_二爷翻墙网 https://1808.ga   节点_8, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg}
-  - {name: GB_二爷翻墙网 https://1808.ga   节点_9, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157}
-  - {name: GB_二爷翻墙网 https://1808.ga   节点_10, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577}
-  - {name: GB_二爷翻墙网 https://1808.ga   节点_11, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a}
-  - {name: FR_二爷翻墙网 https://1808.ga   节点_12, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574}
-  - {name: JP_二爷翻墙网 https://1808.ga   节点_13, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574}
-  - {name: JP_二爷翻墙网 https://1808.ga   节点_14, server: supernortheast.xn--mesv7f5toqlp.club, port: 12004, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5}
-  - {name: JP_二爷翻墙网 https://1808.ga   节点_15, server: supernortheast.xn--mesv7f5toqlp.club, port: 12002, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5}
-  - {name: JP_二爷翻墙网 https://1808.ga   节点_16, server: supernortheast.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5}
-  - {name: JP_二爷翻墙网 https://1808.ga   节点_17, server: supernortheast.xn--mesv7f5toqlp.club, port: 12001, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5}
-  - {name: KR_二爷翻墙网 https://1808.ga   节点_18, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998}
-  - {name: IN_二爷翻墙网 https://1808.ga   节点_19, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574}
-  - {name: CZ_二爷翻墙网 https://1808.ga   节点_20, server: t03.ssrsub.com, port: 10852, type: trojan, password: 82c73cff-ade4-41a5-a33c-c6f6a7f6f533, sni: d76bb35696.wns.windows.com}
-  - {name: SG_二爷翻墙网 https://1808.ga   节点_21, server: supersouth.xn--mesv7f5toqlp.club, port: 12001, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5}
-  - {name: SG_二爷翻墙网 https://1808.ga   节点_22, server: supersouth.xn--mesv7f5toqlp.club, port: 12002, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5}
-  - {name: SG_二爷翻墙网 https://1808.ga   节点_23, server: supersouth.xn--mesv7f5toqlp.club, port: 12004, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5}
-  - {name: SG_二爷翻墙网 https://1808.ga   节点_24, server: sg-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574}
-  - {name: HK_二爷翻墙网 https://1808.ga   节点_25, server: 73hk01.ok365.cyou, port: 80, type: trojan, password: 6a582cd4-559f-4874-98e7-76f3465412ae}
-  - {name: SG_二爷翻墙网 https://1808.ga   节点_26, server: supersouth.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5}
-  - {name: HK_二爷翻墙网 https://1808.ga   节点_27, server: 715hk01.ok365.cyou, port: 80, type: trojan, password: 6a582cd4-559f-4874-98e7-76f3465412ae}
-  - {name: TH_二爷翻墙网 https://1808.ga   节点_28, server: 119.59.116.248, port: 17159, type: trojan, password: PHnvNV7HGp}
-  - {name: CZ_二爷翻墙网 https://1808.ga   节点_29, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M}
-  - {name: CZ_二爷翻墙网 https://1808.ga   节点_30, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE}
-  - {name: CZ_二爷翻墙网 https://1808.ga   节点_31, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd}
-  - {name: CZ_二爷翻墙网 https://1808.ga   节点_32, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_33, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_34, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_35, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_36, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_37, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_38, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_39, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_40, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_41, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_42, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_43, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_44, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_45, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_46, server: us23.567568.ml, port: 27956, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354}
-  - {name: GB_二爷翻墙网 https://1808.ga   节点_47, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_48, server: us23.567568.ml, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354}
-  - {name: GB_二爷翻墙网 https://1808.ga   节点_49, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91}
-  - {name: JP_二爷翻墙网 https://1808.ga   节点_50, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_51, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e}
-  - {name: SG_二爷翻墙网 https://1808.ga   节点_52, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_53, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_54, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168}
-  - {name: NL_二爷翻墙网 https://1808.ga   节点_55, server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_56, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_57, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677}
-  - {name: IN_二爷翻墙网 https://1808.ga   节点_58, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_59, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_60, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435}
-  - {name: JP_二爷翻墙网 https://1808.ga   节点_61, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2}
-  - {name: AU_二爷翻墙网 https://1808.ga   节点_62, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819}
-  - {name: IN_二爷翻墙网 https://1808.ga   节点_63, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54}
-  - {name: IN_二爷翻墙网 https://1808.ga   节点_64, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_65, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83}
-  - {name: US_二爷翻墙网 https://1808.ga   节点_66, server: 104.129.63.65, port: 8443, type: trojan, password: cUDgjDkSfn}
+  - {name: 5472-VMESS1, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
+  - {name: 5472-VMESS2, server: 104.18.248.150, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
+  - {name: 442-Vmess01, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: county-motion-snow-exist.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: county-motion-snow-exist.trycloudflare.com}}}
+  - {name: 442-Vmess02, server: 42.186.175.8, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: county-motion-snow-exist.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: county-motion-snow-exist.trycloudflare.com}}}
+  - {name: CN_二爷翻墙网 https://1808.ga  节点0727_10, server: 120.241.236.215, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_二爷翻墙网 https://1808.ga  节点0727_14, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
+  - {name: CN_二爷翻墙网 https://1808.ga  节点0727_16, server: 183.232.141.117, port: 559, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 30999:LLLLiikk988iu, obfs-param: dC5tZS92cG5oYXQ}
+  - {name: CN_二爷翻墙网 https://1808.ga  节点0727_6, server: 111.45.29.75, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: tw.speedasia.xyz}
+  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_1, server: 715hk01.ok365.cyou, port: 80, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 715hk01.ok365.cyou}
+  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_2, server: 73hk02.ok365.cyou, port: 12399, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 73hk02.ok365.cyou}
+  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_3, server: 715hk03.ok365.cyou, port: 12388, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 715hk03.ok365.cyou}
+  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_4, server: 73hk01.ok365.cyou, port: 80, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 73hk01.ok365.cyou}
+  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_5, server: hgc.sharecentre.xyz, port: 120, type: vmess, uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d, alterId: 0, cipher: auto, tls: true, servername: hgc.sharecentre.xyz, network: ws, ws-opts: {path: /nj, headers: {Host: hgc.sharecentre.xyz}}}
+  - {name: TW_二爷翻墙网 https://1808.ga  节点0727_11, server: b.jp.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: ""}
+  - {name: TW_二爷翻墙网 https://1808.ga  节点0727_7, server: 724tw01.ok365.cyou, port: 443, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 724tw01.ok365.cyou}
+  - {name: TW_二爷翻墙网 https://1808.ga  节点0727_8, server: 165.154.226.108, port: 443, type: trojan, password: gb8cLR, sni: t108.ft2.us}
+  - {name: US_二爷翻墙网 https://1808.ga  节点0727_12, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz}
+  - {name: US_二爷翻墙网 https://1808.ga  节点0727_15, server: 625us.ok365.cyou, port: 443, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 625us.ok365.cyou}
+  - {name: US_二爷翻墙网 https://1808.ga  节点0727_9, server: azhk.sharecentre.xyz, port: 58975, type: vmess, uuid: f0e9aff1-ba59-4af4-f3a1-6d17fffb4aca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Sharecentrepro, headers: {Host: azhk.sharecentre.xyz}}}
+  - {name: 二爷翻墙网 https://1808.ga  节点0727_13, server: vfly6.xyz, port: 443, type: vmess, uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782, alterId: 60, cipher: auto, tls: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly6.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - argo
-      - argo-02
-      - US_二爷翻墙网 https://1808.ga   节点_1
-      - US_二爷翻墙网 https://1808.ga   节点_2
-      - AU_二爷翻墙网 https://1808.ga   节点_3
-      - AU_二爷翻墙网 https://1808.ga   节点_4
-      - JP_二爷翻墙网 https://1808.ga   节点_5
-      - US_二爷翻墙网 https://1808.ga   节点_6
-      - TW_二爷翻墙网 https://1808.ga   节点_7
-      - CZ_二爷翻墙网 https://1808.ga   节点_8
-      - GB_二爷翻墙网 https://1808.ga   节点_9
-      - GB_二爷翻墙网 https://1808.ga   节点_10
-      - GB_二爷翻墙网 https://1808.ga   节点_11
-      - FR_二爷翻墙网 https://1808.ga   节点_12
-      - JP_二爷翻墙网 https://1808.ga   节点_13
-      - JP_二爷翻墙网 https://1808.ga   节点_14
-      - JP_二爷翻墙网 https://1808.ga   节点_15
-      - JP_二爷翻墙网 https://1808.ga   节点_16
-      - JP_二爷翻墙网 https://1808.ga   节点_17
-      - KR_二爷翻墙网 https://1808.ga   节点_18
-      - IN_二爷翻墙网 https://1808.ga   节点_19
-      - CZ_二爷翻墙网 https://1808.ga   节点_20
-      - SG_二爷翻墙网 https://1808.ga   节点_21
-      - SG_二爷翻墙网 https://1808.ga   节点_22
-      - SG_二爷翻墙网 https://1808.ga   节点_23
-      - SG_二爷翻墙网 https://1808.ga   节点_24
-      - HK_二爷翻墙网 https://1808.ga   节点_25
-      - SG_二爷翻墙网 https://1808.ga   节点_26
-      - HK_二爷翻墙网 https://1808.ga   节点_27
-      - TH_二爷翻墙网 https://1808.ga   节点_28
-      - CZ_二爷翻墙网 https://1808.ga   节点_29
-      - CZ_二爷翻墙网 https://1808.ga   节点_30
-      - CZ_二爷翻墙网 https://1808.ga   节点_31
-      - CZ_二爷翻墙网 https://1808.ga   节点_32
-      - US_二爷翻墙网 https://1808.ga   节点_33
-      - US_二爷翻墙网 https://1808.ga   节点_34
-      - US_二爷翻墙网 https://1808.ga   节点_35
-      - US_二爷翻墙网 https://1808.ga   节点_36
-      - US_二爷翻墙网 https://1808.ga   节点_37
-      - US_二爷翻墙网 https://1808.ga   节点_38
-      - US_二爷翻墙网 https://1808.ga   节点_39
-      - US_二爷翻墙网 https://1808.ga   节点_40
-      - US_二爷翻墙网 https://1808.ga   节点_41
-      - US_二爷翻墙网 https://1808.ga   节点_42
-      - US_二爷翻墙网 https://1808.ga   节点_43
-      - US_二爷翻墙网 https://1808.ga   节点_44
-      - US_二爷翻墙网 https://1808.ga   节点_45
-      - US_二爷翻墙网 https://1808.ga   节点_46
-      - GB_二爷翻墙网 https://1808.ga   节点_47
-      - US_二爷翻墙网 https://1808.ga   节点_48
-      - GB_二爷翻墙网 https://1808.ga   节点_49
-      - JP_二爷翻墙网 https://1808.ga   节点_50
-      - US_二爷翻墙网 https://1808.ga   节点_51
-      - SG_二爷翻墙网 https://1808.ga   节点_52
-      - US_二爷翻墙网 https://1808.ga   节点_53
-      - US_二爷翻墙网 https://1808.ga   节点_54
-      - NL_二爷翻墙网 https://1808.ga   节点_55
-      - US_二爷翻墙网 https://1808.ga   节点_56
-      - US_二爷翻墙网 https://1808.ga   节点_57
-      - IN_二爷翻墙网 https://1808.ga   节点_58
-      - US_二爷翻墙网 https://1808.ga   节点_59
-      - US_二爷翻墙网 https://1808.ga   节点_60
-      - JP_二爷翻墙网 https://1808.ga   节点_61
-      - AU_二爷翻墙网 https://1808.ga   节点_62
-      - IN_二爷翻墙网 https://1808.ga   节点_63
-      - IN_二爷翻墙网 https://1808.ga   节点_64
-      - US_二爷翻墙网 https://1808.ga   节点_65
-      - US_二爷翻墙网 https://1808.ga   节点_66
+      - 5472-VMESS1
+      - 5472-VMESS2
+      - 442-Vmess01
+      - 442-Vmess02
+      - CN_二爷翻墙网 https://1808.ga  节点0727_10
+      - CN_二爷翻墙网 https://1808.ga  节点0727_14
+      - CN_二爷翻墙网 https://1808.ga  节点0727_16
+      - CN_二爷翻墙网 https://1808.ga  节点0727_6
+      - HK_二爷翻墙网 https://1808.ga  节点0727_1
+      - HK_二爷翻墙网 https://1808.ga  节点0727_2
+      - HK_二爷翻墙网 https://1808.ga  节点0727_3
+      - HK_二爷翻墙网 https://1808.ga  节点0727_4
+      - HK_二爷翻墙网 https://1808.ga  节点0727_5
+      - TW_二爷翻墙网 https://1808.ga  节点0727_11
+      - TW_二爷翻墙网 https://1808.ga  节点0727_7
+      - TW_二爷翻墙网 https://1808.ga  节点0727_8
+      - US_二爷翻墙网 https://1808.ga  节点0727_12
+      - US_二爷翻墙网 https://1808.ga  节点0727_15
+      - US_二爷翻墙网 https://1808.ga  节点0727_9
+      - 二爷翻墙网 https://1808.ga  节点0727_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - argo
-      - argo-02
-      - US_二爷翻墙网 https://1808.ga   节点_1
-      - US_二爷翻墙网 https://1808.ga   节点_2
-      - AU_二爷翻墙网 https://1808.ga   节点_3
-      - AU_二爷翻墙网 https://1808.ga   节点_4
-      - JP_二爷翻墙网 https://1808.ga   节点_5
-      - US_二爷翻墙网 https://1808.ga   节点_6
-      - TW_二爷翻墙网 https://1808.ga   节点_7
-      - CZ_二爷翻墙网 https://1808.ga   节点_8
-      - GB_二爷翻墙网 https://1808.ga   节点_9
-      - GB_二爷翻墙网 https://1808.ga   节点_10
-      - GB_二爷翻墙网 https://1808.ga   节点_11
-      - FR_二爷翻墙网 https://1808.ga   节点_12
-      - JP_二爷翻墙网 https://1808.ga   节点_13
-      - JP_二爷翻墙网 https://1808.ga   节点_14
-      - JP_二爷翻墙网 https://1808.ga   节点_15
-      - JP_二爷翻墙网 https://1808.ga   节点_16
-      - JP_二爷翻墙网 https://1808.ga   节点_17
-      - KR_二爷翻墙网 https://1808.ga   节点_18
-      - IN_二爷翻墙网 https://1808.ga   节点_19
-      - CZ_二爷翻墙网 https://1808.ga   节点_20
-      - SG_二爷翻墙网 https://1808.ga   节点_21
-      - SG_二爷翻墙网 https://1808.ga   节点_22
-      - SG_二爷翻墙网 https://1808.ga   节点_23
-      - SG_二爷翻墙网 https://1808.ga   节点_24
-      - HK_二爷翻墙网 https://1808.ga   节点_25
-      - SG_二爷翻墙网 https://1808.ga   节点_26
-      - HK_二爷翻墙网 https://1808.ga   节点_27
-      - TH_二爷翻墙网 https://1808.ga   节点_28
-      - CZ_二爷翻墙网 https://1808.ga   节点_29
-      - CZ_二爷翻墙网 https://1808.ga   节点_30
-      - CZ_二爷翻墙网 https://1808.ga   节点_31
-      - CZ_二爷翻墙网 https://1808.ga   节点_32
-      - US_二爷翻墙网 https://1808.ga   节点_33
-      - US_二爷翻墙网 https://1808.ga   节点_34
-      - US_二爷翻墙网 https://1808.ga   节点_35
-      - US_二爷翻墙网 https://1808.ga   节点_36
-      - US_二爷翻墙网 https://1808.ga   节点_37
-      - US_二爷翻墙网 https://1808.ga   节点_38
-      - US_二爷翻墙网 https://1808.ga   节点_39
-      - US_二爷翻墙网 https://1808.ga   节点_40
-      - US_二爷翻墙网 https://1808.ga   节点_41
-      - US_二爷翻墙网 https://1808.ga   节点_42
-      - US_二爷翻墙网 https://1808.ga   节点_43
-      - US_二爷翻墙网 https://1808.ga   节点_44
-      - US_二爷翻墙网 https://1808.ga   节点_45
-      - US_二爷翻墙网 https://1808.ga   节点_46
-      - GB_二爷翻墙网 https://1808.ga   节点_47
-      - US_二爷翻墙网 https://1808.ga   节点_48
-      - GB_二爷翻墙网 https://1808.ga   节点_49
-      - JP_二爷翻墙网 https://1808.ga   节点_50
-      - US_二爷翻墙网 https://1808.ga   节点_51
-      - SG_二爷翻墙网 https://1808.ga   节点_52
-      - US_二爷翻墙网 https://1808.ga   节点_53
-      - US_二爷翻墙网 https://1808.ga   节点_54
-      - NL_二爷翻墙网 https://1808.ga   节点_55
-      - US_二爷翻墙网 https://1808.ga   节点_56
-      - US_二爷翻墙网 https://1808.ga   节点_57
-      - IN_二爷翻墙网 https://1808.ga   节点_58
-      - US_二爷翻墙网 https://1808.ga   节点_59
-      - US_二爷翻墙网 https://1808.ga   节点_60
-      - JP_二爷翻墙网 https://1808.ga   节点_61
-      - AU_二爷翻墙网 https://1808.ga   节点_62
-      - IN_二爷翻墙网 https://1808.ga   节点_63
-      - IN_二爷翻墙网 https://1808.ga   节点_64
-      - US_二爷翻墙网 https://1808.ga   节点_65
-      - US_二爷翻墙网 https://1808.ga   节点_66
+      - 5472-VMESS1
+      - 5472-VMESS2
+      - 442-Vmess01
+      - 442-Vmess02
+      - CN_二爷翻墙网 https://1808.ga  节点0727_10
+      - CN_二爷翻墙网 https://1808.ga  节点0727_14
+      - CN_二爷翻墙网 https://1808.ga  节点0727_16
+      - CN_二爷翻墙网 https://1808.ga  节点0727_6
+      - HK_二爷翻墙网 https://1808.ga  节点0727_1
+      - HK_二爷翻墙网 https://1808.ga  节点0727_2
+      - HK_二爷翻墙网 https://1808.ga  节点0727_3
+      - HK_二爷翻墙网 https://1808.ga  节点0727_4
+      - HK_二爷翻墙网 https://1808.ga  节点0727_5
+      - TW_二爷翻墙网 https://1808.ga  节点0727_11
+      - TW_二爷翻墙网 https://1808.ga  节点0727_7
+      - TW_二爷翻墙网 https://1808.ga  节点0727_8
+      - US_二爷翻墙网 https://1808.ga  节点0727_12
+      - US_二爷翻墙网 https://1808.ga  节点0727_15
+      - US_二爷翻墙网 https://1808.ga  节点0727_9
+      - 二爷翻墙网 https://1808.ga  节点0727_13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - argo
-      - argo-02
-      - US_二爷翻墙网 https://1808.ga   节点_1
-      - US_二爷翻墙网 https://1808.ga   节点_2
-      - AU_二爷翻墙网 https://1808.ga   节点_3
-      - AU_二爷翻墙网 https://1808.ga   节点_4
-      - JP_二爷翻墙网 https://1808.ga   节点_5
-      - US_二爷翻墙网 https://1808.ga   节点_6
-      - TW_二爷翻墙网 https://1808.ga   节点_7
-      - CZ_二爷翻墙网 https://1808.ga   节点_8
-      - GB_二爷翻墙网 https://1808.ga   节点_9
-      - GB_二爷翻墙网 https://1808.ga   节点_10
-      - GB_二爷翻墙网 https://1808.ga   节点_11
-      - FR_二爷翻墙网 https://1808.ga   节点_12
-      - JP_二爷翻墙网 https://1808.ga   节点_13
-      - JP_二爷翻墙网 https://1808.ga   节点_14
-      - JP_二爷翻墙网 https://1808.ga   节点_15
-      - JP_二爷翻墙网 https://1808.ga   节点_16
-      - JP_二爷翻墙网 https://1808.ga   节点_17
-      - KR_二爷翻墙网 https://1808.ga   节点_18
-      - IN_二爷翻墙网 https://1808.ga   节点_19
-      - CZ_二爷翻墙网 https://1808.ga   节点_20
-      - SG_二爷翻墙网 https://1808.ga   节点_21
-      - SG_二爷翻墙网 https://1808.ga   节点_22
-      - SG_二爷翻墙网 https://1808.ga   节点_23
-      - SG_二爷翻墙网 https://1808.ga   节点_24
-      - HK_二爷翻墙网 https://1808.ga   节点_25
-      - SG_二爷翻墙网 https://1808.ga   节点_26
-      - HK_二爷翻墙网 https://1808.ga   节点_27
-      - TH_二爷翻墙网 https://1808.ga   节点_28
-      - CZ_二爷翻墙网 https://1808.ga   节点_29
-      - CZ_二爷翻墙网 https://1808.ga   节点_30
-      - CZ_二爷翻墙网 https://1808.ga   节点_31
-      - CZ_二爷翻墙网 https://1808.ga   节点_32
-      - US_二爷翻墙网 https://1808.ga   节点_33
-      - US_二爷翻墙网 https://1808.ga   节点_34
-      - US_二爷翻墙网 https://1808.ga   节点_35
-      - US_二爷翻墙网 https://1808.ga   节点_36
-      - US_二爷翻墙网 https://1808.ga   节点_37
-      - US_二爷翻墙网 https://1808.ga   节点_38
-      - US_二爷翻墙网 https://1808.ga   节点_39
-      - US_二爷翻墙网 https://1808.ga   节点_40
-      - US_二爷翻墙网 https://1808.ga   节点_41
-      - US_二爷翻墙网 https://1808.ga   节点_42
-      - US_二爷翻墙网 https://1808.ga   节点_43
-      - US_二爷翻墙网 https://1808.ga   节点_44
-      - US_二爷翻墙网 https://1808.ga   节点_45
-      - US_二爷翻墙网 https://1808.ga   节点_46
-      - GB_二爷翻墙网 https://1808.ga   节点_47
-      - US_二爷翻墙网 https://1808.ga   节点_48
-      - GB_二爷翻墙网 https://1808.ga   节点_49
-      - JP_二爷翻墙网 https://1808.ga   节点_50
-      - US_二爷翻墙网 https://1808.ga   节点_51
-      - SG_二爷翻墙网 https://1808.ga   节点_52
-      - US_二爷翻墙网 https://1808.ga   节点_53
-      - US_二爷翻墙网 https://1808.ga   节点_54
-      - NL_二爷翻墙网 https://1808.ga   节点_55
-      - US_二爷翻墙网 https://1808.ga   节点_56
-      - US_二爷翻墙网 https://1808.ga   节点_57
-      - IN_二爷翻墙网 https://1808.ga   节点_58
-      - US_二爷翻墙网 https://1808.ga   节点_59
-      - US_二爷翻墙网 https://1808.ga   节点_60
-      - JP_二爷翻墙网 https://1808.ga   节点_61
-      - AU_二爷翻墙网 https://1808.ga   节点_62
-      - IN_二爷翻墙网 https://1808.ga   节点_63
-      - IN_二爷翻墙网 https://1808.ga   节点_64
-      - US_二爷翻墙网 https://1808.ga   节点_65
-      - US_二爷翻墙网 https://1808.ga   节点_66
+      - 5472-VMESS1
+      - 5472-VMESS2
+      - 442-Vmess01
+      - 442-Vmess02
+      - CN_二爷翻墙网 https://1808.ga  节点0727_10
+      - CN_二爷翻墙网 https://1808.ga  节点0727_14
+      - CN_二爷翻墙网 https://1808.ga  节点0727_16
+      - CN_二爷翻墙网 https://1808.ga  节点0727_6
+      - HK_二爷翻墙网 https://1808.ga  节点0727_1
+      - HK_二爷翻墙网 https://1808.ga  节点0727_2
+      - HK_二爷翻墙网 https://1808.ga  节点0727_3
+      - HK_二爷翻墙网 https://1808.ga  节点0727_4
+      - HK_二爷翻墙网 https://1808.ga  节点0727_5
+      - TW_二爷翻墙网 https://1808.ga  节点0727_11
+      - TW_二爷翻墙网 https://1808.ga  节点0727_7
+      - TW_二爷翻墙网 https://1808.ga  节点0727_8
+      - US_二爷翻墙网 https://1808.ga  节点0727_12
+      - US_二爷翻墙网 https://1808.ga  节点0727_15
+      - US_二爷翻墙网 https://1808.ga  节点0727_9
+      - 二爷翻墙网 https://1808.ga  节点0727_13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - argo
-      - argo-02
-      - US_二爷翻墙网 https://1808.ga   节点_1
-      - US_二爷翻墙网 https://1808.ga   节点_2
-      - AU_二爷翻墙网 https://1808.ga   节点_3
-      - AU_二爷翻墙网 https://1808.ga   节点_4
-      - JP_二爷翻墙网 https://1808.ga   节点_5
-      - US_二爷翻墙网 https://1808.ga   节点_6
-      - TW_二爷翻墙网 https://1808.ga   节点_7
-      - CZ_二爷翻墙网 https://1808.ga   节点_8
-      - GB_二爷翻墙网 https://1808.ga   节点_9
-      - GB_二爷翻墙网 https://1808.ga   节点_10
-      - GB_二爷翻墙网 https://1808.ga   节点_11
-      - FR_二爷翻墙网 https://1808.ga   节点_12
-      - JP_二爷翻墙网 https://1808.ga   节点_13
-      - JP_二爷翻墙网 https://1808.ga   节点_14
-      - JP_二爷翻墙网 https://1808.ga   节点_15
-      - JP_二爷翻墙网 https://1808.ga   节点_16
-      - JP_二爷翻墙网 https://1808.ga   节点_17
-      - KR_二爷翻墙网 https://1808.ga   节点_18
-      - IN_二爷翻墙网 https://1808.ga   节点_19
-      - CZ_二爷翻墙网 https://1808.ga   节点_20
-      - SG_二爷翻墙网 https://1808.ga   节点_21
-      - SG_二爷翻墙网 https://1808.ga   节点_22
-      - SG_二爷翻墙网 https://1808.ga   节点_23
-      - SG_二爷翻墙网 https://1808.ga   节点_24
-      - HK_二爷翻墙网 https://1808.ga   节点_25
-      - SG_二爷翻墙网 https://1808.ga   节点_26
-      - HK_二爷翻墙网 https://1808.ga   节点_27
-      - TH_二爷翻墙网 https://1808.ga   节点_28
-      - CZ_二爷翻墙网 https://1808.ga   节点_29
-      - CZ_二爷翻墙网 https://1808.ga   节点_30
-      - CZ_二爷翻墙网 https://1808.ga   节点_31
-      - CZ_二爷翻墙网 https://1808.ga   节点_32
-      - US_二爷翻墙网 https://1808.ga   节点_33
-      - US_二爷翻墙网 https://1808.ga   节点_34
-      - US_二爷翻墙网 https://1808.ga   节点_35
-      - US_二爷翻墙网 https://1808.ga   节点_36
-      - US_二爷翻墙网 https://1808.ga   节点_37
-      - US_二爷翻墙网 https://1808.ga   节点_38
-      - US_二爷翻墙网 https://1808.ga   节点_39
-      - US_二爷翻墙网 https://1808.ga   节点_40
-      - US_二爷翻墙网 https://1808.ga   节点_41
-      - US_二爷翻墙网 https://1808.ga   节点_42
-      - US_二爷翻墙网 https://1808.ga   节点_43
-      - US_二爷翻墙网 https://1808.ga   节点_44
-      - US_二爷翻墙网 https://1808.ga   节点_45
-      - US_二爷翻墙网 https://1808.ga   节点_46
-      - GB_二爷翻墙网 https://1808.ga   节点_47
-      - US_二爷翻墙网 https://1808.ga   节点_48
-      - GB_二爷翻墙网 https://1808.ga   节点_49
-      - JP_二爷翻墙网 https://1808.ga   节点_50
-      - US_二爷翻墙网 https://1808.ga   节点_51
-      - SG_二爷翻墙网 https://1808.ga   节点_52
-      - US_二爷翻墙网 https://1808.ga   节点_53
-      - US_二爷翻墙网 https://1808.ga   节点_54
-      - NL_二爷翻墙网 https://1808.ga   节点_55
-      - US_二爷翻墙网 https://1808.ga   节点_56
-      - US_二爷翻墙网 https://1808.ga   节点_57
-      - IN_二爷翻墙网 https://1808.ga   节点_58
-      - US_二爷翻墙网 https://1808.ga   节点_59
-      - US_二爷翻墙网 https://1808.ga   节点_60
-      - JP_二爷翻墙网 https://1808.ga   节点_61
-      - AU_二爷翻墙网 https://1808.ga   节点_62
-      - IN_二爷翻墙网 https://1808.ga   节点_63
-      - IN_二爷翻墙网 https://1808.ga   节点_64
-      - US_二爷翻墙网 https://1808.ga   节点_65
-      - US_二爷翻墙网 https://1808.ga   节点_66
+      - 5472-VMESS1
+      - 5472-VMESS2
+      - 442-Vmess01
+      - 442-Vmess02
+      - CN_二爷翻墙网 https://1808.ga  节点0727_10
+      - CN_二爷翻墙网 https://1808.ga  节点0727_14
+      - CN_二爷翻墙网 https://1808.ga  节点0727_16
+      - CN_二爷翻墙网 https://1808.ga  节点0727_6
+      - HK_二爷翻墙网 https://1808.ga  节点0727_1
+      - HK_二爷翻墙网 https://1808.ga  节点0727_2
+      - HK_二爷翻墙网 https://1808.ga  节点0727_3
+      - HK_二爷翻墙网 https://1808.ga  节点0727_4
+      - HK_二爷翻墙网 https://1808.ga  节点0727_5
+      - TW_二爷翻墙网 https://1808.ga  节点0727_11
+      - TW_二爷翻墙网 https://1808.ga  节点0727_7
+      - TW_二爷翻墙网 https://1808.ga  节点0727_8
+      - US_二爷翻墙网 https://1808.ga  节点0727_12
+      - US_二爷翻墙网 https://1808.ga  节点0727_15
+      - US_二爷翻墙网 https://1808.ga  节点0727_9
+      - 二爷翻墙网 https://1808.ga  节点0727_13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - argo
-      - argo-02
-      - US_二爷翻墙网 https://1808.ga   节点_1
-      - US_二爷翻墙网 https://1808.ga   节点_2
-      - AU_二爷翻墙网 https://1808.ga   节点_3
-      - AU_二爷翻墙网 https://1808.ga   节点_4
-      - JP_二爷翻墙网 https://1808.ga   节点_5
-      - US_二爷翻墙网 https://1808.ga   节点_6
-      - TW_二爷翻墙网 https://1808.ga   节点_7
-      - CZ_二爷翻墙网 https://1808.ga   节点_8
-      - GB_二爷翻墙网 https://1808.ga   节点_9
-      - GB_二爷翻墙网 https://1808.ga   节点_10
-      - GB_二爷翻墙网 https://1808.ga   节点_11
-      - FR_二爷翻墙网 https://1808.ga   节点_12
-      - JP_二爷翻墙网 https://1808.ga   节点_13
-      - JP_二爷翻墙网 https://1808.ga   节点_14
-      - JP_二爷翻墙网 https://1808.ga   节点_15
-      - JP_二爷翻墙网 https://1808.ga   节点_16
-      - JP_二爷翻墙网 https://1808.ga   节点_17
-      - KR_二爷翻墙网 https://1808.ga   节点_18
-      - IN_二爷翻墙网 https://1808.ga   节点_19
-      - CZ_二爷翻墙网 https://1808.ga   节点_20
-      - SG_二爷翻墙网 https://1808.ga   节点_21
-      - SG_二爷翻墙网 https://1808.ga   节点_22
-      - SG_二爷翻墙网 https://1808.ga   节点_23
-      - SG_二爷翻墙网 https://1808.ga   节点_24
-      - HK_二爷翻墙网 https://1808.ga   节点_25
-      - SG_二爷翻墙网 https://1808.ga   节点_26
-      - HK_二爷翻墙网 https://1808.ga   节点_27
-      - TH_二爷翻墙网 https://1808.ga   节点_28
-      - CZ_二爷翻墙网 https://1808.ga   节点_29
-      - CZ_二爷翻墙网 https://1808.ga   节点_30
-      - CZ_二爷翻墙网 https://1808.ga   节点_31
-      - CZ_二爷翻墙网 https://1808.ga   节点_32
-      - US_二爷翻墙网 https://1808.ga   节点_33
-      - US_二爷翻墙网 https://1808.ga   节点_34
-      - US_二爷翻墙网 https://1808.ga   节点_35
-      - US_二爷翻墙网 https://1808.ga   节点_36
-      - US_二爷翻墙网 https://1808.ga   节点_37
-      - US_二爷翻墙网 https://1808.ga   节点_38
-      - US_二爷翻墙网 https://1808.ga   节点_39
-      - US_二爷翻墙网 https://1808.ga   节点_40
-      - US_二爷翻墙网 https://1808.ga   节点_41
-      - US_二爷翻墙网 https://1808.ga   节点_42
-      - US_二爷翻墙网 https://1808.ga   节点_43
-      - US_二爷翻墙网 https://1808.ga   节点_44
-      - US_二爷翻墙网 https://1808.ga   节点_45
-      - US_二爷翻墙网 https://1808.ga   节点_46
-      - GB_二爷翻墙网 https://1808.ga   节点_47
-      - US_二爷翻墙网 https://1808.ga   节点_48
-      - GB_二爷翻墙网 https://1808.ga   节点_49
-      - JP_二爷翻墙网 https://1808.ga   节点_50
-      - US_二爷翻墙网 https://1808.ga   节点_51
-      - SG_二爷翻墙网 https://1808.ga   节点_52
-      - US_二爷翻墙网 https://1808.ga   节点_53
-      - US_二爷翻墙网 https://1808.ga   节点_54
-      - NL_二爷翻墙网 https://1808.ga   节点_55
-      - US_二爷翻墙网 https://1808.ga   节点_56
-      - US_二爷翻墙网 https://1808.ga   节点_57
-      - IN_二爷翻墙网 https://1808.ga   节点_58
-      - US_二爷翻墙网 https://1808.ga   节点_59
-      - US_二爷翻墙网 https://1808.ga   节点_60
-      - JP_二爷翻墙网 https://1808.ga   节点_61
-      - AU_二爷翻墙网 https://1808.ga   节点_62
-      - IN_二爷翻墙网 https://1808.ga   节点_63
-      - IN_二爷翻墙网 https://1808.ga   节点_64
-      - US_二爷翻墙网 https://1808.ga   节点_65
-      - US_二爷翻墙网 https://1808.ga   节点_66
+      - 5472-VMESS1
+      - 5472-VMESS2
+      - 442-Vmess01
+      - 442-Vmess02
+      - CN_二爷翻墙网 https://1808.ga  节点0727_10
+      - CN_二爷翻墙网 https://1808.ga  节点0727_14
+      - CN_二爷翻墙网 https://1808.ga  节点0727_16
+      - CN_二爷翻墙网 https://1808.ga  节点0727_6
+      - HK_二爷翻墙网 https://1808.ga  节点0727_1
+      - HK_二爷翻墙网 https://1808.ga  节点0727_2
+      - HK_二爷翻墙网 https://1808.ga  节点0727_3
+      - HK_二爷翻墙网 https://1808.ga  节点0727_4
+      - HK_二爷翻墙网 https://1808.ga  节点0727_5
+      - TW_二爷翻墙网 https://1808.ga  节点0727_11
+      - TW_二爷翻墙网 https://1808.ga  节点0727_7
+      - TW_二爷翻墙网 https://1808.ga  节点0727_8
+      - US_二爷翻墙网 https://1808.ga  节点0727_12
+      - US_二爷翻墙网 https://1808.ga  节点0727_15
+      - US_二爷翻墙网 https://1808.ga  节点0727_9
+      - 二爷翻墙网 https://1808.ga  节点0727_13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - argo
-      - argo-02
-      - US_二爷翻墙网 https://1808.ga   节点_1
-      - US_二爷翻墙网 https://1808.ga   节点_2
-      - AU_二爷翻墙网 https://1808.ga   节点_3
-      - AU_二爷翻墙网 https://1808.ga   节点_4
-      - JP_二爷翻墙网 https://1808.ga   节点_5
-      - US_二爷翻墙网 https://1808.ga   节点_6
-      - TW_二爷翻墙网 https://1808.ga   节点_7
-      - CZ_二爷翻墙网 https://1808.ga   节点_8
-      - GB_二爷翻墙网 https://1808.ga   节点_9
-      - GB_二爷翻墙网 https://1808.ga   节点_10
-      - GB_二爷翻墙网 https://1808.ga   节点_11
-      - FR_二爷翻墙网 https://1808.ga   节点_12
-      - JP_二爷翻墙网 https://1808.ga   节点_13
-      - JP_二爷翻墙网 https://1808.ga   节点_14
-      - JP_二爷翻墙网 https://1808.ga   节点_15
-      - JP_二爷翻墙网 https://1808.ga   节点_16
-      - JP_二爷翻墙网 https://1808.ga   节点_17
-      - KR_二爷翻墙网 https://1808.ga   节点_18
-      - IN_二爷翻墙网 https://1808.ga   节点_19
-      - CZ_二爷翻墙网 https://1808.ga   节点_20
-      - SG_二爷翻墙网 https://1808.ga   节点_21
-      - SG_二爷翻墙网 https://1808.ga   节点_22
-      - SG_二爷翻墙网 https://1808.ga   节点_23
-      - SG_二爷翻墙网 https://1808.ga   节点_24
-      - HK_二爷翻墙网 https://1808.ga   节点_25
-      - SG_二爷翻墙网 https://1808.ga   节点_26
-      - HK_二爷翻墙网 https://1808.ga   节点_27
-      - TH_二爷翻墙网 https://1808.ga   节点_28
-      - CZ_二爷翻墙网 https://1808.ga   节点_29
-      - CZ_二爷翻墙网 https://1808.ga   节点_30
-      - CZ_二爷翻墙网 https://1808.ga   节点_31
-      - CZ_二爷翻墙网 https://1808.ga   节点_32
-      - US_二爷翻墙网 https://1808.ga   节点_33
-      - US_二爷翻墙网 https://1808.ga   节点_34
-      - US_二爷翻墙网 https://1808.ga   节点_35
-      - US_二爷翻墙网 https://1808.ga   节点_36
-      - US_二爷翻墙网 https://1808.ga   节点_37
-      - US_二爷翻墙网 https://1808.ga   节点_38
-      - US_二爷翻墙网 https://1808.ga   节点_39
-      - US_二爷翻墙网 https://1808.ga   节点_40
-      - US_二爷翻墙网 https://1808.ga   节点_41
-      - US_二爷翻墙网 https://1808.ga   节点_42
-      - US_二爷翻墙网 https://1808.ga   节点_43
-      - US_二爷翻墙网 https://1808.ga   节点_44
-      - US_二爷翻墙网 https://1808.ga   节点_45
-      - US_二爷翻墙网 https://1808.ga   节点_46
-      - GB_二爷翻墙网 https://1808.ga   节点_47
-      - US_二爷翻墙网 https://1808.ga   节点_48
-      - GB_二爷翻墙网 https://1808.ga   节点_49
-      - JP_二爷翻墙网 https://1808.ga   节点_50
-      - US_二爷翻墙网 https://1808.ga   节点_51
-      - SG_二爷翻墙网 https://1808.ga   节点_52
-      - US_二爷翻墙网 https://1808.ga   节点_53
-      - US_二爷翻墙网 https://1808.ga   节点_54
-      - NL_二爷翻墙网 https://1808.ga   节点_55
-      - US_二爷翻墙网 https://1808.ga   节点_56
-      - US_二爷翻墙网 https://1808.ga   节点_57
-      - IN_二爷翻墙网 https://1808.ga   节点_58
-      - US_二爷翻墙网 https://1808.ga   节点_59
-      - US_二爷翻墙网 https://1808.ga   节点_60
-      - JP_二爷翻墙网 https://1808.ga   节点_61
-      - AU_二爷翻墙网 https://1808.ga   节点_62
-      - IN_二爷翻墙网 https://1808.ga   节点_63
-      - IN_二爷翻墙网 https://1808.ga   节点_64
-      - US_二爷翻墙网 https://1808.ga   节点_65
-      - US_二爷翻墙网 https://1808.ga   节点_66
+      - 5472-VMESS1
+      - 5472-VMESS2
+      - 442-Vmess01
+      - 442-Vmess02
+      - CN_二爷翻墙网 https://1808.ga  节点0727_10
+      - CN_二爷翻墙网 https://1808.ga  节点0727_14
+      - CN_二爷翻墙网 https://1808.ga  节点0727_16
+      - CN_二爷翻墙网 https://1808.ga  节点0727_6
+      - HK_二爷翻墙网 https://1808.ga  节点0727_1
+      - HK_二爷翻墙网 https://1808.ga  节点0727_2
+      - HK_二爷翻墙网 https://1808.ga  节点0727_3
+      - HK_二爷翻墙网 https://1808.ga  节点0727_4
+      - HK_二爷翻墙网 https://1808.ga  节点0727_5
+      - TW_二爷翻墙网 https://1808.ga  节点0727_11
+      - TW_二爷翻墙网 https://1808.ga  节点0727_7
+      - TW_二爷翻墙网 https://1808.ga  节点0727_8
+      - US_二爷翻墙网 https://1808.ga  节点0727_12
+      - US_二爷翻墙网 https://1808.ga  节点0727_15
+      - US_二爷翻墙网 https://1808.ga  节点0727_9
+      - 二爷翻墙网 https://1808.ga  节点0727_13
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - argo
-      - argo-02
-      - US_二爷翻墙网 https://1808.ga   节点_1
-      - US_二爷翻墙网 https://1808.ga   节点_2
-      - AU_二爷翻墙网 https://1808.ga   节点_3
-      - AU_二爷翻墙网 https://1808.ga   节点_4
-      - JP_二爷翻墙网 https://1808.ga   节点_5
-      - US_二爷翻墙网 https://1808.ga   节点_6
-      - TW_二爷翻墙网 https://1808.ga   节点_7
-      - CZ_二爷翻墙网 https://1808.ga   节点_8
-      - GB_二爷翻墙网 https://1808.ga   节点_9
-      - GB_二爷翻墙网 https://1808.ga   节点_10
-      - GB_二爷翻墙网 https://1808.ga   节点_11
-      - FR_二爷翻墙网 https://1808.ga   节点_12
-      - JP_二爷翻墙网 https://1808.ga   节点_13
-      - JP_二爷翻墙网 https://1808.ga   节点_14
-      - JP_二爷翻墙网 https://1808.ga   节点_15
-      - JP_二爷翻墙网 https://1808.ga   节点_16
-      - JP_二爷翻墙网 https://1808.ga   节点_17
-      - KR_二爷翻墙网 https://1808.ga   节点_18
-      - IN_二爷翻墙网 https://1808.ga   节点_19
-      - CZ_二爷翻墙网 https://1808.ga   节点_20
-      - SG_二爷翻墙网 https://1808.ga   节点_21
-      - SG_二爷翻墙网 https://1808.ga   节点_22
-      - SG_二爷翻墙网 https://1808.ga   节点_23
-      - SG_二爷翻墙网 https://1808.ga   节点_24
-      - HK_二爷翻墙网 https://1808.ga   节点_25
-      - SG_二爷翻墙网 https://1808.ga   节点_26
-      - HK_二爷翻墙网 https://1808.ga   节点_27
-      - TH_二爷翻墙网 https://1808.ga   节点_28
-      - CZ_二爷翻墙网 https://1808.ga   节点_29
-      - CZ_二爷翻墙网 https://1808.ga   节点_30
-      - CZ_二爷翻墙网 https://1808.ga   节点_31
-      - CZ_二爷翻墙网 https://1808.ga   节点_32
-      - US_二爷翻墙网 https://1808.ga   节点_33
-      - US_二爷翻墙网 https://1808.ga   节点_34
-      - US_二爷翻墙网 https://1808.ga   节点_35
-      - US_二爷翻墙网 https://1808.ga   节点_36
-      - US_二爷翻墙网 https://1808.ga   节点_37
-      - US_二爷翻墙网 https://1808.ga   节点_38
-      - US_二爷翻墙网 https://1808.ga   节点_39
-      - US_二爷翻墙网 https://1808.ga   节点_40
-      - US_二爷翻墙网 https://1808.ga   节点_41
-      - US_二爷翻墙网 https://1808.ga   节点_42
-      - US_二爷翻墙网 https://1808.ga   节点_43
-      - US_二爷翻墙网 https://1808.ga   节点_44
-      - US_二爷翻墙网 https://1808.ga   节点_45
-      - US_二爷翻墙网 https://1808.ga   节点_46
-      - GB_二爷翻墙网 https://1808.ga   节点_47
-      - US_二爷翻墙网 https://1808.ga   节点_48
-      - GB_二爷翻墙网 https://1808.ga   节点_49
-      - JP_二爷翻墙网 https://1808.ga   节点_50
-      - US_二爷翻墙网 https://1808.ga   节点_51
-      - SG_二爷翻墙网 https://1808.ga   节点_52
-      - US_二爷翻墙网 https://1808.ga   节点_53
-      - US_二爷翻墙网 https://1808.ga   节点_54
-      - NL_二爷翻墙网 https://1808.ga   节点_55
-      - US_二爷翻墙网 https://1808.ga   节点_56
-      - US_二爷翻墙网 https://1808.ga   节点_57
-      - IN_二爷翻墙网 https://1808.ga   节点_58
-      - US_二爷翻墙网 https://1808.ga   节点_59
-      - US_二爷翻墙网 https://1808.ga   节点_60
-      - JP_二爷翻墙网 https://1808.ga   节点_61
-      - AU_二爷翻墙网 https://1808.ga   节点_62
-      - IN_二爷翻墙网 https://1808.ga   节点_63
-      - IN_二爷翻墙网 https://1808.ga   节点_64
-      - US_二爷翻墙网 https://1808.ga   节点_65
-      - US_二爷翻墙网 https://1808.ga   节点_66
+      - 5472-VMESS1
+      - 5472-VMESS2
+      - 442-Vmess01
+      - 442-Vmess02
+      - CN_二爷翻墙网 https://1808.ga  节点0727_10
+      - CN_二爷翻墙网 https://1808.ga  节点0727_14
+      - CN_二爷翻墙网 https://1808.ga  节点0727_16
+      - CN_二爷翻墙网 https://1808.ga  节点0727_6
+      - HK_二爷翻墙网 https://1808.ga  节点0727_1
+      - HK_二爷翻墙网 https://1808.ga  节点0727_2
+      - HK_二爷翻墙网 https://1808.ga  节点0727_3
+      - HK_二爷翻墙网 https://1808.ga  节点0727_4
+      - HK_二爷翻墙网 https://1808.ga  节点0727_5
+      - TW_二爷翻墙网 https://1808.ga  节点0727_11
+      - TW_二爷翻墙网 https://1808.ga  节点0727_7
+      - TW_二爷翻墙网 https://1808.ga  节点0727_8
+      - US_二爷翻墙网 https://1808.ga  节点0727_12
+      - US_二爷翻墙网 https://1808.ga  节点0727_15
+      - US_二爷翻墙网 https://1808.ga  节点0727_9
+      - 二爷翻墙网 https://1808.ga  节点0727_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -610,74 +226,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - argo
-      - argo-02
-      - US_二爷翻墙网 https://1808.ga   节点_1
-      - US_二爷翻墙网 https://1808.ga   节点_2
-      - AU_二爷翻墙网 https://1808.ga   节点_3
-      - AU_二爷翻墙网 https://1808.ga   节点_4
-      - JP_二爷翻墙网 https://1808.ga   节点_5
-      - US_二爷翻墙网 https://1808.ga   节点_6
-      - TW_二爷翻墙网 https://1808.ga   节点_7
-      - CZ_二爷翻墙网 https://1808.ga   节点_8
-      - GB_二爷翻墙网 https://1808.ga   节点_9
-      - GB_二爷翻墙网 https://1808.ga   节点_10
-      - GB_二爷翻墙网 https://1808.ga   节点_11
-      - FR_二爷翻墙网 https://1808.ga   节点_12
-      - JP_二爷翻墙网 https://1808.ga   节点_13
-      - JP_二爷翻墙网 https://1808.ga   节点_14
-      - JP_二爷翻墙网 https://1808.ga   节点_15
-      - JP_二爷翻墙网 https://1808.ga   节点_16
-      - JP_二爷翻墙网 https://1808.ga   节点_17
-      - KR_二爷翻墙网 https://1808.ga   节点_18
-      - IN_二爷翻墙网 https://1808.ga   节点_19
-      - CZ_二爷翻墙网 https://1808.ga   节点_20
-      - SG_二爷翻墙网 https://1808.ga   节点_21
-      - SG_二爷翻墙网 https://1808.ga   节点_22
-      - SG_二爷翻墙网 https://1808.ga   节点_23
-      - SG_二爷翻墙网 https://1808.ga   节点_24
-      - HK_二爷翻墙网 https://1808.ga   节点_25
-      - SG_二爷翻墙网 https://1808.ga   节点_26
-      - HK_二爷翻墙网 https://1808.ga   节点_27
-      - TH_二爷翻墙网 https://1808.ga   节点_28
-      - CZ_二爷翻墙网 https://1808.ga   节点_29
-      - CZ_二爷翻墙网 https://1808.ga   节点_30
-      - CZ_二爷翻墙网 https://1808.ga   节点_31
-      - CZ_二爷翻墙网 https://1808.ga   节点_32
-      - US_二爷翻墙网 https://1808.ga   节点_33
-      - US_二爷翻墙网 https://1808.ga   节点_34
-      - US_二爷翻墙网 https://1808.ga   节点_35
-      - US_二爷翻墙网 https://1808.ga   节点_36
-      - US_二爷翻墙网 https://1808.ga   节点_37
-      - US_二爷翻墙网 https://1808.ga   节点_38
-      - US_二爷翻墙网 https://1808.ga   节点_39
-      - US_二爷翻墙网 https://1808.ga   节点_40
-      - US_二爷翻墙网 https://1808.ga   节点_41
-      - US_二爷翻墙网 https://1808.ga   节点_42
-      - US_二爷翻墙网 https://1808.ga   节点_43
-      - US_二爷翻墙网 https://1808.ga   节点_44
-      - US_二爷翻墙网 https://1808.ga   节点_45
-      - US_二爷翻墙网 https://1808.ga   节点_46
-      - GB_二爷翻墙网 https://1808.ga   节点_47
-      - US_二爷翻墙网 https://1808.ga   节点_48
-      - GB_二爷翻墙网 https://1808.ga   节点_49
-      - JP_二爷翻墙网 https://1808.ga   节点_50
-      - US_二爷翻墙网 https://1808.ga   节点_51
-      - SG_二爷翻墙网 https://1808.ga   节点_52
-      - US_二爷翻墙网 https://1808.ga   节点_53
-      - US_二爷翻墙网 https://1808.ga   节点_54
-      - NL_二爷翻墙网 https://1808.ga   节点_55
-      - US_二爷翻墙网 https://1808.ga   节点_56
-      - US_二爷翻墙网 https://1808.ga   节点_57
-      - IN_二爷翻墙网 https://1808.ga   节点_58
-      - US_二爷翻墙网 https://1808.ga   节点_59
-      - US_二爷翻墙网 https://1808.ga   节点_60
-      - JP_二爷翻墙网 https://1808.ga   节点_61
-      - AU_二爷翻墙网 https://1808.ga   节点_62
-      - IN_二爷翻墙网 https://1808.ga   节点_63
-      - IN_二爷翻墙网 https://1808.ga   节点_64
-      - US_二爷翻墙网 https://1808.ga   节点_65
-      - US_二爷翻墙网 https://1808.ga   节点_66
+      - 5472-VMESS1
+      - 5472-VMESS2
+      - 442-Vmess01
+      - 442-Vmess02
+      - CN_二爷翻墙网 https://1808.ga  节点0727_10
+      - CN_二爷翻墙网 https://1808.ga  节点0727_14
+      - CN_二爷翻墙网 https://1808.ga  节点0727_16
+      - CN_二爷翻墙网 https://1808.ga  节点0727_6
+      - HK_二爷翻墙网 https://1808.ga  节点0727_1
+      - HK_二爷翻墙网 https://1808.ga  节点0727_2
+      - HK_二爷翻墙网 https://1808.ga  节点0727_3
+      - HK_二爷翻墙网 https://1808.ga  节点0727_4
+      - HK_二爷翻墙网 https://1808.ga  节点0727_5
+      - TW_二爷翻墙网 https://1808.ga  节点0727_11
+      - TW_二爷翻墙网 https://1808.ga  节点0727_7
+      - TW_二爷翻墙网 https://1808.ga  节点0727_8
+      - US_二爷翻墙网 https://1808.ga  节点0727_12
+      - US_二爷翻墙网 https://1808.ga  节点0727_15
+      - US_二爷翻墙网 https://1808.ga  节点0727_9
+      - 二爷翻墙网 https://1808.ga  节点0727_13
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
