@@ -5,26 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 5472-VMESS1, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
-  - {name: 5472-VMESS2, server: 104.18.248.150, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
-  - {name: 442-Vmess01, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: county-motion-snow-exist.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: county-motion-snow-exist.trycloudflare.com}}}
+  - {name: 5472-VMESS1, server: 1.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
+  - {name: 5472-VMESS2, server: 3.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
+  - {name: 442-Vmess04, server: 172.67.16.31, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: county-motion-snow-exist.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: county-motion-snow-exist.trycloudflare.com}}}
   - {name: 442-Vmess02, server: 42.186.175.8, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: county-motion-snow-exist.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: county-motion-snow-exist.trycloudflare.com}}}
-  - {name: CN_二爷翻墙网 https://1808.ga  节点0727_10, server: 120.241.236.215, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_二爷翻墙网 https://1808.ga  节点0727_14, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com}
-  - {name: CN_二爷翻墙网 https://1808.ga  节点0727_16, server: 183.232.141.117, port: 559, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 30999:LLLLiikk988iu, obfs-param: dC5tZS92cG5oYXQ}
-  - {name: CN_二爷翻墙网 https://1808.ga  节点0727_6, server: 111.45.29.75, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: tw.speedasia.xyz}
-  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_1, server: 715hk01.ok365.cyou, port: 80, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 715hk01.ok365.cyou}
-  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_2, server: 73hk02.ok365.cyou, port: 12399, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 73hk02.ok365.cyou}
-  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_3, server: 715hk03.ok365.cyou, port: 12388, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 715hk03.ok365.cyou}
-  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_4, server: 73hk01.ok365.cyou, port: 80, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 73hk01.ok365.cyou}
-  - {name: HK_二爷翻墙网 https://1808.ga  节点0727_5, server: hgc.sharecentre.xyz, port: 120, type: vmess, uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d, alterId: 0, cipher: auto, tls: true, servername: hgc.sharecentre.xyz, network: ws, ws-opts: {path: /nj, headers: {Host: hgc.sharecentre.xyz}}}
-  - {name: TW_二爷翻墙网 https://1808.ga  节点0727_11, server: b.jp.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: ""}
-  - {name: TW_二爷翻墙网 https://1808.ga  节点0727_7, server: 724tw01.ok365.cyou, port: 443, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 724tw01.ok365.cyou}
-  - {name: TW_二爷翻墙网 https://1808.ga  节点0727_8, server: 165.154.226.108, port: 443, type: trojan, password: gb8cLR, sni: t108.ft2.us}
-  - {name: US_二爷翻墙网 https://1808.ga  节点0727_12, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz}
-  - {name: US_二爷翻墙网 https://1808.ga  节点0727_15, server: 625us.ok365.cyou, port: 443, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 625us.ok365.cyou}
-  - {name: US_二爷翻墙网 https://1808.ga  节点0727_9, server: azhk.sharecentre.xyz, port: 58975, type: vmess, uuid: f0e9aff1-ba59-4af4-f3a1-6d17fffb4aca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Sharecentrepro, headers: {Host: azhk.sharecentre.xyz}}}
-  - {name: 二爷翻墙网 https://1808.ga  节点0727_13, server: vfly6.xyz, port: 443, type: vmess, uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782, alterId: 60, cipher: auto, tls: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly6.xyz}}}
+  - {name: 552argo-01, server: 1.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: specified-creative-hungarian-pig.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: specified-creative-hungarian-pig.trycloudflare.com}}}
+  - {name: 552argo-02, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: specified-creative-hungarian-pig.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: specified-creative-hungarian-pig.trycloudflare.com}}}
+  - {name: 552argo-03, server: 3.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: specified-creative-hungarian-pig.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: specified-creative-hungarian-pig.trycloudflare.com}}}
+  - {name: 442-Vmess01, server: 1.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: county-motion-snow-exist.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: county-motion-snow-exist.trycloudflare.com}}}
+  - {name: 442-Vmess02 2, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: county-motion-snow-exist.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: county-motion-snow-exist.trycloudflare.com}}}
+  - {name: 5472-VMESS3, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: spent-consequence-temporarily-boolean.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: spent-consequence-temporarily-boolean.trycloudflare.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,24 +23,14 @@ proxy-groups:
       - DIRECT
       - 5472-VMESS1
       - 5472-VMESS2
-      - 442-Vmess01
+      - 442-Vmess04
       - 442-Vmess02
-      - CN_二爷翻墙网 https://1808.ga  节点0727_10
-      - CN_二爷翻墙网 https://1808.ga  节点0727_14
-      - CN_二爷翻墙网 https://1808.ga  节点0727_16
-      - CN_二爷翻墙网 https://1808.ga  节点0727_6
-      - HK_二爷翻墙网 https://1808.ga  节点0727_1
-      - HK_二爷翻墙网 https://1808.ga  节点0727_2
-      - HK_二爷翻墙网 https://1808.ga  节点0727_3
-      - HK_二爷翻墙网 https://1808.ga  节点0727_4
-      - HK_二爷翻墙网 https://1808.ga  节点0727_5
-      - TW_二爷翻墙网 https://1808.ga  节点0727_11
-      - TW_二爷翻墙网 https://1808.ga  节点0727_7
-      - TW_二爷翻墙网 https://1808.ga  节点0727_8
-      - US_二爷翻墙网 https://1808.ga  节点0727_12
-      - US_二爷翻墙网 https://1808.ga  节点0727_15
-      - US_二爷翻墙网 https://1808.ga  节点0727_9
-      - 二爷翻墙网 https://1808.ga  节点0727_13
+      - 552argo-01
+      - 552argo-02
+      - 552argo-03
+      - 442-Vmess01
+      - 442-Vmess02 2
+      - 5472-VMESS3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -59,24 +39,14 @@ proxy-groups:
     proxies:
       - 5472-VMESS1
       - 5472-VMESS2
-      - 442-Vmess01
+      - 442-Vmess04
       - 442-Vmess02
-      - CN_二爷翻墙网 https://1808.ga  节点0727_10
-      - CN_二爷翻墙网 https://1808.ga  节点0727_14
-      - CN_二爷翻墙网 https://1808.ga  节点0727_16
-      - CN_二爷翻墙网 https://1808.ga  节点0727_6
-      - HK_二爷翻墙网 https://1808.ga  节点0727_1
-      - HK_二爷翻墙网 https://1808.ga  节点0727_2
-      - HK_二爷翻墙网 https://1808.ga  节点0727_3
-      - HK_二爷翻墙网 https://1808.ga  节点0727_4
-      - HK_二爷翻墙网 https://1808.ga  节点0727_5
-      - TW_二爷翻墙网 https://1808.ga  节点0727_11
-      - TW_二爷翻墙网 https://1808.ga  节点0727_7
-      - TW_二爷翻墙网 https://1808.ga  节点0727_8
-      - US_二爷翻墙网 https://1808.ga  节点0727_12
-      - US_二爷翻墙网 https://1808.ga  节点0727_15
-      - US_二爷翻墙网 https://1808.ga  节点0727_9
-      - 二爷翻墙网 https://1808.ga  节点0727_13
+      - 552argo-01
+      - 552argo-02
+      - 552argo-03
+      - 442-Vmess01
+      - 442-Vmess02 2
+      - 5472-VMESS3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -85,24 +55,14 @@ proxy-groups:
       - 🎯 全球直连
       - 5472-VMESS1
       - 5472-VMESS2
-      - 442-Vmess01
+      - 442-Vmess04
       - 442-Vmess02
-      - CN_二爷翻墙网 https://1808.ga  节点0727_10
-      - CN_二爷翻墙网 https://1808.ga  节点0727_14
-      - CN_二爷翻墙网 https://1808.ga  节点0727_16
-      - CN_二爷翻墙网 https://1808.ga  节点0727_6
-      - HK_二爷翻墙网 https://1808.ga  节点0727_1
-      - HK_二爷翻墙网 https://1808.ga  节点0727_2
-      - HK_二爷翻墙网 https://1808.ga  节点0727_3
-      - HK_二爷翻墙网 https://1808.ga  节点0727_4
-      - HK_二爷翻墙网 https://1808.ga  节点0727_5
-      - TW_二爷翻墙网 https://1808.ga  节点0727_11
-      - TW_二爷翻墙网 https://1808.ga  节点0727_7
-      - TW_二爷翻墙网 https://1808.ga  节点0727_8
-      - US_二爷翻墙网 https://1808.ga  节点0727_12
-      - US_二爷翻墙网 https://1808.ga  节点0727_15
-      - US_二爷翻墙网 https://1808.ga  节点0727_9
-      - 二爷翻墙网 https://1808.ga  节点0727_13
+      - 552argo-01
+      - 552argo-02
+      - 552argo-03
+      - 442-Vmess01
+      - 442-Vmess02 2
+      - 5472-VMESS3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -110,24 +70,14 @@ proxy-groups:
       - 🎯 全球直连
       - 5472-VMESS1
       - 5472-VMESS2
-      - 442-Vmess01
+      - 442-Vmess04
       - 442-Vmess02
-      - CN_二爷翻墙网 https://1808.ga  节点0727_10
-      - CN_二爷翻墙网 https://1808.ga  节点0727_14
-      - CN_二爷翻墙网 https://1808.ga  节点0727_16
-      - CN_二爷翻墙网 https://1808.ga  节点0727_6
-      - HK_二爷翻墙网 https://1808.ga  节点0727_1
-      - HK_二爷翻墙网 https://1808.ga  节点0727_2
-      - HK_二爷翻墙网 https://1808.ga  节点0727_3
-      - HK_二爷翻墙网 https://1808.ga  节点0727_4
-      - HK_二爷翻墙网 https://1808.ga  节点0727_5
-      - TW_二爷翻墙网 https://1808.ga  节点0727_11
-      - TW_二爷翻墙网 https://1808.ga  节点0727_7
-      - TW_二爷翻墙网 https://1808.ga  节点0727_8
-      - US_二爷翻墙网 https://1808.ga  节点0727_12
-      - US_二爷翻墙网 https://1808.ga  节点0727_15
-      - US_二爷翻墙网 https://1808.ga  节点0727_9
-      - 二爷翻墙网 https://1808.ga  节点0727_13
+      - 552argo-01
+      - 552argo-02
+      - 552argo-03
+      - 442-Vmess01
+      - 442-Vmess02 2
+      - 5472-VMESS3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -135,24 +85,14 @@ proxy-groups:
       - 🚀 节点选择
       - 5472-VMESS1
       - 5472-VMESS2
-      - 442-Vmess01
+      - 442-Vmess04
       - 442-Vmess02
-      - CN_二爷翻墙网 https://1808.ga  节点0727_10
-      - CN_二爷翻墙网 https://1808.ga  节点0727_14
-      - CN_二爷翻墙网 https://1808.ga  节点0727_16
-      - CN_二爷翻墙网 https://1808.ga  节点0727_6
-      - HK_二爷翻墙网 https://1808.ga  节点0727_1
-      - HK_二爷翻墙网 https://1808.ga  节点0727_2
-      - HK_二爷翻墙网 https://1808.ga  节点0727_3
-      - HK_二爷翻墙网 https://1808.ga  节点0727_4
-      - HK_二爷翻墙网 https://1808.ga  节点0727_5
-      - TW_二爷翻墙网 https://1808.ga  节点0727_11
-      - TW_二爷翻墙网 https://1808.ga  节点0727_7
-      - TW_二爷翻墙网 https://1808.ga  节点0727_8
-      - US_二爷翻墙网 https://1808.ga  节点0727_12
-      - US_二爷翻墙网 https://1808.ga  节点0727_15
-      - US_二爷翻墙网 https://1808.ga  节点0727_9
-      - 二爷翻墙网 https://1808.ga  节点0727_13
+      - 552argo-01
+      - 552argo-02
+      - 552argo-03
+      - 442-Vmess01
+      - 442-Vmess02 2
+      - 5472-VMESS3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -160,24 +100,14 @@ proxy-groups:
       - 🎯 全球直连
       - 5472-VMESS1
       - 5472-VMESS2
-      - 442-Vmess01
+      - 442-Vmess04
       - 442-Vmess02
-      - CN_二爷翻墙网 https://1808.ga  节点0727_10
-      - CN_二爷翻墙网 https://1808.ga  节点0727_14
-      - CN_二爷翻墙网 https://1808.ga  节点0727_16
-      - CN_二爷翻墙网 https://1808.ga  节点0727_6
-      - HK_二爷翻墙网 https://1808.ga  节点0727_1
-      - HK_二爷翻墙网 https://1808.ga  节点0727_2
-      - HK_二爷翻墙网 https://1808.ga  节点0727_3
-      - HK_二爷翻墙网 https://1808.ga  节点0727_4
-      - HK_二爷翻墙网 https://1808.ga  节点0727_5
-      - TW_二爷翻墙网 https://1808.ga  节点0727_11
-      - TW_二爷翻墙网 https://1808.ga  节点0727_7
-      - TW_二爷翻墙网 https://1808.ga  节点0727_8
-      - US_二爷翻墙网 https://1808.ga  节点0727_12
-      - US_二爷翻墙网 https://1808.ga  节点0727_15
-      - US_二爷翻墙网 https://1808.ga  节点0727_9
-      - 二爷翻墙网 https://1808.ga  节点0727_13
+      - 552argo-01
+      - 552argo-02
+      - 552argo-03
+      - 442-Vmess01
+      - 442-Vmess02 2
+      - 5472-VMESS3
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -186,24 +116,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 5472-VMESS1
       - 5472-VMESS2
-      - 442-Vmess01
+      - 442-Vmess04
       - 442-Vmess02
-      - CN_二爷翻墙网 https://1808.ga  节点0727_10
-      - CN_二爷翻墙网 https://1808.ga  节点0727_14
-      - CN_二爷翻墙网 https://1808.ga  节点0727_16
-      - CN_二爷翻墙网 https://1808.ga  节点0727_6
-      - HK_二爷翻墙网 https://1808.ga  节点0727_1
-      - HK_二爷翻墙网 https://1808.ga  节点0727_2
-      - HK_二爷翻墙网 https://1808.ga  节点0727_3
-      - HK_二爷翻墙网 https://1808.ga  节点0727_4
-      - HK_二爷翻墙网 https://1808.ga  节点0727_5
-      - TW_二爷翻墙网 https://1808.ga  节点0727_11
-      - TW_二爷翻墙网 https://1808.ga  节点0727_7
-      - TW_二爷翻墙网 https://1808.ga  节点0727_8
-      - US_二爷翻墙网 https://1808.ga  节点0727_12
-      - US_二爷翻墙网 https://1808.ga  节点0727_15
-      - US_二爷翻墙网 https://1808.ga  节点0727_9
-      - 二爷翻墙网 https://1808.ga  节点0727_13
+      - 552argo-01
+      - 552argo-02
+      - 552argo-03
+      - 442-Vmess01
+      - 442-Vmess02 2
+      - 5472-VMESS3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,24 +148,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 5472-VMESS1
       - 5472-VMESS2
-      - 442-Vmess01
+      - 442-Vmess04
       - 442-Vmess02
-      - CN_二爷翻墙网 https://1808.ga  节点0727_10
-      - CN_二爷翻墙网 https://1808.ga  节点0727_14
-      - CN_二爷翻墙网 https://1808.ga  节点0727_16
-      - CN_二爷翻墙网 https://1808.ga  节点0727_6
-      - HK_二爷翻墙网 https://1808.ga  节点0727_1
-      - HK_二爷翻墙网 https://1808.ga  节点0727_2
-      - HK_二爷翻墙网 https://1808.ga  节点0727_3
-      - HK_二爷翻墙网 https://1808.ga  节点0727_4
-      - HK_二爷翻墙网 https://1808.ga  节点0727_5
-      - TW_二爷翻墙网 https://1808.ga  节点0727_11
-      - TW_二爷翻墙网 https://1808.ga  节点0727_7
-      - TW_二爷翻墙网 https://1808.ga  节点0727_8
-      - US_二爷翻墙网 https://1808.ga  节点0727_12
-      - US_二爷翻墙网 https://1808.ga  节点0727_15
-      - US_二爷翻墙网 https://1808.ga  节点0727_9
-      - 二爷翻墙网 https://1808.ga  节点0727_13
+      - 552argo-01
+      - 552argo-02
+      - 552argo-03
+      - 442-Vmess01
+      - 442-Vmess02 2
+      - 5472-VMESS3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
