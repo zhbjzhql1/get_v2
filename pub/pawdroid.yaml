@@ -5,91 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇦 v2cross.com - 沙特阿拉伯Arabic Computer System Co. 61, server: 85.208.108.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: 13.212.31.90, port: 11491, type: vmess, uuid: 5857d1b1-8d45-4da9-a1d4-f908ddf6d1a3, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_@v2cross.com01, server: 85.208.108.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇳 v2cross.com - 广东省广州市电信IDC机房 34, server: cn02.downloadmovie.cn, port: 65084, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: cn02.downloadmovie.cn}}}
-  - {name: 中国-tg频道:@bpjzx2-6, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud}
-  - {name: 中国-tg频道:@bpjzx2-7, server: 14.29.124.168, port: 24008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CN_80 v2cross.com, server: 14.29.124.174, port: 11003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇸🇬SG_1233, server: vfly4.win, port: 443, type: vmess, uuid: 424afb77-4724-4ddc-f4c0-35de9c2239f5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly4.win}}}
-  - {name: "@SSRSUB-V79-付费推荐:v2cross.com", server: 47.241.220.160, port: 28475, type: vmess, uuid: 5b00ad6f-bc33-4946-8a32-b7e59620e935, alterId: 0, cipher: auto, tls: false}
-  - {name: Pool_🇯🇵JP_343, server: 185.172.113.106, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CA_88, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇬🇧 v2cross.com - 英国  37, server: 185.167.78.44, port: 49097, type: vmess, uuid: bb7979bf-ffda-4863-adb6-a44a4344463d, alterId: 0, cipher: auto, tls: false}
-  - {name: FR_39, server: 51.38.112.84, port: 44, type: ss, cipher: aes-256-cfb, password: instgram.com/openvpnssh}
-  - {name: v2cross.com - 乌克兰  40, server: 193.108.117.75, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: DE_203, server: 193.108.117.75, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇩🇪DE_1200, server: vfly1.win, port: 443, type: vmess, uuid: e45b5aac-b852-4055-cbbf-d366499e53e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly1.win}}}
-  - {name: 🇯🇵 v2cross.com - 日本  14, server: 146.56.118.227, port: 2052, type: vmess, uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: v2cross.com, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com}
+  - {name: v2cross.com 2, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
+  - {name: v2cross.com 3, server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇦 v2cross.com - 沙特阿拉伯Arabic Computer System Co. 61
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - JP_@v2cross.com01
-      - 🇨🇳 v2cross.com - 广东省广州市电信IDC机房 34
-      - 中国-tg频道:@bpjzx2-6
-      - 中国-tg频道:@bpjzx2-7
-      - CN_80 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_1233
-      - "@SSRSUB-V79-付费推荐:v2cross.com"
-      - Pool_🇯🇵JP_343
-      - CA_88
-      - 🇬🇧 v2cross.com - 英国  37
-      - FR_39
-      - v2cross.com - 乌克兰  40
-      - DE_203
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_1200
-      - 🇯🇵 v2cross.com - 日本  14
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇦 v2cross.com - 沙特阿拉伯Arabic Computer System Co. 61
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - JP_@v2cross.com01
-      - 🇨🇳 v2cross.com - 广东省广州市电信IDC机房 34
-      - 中国-tg频道:@bpjzx2-6
-      - 中国-tg频道:@bpjzx2-7
-      - CN_80 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_1233
-      - "@SSRSUB-V79-付费推荐:v2cross.com"
-      - Pool_🇯🇵JP_343
-      - CA_88
-      - 🇬🇧 v2cross.com - 英国  37
-      - FR_39
-      - v2cross.com - 乌克兰  40
-      - DE_203
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_1200
-      - 🇯🇵 v2cross.com - 日本  14
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇦 v2cross.com - 沙特阿拉伯Arabic Computer System Co. 61
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - JP_@v2cross.com01
-      - 🇨🇳 v2cross.com - 广东省广州市电信IDC机房 34
-      - 中国-tg频道:@bpjzx2-6
-      - 中国-tg频道:@bpjzx2-7
-      - CN_80 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_1233
-      - "@SSRSUB-V79-付费推荐:v2cross.com"
-      - Pool_🇯🇵JP_343
-      - CA_88
-      - 🇬🇧 v2cross.com - 英国  37
-      - FR_39
-      - v2cross.com - 乌克兰  40
-      - DE_203
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_1200
-      - 🇯🇵 v2cross.com - 日本  14
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,68 +44,26 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇦 v2cross.com - 沙特阿拉伯Arabic Computer System Co. 61
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - JP_@v2cross.com01
-      - 🇨🇳 v2cross.com - 广东省广州市电信IDC机房 34
-      - 中国-tg频道:@bpjzx2-6
-      - 中国-tg频道:@bpjzx2-7
-      - CN_80 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_1233
-      - "@SSRSUB-V79-付费推荐:v2cross.com"
-      - Pool_🇯🇵JP_343
-      - CA_88
-      - 🇬🇧 v2cross.com - 英国  37
-      - FR_39
-      - v2cross.com - 乌克兰  40
-      - DE_203
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_1200
-      - 🇯🇵 v2cross.com - 日本  14
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇦 v2cross.com - 沙特阿拉伯Arabic Computer System Co. 61
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - JP_@v2cross.com01
-      - 🇨🇳 v2cross.com - 广东省广州市电信IDC机房 34
-      - 中国-tg频道:@bpjzx2-6
-      - 中国-tg频道:@bpjzx2-7
-      - CN_80 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_1233
-      - "@SSRSUB-V79-付费推荐:v2cross.com"
-      - Pool_🇯🇵JP_343
-      - CA_88
-      - 🇬🇧 v2cross.com - 英国  37
-      - FR_39
-      - v2cross.com - 乌克兰  40
-      - DE_203
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_1200
-      - 🇯🇵 v2cross.com - 日本  14
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇦 v2cross.com - 沙特阿拉伯Arabic Computer System Co. 61
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - JP_@v2cross.com01
-      - 🇨🇳 v2cross.com - 广东省广州市电信IDC机房 34
-      - 中国-tg频道:@bpjzx2-6
-      - 中国-tg频道:@bpjzx2-7
-      - CN_80 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_1233
-      - "@SSRSUB-V79-付费推荐:v2cross.com"
-      - Pool_🇯🇵JP_343
-      - CA_88
-      - 🇬🇧 v2cross.com - 英国  37
-      - FR_39
-      - v2cross.com - 乌克兰  40
-      - DE_203
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_1200
-      - 🇯🇵 v2cross.com - 日本  14
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -177,23 +79,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇦 v2cross.com - 沙特阿拉伯Arabic Computer System Co. 61
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - JP_@v2cross.com01
-      - 🇨🇳 v2cross.com - 广东省广州市电信IDC机房 34
-      - 中国-tg频道:@bpjzx2-6
-      - 中国-tg频道:@bpjzx2-7
-      - CN_80 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_1233
-      - "@SSRSUB-V79-付费推荐:v2cross.com"
-      - Pool_🇯🇵JP_343
-      - CA_88
-      - 🇬🇧 v2cross.com - 英国  37
-      - FR_39
-      - v2cross.com - 乌克兰  40
-      - DE_203
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_1200
-      - 🇯🇵 v2cross.com - 日本  14
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
