@@ -10,17 +10,11 @@ proxies:
   - {name: 5472-VMESS2, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fleece-ri-dublin-contacted.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fleece-ri-dublin-contacted.trycloudflare.com}}}
   - {name: 5472-VMESS3, server: 3.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fleece-ri-dublin-contacted.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fleece-ri-dublin-contacted.trycloudflare.com}}}
   - {name: 5472-VMESS4, server: 4.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fleece-ri-dublin-contacted.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fleece-ri-dublin-contacted.trycloudflare.com}}}
-  - {name: 442-Vmess-01, server: 1.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fuji-amongst-abilities-cut.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fuji-amongst-abilities-cut.trycloudflare.com}}}
-  - {name: 442-Vmess-02, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fuji-amongst-abilities-cut.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fuji-amongst-abilities-cut.trycloudflare.com}}}
-  - {name: 442-Vmess-03, server: 3.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fuji-amongst-abilities-cut.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fuji-amongst-abilities-cut.trycloudflare.com}}}
-  - {name: 442-Vmess-04, server: 4.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fuji-amongst-abilities-cut.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fuji-amongst-abilities-cut.trycloudflare.com}}}
   - {name: 552argo-01, server: 1.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: specified-creative-hungarian-pig.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: specified-creative-hungarian-pig.trycloudflare.com}}}
   - {name: 552argo-02, server: 2.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: specified-creative-hungarian-pig.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: specified-creative-hungarian-pig.trycloudflare.com}}}
   - {name: 552argo-03, server: 3.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: specified-creative-hungarian-pig.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: specified-creative-hungarian-pig.trycloudflare.com}}}
   - {name: 552argo-04, server: 3.731808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: specified-creative-hungarian-pig.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: specified-creative-hungarian-pig.trycloudflare.com}}}
-  - {name: 001, server: 1.731808.cf, port: 443, type: vmess, uuid: 3ca7af1f-c4dd-41df-af7a-36a1f51ace63, alterId: 0, cipher: auto, tls: true, servername: rn.1808.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: rn.1808.cf}}}
-  - {name: 002, server: 3.731808.cf, port: 443, type: vmess, uuid: 3ca7af1f-c4dd-41df-af7a-36a1f51ace63, alterId: 0, cipher: auto, tls: true, servername: rn.1808.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: rn.1808.cf}}}
-  - {name: 003, server: 2.731808.cf, port: 443, type: vmess, uuid: 3ca7af1f-c4dd-41df-af7a-36a1f51ace63, alterId: 0, cipher: auto, tls: true, servername: rn.1808.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: rn.1808.cf}}}
+  - {name: 4423hax, server: 42.186.175.8, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: bottles-dist-english-gbp.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: bottles-dist-english-gbp.trycloudflare.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -32,17 +26,11 @@ proxy-groups:
       - 5472-VMESS2
       - 5472-VMESS3
       - 5472-VMESS4
-      - 442-Vmess-01
-      - 442-Vmess-02
-      - 442-Vmess-03
-      - 442-Vmess-04
       - 552argo-01
       - 552argo-02
       - 552argo-03
       - 552argo-04
-      - 001
-      - 002
-      - 003
+      - 4423hax
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -54,17 +42,11 @@ proxy-groups:
       - 5472-VMESS2
       - 5472-VMESS3
       - 5472-VMESS4
-      - 442-Vmess-01
-      - 442-Vmess-02
-      - 442-Vmess-03
-      - 442-Vmess-04
       - 552argo-01
       - 552argo-02
       - 552argo-03
       - 552argo-04
-      - 001
-      - 002
-      - 003
+      - 4423hax
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -76,17 +58,11 @@ proxy-groups:
       - 5472-VMESS2
       - 5472-VMESS3
       - 5472-VMESS4
-      - 442-Vmess-01
-      - 442-Vmess-02
-      - 442-Vmess-03
-      - 442-Vmess-04
       - 552argo-01
       - 552argo-02
       - 552argo-03
       - 552argo-04
-      - 001
-      - 002
-      - 003
+      - 4423hax
   - name: 📲 电报信息
     type: select
     proxies:
@@ -97,17 +73,11 @@ proxy-groups:
       - 5472-VMESS2
       - 5472-VMESS3
       - 5472-VMESS4
-      - 442-Vmess-01
-      - 442-Vmess-02
-      - 442-Vmess-03
-      - 442-Vmess-04
       - 552argo-01
       - 552argo-02
       - 552argo-03
       - 552argo-04
-      - 001
-      - 002
-      - 003
+      - 4423hax
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -118,17 +88,11 @@ proxy-groups:
       - 5472-VMESS2
       - 5472-VMESS3
       - 5472-VMESS4
-      - 442-Vmess-01
-      - 442-Vmess-02
-      - 442-Vmess-03
-      - 442-Vmess-04
       - 552argo-01
       - 552argo-02
       - 552argo-03
       - 552argo-04
-      - 001
-      - 002
-      - 003
+      - 4423hax
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -139,17 +103,11 @@ proxy-groups:
       - 5472-VMESS2
       - 5472-VMESS3
       - 5472-VMESS4
-      - 442-Vmess-01
-      - 442-Vmess-02
-      - 442-Vmess-03
-      - 442-Vmess-04
       - 552argo-01
       - 552argo-02
       - 552argo-03
       - 552argo-04
-      - 001
-      - 002
-      - 003
+      - 4423hax
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -161,17 +119,11 @@ proxy-groups:
       - 5472-VMESS2
       - 5472-VMESS3
       - 5472-VMESS4
-      - 442-Vmess-01
-      - 442-Vmess-02
-      - 442-Vmess-03
-      - 442-Vmess-04
       - 552argo-01
       - 552argo-02
       - 552argo-03
       - 552argo-04
-      - 001
-      - 002
-      - 003
+      - 4423hax
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -199,17 +151,11 @@ proxy-groups:
       - 5472-VMESS2
       - 5472-VMESS3
       - 5472-VMESS4
-      - 442-Vmess-01
-      - 442-Vmess-02
-      - 442-Vmess-03
-      - 442-Vmess-04
       - 552argo-01
       - 552argo-02
       - 552argo-03
       - 552argo-04
-      - 001
-      - 002
-      - 003
+      - 4423hax
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
