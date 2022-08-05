@@ -5,157 +5,226 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_52, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇦 加拿大01(TG频道:@kxswa), server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: AU_04, server: 185.167.116.252, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
-  - {name: 🇺🇸 美国-tg频道:@bpjzx2-29, server: 150.230.23.0, port: 44616, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e}
-  - {name: v2cross.com, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
-  - {name: 🇸🇬 新加坡04(TG频道:@kxswa), server: 36.139.112.22, port: 20453, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: 36.139.112.22, skip-cert-verify: true}
-  - {name: US_49, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_243, server: hgc.sharecentre.xyz, port: 120, type: vmess, uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nj, headers: {Host: hgc.sharecentre.xyz}}}
-  - {name: 🇺🇸 美国04(TG频道:@kxswa), server: 104.168.144.215, port: 443, type: trojan, password: srGSKqR5Fv, skip-cert-verify: true}
+  - {name: 🇨🇦 CA 3 → TG@SCINV, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: 91ef9bbb-25d9-4593-9f9e-d17e713f5aad, skip-cert-verify: true}
+  - {name: 🇭🇰 HK 1 → TG@SCINV, server: 223.17.43.52, port: 44601, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: true}
+  - {name: TH 1 → TG@SCINV, server: 119.59.116.248, port: 17159, type: trojan, password: PHnvNV7HGp, skip-cert-verify: true}
+  - {name: CA_89, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 US 27 → TG@SCINV, server: www.yangyongdeyu.tk, port: 28882, type: trojan, password: bhKeElzUhs, skip-cert-verify: true}
+  - {name: Relay_🏁ZZ-🇺🇸US_1440, server: 188.114.97.113, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
+  - {name: 🇺🇸 美国11(TG频道:@kxswa), server: 104.233.185.144, port: 23051, type: vmess, uuid: 1deeac0e-4a4d-45b4-e224-f5653cc70dc2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qicao, headers: {Host: 104.233.185.144}}}
+  - {name: 🇸🇬 新加坡03(TG频道:@kxswa), server: 8.218.91.252, port: 33522, type: vmess, uuid: 418c4b6d-9ff2-4a45-bd3b-ae5bb8704109, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: hy, headers: {Host: 8.218.91.252}}}
+  - {name: 🇯🇵 JP 4 → TG@SCINV, server: trs03.bolab.net, port: 443, type: trojan, password: 6990ca1bdccb0de3d9a0c5640634e29c, skip-cert-verify: true}
+  - {name: 🇺🇸 v2cross.com - 美国加利福利亚州洛杉矶iaclouds.com 4, server: 45.11.92.36, port: 30408, type: vmess, uuid: f397c771-9adf-4880-8611-8ac8b9ce24f5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国01(TG频道:@kxswa), server: 198.211.29.39, port: 10875, type: vmess, uuid: 6ef2028d-bc5c-46ff-a865-17b95832110a, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_277, server: 78.129.253.9, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 美国15(TG频道:@kxswa), server: 23.234.215.32, port: 25101, type: vmess, uuid: 07000d79-2f0e-4bca-a4fd-4b801a8b6a9c, alterId: 0, cipher: auto, tls: false}
+  - {name: US_590, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇫🇷 v2cross.com - 法国  24, server: moon.gd1214b.icu, port: 443, type: vmess, uuid: 4f60f6e9-c4b5-4939-9d5f-a9117067b8bc, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 v2cross.com - 美国内华达州拉斯维加斯BuyVM 26, server: 199.19.226.174, port: 443, type: vmess, uuid: 4858f70a-b37c-4bdf-ad41-3f9b8a6346c9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2, headers: {Host: 199.19.226.174}}}
   - {name: 🇺🇸 美国23(TG频道:@kxswa), server: 198.211.29.39, port: 53, type: vmess, uuid: e207f44f-7a21-4d58-dc1b-f1e121030cf9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 198.211.29.39}}}
-  - {name: CA_75, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇭🇰 香港04(TG频道:@kxswa), server: 183.232.198.38, port: 20309, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: 183.232.198.38, skip-cert-verify: true}
-  - {name: 🇺🇸 美国21(TG频道:@kxswa), server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🇱🇺LU-🇱🇺LU_27, server: lsb.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zcjd, headers: {Host: lsb.jcnf.app}}}
-  - {name: 🇺🇸 美国34(TG频道:@kxswa), server: 199.19.226.174, port: 443, type: vmess, uuid: 4858f70a-b37c-4bdf-ad41-3f9b8a6346c9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2, headers: {Host: 199.19.226.174}}}
-  - {name: 🇰🇷 v2cross.com - 韩国首尔Zenlayer 10, server: 45.43.41.222, port: 54541, type: vmess, uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 45.43.41.222}}}
+  - {name: 🇯🇵 日本02(TG频道:@kxswa), server: 138.3.208.203, port: 43298, type: vmess, uuid: 42104b60-1988-4063-96ce-5c4b20b53130, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_108, server: 14.29.124.174, port: 11032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇺🇸 US 33 → TG@SCINV, server: hk80501.ok365.cyou, port: 443, type: trojan, password: 91ef9bbb-25d9-4593-9f9e-d17e713f5aad, skip-cert-verify: true}
+  - {name: 🇺🇸 美国05(TG频道:@kxswa), server: 138.2.114.151, port: 56848, type: vmess, uuid: 6d22f92e-c2d6-4941-99b8-fd74234357a5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国13(TG频道:@kxswa), server: 199.19.226.174, port: 433, type: trojan, password: passwd1, skip-cert-verify: true}
+  - {name: 🇺🇸 美国10(TG频道:@kxswa), server: 104.233.185.144, port: 42147, type: vmess, uuid: 94defb00-232a-4f9c-fcda-5c8ca2310f0b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linshi, headers: {Host: 104.233.185.144}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_1438, server: 188.114.97.110, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_72, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: us23.567568.ml}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1258, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52
-      - 🇨🇦 加拿大01(TG频道:@kxswa)
-      - AU_04
-      - 🇺🇸 美国-tg频道:@bpjzx2-29
-      - v2cross.com
-      - 🇸🇬 新加坡04(TG频道:@kxswa)
-      - US_49
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_243
-      - 🇺🇸 美国04(TG频道:@kxswa)
+      - 🇨🇦 CA 3 → TG@SCINV
+      - 🇭🇰 HK 1 → TG@SCINV
+      - TH 1 → TG@SCINV
+      - CA_89
+      - 🇺🇸 US 27 → TG@SCINV
+      - Relay_🏁ZZ-🇺🇸US_1440
+      - 🇺🇸 美国11(TG频道:@kxswa)
+      - 🇸🇬 新加坡03(TG频道:@kxswa)
+      - 🇯🇵 JP 4 → TG@SCINV
+      - 🇺🇸 v2cross.com - 美国加利福利亚州洛杉矶iaclouds.com 4
+      - 🇺🇸 美国01(TG频道:@kxswa)
+      - GB_277
+      - 🇺🇸 美国15(TG频道:@kxswa)
+      - US_590
+      - 🇫🇷 v2cross.com - 法国  24
+      - 🇺🇸 v2cross.com - 美国内华达州拉斯维加斯BuyVM 26
       - 🇺🇸 美国23(TG频道:@kxswa)
-      - CA_75
-      - 🇭🇰 香港04(TG频道:@kxswa)
-      - 🇺🇸 美国21(TG频道:@kxswa)
-      - Relay_🇱🇺LU-🇱🇺LU_27
-      - 🇺🇸 美国34(TG频道:@kxswa)
-      - 🇰🇷 v2cross.com - 韩国首尔Zenlayer 10
+      - 🇯🇵 日本02(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_108
+      - 🇺🇸 US 33 → TG@SCINV
+      - 🇺🇸 美国05(TG频道:@kxswa)
+      - 🇺🇸 美国13(TG频道:@kxswa)
+      - 🇺🇸 美国10(TG频道:@kxswa)
+      - Relay_🏁ZZ-🇺🇸US_1438
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1258
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52
-      - 🇨🇦 加拿大01(TG频道:@kxswa)
-      - AU_04
-      - 🇺🇸 美国-tg频道:@bpjzx2-29
-      - v2cross.com
-      - 🇸🇬 新加坡04(TG频道:@kxswa)
-      - US_49
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_243
-      - 🇺🇸 美国04(TG频道:@kxswa)
+      - 🇨🇦 CA 3 → TG@SCINV
+      - 🇭🇰 HK 1 → TG@SCINV
+      - TH 1 → TG@SCINV
+      - CA_89
+      - 🇺🇸 US 27 → TG@SCINV
+      - Relay_🏁ZZ-🇺🇸US_1440
+      - 🇺🇸 美国11(TG频道:@kxswa)
+      - 🇸🇬 新加坡03(TG频道:@kxswa)
+      - 🇯🇵 JP 4 → TG@SCINV
+      - 🇺🇸 v2cross.com - 美国加利福利亚州洛杉矶iaclouds.com 4
+      - 🇺🇸 美国01(TG频道:@kxswa)
+      - GB_277
+      - 🇺🇸 美国15(TG频道:@kxswa)
+      - US_590
+      - 🇫🇷 v2cross.com - 法国  24
+      - 🇺🇸 v2cross.com - 美国内华达州拉斯维加斯BuyVM 26
       - 🇺🇸 美国23(TG频道:@kxswa)
-      - CA_75
-      - 🇭🇰 香港04(TG频道:@kxswa)
-      - 🇺🇸 美国21(TG频道:@kxswa)
-      - Relay_🇱🇺LU-🇱🇺LU_27
-      - 🇺🇸 美国34(TG频道:@kxswa)
-      - 🇰🇷 v2cross.com - 韩国首尔Zenlayer 10
+      - 🇯🇵 日本02(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_108
+      - 🇺🇸 US 33 → TG@SCINV
+      - 🇺🇸 美国05(TG频道:@kxswa)
+      - 🇺🇸 美国13(TG频道:@kxswa)
+      - 🇺🇸 美国10(TG频道:@kxswa)
+      - Relay_🏁ZZ-🇺🇸US_1438
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1258
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52
-      - 🇨🇦 加拿大01(TG频道:@kxswa)
-      - AU_04
-      - 🇺🇸 美国-tg频道:@bpjzx2-29
-      - v2cross.com
-      - 🇸🇬 新加坡04(TG频道:@kxswa)
-      - US_49
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_243
-      - 🇺🇸 美国04(TG频道:@kxswa)
+      - 🇨🇦 CA 3 → TG@SCINV
+      - 🇭🇰 HK 1 → TG@SCINV
+      - TH 1 → TG@SCINV
+      - CA_89
+      - 🇺🇸 US 27 → TG@SCINV
+      - Relay_🏁ZZ-🇺🇸US_1440
+      - 🇺🇸 美国11(TG频道:@kxswa)
+      - 🇸🇬 新加坡03(TG频道:@kxswa)
+      - 🇯🇵 JP 4 → TG@SCINV
+      - 🇺🇸 v2cross.com - 美国加利福利亚州洛杉矶iaclouds.com 4
+      - 🇺🇸 美国01(TG频道:@kxswa)
+      - GB_277
+      - 🇺🇸 美国15(TG频道:@kxswa)
+      - US_590
+      - 🇫🇷 v2cross.com - 法国  24
+      - 🇺🇸 v2cross.com - 美国内华达州拉斯维加斯BuyVM 26
       - 🇺🇸 美国23(TG频道:@kxswa)
-      - CA_75
-      - 🇭🇰 香港04(TG频道:@kxswa)
-      - 🇺🇸 美国21(TG频道:@kxswa)
-      - Relay_🇱🇺LU-🇱🇺LU_27
-      - 🇺🇸 美国34(TG频道:@kxswa)
-      - 🇰🇷 v2cross.com - 韩国首尔Zenlayer 10
+      - 🇯🇵 日本02(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_108
+      - 🇺🇸 US 33 → TG@SCINV
+      - 🇺🇸 美国05(TG频道:@kxswa)
+      - 🇺🇸 美国13(TG频道:@kxswa)
+      - 🇺🇸 美国10(TG频道:@kxswa)
+      - Relay_🏁ZZ-🇺🇸US_1438
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1258
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港04(TG频道:@kxswa)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52
-      - 🇨🇦 加拿大01(TG频道:@kxswa)
-      - AU_04
-      - 🇺🇸 美国-tg频道:@bpjzx2-29
-      - v2cross.com
-      - 🇸🇬 新加坡04(TG频道:@kxswa)
-      - US_49
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_243
-      - 🇺🇸 美国04(TG频道:@kxswa)
+      - 🇨🇦 CA 3 → TG@SCINV
+      - 🇭🇰 HK 1 → TG@SCINV
+      - TH 1 → TG@SCINV
+      - CA_89
+      - 🇺🇸 US 27 → TG@SCINV
+      - Relay_🏁ZZ-🇺🇸US_1440
+      - 🇺🇸 美国11(TG频道:@kxswa)
+      - 🇸🇬 新加坡03(TG频道:@kxswa)
+      - 🇯🇵 JP 4 → TG@SCINV
+      - 🇺🇸 v2cross.com - 美国加利福利亚州洛杉矶iaclouds.com 4
+      - 🇺🇸 美国01(TG频道:@kxswa)
+      - GB_277
+      - 🇺🇸 美国15(TG频道:@kxswa)
+      - US_590
+      - 🇫🇷 v2cross.com - 法国  24
+      - 🇺🇸 v2cross.com - 美国内华达州拉斯维加斯BuyVM 26
       - 🇺🇸 美国23(TG频道:@kxswa)
-      - CA_75
-      - 🇭🇰 香港04(TG频道:@kxswa)
-      - 🇺🇸 美国21(TG频道:@kxswa)
-      - Relay_🇱🇺LU-🇱🇺LU_27
-      - 🇺🇸 美国34(TG频道:@kxswa)
-      - 🇰🇷 v2cross.com - 韩国首尔Zenlayer 10
+      - 🇯🇵 日本02(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_108
+      - 🇺🇸 US 33 → TG@SCINV
+      - 🇺🇸 美国05(TG频道:@kxswa)
+      - 🇺🇸 美国13(TG频道:@kxswa)
+      - 🇺🇸 美国10(TG频道:@kxswa)
+      - Relay_🏁ZZ-🇺🇸US_1438
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1258
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52
-      - 🇨🇦 加拿大01(TG频道:@kxswa)
-      - AU_04
-      - 🇺🇸 美国-tg频道:@bpjzx2-29
-      - v2cross.com
-      - 🇸🇬 新加坡04(TG频道:@kxswa)
-      - US_49
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_243
-      - 🇺🇸 美国04(TG频道:@kxswa)
+      - 🇨🇦 CA 3 → TG@SCINV
+      - 🇭🇰 HK 1 → TG@SCINV
+      - TH 1 → TG@SCINV
+      - CA_89
+      - 🇺🇸 US 27 → TG@SCINV
+      - Relay_🏁ZZ-🇺🇸US_1440
+      - 🇺🇸 美国11(TG频道:@kxswa)
+      - 🇸🇬 新加坡03(TG频道:@kxswa)
+      - 🇯🇵 JP 4 → TG@SCINV
+      - 🇺🇸 v2cross.com - 美国加利福利亚州洛杉矶iaclouds.com 4
+      - 🇺🇸 美国01(TG频道:@kxswa)
+      - GB_277
+      - 🇺🇸 美国15(TG频道:@kxswa)
+      - US_590
+      - 🇫🇷 v2cross.com - 法国  24
+      - 🇺🇸 v2cross.com - 美国内华达州拉斯维加斯BuyVM 26
       - 🇺🇸 美国23(TG频道:@kxswa)
-      - CA_75
-      - 🇭🇰 香港04(TG频道:@kxswa)
-      - 🇺🇸 美国21(TG频道:@kxswa)
-      - Relay_🇱🇺LU-🇱🇺LU_27
-      - 🇺🇸 美国34(TG频道:@kxswa)
-      - 🇰🇷 v2cross.com - 韩国首尔Zenlayer 10
+      - 🇯🇵 日本02(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_108
+      - 🇺🇸 US 33 → TG@SCINV
+      - 🇺🇸 美国05(TG频道:@kxswa)
+      - 🇺🇸 美国13(TG频道:@kxswa)
+      - 🇺🇸 美国10(TG频道:@kxswa)
+      - Relay_🏁ZZ-🇺🇸US_1438
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1258
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52
-      - 🇨🇦 加拿大01(TG频道:@kxswa)
-      - AU_04
-      - 🇺🇸 美国-tg频道:@bpjzx2-29
-      - v2cross.com
-      - 🇸🇬 新加坡04(TG频道:@kxswa)
-      - US_49
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_243
-      - 🇺🇸 美国04(TG频道:@kxswa)
+      - 🇨🇦 CA 3 → TG@SCINV
+      - 🇭🇰 HK 1 → TG@SCINV
+      - TH 1 → TG@SCINV
+      - CA_89
+      - 🇺🇸 US 27 → TG@SCINV
+      - Relay_🏁ZZ-🇺🇸US_1440
+      - 🇺🇸 美国11(TG频道:@kxswa)
+      - 🇸🇬 新加坡03(TG频道:@kxswa)
+      - 🇯🇵 JP 4 → TG@SCINV
+      - 🇺🇸 v2cross.com - 美国加利福利亚州洛杉矶iaclouds.com 4
+      - 🇺🇸 美国01(TG频道:@kxswa)
+      - GB_277
+      - 🇺🇸 美国15(TG频道:@kxswa)
+      - US_590
+      - 🇫🇷 v2cross.com - 法国  24
+      - 🇺🇸 v2cross.com - 美国内华达州拉斯维加斯BuyVM 26
       - 🇺🇸 美国23(TG频道:@kxswa)
-      - CA_75
-      - 🇭🇰 香港04(TG频道:@kxswa)
-      - 🇺🇸 美国21(TG频道:@kxswa)
-      - Relay_🇱🇺LU-🇱🇺LU_27
-      - 🇺🇸 美国34(TG频道:@kxswa)
-      - 🇰🇷 v2cross.com - 韩国首尔Zenlayer 10
+      - 🇯🇵 日本02(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_108
+      - 🇺🇸 US 33 → TG@SCINV
+      - 🇺🇸 美国05(TG频道:@kxswa)
+      - 🇺🇸 美国13(TG频道:@kxswa)
+      - 🇺🇸 美国10(TG频道:@kxswa)
+      - Relay_🏁ZZ-🇺🇸US_1438
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1258
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -171,22 +240,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52
-      - 🇨🇦 加拿大01(TG频道:@kxswa)
-      - AU_04
-      - 🇺🇸 美国-tg频道:@bpjzx2-29
-      - v2cross.com
-      - 🇸🇬 新加坡04(TG频道:@kxswa)
-      - US_49
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_243
-      - 🇺🇸 美国04(TG频道:@kxswa)
+      - 🇨🇦 CA 3 → TG@SCINV
+      - 🇭🇰 HK 1 → TG@SCINV
+      - TH 1 → TG@SCINV
+      - CA_89
+      - 🇺🇸 US 27 → TG@SCINV
+      - Relay_🏁ZZ-🇺🇸US_1440
+      - 🇺🇸 美国11(TG频道:@kxswa)
+      - 🇸🇬 新加坡03(TG频道:@kxswa)
+      - 🇯🇵 JP 4 → TG@SCINV
+      - 🇺🇸 v2cross.com - 美国加利福利亚州洛杉矶iaclouds.com 4
+      - 🇺🇸 美国01(TG频道:@kxswa)
+      - GB_277
+      - 🇺🇸 美国15(TG频道:@kxswa)
+      - US_590
+      - 🇫🇷 v2cross.com - 法国  24
+      - 🇺🇸 v2cross.com - 美国内华达州拉斯维加斯BuyVM 26
       - 🇺🇸 美国23(TG频道:@kxswa)
-      - CA_75
-      - 🇭🇰 香港04(TG频道:@kxswa)
-      - 🇺🇸 美国21(TG频道:@kxswa)
-      - Relay_🇱🇺LU-🇱🇺LU_27
-      - 🇺🇸 美国34(TG频道:@kxswa)
-      - 🇰🇷 v2cross.com - 韩国首尔Zenlayer 10
+      - 🇯🇵 日本02(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_108
+      - 🇺🇸 US 33 → TG@SCINV
+      - 🇺🇸 美国05(TG频道:@kxswa)
+      - 🇺🇸 美国13(TG频道:@kxswa)
+      - 🇺🇸 美国10(TG频道:@kxswa)
+      - Relay_🏁ZZ-🇺🇸US_1438
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1258
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
