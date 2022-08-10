@@ -5,95 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN 9 → TG@SCINV, server: gzyd1.52147.top, port: 30130, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: true}
-  - {name: v2cross.com, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
+  - {name: ZZ_1509, server: 134.195.196.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Pool_🇯🇵JP_333, server: 185.172.113.102, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: JP_363, server: 146.56.167.119, port: 6666, type: vmess, uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419, alterId: 0, cipher: auto, tls: false}
+  - {name: US_45, server: 152.67.221.228, port: 58742, type: vmess, uuid: 0d31b385-c478-456b-f665-f1d62a91e54c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_106, server: 14.29.124.174, port: 11032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: v2cross.com, server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1381, server: lli.poohuuc66.tk, port: 58936, type: vmess, uuid: 923fb377-d3c1-4773-e07b-c677575b5c41, alterId: 0, cipher: auto, tls: true}
+  - {name: AU_08, server: 185.167.116.252, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: FR_227, server: 51.38.112.84, port: 44, type: ss, cipher: aes-256-cfb, password: instgram.com/openvpnssh}
+  - {name: CY_115, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: JP_368, server: 146.56.184.242, port: 19570, type: vmess, uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9, alterId: 0, cipher: auto, tls: false}
+  - {name: AU_22, server: 185.167.116.252, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
+  - {name: Pool_🇯🇵JP_341, server: 185.172.113.102, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: v2cross.com 2, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com}
-  - {name: 🇸🇬 SG 7 → TG@SCINV, server: singapore.bpnet.club, port: 30241, type: trojan, password: 850cdbc0-2158-40fc-95f6-f7ca1521e8bc, skip-cert-verify: true}
-  - {name: 🇨🇳 TW 4 → TG@SCINV, server: hinet1.52147.top, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false}
-  - {name: "@SSRSUB-V20-付费推荐:v2cross.com", server: 195.133.197.254, port: 443, type: vmess, uuid: ba4b9133-5a39-4015-808b-bcfaaa8962a8, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇸 US 26 → TG@SCINV, server: 212.90.123.130, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: true}
-  - {name: 🇲🇳 蒙古-tg频道:@bpjzx2-11, server: 103.168.56.67, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, sni: wx.qq.com}
-  - {name: unknown 3 → TG@SCINV, server: 103.173.255.228, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: true}
-  - {name: "@SSRSUB-V06-付费推荐:v2cross.com", server: cn04.downloadmovie.cn, port: 65036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}}
-  - {name: TW_785, server: 45.121.51.234, port: 51219, type: vmess, uuid: 9849621c-caee-4c3b-d32a-111c8e856858, alterId: 0, cipher: auto, tls: false}
-  - {name: HK_300, server: 203.218.84.13, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 CN 18 → TG@SCINV, server: hnyd.52147.top, port: 30010, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🏁ZZ_27, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: biznet-s.nextvpn.cc}}}
-  - {name: 🇲🇳 蒙古-tg频道:@bpjzx2-12, server: 103.153.141.202, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, sni: wx.qq.com}
-  - {name: DE_194, server: 193.108.117.75, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_796, server: 172.99.190.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: v2cross.com 3, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com}
+  - {name: US_828, server: 172.99.190.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Pool_🇳🇱 NL_531, server: 85.208.108.94, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_126, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: US_1365, server: 137.184.118.47, port: 51649, type: vmess, uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e, alterId: 0, cipher: auto, tls: false}
+  - {name: Pool_🇳🇱 NL_536, server: 85.208.108.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Pool_🇯🇵JP_344, server: 185.172.113.101, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 付费推荐:dlj.tf/ssrsub__18, server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Pool_🇳🇱 NL_506, server: 85.208.108.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_840, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Pool_🇳🇱 NL_514, server: 85.208.108.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: RU_767, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}}
+  - {name: US_1050, server: 172.99.188.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: ZZ_1485, server: 134.195.196.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: SG_158 v2cross.com, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}}
+  - {name: Pool_🇯🇵JP_353, server: 185.172.113.102, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇳 CN 2 → TG@SCINV, server: sg-cn-hk-relay-3-dd4440.dk-3a4e.com, port: 9303, type: trojan, password: f2a28b26-3462-11e9-96d3-020b85e0a428, skip-cert-verify: true}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160, server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN 9 → TG@SCINV
+      - ZZ_1509
+      - Pool_🇯🇵JP_333
+      - JP_363
+      - US_45
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_106
       - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1381
+      - AU_08
+      - FR_227
+      - CY_115
+      - JP_368
+      - AU_22
+      - Pool_🇯🇵JP_341
       - v2cross.com 2
-      - 🇸🇬 SG 7 → TG@SCINV
-      - 🇨🇳 TW 4 → TG@SCINV
-      - "@SSRSUB-V20-付费推荐:v2cross.com"
-      - 🇺🇸 US 26 → TG@SCINV
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-11
-      - unknown 3 → TG@SCINV
-      - "@SSRSUB-V06-付费推荐:v2cross.com"
-      - TW_785
-      - HK_300
-      - 🇨🇳 CN 18 → TG@SCINV
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_27
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-12
-      - DE_194
-      - US_796
-      - v2cross.com 3
+      - US_828
+      - Pool_🇳🇱 NL_531
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_126
+      - US_1365
+      - Pool_🇳🇱 NL_536
+      - Pool_🇯🇵JP_344
+      - 付费推荐:dlj.tf/ssrsub__18
+      - Pool_🇳🇱 NL_506
+      - US_840
+      - Pool_🇳🇱 NL_514
+      - RU_767
+      - US_1050
+      - ZZ_1485
+      - SG_158 v2cross.com
+      - Pool_🇯🇵JP_353
+      - 🇨🇳 CN 2 → TG@SCINV
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 CN 9 → TG@SCINV
+      - ZZ_1509
+      - Pool_🇯🇵JP_333
+      - JP_363
+      - US_45
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_106
       - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1381
+      - AU_08
+      - FR_227
+      - CY_115
+      - JP_368
+      - AU_22
+      - Pool_🇯🇵JP_341
       - v2cross.com 2
-      - 🇸🇬 SG 7 → TG@SCINV
-      - 🇨🇳 TW 4 → TG@SCINV
-      - "@SSRSUB-V20-付费推荐:v2cross.com"
-      - 🇺🇸 US 26 → TG@SCINV
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-11
-      - unknown 3 → TG@SCINV
-      - "@SSRSUB-V06-付费推荐:v2cross.com"
-      - TW_785
-      - HK_300
-      - 🇨🇳 CN 18 → TG@SCINV
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_27
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-12
-      - DE_194
-      - US_796
-      - v2cross.com 3
+      - US_828
+      - Pool_🇳🇱 NL_531
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_126
+      - US_1365
+      - Pool_🇳🇱 NL_536
+      - Pool_🇯🇵JP_344
+      - 付费推荐:dlj.tf/ssrsub__18
+      - Pool_🇳🇱 NL_506
+      - US_840
+      - Pool_🇳🇱 NL_514
+      - RU_767
+      - US_1050
+      - ZZ_1485
+      - SG_158 v2cross.com
+      - Pool_🇯🇵JP_353
+      - 🇨🇳 CN 2 → TG@SCINV
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN 9 → TG@SCINV
+      - ZZ_1509
+      - Pool_🇯🇵JP_333
+      - JP_363
+      - US_45
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_106
       - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1381
+      - AU_08
+      - FR_227
+      - CY_115
+      - JP_368
+      - AU_22
+      - Pool_🇯🇵JP_341
       - v2cross.com 2
-      - 🇸🇬 SG 7 → TG@SCINV
-      - 🇨🇳 TW 4 → TG@SCINV
-      - "@SSRSUB-V20-付费推荐:v2cross.com"
-      - 🇺🇸 US 26 → TG@SCINV
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-11
-      - unknown 3 → TG@SCINV
-      - "@SSRSUB-V06-付费推荐:v2cross.com"
-      - TW_785
-      - HK_300
-      - 🇨🇳 CN 18 → TG@SCINV
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_27
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-12
-      - DE_194
-      - US_796
-      - v2cross.com 3
+      - US_828
+      - Pool_🇳🇱 NL_531
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_126
+      - US_1365
+      - Pool_🇳🇱 NL_536
+      - Pool_🇯🇵JP_344
+      - 付费推荐:dlj.tf/ssrsub__18
+      - Pool_🇳🇱 NL_506
+      - US_840
+      - Pool_🇳🇱 NL_514
+      - RU_767
+      - US_1050
+      - ZZ_1485
+      - SG_158 v2cross.com
+      - Pool_🇯🇵JP_353
+      - 🇨🇳 CN 2 → TG@SCINV
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -104,71 +156,110 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 CN 9 → TG@SCINV
+      - ZZ_1509
+      - Pool_🇯🇵JP_333
+      - JP_363
+      - US_45
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_106
       - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1381
+      - AU_08
+      - FR_227
+      - CY_115
+      - JP_368
+      - AU_22
+      - Pool_🇯🇵JP_341
       - v2cross.com 2
-      - 🇸🇬 SG 7 → TG@SCINV
-      - 🇨🇳 TW 4 → TG@SCINV
-      - "@SSRSUB-V20-付费推荐:v2cross.com"
-      - 🇺🇸 US 26 → TG@SCINV
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-11
-      - unknown 3 → TG@SCINV
-      - "@SSRSUB-V06-付费推荐:v2cross.com"
-      - TW_785
-      - HK_300
-      - 🇨🇳 CN 18 → TG@SCINV
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_27
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-12
-      - DE_194
-      - US_796
-      - v2cross.com 3
+      - US_828
+      - Pool_🇳🇱 NL_531
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_126
+      - US_1365
+      - Pool_🇳🇱 NL_536
+      - Pool_🇯🇵JP_344
+      - 付费推荐:dlj.tf/ssrsub__18
+      - Pool_🇳🇱 NL_506
+      - US_840
+      - Pool_🇳🇱 NL_514
+      - RU_767
+      - US_1050
+      - ZZ_1485
+      - SG_158 v2cross.com
+      - Pool_🇯🇵JP_353
+      - 🇨🇳 CN 2 → TG@SCINV
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN 9 → TG@SCINV
+      - ZZ_1509
+      - Pool_🇯🇵JP_333
+      - JP_363
+      - US_45
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_106
       - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1381
+      - AU_08
+      - FR_227
+      - CY_115
+      - JP_368
+      - AU_22
+      - Pool_🇯🇵JP_341
       - v2cross.com 2
-      - 🇸🇬 SG 7 → TG@SCINV
-      - 🇨🇳 TW 4 → TG@SCINV
-      - "@SSRSUB-V20-付费推荐:v2cross.com"
-      - 🇺🇸 US 26 → TG@SCINV
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-11
-      - unknown 3 → TG@SCINV
-      - "@SSRSUB-V06-付费推荐:v2cross.com"
-      - TW_785
-      - HK_300
-      - 🇨🇳 CN 18 → TG@SCINV
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_27
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-12
-      - DE_194
-      - US_796
-      - v2cross.com 3
+      - US_828
+      - Pool_🇳🇱 NL_531
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_126
+      - US_1365
+      - Pool_🇳🇱 NL_536
+      - Pool_🇯🇵JP_344
+      - 付费推荐:dlj.tf/ssrsub__18
+      - Pool_🇳🇱 NL_506
+      - US_840
+      - Pool_🇳🇱 NL_514
+      - RU_767
+      - US_1050
+      - ZZ_1485
+      - SG_158 v2cross.com
+      - Pool_🇯🇵JP_353
+      - 🇨🇳 CN 2 → TG@SCINV
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN 9 → TG@SCINV
+      - ZZ_1509
+      - Pool_🇯🇵JP_333
+      - JP_363
+      - US_45
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_106
       - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1381
+      - AU_08
+      - FR_227
+      - CY_115
+      - JP_368
+      - AU_22
+      - Pool_🇯🇵JP_341
       - v2cross.com 2
-      - 🇸🇬 SG 7 → TG@SCINV
-      - 🇨🇳 TW 4 → TG@SCINV
-      - "@SSRSUB-V20-付费推荐:v2cross.com"
-      - 🇺🇸 US 26 → TG@SCINV
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-11
-      - unknown 3 → TG@SCINV
-      - "@SSRSUB-V06-付费推荐:v2cross.com"
-      - TW_785
-      - HK_300
-      - 🇨🇳 CN 18 → TG@SCINV
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_27
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-12
-      - DE_194
-      - US_796
-      - v2cross.com 3
+      - US_828
+      - Pool_🇳🇱 NL_531
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_126
+      - US_1365
+      - Pool_🇳🇱 NL_536
+      - Pool_🇯🇵JP_344
+      - 付费推荐:dlj.tf/ssrsub__18
+      - Pool_🇳🇱 NL_506
+      - US_840
+      - Pool_🇳🇱 NL_514
+      - RU_767
+      - US_1050
+      - ZZ_1485
+      - SG_158 v2cross.com
+      - Pool_🇯🇵JP_353
+      - 🇨🇳 CN 2 → TG@SCINV
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,24 +275,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN 9 → TG@SCINV
+      - ZZ_1509
+      - Pool_🇯🇵JP_333
+      - JP_363
+      - US_45
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_106
       - v2cross.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1381
+      - AU_08
+      - FR_227
+      - CY_115
+      - JP_368
+      - AU_22
+      - Pool_🇯🇵JP_341
       - v2cross.com 2
-      - 🇸🇬 SG 7 → TG@SCINV
-      - 🇨🇳 TW 4 → TG@SCINV
-      - "@SSRSUB-V20-付费推荐:v2cross.com"
-      - 🇺🇸 US 26 → TG@SCINV
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-11
-      - unknown 3 → TG@SCINV
-      - "@SSRSUB-V06-付费推荐:v2cross.com"
-      - TW_785
-      - HK_300
-      - 🇨🇳 CN 18 → TG@SCINV
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_27
-      - 🇲🇳 蒙古-tg频道:@bpjzx2-12
-      - DE_194
-      - US_796
-      - v2cross.com 3
+      - US_828
+      - Pool_🇳🇱 NL_531
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_126
+      - US_1365
+      - Pool_🇳🇱 NL_536
+      - Pool_🇯🇵JP_344
+      - 付费推荐:dlj.tf/ssrsub__18
+      - Pool_🇳🇱 NL_506
+      - US_840
+      - Pool_🇳🇱 NL_514
+      - RU_767
+      - US_1050
+      - ZZ_1485
+      - SG_158 v2cross.com
+      - Pool_🇯🇵JP_353
+      - 🇨🇳 CN 2 → TG@SCINV
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_160
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
