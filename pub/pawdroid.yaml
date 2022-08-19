@@ -5,77 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_1317, server: 47.241.220.160, port: 46622, type: vmess, uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19, server: 104.17.3.81, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, servername: sanggoro6.nextvpn.cc, network: ws, ws-opts: {path: /, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296, server: 104.23.102.53, port: 443, type: vmess, uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Telegram@BDovo_qaq, headers: {Host: bissen.114514cn.me}}}
-  - {name: v2cross.com, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com}
+  - {name: US_1355, server: 47.241.220.160, port: 46622, type: vmess, uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff, alterId: 0, cipher: auto, tls: false}
+  - {name: v2cross.com - 广东省佛山市移动 6, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}}
+  - {name: SE_721, server: 138.3.208.203, port: 43298, type: vmess, uuid: 42104b60-1988-4063-96ce-5c4b20b53130, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127, server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_1317
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296
-      - v2cross.com
+      - US_1355
+      - v2cross.com - 广东省佛山市移动 6
+      - SE_721
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_1317
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296
-      - v2cross.com
+      - US_1355
+      - v2cross.com - 广东省佛山市移动 6
+      - SE_721
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1317
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296
-      - v2cross.com
+      - US_1355
+      - v2cross.com - 广东省佛山市移动 6
+      - SE_721
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_1317
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296
-      - v2cross.com
+      - US_1355
+      - v2cross.com - 广东省佛山市移动 6
+      - SE_721
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_1317
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296
-      - v2cross.com
+      - US_1355
+      - v2cross.com - 广东省佛山市移动 6
+      - SE_721
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_1317
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296
-      - v2cross.com
+      - US_1355
+      - v2cross.com - 广东省佛山市移动 6
+      - SE_721
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1317
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296
-      - v2cross.com
+      - US_1355
+      - v2cross.com - 广东省佛山市移动 6
+      - SE_721
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -98,10 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1317
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1296
-      - v2cross.com
+      - US_1355
+      - v2cross.com - 广东省佛山市移动 6
+      - SE_721
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_754
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_127
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_140
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
