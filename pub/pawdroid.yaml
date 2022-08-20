@@ -5,61 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
-  - {name: CN_@v2cross.com01, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true}
+  - {name: 🇺🇸 v2cross.com - 美国  24, server: 138.2.114.151, port: 39912, type: vmess, uuid: 4512df87-c2de-446f-fa75-d451c3bb9d24, alterId: 0, cipher: auto, tls: false}
+  - {name: v2cross.com, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
+  - {name: v2cross.com 2, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com}
+  - {name: v2cross.com 3, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com}
+  - {name: 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22, server: 104.18.38.174, port: 80, type: vmess, uuid: 3890505d-a496-4418-91a1-742faa2b0ac7, alterId: 0, cipher: auto, tls: false, servername: biznet3.nextvpn.cc, network: ws, ws-opts: {path: /, headers: {Host: biznet3.nextvpn.cc}}}
+  - {name: 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2, server: 107.148.162.154, port: 16399, type: vmess, uuid: 7be2219f-7ac7-4cad-f45f-4c8fef813656, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685
-      - CN_@v2cross.com01
+      - 🇺🇸 v2cross.com - 美国  24
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685
-      - CN_@v2cross.com01
+      - 🇺🇸 v2cross.com - 美国  24
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685
-      - CN_@v2cross.com01
+      - 🇺🇸 v2cross.com - 美国  24
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685
-      - CN_@v2cross.com01
+      - 🇺🇸 v2cross.com - 美国  24
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685
-      - CN_@v2cross.com01
+      - 🇺🇸 v2cross.com - 美国  24
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685
-      - CN_@v2cross.com01
+      - 🇺🇸 v2cross.com - 美国  24
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685
-      - CN_@v2cross.com01
+      - 🇺🇸 v2cross.com - 美国  24
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_685
-      - CN_@v2cross.com01
+      - 🇺🇸 v2cross.com - 美国  24
+      - v2cross.com
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 22
+      - 🇺🇸 v2cross.com - 美国加利福尼亚州洛杉矶PetaExpress 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
