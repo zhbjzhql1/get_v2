@@ -1987,6 +1987,7 @@ rules:
  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
  - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
@@ -2497,7 +2498,6 @@ rules:
  - DOMAIN-SUFFIX,criteo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,criteo.net,🛑 全球拦截
  - DOMAIN-SUFFIX,csbew.com,🛑 全球拦截
- - DOMAIN-SUFFIX,demdex.net,🛑 全球拦截
  - DOMAIN-SUFFIX,directrev.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dumedia.ru,🛑 全球拦截
  - DOMAIN-SUFFIX,effectivemeasure.com,🛑 全球拦截
@@ -4214,7 +4214,6 @@ rules:
  - DOMAIN-SUFFIX,cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,comodoca.com,🚀 节点选择
  - DOMAIN-SUFFIX,daum.net,🚀 节点选择
- - DOMAIN-SUFFIX,demdex.net,🚀 节点选择
  - DOMAIN-SUFFIX,deskconnect.com,🚀 节点选择
  - DOMAIN-SUFFIX,disqus.com,🚀 节点选择
  - DOMAIN-SUFFIX,disquscdn.com,🚀 节点选择
@@ -4479,6 +4478,7 @@ rules:
  - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamgames.com,🚀 节点选择
  - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
+ - DOMAIN-SUFFIX,steamserver.net,🚀 节点选择
  - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
  - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
@@ -4573,7 +4573,6 @@ rules:
  - DOMAIN-KEYWORD,ccgslb,🎯 全球直连
  - DOMAIN-KEYWORD,chinacache,🎯 全球直连
  - DOMAIN-KEYWORD,duobao,🎯 全球直连
- - DOMAIN-KEYWORD,duolingo,🎯 全球直连
  - DOMAIN-KEYWORD,jdpay,🎯 全球直连
  - DOMAIN-KEYWORD,moke,🎯 全球直连
  - DOMAIN-KEYWORD,qhimg,🎯 全球直连
