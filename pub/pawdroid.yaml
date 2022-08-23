@@ -5,125 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v2cross.com, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com}
-  - {name: 🇳🇱 NL 1 → openit.pw, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true}
-  - {name: 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}}
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
-  - {name: v2cross.com 2, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com}
-  - {name: LT_311, server: 213.183.53.198, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
-  - {name: US_1041, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: v2cross.com 3, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com}
-  - {name: 🇺🇸 美国(TG频道:@kxswa), server: 141.193.213.21, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true}
+  - {name: _261, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa), server: cu1.v10819.monster, port: 45018, type: trojan, password: 77957fce-af69-4068-9adb-fe1d7fdf5470, sni: CU1.v10819.monster, skip-cert-verify: true}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102, server: 14.29.124.174, port: 11005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: v2cross.com, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
+  - {name: US_850, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 2, server: tw-tpe-h-v2.jd.cjhh.mom, port: 10088, type: vmess, uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}}
+  - {name: RO_564, server: 185.126.116.119, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
+  - {name: 🇨🇳 CN 1 → openit.pw, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 3, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 410a6fdc-94fe-42df-ae29-d1350c5763e1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /scloudhinet06, headers: {Host: cs.daxun.cyou}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - _261
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102
       - v2cross.com
-      - 🇳🇱 NL 1 → openit.pw
-      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684
-      - v2cross.com 2
-      - LT_311
-      - US_1041
-      - v2cross.com 3
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - US_850
+      - 🇨🇳 中国(TG频道:@kxswa) 2
+      - RO_564
+      - 🇨🇳 CN 1 → openit.pw
+      - 🇨🇳 中国(TG频道:@kxswa) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - _261
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102
       - v2cross.com
-      - 🇳🇱 NL 1 → openit.pw
-      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684
-      - v2cross.com 2
-      - LT_311
-      - US_1041
-      - v2cross.com 3
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - US_850
+      - 🇨🇳 中国(TG频道:@kxswa) 2
+      - RO_564
+      - 🇨🇳 CN 1 → openit.pw
+      - 🇨🇳 中国(TG频道:@kxswa) 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _261
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102
       - v2cross.com
-      - 🇳🇱 NL 1 → openit.pw
-      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684
-      - v2cross.com 2
-      - LT_311
-      - US_1041
-      - v2cross.com 3
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - US_850
+      - 🇨🇳 中国(TG频道:@kxswa) 2
+      - RO_564
+      - 🇨🇳 CN 1 → openit.pw
+      - 🇨🇳 中国(TG频道:@kxswa) 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - _261
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102
       - v2cross.com
-      - 🇳🇱 NL 1 → openit.pw
-      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684
-      - v2cross.com 2
-      - LT_311
-      - US_1041
-      - v2cross.com 3
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - US_850
+      - 🇨🇳 中国(TG频道:@kxswa) 2
+      - RO_564
+      - 🇨🇳 CN 1 → openit.pw
+      - 🇨🇳 中国(TG频道:@kxswa) 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - _261
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102
       - v2cross.com
-      - 🇳🇱 NL 1 → openit.pw
-      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684
-      - v2cross.com 2
-      - LT_311
-      - US_1041
-      - v2cross.com 3
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - US_850
+      - 🇨🇳 中国(TG频道:@kxswa) 2
+      - RO_564
+      - 🇨🇳 CN 1 → openit.pw
+      - 🇨🇳 中国(TG频道:@kxswa) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - _261
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102
       - v2cross.com
-      - 🇳🇱 NL 1 → openit.pw
-      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684
-      - v2cross.com 2
-      - LT_311
-      - US_1041
-      - v2cross.com 3
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - US_850
+      - 🇨🇳 中国(TG频道:@kxswa) 2
+      - RO_564
+      - 🇨🇳 CN 1 → openit.pw
+      - 🇨🇳 中国(TG频道:@kxswa) 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _261
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102
       - v2cross.com
-      - 🇳🇱 NL 1 → openit.pw
-      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684
-      - v2cross.com 2
-      - LT_311
-      - US_1041
-      - v2cross.com 3
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - US_850
+      - 🇨🇳 中国(TG频道:@kxswa) 2
+      - RO_564
+      - 🇨🇳 CN 1 → openit.pw
+      - 🇨🇳 中国(TG频道:@kxswa) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _261
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_112
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_102
       - v2cross.com
-      - 🇳🇱 NL 1 → openit.pw
-      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_266
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_684
-      - v2cross.com 2
-      - LT_311
-      - US_1041
-      - v2cross.com 3
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - US_850
+      - 🇨🇳 中国(TG频道:@kxswa) 2
+      - RO_564
+      - 🇨🇳 CN 1 → openit.pw
+      - 🇨🇳 中国(TG频道:@kxswa) 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
