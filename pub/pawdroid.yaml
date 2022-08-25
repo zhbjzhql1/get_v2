@@ -5,221 +5,85 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 v2cross.com - 新加坡Linode数据中心 18, server: v2ray1.udpgw.com, port: 443, type: vmess, uuid: 09961dcc-8414-4ef9-a7f3-1fd2235da390, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray1.udpgw.com}}}
-  - {name: CN_340, server: 14.29.124.174, port: 11031, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇫🇷 法国-tg频道:@bpjzx2-13, server: 43.248.116.201, port: 32009, type: trojan, password: 16549817-fc61-4434-9317-734348b592ec}
-  - {name: 🇷🇺 俄罗斯-tg频道:@bpjzx2-40, server: 43.248.116.201, port: 34018, type: trojan, password: 16549817-fc61-4434-9317-734348b592ec}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_41, server: 51.mxyun2.top, port: 43351, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国-tg频道:@bpjzx2-9, server: 43.248.116.201, port: 32005, type: trojan, password: 16549817-fc61-4434-9317-734348b592ec}
-  - {name: RO_618, server: 185.126.116.119, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-  - {name: 🇺🇸 US 20 → openit.pw, server: www.h99xbwg.xyz, port: 443, type: trojan, password: T2xgCp0yVLS03Lc8, skip-cert-verify: true}
-  - {name: US_1370, server: 152.70.235.207, port: 35412, type: vmess, uuid: 70d95308-2a61-4f93-f139-9103d0587fd9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34, server: 172.67.199.34, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: 🇺🇸 v2cross.com - 美国RF Engineering 13, server: online.uc.edu, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, servername: sanggoro6.nextvpn.cc, network: ws, ws-opts: {path: /, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: 🇺🇸 v2cross.com - 美国RF Engineering 15, server: access.zoominfo.com, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, servername: sanggoro6.nextvpn.cc, network: ws, ws-opts: {path: /, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: US_1404, server: 168.138.201.208, port: 10328, type: vmess, uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769, server: 81.90.189.41, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇧🇷 巴西-tg频道:@bpjzx2-38, server: 43.248.116.201, port: 34016, type: trojan, password: 16549817-fc61-4434-9317-734348b592ec}
-  - {name: RW 1 → openit.pw, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: US_40, server: m3.v2rayfree1.xyz, port: 443, type: vmess, uuid: 251889ac-8fa7-4d44-94c7-656f326b06aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: m3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 v2cross.com - 北美地区  6, server: us.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d}
-  - {name: 🇺🇦 乌克兰-tg频道:@bpjzx2-41, server: 43.248.116.201, port: 34019, type: trojan, password: 16549817-fc61-4434-9317-734348b592ec}
-  - {name: US_979, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: v2cross.com, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com}
+  - {name: 🇵🇭 菲律宾-tg频道:@bpjzx2-36, server: 43.248.116.201, port: 34013, type: trojan, password: 16549817-fc61-4434-9317-734348b592ec}
+  - {name: 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2, server: 123456789abcd.xn--h6q53lcvpz7l.club, port: 80, type: vmess, uuid: de818be9-5006-4bfe-a088-3e30ab749c4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v.qq.com}}}
+  - {name: 🇮🇳 v2cross.com - 印度孟买阿里云 11, server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 147.139.7.71}}}
+  - {name: 🇩🇪 德国-tg频道:@bpjzx2-34, server: 43.248.116.201, port: 34011, type: trojan, password: 16549817-fc61-4434-9317-734348b592ec}
+  - {name: 🇺🇸 US 7 → openit.pw, server: cne.cloudorg.uk, port: 2096, type: trojan, password: 0f88c09d-0fd9-4e34-b3ad-8719e908d5d8, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 v2cross.com - 新加坡Linode数据中心 18
-      - CN_340
-      - 🇫🇷 法国-tg频道:@bpjzx2-13
-      - 🇷🇺 俄罗斯-tg频道:@bpjzx2-40
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41
-      - 🇰🇷 韩国-tg频道:@bpjzx2-9
-      - RO_618
-      - 🇺🇸 US 20 → openit.pw
-      - US_1370
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34
-      - 🇺🇸 v2cross.com - 美国RF Engineering 13
-      - 🇺🇸 v2cross.com - 美国RF Engineering 15
-      - US_1404
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769
-      - 🇧🇷 巴西-tg频道:@bpjzx2-38
-      - RW 1 → openit.pw
-      - US_40
-      - 🇺🇸 v2cross.com - 北美地区  6
-      - 🇺🇦 乌克兰-tg频道:@bpjzx2-41
-      - US_979
-      - v2cross.com
+      - 🇵🇭 菲律宾-tg频道:@bpjzx2-36
+      - 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2
+      - 🇮🇳 v2cross.com - 印度孟买阿里云 11
+      - 🇩🇪 德国-tg频道:@bpjzx2-34
+      - 🇺🇸 US 7 → openit.pw
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 v2cross.com - 新加坡Linode数据中心 18
-      - CN_340
-      - 🇫🇷 法国-tg频道:@bpjzx2-13
-      - 🇷🇺 俄罗斯-tg频道:@bpjzx2-40
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41
-      - 🇰🇷 韩国-tg频道:@bpjzx2-9
-      - RO_618
-      - 🇺🇸 US 20 → openit.pw
-      - US_1370
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34
-      - 🇺🇸 v2cross.com - 美国RF Engineering 13
-      - 🇺🇸 v2cross.com - 美国RF Engineering 15
-      - US_1404
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769
-      - 🇧🇷 巴西-tg频道:@bpjzx2-38
-      - RW 1 → openit.pw
-      - US_40
-      - 🇺🇸 v2cross.com - 北美地区  6
-      - 🇺🇦 乌克兰-tg频道:@bpjzx2-41
-      - US_979
-      - v2cross.com
+      - 🇵🇭 菲律宾-tg频道:@bpjzx2-36
+      - 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2
+      - 🇮🇳 v2cross.com - 印度孟买阿里云 11
+      - 🇩🇪 德国-tg频道:@bpjzx2-34
+      - 🇺🇸 US 7 → openit.pw
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 v2cross.com - 新加坡Linode数据中心 18
-      - CN_340
-      - 🇫🇷 法国-tg频道:@bpjzx2-13
-      - 🇷🇺 俄罗斯-tg频道:@bpjzx2-40
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41
-      - 🇰🇷 韩国-tg频道:@bpjzx2-9
-      - RO_618
-      - 🇺🇸 US 20 → openit.pw
-      - US_1370
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34
-      - 🇺🇸 v2cross.com - 美国RF Engineering 13
-      - 🇺🇸 v2cross.com - 美国RF Engineering 15
-      - US_1404
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769
-      - 🇧🇷 巴西-tg频道:@bpjzx2-38
-      - RW 1 → openit.pw
-      - US_40
-      - 🇺🇸 v2cross.com - 北美地区  6
-      - 🇺🇦 乌克兰-tg频道:@bpjzx2-41
-      - US_979
-      - v2cross.com
+      - 🇵🇭 菲律宾-tg频道:@bpjzx2-36
+      - 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2
+      - 🇮🇳 v2cross.com - 印度孟买阿里云 11
+      - 🇩🇪 德国-tg频道:@bpjzx2-34
+      - 🇺🇸 US 7 → openit.pw
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 v2cross.com - 新加坡Linode数据中心 18
-      - CN_340
-      - 🇫🇷 法国-tg频道:@bpjzx2-13
-      - 🇷🇺 俄罗斯-tg频道:@bpjzx2-40
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41
-      - 🇰🇷 韩国-tg频道:@bpjzx2-9
-      - RO_618
-      - 🇺🇸 US 20 → openit.pw
-      - US_1370
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34
-      - 🇺🇸 v2cross.com - 美国RF Engineering 13
-      - 🇺🇸 v2cross.com - 美国RF Engineering 15
-      - US_1404
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769
-      - 🇧🇷 巴西-tg频道:@bpjzx2-38
-      - RW 1 → openit.pw
-      - US_40
-      - 🇺🇸 v2cross.com - 北美地区  6
-      - 🇺🇦 乌克兰-tg频道:@bpjzx2-41
-      - US_979
-      - v2cross.com
+      - 🇵🇭 菲律宾-tg频道:@bpjzx2-36
+      - 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2
+      - 🇮🇳 v2cross.com - 印度孟买阿里云 11
+      - 🇩🇪 德国-tg频道:@bpjzx2-34
+      - 🇺🇸 US 7 → openit.pw
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 v2cross.com - 新加坡Linode数据中心 18
-      - CN_340
-      - 🇫🇷 法国-tg频道:@bpjzx2-13
-      - 🇷🇺 俄罗斯-tg频道:@bpjzx2-40
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41
-      - 🇰🇷 韩国-tg频道:@bpjzx2-9
-      - RO_618
-      - 🇺🇸 US 20 → openit.pw
-      - US_1370
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34
-      - 🇺🇸 v2cross.com - 美国RF Engineering 13
-      - 🇺🇸 v2cross.com - 美国RF Engineering 15
-      - US_1404
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769
-      - 🇧🇷 巴西-tg频道:@bpjzx2-38
-      - RW 1 → openit.pw
-      - US_40
-      - 🇺🇸 v2cross.com - 北美地区  6
-      - 🇺🇦 乌克兰-tg频道:@bpjzx2-41
-      - US_979
-      - v2cross.com
+      - 🇵🇭 菲律宾-tg频道:@bpjzx2-36
+      - 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2
+      - 🇮🇳 v2cross.com - 印度孟买阿里云 11
+      - 🇩🇪 德国-tg频道:@bpjzx2-34
+      - 🇺🇸 US 7 → openit.pw
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 v2cross.com - 新加坡Linode数据中心 18
-      - CN_340
-      - 🇫🇷 法国-tg频道:@bpjzx2-13
-      - 🇷🇺 俄罗斯-tg频道:@bpjzx2-40
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41
-      - 🇰🇷 韩国-tg频道:@bpjzx2-9
-      - RO_618
-      - 🇺🇸 US 20 → openit.pw
-      - US_1370
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34
-      - 🇺🇸 v2cross.com - 美国RF Engineering 13
-      - 🇺🇸 v2cross.com - 美国RF Engineering 15
-      - US_1404
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769
-      - 🇧🇷 巴西-tg频道:@bpjzx2-38
-      - RW 1 → openit.pw
-      - US_40
-      - 🇺🇸 v2cross.com - 北美地区  6
-      - 🇺🇦 乌克兰-tg频道:@bpjzx2-41
-      - US_979
-      - v2cross.com
+      - 🇵🇭 菲律宾-tg频道:@bpjzx2-36
+      - 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2
+      - 🇮🇳 v2cross.com - 印度孟买阿里云 11
+      - 🇩🇪 德国-tg频道:@bpjzx2-34
+      - 🇺🇸 US 7 → openit.pw
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 v2cross.com - 新加坡Linode数据中心 18
-      - CN_340
-      - 🇫🇷 法国-tg频道:@bpjzx2-13
-      - 🇷🇺 俄罗斯-tg频道:@bpjzx2-40
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41
-      - 🇰🇷 韩国-tg频道:@bpjzx2-9
-      - RO_618
-      - 🇺🇸 US 20 → openit.pw
-      - US_1370
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34
-      - 🇺🇸 v2cross.com - 美国RF Engineering 13
-      - 🇺🇸 v2cross.com - 美国RF Engineering 15
-      - US_1404
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769
-      - 🇧🇷 巴西-tg频道:@bpjzx2-38
-      - RW 1 → openit.pw
-      - US_40
-      - 🇺🇸 v2cross.com - 北美地区  6
-      - 🇺🇦 乌克兰-tg频道:@bpjzx2-41
-      - US_979
-      - v2cross.com
+      - 🇵🇭 菲律宾-tg频道:@bpjzx2-36
+      - 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2
+      - 🇮🇳 v2cross.com - 印度孟买阿里云 11
+      - 🇩🇪 德国-tg频道:@bpjzx2-34
+      - 🇺🇸 US 7 → openit.pw
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,28 +106,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 v2cross.com - 新加坡Linode数据中心 18
-      - CN_340
-      - 🇫🇷 法国-tg频道:@bpjzx2-13
-      - 🇷🇺 俄罗斯-tg频道:@bpjzx2-40
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41
-      - 🇰🇷 韩国-tg频道:@bpjzx2-9
-      - RO_618
-      - 🇺🇸 US 20 → openit.pw
-      - US_1370
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_34
-      - 🇺🇸 v2cross.com - 美国RF Engineering 13
-      - 🇺🇸 v2cross.com - 美国RF Engineering 15
-      - US_1404
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_135
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_769
-      - 🇧🇷 巴西-tg频道:@bpjzx2-38
-      - RW 1 → openit.pw
-      - US_40
-      - 🇺🇸 v2cross.com - 北美地区  6
-      - 🇺🇦 乌克兰-tg频道:@bpjzx2-41
-      - US_979
-      - v2cross.com
+      - 🇵🇭 菲律宾-tg频道:@bpjzx2-36
+      - 🇯🇵 v2cross.com - 日本东京都品川区Linode数据中心 2
+      - 🇮🇳 v2cross.com - 印度孟买阿里云 11
+      - 🇩🇪 德国-tg频道:@bpjzx2-34
+      - 🇺🇸 US 7 → openit.pw
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
