@@ -5,309 +5,309 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16, server: 124.156.143.241, port: 80, type: vmess, uuid: 3cfa2dd2-41cd-4260-dc61-21c8a2446e21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: sg.do.justu.ml}}}
-  - {name: 🇨🇳 CN 57 → openitsub.com, server: gdcm.subnebula.live, port: 13010, type: trojan, password: 91121a75-7327-33e0-ae86-fbc9a76044e9, sni: hkt.node.qchwnd.moe, skip-cert-verify: true}
-  - {name: Relay_-🇹🇼TW_02, server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 v2cross.com - 广东省移动 22, server: aliyun.install01.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87, server: aliyun.install04.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 32 → openitsub.com, server: linux.nameserversv3.com, port: 9206, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707}
-  - {name: Pool_🇳🇱NL_83, server: 85.208.108.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: GB_235, server: 185.167.77.195, port: 46279, type: vmess, uuid: 666c9436-3680-4694-d0d6-02e16f725871, alterId: 0, cipher: auto, tls: false}
-  - {name: v2cross.com, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com}
-  - {name: 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: LT_335, server: 213.183.53.198, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
-  - {name: 🇨🇳 CN 22 → openitsub.com, server: 14.29.124.174, port: 11008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇳🇱 NL 1 → openitsub.com, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true}
-  - {name: 🇨🇳 CN 146 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: US_972, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇳 CN 133 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾-tg频道:@bpjzx2-15, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: LTKPTMbjBDYisdMxKEBDzcduXacOvIVY, sni: jp-tyo-04-tr.cdn.savoy.click}
-  - {name: 🇨🇳 CN 91 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 100 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 112 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: HK_246, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40, server: 172.67.199.34, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: Pool_🇳🇱NL_90, server: 85.208.108.19, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国-tg频道:@bpjzx2-3, server: gdcm.subnebula.live, port: 13013, type: trojan, password: 91121a75-7327-33e0-ae86-fbc9a76044e9, sni: gdcm.subnebula.live}
-  - {name: CN_39 v2cross.com, server: 14.29.124.174, port: 11012, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN 116 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 141 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_90, server: aliyun.install04.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V16-付费推荐:v2cross.com", server: 104.18.21.226, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: 🇺🇸 v2cross.com - 北美地区  31, server: us.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d}
-  - {name: 🇨🇳 CN 106 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-tg频道:@bpjzx2-16, server: cm.spacez.cloud, port: 30000, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud}
+  - {name: US_1030, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: US_901, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇳 v2cross.com - 广东省广州市移动 35, server: tw-tpe-h-v2.jd.cjhh.mom, port: 10088, type: vmess, uuid: 763b2303-0e16-455e-926d-66d909c3e37b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}}
+  - {name: 🇨🇳 CN 142 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_35 v2cross.com, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: US_1367, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07, server: linux.nameserversv3.com, port: 9205, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96, server: 14.29.124.174, port: 11008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN 160 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9020, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8, server: 139.180.140.20, port: 42424, type: vmess, uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d, alterId: 0, cipher: auto, tls: false}
+  - {name: US_971, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: LT_329, server: 213.183.53.198, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
+  - {name: 🇨🇳 CN 80 → openitsub.com, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22aweikeji-YouTube%22%7D"}}}
+  - {name: 🇨🇳 CN 141 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: RO_590, server: 185.126.116.119, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
   - {name: 🇮🇳 v2cross.com - 印度孟买阿里云 30, server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 147.139.7.71}}}
+  - {name: 14.29.124.168:24001, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71, server: 14.29.124.174, port: 11012, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 85.208.108.93:8118, server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇳 CN 162 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 149 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 74 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 86 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 108 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 v2cross.com - 北美地区  31, server: us.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d}
+  - {name: Pool_🇳🇱NL_542, server: 85.208.108.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 v2cross.com - 美国RF Engineering 20, server: 141.193.213.21, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sanggoro6.nextvpn.cc}}}
+  - {name: 🇨🇳 CN 129 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 150 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 v2cross.com - 广东省佛山市移动 5, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}}}
+  - {name: 🇨🇳 CN 131 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9021, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 146 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9045, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16
-      - 🇨🇳 CN 57 → openitsub.com
-      - Relay_-🇹🇼TW_02
-      - 🇨🇳 v2cross.com - 广东省移动 22
-      - 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87
-      - 🇨🇳 CN 32 → openitsub.com
-      - Pool_🇳🇱NL_83
-      - GB_235
-      - v2cross.com
-      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29
-      - LT_335
-      - 🇨🇳 CN 22 → openitsub.com
-      - 🇳🇱 NL 1 → openitsub.com
-      - 🇨🇳 CN 146 → openitsub.com
-      - US_972
-      - 🇨🇳 CN 133 → openitsub.com
-      - 🇨🇳 台湾-tg频道:@bpjzx2-15
-      - 🇨🇳 CN 91 → openitsub.com
-      - 🇨🇳 CN 100 → openitsub.com
-      - 🇨🇳 CN 112 → openitsub.com
-      - HK_246
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40
-      - Pool_🇳🇱NL_90
-      - 🇺🇸 美国-tg频道:@bpjzx2-3
-      - CN_39 v2cross.com
-      - 🇨🇳 CN 116 → openitsub.com
+      - US_1030
+      - US_901
+      - 🇨🇳 v2cross.com - 广东省广州市移动 35
+      - 🇨🇳 CN 142 → openitsub.com
+      - CN_35 v2cross.com
+      - US_1367
+      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96
+      - 🇨🇳 CN 160 → openitsub.com
+      - 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8
+      - US_971
+      - LT_329
+      - 🇨🇳 CN 80 → openitsub.com
       - 🇨🇳 CN 141 → openitsub.com
-      - CN_90
-      - "@SSRSUB-V16-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 北美地区  31
-      - 🇨🇳 CN 106 → openitsub.com
-      - 🇭🇰 香港-tg频道:@bpjzx2-16
+      - RO_590
       - 🇮🇳 v2cross.com - 印度孟买阿里云 30
+      - 14.29.124.168:24001
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97
+      - 85.208.108.93:8118
+      - 🇨🇳 CN 162 → openitsub.com
+      - 🇨🇳 CN 149 → openitsub.com
+      - 🇨🇳 CN 74 → openitsub.com
+      - 🇨🇳 CN 86 → openitsub.com
+      - 🇨🇳 CN 108 → openitsub.com
+      - 🇺🇸 v2cross.com - 北美地区  31
+      - Pool_🇳🇱NL_542
+      - 🇺🇸 v2cross.com - 美国RF Engineering 20
+      - 🇨🇳 CN 129 → openitsub.com
+      - 🇨🇳 CN 150 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省佛山市移动 5
+      - 🇨🇳 CN 131 → openitsub.com
+      - 🇨🇳 CN 146 → openitsub.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16
-      - 🇨🇳 CN 57 → openitsub.com
-      - Relay_-🇹🇼TW_02
-      - 🇨🇳 v2cross.com - 广东省移动 22
-      - 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87
-      - 🇨🇳 CN 32 → openitsub.com
-      - Pool_🇳🇱NL_83
-      - GB_235
-      - v2cross.com
-      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29
-      - LT_335
-      - 🇨🇳 CN 22 → openitsub.com
-      - 🇳🇱 NL 1 → openitsub.com
-      - 🇨🇳 CN 146 → openitsub.com
-      - US_972
-      - 🇨🇳 CN 133 → openitsub.com
-      - 🇨🇳 台湾-tg频道:@bpjzx2-15
-      - 🇨🇳 CN 91 → openitsub.com
-      - 🇨🇳 CN 100 → openitsub.com
-      - 🇨🇳 CN 112 → openitsub.com
-      - HK_246
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40
-      - Pool_🇳🇱NL_90
-      - 🇺🇸 美国-tg频道:@bpjzx2-3
-      - CN_39 v2cross.com
-      - 🇨🇳 CN 116 → openitsub.com
+      - US_1030
+      - US_901
+      - 🇨🇳 v2cross.com - 广东省广州市移动 35
+      - 🇨🇳 CN 142 → openitsub.com
+      - CN_35 v2cross.com
+      - US_1367
+      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96
+      - 🇨🇳 CN 160 → openitsub.com
+      - 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8
+      - US_971
+      - LT_329
+      - 🇨🇳 CN 80 → openitsub.com
       - 🇨🇳 CN 141 → openitsub.com
-      - CN_90
-      - "@SSRSUB-V16-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 北美地区  31
-      - 🇨🇳 CN 106 → openitsub.com
-      - 🇭🇰 香港-tg频道:@bpjzx2-16
+      - RO_590
       - 🇮🇳 v2cross.com - 印度孟买阿里云 30
+      - 14.29.124.168:24001
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97
+      - 85.208.108.93:8118
+      - 🇨🇳 CN 162 → openitsub.com
+      - 🇨🇳 CN 149 → openitsub.com
+      - 🇨🇳 CN 74 → openitsub.com
+      - 🇨🇳 CN 86 → openitsub.com
+      - 🇨🇳 CN 108 → openitsub.com
+      - 🇺🇸 v2cross.com - 北美地区  31
+      - Pool_🇳🇱NL_542
+      - 🇺🇸 v2cross.com - 美国RF Engineering 20
+      - 🇨🇳 CN 129 → openitsub.com
+      - 🇨🇳 CN 150 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省佛山市移动 5
+      - 🇨🇳 CN 131 → openitsub.com
+      - 🇨🇳 CN 146 → openitsub.com
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16
-      - 🇨🇳 CN 57 → openitsub.com
-      - Relay_-🇹🇼TW_02
-      - 🇨🇳 v2cross.com - 广东省移动 22
-      - 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87
-      - 🇨🇳 CN 32 → openitsub.com
-      - Pool_🇳🇱NL_83
-      - GB_235
-      - v2cross.com
-      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29
-      - LT_335
-      - 🇨🇳 CN 22 → openitsub.com
-      - 🇳🇱 NL 1 → openitsub.com
-      - 🇨🇳 CN 146 → openitsub.com
-      - US_972
-      - 🇨🇳 CN 133 → openitsub.com
-      - 🇨🇳 台湾-tg频道:@bpjzx2-15
-      - 🇨🇳 CN 91 → openitsub.com
-      - 🇨🇳 CN 100 → openitsub.com
-      - 🇨🇳 CN 112 → openitsub.com
-      - HK_246
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40
-      - Pool_🇳🇱NL_90
-      - 🇺🇸 美国-tg频道:@bpjzx2-3
-      - CN_39 v2cross.com
-      - 🇨🇳 CN 116 → openitsub.com
+      - US_1030
+      - US_901
+      - 🇨🇳 v2cross.com - 广东省广州市移动 35
+      - 🇨🇳 CN 142 → openitsub.com
+      - CN_35 v2cross.com
+      - US_1367
+      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96
+      - 🇨🇳 CN 160 → openitsub.com
+      - 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8
+      - US_971
+      - LT_329
+      - 🇨🇳 CN 80 → openitsub.com
       - 🇨🇳 CN 141 → openitsub.com
-      - CN_90
-      - "@SSRSUB-V16-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 北美地区  31
-      - 🇨🇳 CN 106 → openitsub.com
-      - 🇭🇰 香港-tg频道:@bpjzx2-16
+      - RO_590
       - 🇮🇳 v2cross.com - 印度孟买阿里云 30
+      - 14.29.124.168:24001
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97
+      - 85.208.108.93:8118
+      - 🇨🇳 CN 162 → openitsub.com
+      - 🇨🇳 CN 149 → openitsub.com
+      - 🇨🇳 CN 74 → openitsub.com
+      - 🇨🇳 CN 86 → openitsub.com
+      - 🇨🇳 CN 108 → openitsub.com
+      - 🇺🇸 v2cross.com - 北美地区  31
+      - Pool_🇳🇱NL_542
+      - 🇺🇸 v2cross.com - 美国RF Engineering 20
+      - 🇨🇳 CN 129 → openitsub.com
+      - 🇨🇳 CN 150 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省佛山市移动 5
+      - 🇨🇳 CN 131 → openitsub.com
+      - 🇨🇳 CN 146 → openitsub.com
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16
-      - 🇨🇳 CN 57 → openitsub.com
-      - Relay_-🇹🇼TW_02
-      - 🇨🇳 v2cross.com - 广东省移动 22
-      - 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87
-      - 🇨🇳 CN 32 → openitsub.com
-      - Pool_🇳🇱NL_83
-      - GB_235
-      - v2cross.com
-      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29
-      - LT_335
-      - 🇨🇳 CN 22 → openitsub.com
-      - 🇳🇱 NL 1 → openitsub.com
-      - 🇨🇳 CN 146 → openitsub.com
-      - US_972
-      - 🇨🇳 CN 133 → openitsub.com
-      - 🇨🇳 台湾-tg频道:@bpjzx2-15
-      - 🇨🇳 CN 91 → openitsub.com
-      - 🇨🇳 CN 100 → openitsub.com
-      - 🇨🇳 CN 112 → openitsub.com
-      - HK_246
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40
-      - Pool_🇳🇱NL_90
-      - 🇺🇸 美国-tg频道:@bpjzx2-3
-      - CN_39 v2cross.com
-      - 🇨🇳 CN 116 → openitsub.com
+      - US_1030
+      - US_901
+      - 🇨🇳 v2cross.com - 广东省广州市移动 35
+      - 🇨🇳 CN 142 → openitsub.com
+      - CN_35 v2cross.com
+      - US_1367
+      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96
+      - 🇨🇳 CN 160 → openitsub.com
+      - 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8
+      - US_971
+      - LT_329
+      - 🇨🇳 CN 80 → openitsub.com
       - 🇨🇳 CN 141 → openitsub.com
-      - CN_90
-      - "@SSRSUB-V16-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 北美地区  31
-      - 🇨🇳 CN 106 → openitsub.com
-      - 🇭🇰 香港-tg频道:@bpjzx2-16
+      - RO_590
       - 🇮🇳 v2cross.com - 印度孟买阿里云 30
+      - 14.29.124.168:24001
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97
+      - 85.208.108.93:8118
+      - 🇨🇳 CN 162 → openitsub.com
+      - 🇨🇳 CN 149 → openitsub.com
+      - 🇨🇳 CN 74 → openitsub.com
+      - 🇨🇳 CN 86 → openitsub.com
+      - 🇨🇳 CN 108 → openitsub.com
+      - 🇺🇸 v2cross.com - 北美地区  31
+      - Pool_🇳🇱NL_542
+      - 🇺🇸 v2cross.com - 美国RF Engineering 20
+      - 🇨🇳 CN 129 → openitsub.com
+      - 🇨🇳 CN 150 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省佛山市移动 5
+      - 🇨🇳 CN 131 → openitsub.com
+      - 🇨🇳 CN 146 → openitsub.com
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16
-      - 🇨🇳 CN 57 → openitsub.com
-      - Relay_-🇹🇼TW_02
-      - 🇨🇳 v2cross.com - 广东省移动 22
-      - 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87
-      - 🇨🇳 CN 32 → openitsub.com
-      - Pool_🇳🇱NL_83
-      - GB_235
-      - v2cross.com
-      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29
-      - LT_335
-      - 🇨🇳 CN 22 → openitsub.com
-      - 🇳🇱 NL 1 → openitsub.com
-      - 🇨🇳 CN 146 → openitsub.com
-      - US_972
-      - 🇨🇳 CN 133 → openitsub.com
-      - 🇨🇳 台湾-tg频道:@bpjzx2-15
-      - 🇨🇳 CN 91 → openitsub.com
-      - 🇨🇳 CN 100 → openitsub.com
-      - 🇨🇳 CN 112 → openitsub.com
-      - HK_246
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40
-      - Pool_🇳🇱NL_90
-      - 🇺🇸 美国-tg频道:@bpjzx2-3
-      - CN_39 v2cross.com
-      - 🇨🇳 CN 116 → openitsub.com
+      - US_1030
+      - US_901
+      - 🇨🇳 v2cross.com - 广东省广州市移动 35
+      - 🇨🇳 CN 142 → openitsub.com
+      - CN_35 v2cross.com
+      - US_1367
+      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96
+      - 🇨🇳 CN 160 → openitsub.com
+      - 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8
+      - US_971
+      - LT_329
+      - 🇨🇳 CN 80 → openitsub.com
       - 🇨🇳 CN 141 → openitsub.com
-      - CN_90
-      - "@SSRSUB-V16-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 北美地区  31
-      - 🇨🇳 CN 106 → openitsub.com
-      - 🇭🇰 香港-tg频道:@bpjzx2-16
+      - RO_590
       - 🇮🇳 v2cross.com - 印度孟买阿里云 30
+      - 14.29.124.168:24001
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97
+      - 85.208.108.93:8118
+      - 🇨🇳 CN 162 → openitsub.com
+      - 🇨🇳 CN 149 → openitsub.com
+      - 🇨🇳 CN 74 → openitsub.com
+      - 🇨🇳 CN 86 → openitsub.com
+      - 🇨🇳 CN 108 → openitsub.com
+      - 🇺🇸 v2cross.com - 北美地区  31
+      - Pool_🇳🇱NL_542
+      - 🇺🇸 v2cross.com - 美国RF Engineering 20
+      - 🇨🇳 CN 129 → openitsub.com
+      - 🇨🇳 CN 150 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省佛山市移动 5
+      - 🇨🇳 CN 131 → openitsub.com
+      - 🇨🇳 CN 146 → openitsub.com
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16
-      - 🇨🇳 CN 57 → openitsub.com
-      - Relay_-🇹🇼TW_02
-      - 🇨🇳 v2cross.com - 广东省移动 22
-      - 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87
-      - 🇨🇳 CN 32 → openitsub.com
-      - Pool_🇳🇱NL_83
-      - GB_235
-      - v2cross.com
-      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29
-      - LT_335
-      - 🇨🇳 CN 22 → openitsub.com
-      - 🇳🇱 NL 1 → openitsub.com
-      - 🇨🇳 CN 146 → openitsub.com
-      - US_972
-      - 🇨🇳 CN 133 → openitsub.com
-      - 🇨🇳 台湾-tg频道:@bpjzx2-15
-      - 🇨🇳 CN 91 → openitsub.com
-      - 🇨🇳 CN 100 → openitsub.com
-      - 🇨🇳 CN 112 → openitsub.com
-      - HK_246
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40
-      - Pool_🇳🇱NL_90
-      - 🇺🇸 美国-tg频道:@bpjzx2-3
-      - CN_39 v2cross.com
-      - 🇨🇳 CN 116 → openitsub.com
+      - US_1030
+      - US_901
+      - 🇨🇳 v2cross.com - 广东省广州市移动 35
+      - 🇨🇳 CN 142 → openitsub.com
+      - CN_35 v2cross.com
+      - US_1367
+      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96
+      - 🇨🇳 CN 160 → openitsub.com
+      - 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8
+      - US_971
+      - LT_329
+      - 🇨🇳 CN 80 → openitsub.com
       - 🇨🇳 CN 141 → openitsub.com
-      - CN_90
-      - "@SSRSUB-V16-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 北美地区  31
-      - 🇨🇳 CN 106 → openitsub.com
-      - 🇭🇰 香港-tg频道:@bpjzx2-16
+      - RO_590
       - 🇮🇳 v2cross.com - 印度孟买阿里云 30
+      - 14.29.124.168:24001
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97
+      - 85.208.108.93:8118
+      - 🇨🇳 CN 162 → openitsub.com
+      - 🇨🇳 CN 149 → openitsub.com
+      - 🇨🇳 CN 74 → openitsub.com
+      - 🇨🇳 CN 86 → openitsub.com
+      - 🇨🇳 CN 108 → openitsub.com
+      - 🇺🇸 v2cross.com - 北美地区  31
+      - Pool_🇳🇱NL_542
+      - 🇺🇸 v2cross.com - 美国RF Engineering 20
+      - 🇨🇳 CN 129 → openitsub.com
+      - 🇨🇳 CN 150 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省佛山市移动 5
+      - 🇨🇳 CN 131 → openitsub.com
+      - 🇨🇳 CN 146 → openitsub.com
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16
-      - 🇨🇳 CN 57 → openitsub.com
-      - Relay_-🇹🇼TW_02
-      - 🇨🇳 v2cross.com - 广东省移动 22
-      - 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87
-      - 🇨🇳 CN 32 → openitsub.com
-      - Pool_🇳🇱NL_83
-      - GB_235
-      - v2cross.com
-      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29
-      - LT_335
-      - 🇨🇳 CN 22 → openitsub.com
-      - 🇳🇱 NL 1 → openitsub.com
-      - 🇨🇳 CN 146 → openitsub.com
-      - US_972
-      - 🇨🇳 CN 133 → openitsub.com
-      - 🇨🇳 台湾-tg频道:@bpjzx2-15
-      - 🇨🇳 CN 91 → openitsub.com
-      - 🇨🇳 CN 100 → openitsub.com
-      - 🇨🇳 CN 112 → openitsub.com
-      - HK_246
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40
-      - Pool_🇳🇱NL_90
-      - 🇺🇸 美国-tg频道:@bpjzx2-3
-      - CN_39 v2cross.com
-      - 🇨🇳 CN 116 → openitsub.com
+      - US_1030
+      - US_901
+      - 🇨🇳 v2cross.com - 广东省广州市移动 35
+      - 🇨🇳 CN 142 → openitsub.com
+      - CN_35 v2cross.com
+      - US_1367
+      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96
+      - 🇨🇳 CN 160 → openitsub.com
+      - 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8
+      - US_971
+      - LT_329
+      - 🇨🇳 CN 80 → openitsub.com
       - 🇨🇳 CN 141 → openitsub.com
-      - CN_90
-      - "@SSRSUB-V16-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 北美地区  31
-      - 🇨🇳 CN 106 → openitsub.com
-      - 🇭🇰 香港-tg频道:@bpjzx2-16
+      - RO_590
       - 🇮🇳 v2cross.com - 印度孟买阿里云 30
+      - 14.29.124.168:24001
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97
+      - 85.208.108.93:8118
+      - 🇨🇳 CN 162 → openitsub.com
+      - 🇨🇳 CN 149 → openitsub.com
+      - 🇨🇳 CN 74 → openitsub.com
+      - 🇨🇳 CN 86 → openitsub.com
+      - 🇨🇳 CN 108 → openitsub.com
+      - 🇺🇸 v2cross.com - 北美地区  31
+      - Pool_🇳🇱NL_542
+      - 🇺🇸 v2cross.com - 美国RF Engineering 20
+      - 🇨🇳 CN 129 → openitsub.com
+      - 🇨🇳 CN 150 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省佛山市移动 5
+      - 🇨🇳 CN 131 → openitsub.com
+      - 🇨🇳 CN 146 → openitsub.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -330,39 +330,39 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_16
-      - 🇨🇳 CN 57 → openitsub.com
-      - Relay_-🇹🇼TW_02
-      - 🇨🇳 v2cross.com - 广东省移动 22
-      - 🇨🇳 Relay_🇨🇳 CN-🇺🇸US_87
-      - 🇨🇳 CN 32 → openitsub.com
-      - Pool_🇳🇱NL_83
-      - GB_235
-      - v2cross.com
-      - 🇺🇸 v2cross.com - 美国华盛顿Cogent通信公司 29
-      - LT_335
-      - 🇨🇳 CN 22 → openitsub.com
-      - 🇳🇱 NL 1 → openitsub.com
-      - 🇨🇳 CN 146 → openitsub.com
-      - US_972
-      - 🇨🇳 CN 133 → openitsub.com
-      - 🇨🇳 台湾-tg频道:@bpjzx2-15
-      - 🇨🇳 CN 91 → openitsub.com
-      - 🇨🇳 CN 100 → openitsub.com
-      - 🇨🇳 CN 112 → openitsub.com
-      - HK_246
-      - 🇺🇸 Relay_🇺🇸US-🇮🇩ID_40
-      - Pool_🇳🇱NL_90
-      - 🇺🇸 美国-tg频道:@bpjzx2-3
-      - CN_39 v2cross.com
-      - 🇨🇳 CN 116 → openitsub.com
+      - US_1030
+      - US_901
+      - 🇨🇳 v2cross.com - 广东省广州市移动 35
+      - 🇨🇳 CN 142 → openitsub.com
+      - CN_35 v2cross.com
+      - US_1367
+      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_07
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_96
+      - 🇨🇳 CN 160 → openitsub.com
+      - 🇸🇬 v2cross.com - 新加坡Choopa数据中心 8
+      - US_971
+      - LT_329
+      - 🇨🇳 CN 80 → openitsub.com
       - 🇨🇳 CN 141 → openitsub.com
-      - CN_90
-      - "@SSRSUB-V16-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 北美地区  31
-      - 🇨🇳 CN 106 → openitsub.com
-      - 🇭🇰 香港-tg频道:@bpjzx2-16
+      - RO_590
       - 🇮🇳 v2cross.com - 印度孟买阿里云 30
+      - 14.29.124.168:24001
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_71
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_97
+      - 85.208.108.93:8118
+      - 🇨🇳 CN 162 → openitsub.com
+      - 🇨🇳 CN 149 → openitsub.com
+      - 🇨🇳 CN 74 → openitsub.com
+      - 🇨🇳 CN 86 → openitsub.com
+      - 🇨🇳 CN 108 → openitsub.com
+      - 🇺🇸 v2cross.com - 北美地区  31
+      - Pool_🇳🇱NL_542
+      - 🇺🇸 v2cross.com - 美国RF Engineering 20
+      - 🇨🇳 CN 129 → openitsub.com
+      - 🇨🇳 CN 150 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省佛山市移动 5
+      - 🇨🇳 CN 131 → openitsub.com
+      - 🇨🇳 CN 146 → openitsub.com
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
