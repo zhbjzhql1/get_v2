@@ -5,141 +5,245 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: cs.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: cs.hgdbk.ga}}}
-  - {name: 🇺🇸 美国-tg频道:@bpjzx2-4, server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq}
-  - {name: v2cross.com, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com}
-  - {name: 🇨🇳 CN 20 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_08 v2cross.com, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: v2cross.com 2, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V17-付费推荐:v2cross.com", server: 103.218.243.21, port: 10003, type: vmess, uuid: 4fe413ef-e3a2-40df-fba0-6d151dd3b2b4, alterId: 0, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V14-付费推荐:v2cross.com", server: aliyun.moble.vnupgcn.cn, port: 9043, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_-🇹🇼TW_02, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇦🇺 v2cross.com - 澳大利亚  22, server: 129.154.57.134, port: 26282, type: vmess, uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: NL_113 v2cross.com, server: 213.183.59.211, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
+  - {name: 🇯🇵 日本-tg频道:@bpjzx2-4, server: kr1.api-aws.com, port: 443, type: trojan, password: c3211bc6-6cde-492a-a86a-310b0c19a44b, sni: kr1.api-aws.com}
+  - {name: RO_594, server: 185.126.116.119, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
+  - {name: 🇨🇳 CN 4 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: NL_123 v2cross.com, server: 213.183.59.211, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: RO_608, server: 185.126.116.119, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: RO_598, server: 185.126.116.123, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡-tg频道:@bpjzx2-22, server: cs.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: cs.hgdbk.ga}}}
+  - {name: 🇰🇷 韩国(TG频道:@kxswa) 3, server: 52.231.48.113, port: 50001, type: trojan, password: 5cf88cc7-b3cd-4fec-b24f-6ad68ede17b8, skip-cert-verify: true}
+  - {name: US_785, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "@SSRSUB-V10-付费推荐:v2cross.com", server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
+  - {name: RO_606, server: 185.126.116.123, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
+  - {name: 🇭🇰 香港(TG频道:@kxswa) 29, server: kqs-moble.gatknqh.cn, port: 22284, type: ss, cipher: aes-256-gcm, password: 562ac2ff-f777-4e86-a05f-330e5eaaae38}
+  - {name: v2cross.com, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, sni: v2cross.com.02.v2ce.com}
+  - {name: RO_599, server: 185.126.116.123, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
+  - {name: ZZ_1511, server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: v2cross.com 2, server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com}
+  - {name: 🇨🇳 CN 5 → openitsub.com, server: aliyun.install02.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: "@SSRSUB-V07-付费推荐:v2cross.com", server: aliyun.unicom.vnupgcn.cn, port: 9026, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: v2cross.com 3, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
+  - {name: 🇫🇷 法国(TG频道:@kxswa), server: 194.9.62.20, port: 443, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b}
+  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 46, server: awssg4.naixii.top, port: 443, type: vmess, uuid: 153bceef-4839-4f2d-86ce-93f74bca5cae, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: awssg4.naixii.top}}}
+  - {name: 🇨🇳 CN 6 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 v2cross.com - 广东省深圳市移动 16, server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇺🇸 美国-tg频道:@bpjzx2-4
+      - NL_113 v2cross.com
+      - 🇯🇵 日本-tg频道:@bpjzx2-4
+      - RO_594
+      - 🇨🇳 CN 4 → openitsub.com
+      - NL_123 v2cross.com
+      - RO_608
+      - RO_598
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-22
+      - 🇰🇷 韩国(TG频道:@kxswa) 3
+      - US_785
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - RO_606
+      - 🇭🇰 香港(TG频道:@kxswa) 29
       - v2cross.com
-      - 🇨🇳 CN 20 → openitsub.com
-      - CN_08 v2cross.com
+      - RO_599
+      - ZZ_1511
       - v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - "@SSRSUB-V14-付费推荐:v2cross.com"
-      - Relay_-🇹🇼TW_02
-      - 🇦🇺 v2cross.com - 澳大利亚  22
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96
+      - 🇨🇳 CN 5 → openitsub.com
+      - "@SSRSUB-V07-付费推荐:v2cross.com"
+      - v2cross.com 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 46
+      - 🇨🇳 CN 6 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省深圳市移动 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇺🇸 美国-tg频道:@bpjzx2-4
+      - NL_113 v2cross.com
+      - 🇯🇵 日本-tg频道:@bpjzx2-4
+      - RO_594
+      - 🇨🇳 CN 4 → openitsub.com
+      - NL_123 v2cross.com
+      - RO_608
+      - RO_598
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-22
+      - 🇰🇷 韩国(TG频道:@kxswa) 3
+      - US_785
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - RO_606
+      - 🇭🇰 香港(TG频道:@kxswa) 29
       - v2cross.com
-      - 🇨🇳 CN 20 → openitsub.com
-      - CN_08 v2cross.com
+      - RO_599
+      - ZZ_1511
       - v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - "@SSRSUB-V14-付费推荐:v2cross.com"
-      - Relay_-🇹🇼TW_02
-      - 🇦🇺 v2cross.com - 澳大利亚  22
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96
+      - 🇨🇳 CN 5 → openitsub.com
+      - "@SSRSUB-V07-付费推荐:v2cross.com"
+      - v2cross.com 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 46
+      - 🇨🇳 CN 6 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省深圳市移动 16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇺🇸 美国-tg频道:@bpjzx2-4
+      - NL_113 v2cross.com
+      - 🇯🇵 日本-tg频道:@bpjzx2-4
+      - RO_594
+      - 🇨🇳 CN 4 → openitsub.com
+      - NL_123 v2cross.com
+      - RO_608
+      - RO_598
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-22
+      - 🇰🇷 韩国(TG频道:@kxswa) 3
+      - US_785
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - RO_606
+      - 🇭🇰 香港(TG频道:@kxswa) 29
       - v2cross.com
-      - 🇨🇳 CN 20 → openitsub.com
-      - CN_08 v2cross.com
+      - RO_599
+      - ZZ_1511
       - v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - "@SSRSUB-V14-付费推荐:v2cross.com"
-      - Relay_-🇹🇼TW_02
-      - 🇦🇺 v2cross.com - 澳大利亚  22
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96
+      - 🇨🇳 CN 5 → openitsub.com
+      - "@SSRSUB-V07-付费推荐:v2cross.com"
+      - v2cross.com 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 46
+      - 🇨🇳 CN 6 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省深圳市移动 16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇺🇸 美国-tg频道:@bpjzx2-4
+      - NL_113 v2cross.com
+      - 🇯🇵 日本-tg频道:@bpjzx2-4
+      - RO_594
+      - 🇨🇳 CN 4 → openitsub.com
+      - NL_123 v2cross.com
+      - RO_608
+      - RO_598
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-22
+      - 🇰🇷 韩国(TG频道:@kxswa) 3
+      - US_785
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - RO_606
+      - 🇭🇰 香港(TG频道:@kxswa) 29
       - v2cross.com
-      - 🇨🇳 CN 20 → openitsub.com
-      - CN_08 v2cross.com
+      - RO_599
+      - ZZ_1511
       - v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - "@SSRSUB-V14-付费推荐:v2cross.com"
-      - Relay_-🇹🇼TW_02
-      - 🇦🇺 v2cross.com - 澳大利亚  22
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96
+      - 🇨🇳 CN 5 → openitsub.com
+      - "@SSRSUB-V07-付费推荐:v2cross.com"
+      - v2cross.com 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 46
+      - 🇨🇳 CN 6 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省深圳市移动 16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇺🇸 美国-tg频道:@bpjzx2-4
+      - NL_113 v2cross.com
+      - 🇯🇵 日本-tg频道:@bpjzx2-4
+      - RO_594
+      - 🇨🇳 CN 4 → openitsub.com
+      - NL_123 v2cross.com
+      - RO_608
+      - RO_598
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-22
+      - 🇰🇷 韩国(TG频道:@kxswa) 3
+      - US_785
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - RO_606
+      - 🇭🇰 香港(TG频道:@kxswa) 29
       - v2cross.com
-      - 🇨🇳 CN 20 → openitsub.com
-      - CN_08 v2cross.com
+      - RO_599
+      - ZZ_1511
       - v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - "@SSRSUB-V14-付费推荐:v2cross.com"
-      - Relay_-🇹🇼TW_02
-      - 🇦🇺 v2cross.com - 澳大利亚  22
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96
+      - 🇨🇳 CN 5 → openitsub.com
+      - "@SSRSUB-V07-付费推荐:v2cross.com"
+      - v2cross.com 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 46
+      - 🇨🇳 CN 6 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省深圳市移动 16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇺🇸 美国-tg频道:@bpjzx2-4
+      - NL_113 v2cross.com
+      - 🇯🇵 日本-tg频道:@bpjzx2-4
+      - RO_594
+      - 🇨🇳 CN 4 → openitsub.com
+      - NL_123 v2cross.com
+      - RO_608
+      - RO_598
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-22
+      - 🇰🇷 韩国(TG频道:@kxswa) 3
+      - US_785
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - RO_606
+      - 🇭🇰 香港(TG频道:@kxswa) 29
       - v2cross.com
-      - 🇨🇳 CN 20 → openitsub.com
-      - CN_08 v2cross.com
+      - RO_599
+      - ZZ_1511
       - v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - "@SSRSUB-V14-付费推荐:v2cross.com"
-      - Relay_-🇹🇼TW_02
-      - 🇦🇺 v2cross.com - 澳大利亚  22
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96
+      - 🇨🇳 CN 5 → openitsub.com
+      - "@SSRSUB-V07-付费推荐:v2cross.com"
+      - v2cross.com 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 46
+      - 🇨🇳 CN 6 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省深圳市移动 16
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇺🇸 美国-tg频道:@bpjzx2-4
+      - NL_113 v2cross.com
+      - 🇯🇵 日本-tg频道:@bpjzx2-4
+      - RO_594
+      - 🇨🇳 CN 4 → openitsub.com
+      - NL_123 v2cross.com
+      - RO_608
+      - RO_598
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-22
+      - 🇰🇷 韩国(TG频道:@kxswa) 3
+      - US_785
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - RO_606
+      - 🇭🇰 香港(TG频道:@kxswa) 29
       - v2cross.com
-      - 🇨🇳 CN 20 → openitsub.com
-      - CN_08 v2cross.com
+      - RO_599
+      - ZZ_1511
       - v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - "@SSRSUB-V14-付费推荐:v2cross.com"
-      - Relay_-🇹🇼TW_02
-      - 🇦🇺 v2cross.com - 澳大利亚  22
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96
+      - 🇨🇳 CN 5 → openitsub.com
+      - "@SSRSUB-V07-付费推荐:v2cross.com"
+      - v2cross.com 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 46
+      - 🇨🇳 CN 6 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省深圳市移动 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -162,18 +266,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇺🇸 美国-tg频道:@bpjzx2-4
+      - NL_113 v2cross.com
+      - 🇯🇵 日本-tg频道:@bpjzx2-4
+      - RO_594
+      - 🇨🇳 CN 4 → openitsub.com
+      - NL_123 v2cross.com
+      - RO_608
+      - RO_598
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_95
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-22
+      - 🇰🇷 韩国(TG频道:@kxswa) 3
+      - US_785
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - RO_606
+      - 🇭🇰 香港(TG频道:@kxswa) 29
       - v2cross.com
-      - 🇨🇳 CN 20 → openitsub.com
-      - CN_08 v2cross.com
+      - RO_599
+      - ZZ_1511
       - v2cross.com 2
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_99
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - "@SSRSUB-V14-付费推荐:v2cross.com"
-      - Relay_-🇹🇼TW_02
-      - 🇦🇺 v2cross.com - 澳大利亚  22
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_96
+      - 🇨🇳 CN 5 → openitsub.com
+      - "@SSRSUB-V07-付费推荐:v2cross.com"
+      - v2cross.com 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 46
+      - 🇨🇳 CN 6 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省深圳市移动 16
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
