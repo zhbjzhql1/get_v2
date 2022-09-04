@@ -5,165 +5,181 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN 22 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK 5 → openitsub.com, server: 43.229.153.148, port: 50418, type: trojan, password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1, skip-cert-verify: true}
-  - {name: Pool_🇯🇵JP_13, server: 193.38.139.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37, server: 51fanfirewall.monster, port: 443, type: vmess, uuid: 7a0ab83d-5293-4020-c9c7-97639d2b5d3f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 51fanfirewall.monster}}}
+  - {name: RO_629, server: 185.126.116.123, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq}
+  - {name: 🇺🇸 US 3 → openitsub.com, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true}
+  - {name: 🇨🇳 CN 22 → openitsub.com, server: aliyun.install02.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 18 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: v2cross.com, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com}
+  - {name: NL_101 v2cross.com, server: 213.183.59.211, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
+  - {name: RO_626, server: 185.126.116.123, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
   - {name: "@SSRSUB-V11-付费推荐:v2cross.com", server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}}}
-  - {name: 🇨🇳 CN 13 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡, server: 20.239.186.92, port: 20415, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: do2.ddag.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 CN 31 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V22-付费推荐:v2cross.com", server: 139.180.140.20, port: 42424, type: vmess, uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103, server: aliyun.moble.vnupgcn.cn, port: 9034, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 18 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 24 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V24-付费推荐:v2cross.com", server: 141.193.213.21, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: sanggoro6.nextvpn.cc}}}
-  - {name: 🇺🇸 v2cross.com - 美国  26, server: 45.136.70.19, port: 24298, type: vmess, uuid: 7324d2bf-e241-4ede-b490-753dc26b1b8c, alterId: 0, cipher: auto, tls: false}
+  - {name: RO_622, server: 185.126.116.123, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: 🇨🇳 CN 23 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: US_35, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 152.67.218.38}}}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98, server: aliyun.moble.vnupgcn.cn, port: 9033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 26 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: US_1199, server: 97.64.122.63, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
+  - {name: US_25, server: 8.9.30.35, port: 443, type: vmess, uuid: 7a0ab83d-5293-4020-c9c7-97639d2b5d3f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37
+      - RO_629
+      - 🇺🇸 US 3 → openitsub.com
       - 🇨🇳 CN 22 → openitsub.com
-      - 🇭🇰 HK 5 → openitsub.com
-      - Pool_🇯🇵JP_13
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724
-      - "@SSRSUB-V11-付费推荐:v2cross.com"
-      - 🇨🇳 CN 13 → openitsub.com
-      - 🇸🇬 新加坡
-      - 🇨🇳 CN 31 → openitsub.com
-      - "@SSRSUB-V22-付费推荐:v2cross.com"
-      - 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95
-      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103
       - 🇨🇳 CN 18 → openitsub.com
-      - 🇨🇳 CN 24 → openitsub.com
-      - "@SSRSUB-V24-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 美国  26
+      - v2cross.com
+      - NL_101 v2cross.com
+      - RO_626
+      - "@SSRSUB-V11-付费推荐:v2cross.com"
+      - 🇸🇬 新加坡
+      - RO_622
+      - 🇨🇳 CN 23 → openitsub.com
+      - US_35
+      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98
+      - 🇨🇳 CN 26 → openitsub.com
+      - US_1199
+      - US_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37
+      - RO_629
+      - 🇺🇸 US 3 → openitsub.com
       - 🇨🇳 CN 22 → openitsub.com
-      - 🇭🇰 HK 5 → openitsub.com
-      - Pool_🇯🇵JP_13
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724
-      - "@SSRSUB-V11-付费推荐:v2cross.com"
-      - 🇨🇳 CN 13 → openitsub.com
-      - 🇸🇬 新加坡
-      - 🇨🇳 CN 31 → openitsub.com
-      - "@SSRSUB-V22-付费推荐:v2cross.com"
-      - 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95
-      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103
       - 🇨🇳 CN 18 → openitsub.com
-      - 🇨🇳 CN 24 → openitsub.com
-      - "@SSRSUB-V24-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 美国  26
+      - v2cross.com
+      - NL_101 v2cross.com
+      - RO_626
+      - "@SSRSUB-V11-付费推荐:v2cross.com"
+      - 🇸🇬 新加坡
+      - RO_622
+      - 🇨🇳 CN 23 → openitsub.com
+      - US_35
+      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98
+      - 🇨🇳 CN 26 → openitsub.com
+      - US_1199
+      - US_25
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37
+      - RO_629
+      - 🇺🇸 US 3 → openitsub.com
       - 🇨🇳 CN 22 → openitsub.com
-      - 🇭🇰 HK 5 → openitsub.com
-      - Pool_🇯🇵JP_13
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724
-      - "@SSRSUB-V11-付费推荐:v2cross.com"
-      - 🇨🇳 CN 13 → openitsub.com
-      - 🇸🇬 新加坡
-      - 🇨🇳 CN 31 → openitsub.com
-      - "@SSRSUB-V22-付费推荐:v2cross.com"
-      - 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95
-      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103
       - 🇨🇳 CN 18 → openitsub.com
-      - 🇨🇳 CN 24 → openitsub.com
-      - "@SSRSUB-V24-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 美国  26
+      - v2cross.com
+      - NL_101 v2cross.com
+      - RO_626
+      - "@SSRSUB-V11-付费推荐:v2cross.com"
+      - 🇸🇬 新加坡
+      - RO_622
+      - 🇨🇳 CN 23 → openitsub.com
+      - US_35
+      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98
+      - 🇨🇳 CN 26 → openitsub.com
+      - US_1199
+      - US_25
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37
+      - RO_629
+      - 🇺🇸 US 3 → openitsub.com
       - 🇨🇳 CN 22 → openitsub.com
-      - 🇭🇰 HK 5 → openitsub.com
-      - Pool_🇯🇵JP_13
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724
-      - "@SSRSUB-V11-付费推荐:v2cross.com"
-      - 🇨🇳 CN 13 → openitsub.com
-      - 🇸🇬 新加坡
-      - 🇨🇳 CN 31 → openitsub.com
-      - "@SSRSUB-V22-付费推荐:v2cross.com"
-      - 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95
-      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103
       - 🇨🇳 CN 18 → openitsub.com
-      - 🇨🇳 CN 24 → openitsub.com
-      - "@SSRSUB-V24-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 美国  26
+      - v2cross.com
+      - NL_101 v2cross.com
+      - RO_626
+      - "@SSRSUB-V11-付费推荐:v2cross.com"
+      - 🇸🇬 新加坡
+      - RO_622
+      - 🇨🇳 CN 23 → openitsub.com
+      - US_35
+      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98
+      - 🇨🇳 CN 26 → openitsub.com
+      - US_1199
+      - US_25
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37
+      - RO_629
+      - 🇺🇸 US 3 → openitsub.com
       - 🇨🇳 CN 22 → openitsub.com
-      - 🇭🇰 HK 5 → openitsub.com
-      - Pool_🇯🇵JP_13
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724
-      - "@SSRSUB-V11-付费推荐:v2cross.com"
-      - 🇨🇳 CN 13 → openitsub.com
-      - 🇸🇬 新加坡
-      - 🇨🇳 CN 31 → openitsub.com
-      - "@SSRSUB-V22-付费推荐:v2cross.com"
-      - 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95
-      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103
       - 🇨🇳 CN 18 → openitsub.com
-      - 🇨🇳 CN 24 → openitsub.com
-      - "@SSRSUB-V24-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 美国  26
+      - v2cross.com
+      - NL_101 v2cross.com
+      - RO_626
+      - "@SSRSUB-V11-付费推荐:v2cross.com"
+      - 🇸🇬 新加坡
+      - RO_622
+      - 🇨🇳 CN 23 → openitsub.com
+      - US_35
+      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98
+      - 🇨🇳 CN 26 → openitsub.com
+      - US_1199
+      - US_25
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37
+      - RO_629
+      - 🇺🇸 US 3 → openitsub.com
       - 🇨🇳 CN 22 → openitsub.com
-      - 🇭🇰 HK 5 → openitsub.com
-      - Pool_🇯🇵JP_13
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724
-      - "@SSRSUB-V11-付费推荐:v2cross.com"
-      - 🇨🇳 CN 13 → openitsub.com
-      - 🇸🇬 新加坡
-      - 🇨🇳 CN 31 → openitsub.com
-      - "@SSRSUB-V22-付费推荐:v2cross.com"
-      - 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95
-      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103
       - 🇨🇳 CN 18 → openitsub.com
-      - 🇨🇳 CN 24 → openitsub.com
-      - "@SSRSUB-V24-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 美国  26
+      - v2cross.com
+      - NL_101 v2cross.com
+      - RO_626
+      - "@SSRSUB-V11-付费推荐:v2cross.com"
+      - 🇸🇬 新加坡
+      - RO_622
+      - 🇨🇳 CN 23 → openitsub.com
+      - US_35
+      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98
+      - 🇨🇳 CN 26 → openitsub.com
+      - US_1199
+      - US_25
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37
+      - RO_629
+      - 🇺🇸 US 3 → openitsub.com
       - 🇨🇳 CN 22 → openitsub.com
-      - 🇭🇰 HK 5 → openitsub.com
-      - Pool_🇯🇵JP_13
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724
-      - "@SSRSUB-V11-付费推荐:v2cross.com"
-      - 🇨🇳 CN 13 → openitsub.com
-      - 🇸🇬 新加坡
-      - 🇨🇳 CN 31 → openitsub.com
-      - "@SSRSUB-V22-付费推荐:v2cross.com"
-      - 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95
-      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103
       - 🇨🇳 CN 18 → openitsub.com
-      - 🇨🇳 CN 24 → openitsub.com
-      - "@SSRSUB-V24-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 美国  26
+      - v2cross.com
+      - NL_101 v2cross.com
+      - RO_626
+      - "@SSRSUB-V11-付费推荐:v2cross.com"
+      - 🇸🇬 新加坡
+      - RO_622
+      - 🇨🇳 CN 23 → openitsub.com
+      - US_35
+      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98
+      - 🇨🇳 CN 26 → openitsub.com
+      - US_1199
+      - US_25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,21 +202,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 v2cross.com - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 37
+      - RO_629
+      - 🇺🇸 US 3 → openitsub.com
       - 🇨🇳 CN 22 → openitsub.com
-      - 🇭🇰 HK 5 → openitsub.com
-      - Pool_🇯🇵JP_13
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_724
-      - "@SSRSUB-V11-付费推荐:v2cross.com"
-      - 🇨🇳 CN 13 → openitsub.com
-      - 🇸🇬 新加坡
-      - 🇨🇳 CN 31 → openitsub.com
-      - "@SSRSUB-V22-付费推荐:v2cross.com"
-      - 🇨🇳 Relay_🇨🇳 CN-🇧🇭BH_95
-      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_103
       - 🇨🇳 CN 18 → openitsub.com
-      - 🇨🇳 CN 24 → openitsub.com
-      - "@SSRSUB-V24-付费推荐:v2cross.com"
-      - 🇺🇸 v2cross.com - 美国  26
+      - v2cross.com
+      - NL_101 v2cross.com
+      - RO_626
+      - "@SSRSUB-V11-付费推荐:v2cross.com"
+      - 🇸🇬 新加坡
+      - RO_622
+      - 🇨🇳 CN 23 → openitsub.com
+      - US_35
+      - 🇨🇳 Relay_🇨🇳 CN-🇯🇵JP_98
+      - 🇨🇳 CN 26 → openitsub.com
+      - US_1199
+      - US_25
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
