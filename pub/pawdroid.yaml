@@ -5,141 +5,141 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN 25 推广https://t.me/xingchen0829, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 14 推广https://t.me/xingchen0829, server: aliyun.install02.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: RO_598, server: 185.126.116.123, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-  - {name: 🇨🇳 CN 18 推广https://t.me/xingchen0829, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}}
-  - {name: 🇨🇳 v2cross.com - 北京市移动 24, server: aliyun.moble.vnupgcn.cn, port: 9010, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 24 推广https://t.me/xingchen0829, server: aliyun.install01.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_09 v2cross.com, server: 14.29.124.174, port: 11035, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: ZZ_1498, server: 169.197.141.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇳 CN 15 推广https://t.me/xingchen0829, server: aliyun.install03.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: (TG频道:@kxswa), server: usamd.ptuu.tk, port: 443, type: vmess, uuid: 009a2a72-afe7-4521-fec0-391908a088c6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: usamd.ptuu.tk}}}
+  - {name: 🇨🇳 TW 3 推广https://t.me/xingchen0829, server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
   - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242, server: 14.29.124.174, port: 11005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN 13 推广https://t.me/xingchen0829, server: aliyun.install02.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77, server: 527hk1.fans8.xyz, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
-  - {name: 🇨🇳 CN 11 推广https://t.me/xingchen0829, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN 23 推广https://t.me/xingchen0829, server: aliyun.install01.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86, server: aliyun.moble.vnupgcn.cn, port: 9019, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: RO_634, server: 185.126.116.123, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: "@SSRSUB-V06-付费推荐:v2cross.com", server: 139.180.140.20, port: 42424, type: vmess, uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d, alterId: 0, cipher: auto, tls: false}
+  - {name: US_21, server: 138.2.86.43, port: 32574, type: vmess, uuid: 6e0aae55-230c-45a0-8591-7fce1ec7a326, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN 25 推广https://t.me/xingchen0829
-      - 🇨🇳 CN 14 推广https://t.me/xingchen0829
-      - RO_598
-      - 🇨🇳 CN 18 推广https://t.me/xingchen0829
-      - 🇨🇳 v2cross.com - 北京市移动 24
-      - 🇨🇳 CN 24 推广https://t.me/xingchen0829
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83
-      - CN_09 v2cross.com
+      - ZZ_1498
+      - 🇨🇳 CN 15 推广https://t.me/xingchen0829
+      - (TG频道:@kxswa)
+      - 🇨🇳 TW 3 推广https://t.me/xingchen0829
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
-      - 🇨🇳 CN 13 推广https://t.me/xingchen0829
-      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77
-      - 🇨🇳 CN 11 推广https://t.me/xingchen0829
+      - 🇨🇳 CN 23 推广https://t.me/xingchen0829
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86
+      - RO_634
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - US_21
+      - 🇺🇸 US
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN 25 推广https://t.me/xingchen0829
-      - 🇨🇳 CN 14 推广https://t.me/xingchen0829
-      - RO_598
-      - 🇨🇳 CN 18 推广https://t.me/xingchen0829
-      - 🇨🇳 v2cross.com - 北京市移动 24
-      - 🇨🇳 CN 24 推广https://t.me/xingchen0829
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83
-      - CN_09 v2cross.com
+      - ZZ_1498
+      - 🇨🇳 CN 15 推广https://t.me/xingchen0829
+      - (TG频道:@kxswa)
+      - 🇨🇳 TW 3 推广https://t.me/xingchen0829
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
-      - 🇨🇳 CN 13 推广https://t.me/xingchen0829
-      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77
-      - 🇨🇳 CN 11 推广https://t.me/xingchen0829
+      - 🇨🇳 CN 23 推广https://t.me/xingchen0829
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86
+      - RO_634
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - US_21
+      - 🇺🇸 US
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN 25 推广https://t.me/xingchen0829
-      - 🇨🇳 CN 14 推广https://t.me/xingchen0829
-      - RO_598
-      - 🇨🇳 CN 18 推广https://t.me/xingchen0829
-      - 🇨🇳 v2cross.com - 北京市移动 24
-      - 🇨🇳 CN 24 推广https://t.me/xingchen0829
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83
-      - CN_09 v2cross.com
+      - ZZ_1498
+      - 🇨🇳 CN 15 推广https://t.me/xingchen0829
+      - (TG频道:@kxswa)
+      - 🇨🇳 TW 3 推广https://t.me/xingchen0829
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
-      - 🇨🇳 CN 13 推广https://t.me/xingchen0829
-      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77
-      - 🇨🇳 CN 11 推广https://t.me/xingchen0829
+      - 🇨🇳 CN 23 推广https://t.me/xingchen0829
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86
+      - RO_634
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - US_21
+      - 🇺🇸 US
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN 25 推广https://t.me/xingchen0829
-      - 🇨🇳 CN 14 推广https://t.me/xingchen0829
-      - RO_598
-      - 🇨🇳 CN 18 推广https://t.me/xingchen0829
-      - 🇨🇳 v2cross.com - 北京市移动 24
-      - 🇨🇳 CN 24 推广https://t.me/xingchen0829
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83
-      - CN_09 v2cross.com
+      - ZZ_1498
+      - 🇨🇳 CN 15 推广https://t.me/xingchen0829
+      - (TG频道:@kxswa)
+      - 🇨🇳 TW 3 推广https://t.me/xingchen0829
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
-      - 🇨🇳 CN 13 推广https://t.me/xingchen0829
-      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77
-      - 🇨🇳 CN 11 推广https://t.me/xingchen0829
+      - 🇨🇳 CN 23 推广https://t.me/xingchen0829
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86
+      - RO_634
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - US_21
+      - 🇺🇸 US
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 CN 25 推广https://t.me/xingchen0829
-      - 🇨🇳 CN 14 推广https://t.me/xingchen0829
-      - RO_598
-      - 🇨🇳 CN 18 推广https://t.me/xingchen0829
-      - 🇨🇳 v2cross.com - 北京市移动 24
-      - 🇨🇳 CN 24 推广https://t.me/xingchen0829
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83
-      - CN_09 v2cross.com
+      - ZZ_1498
+      - 🇨🇳 CN 15 推广https://t.me/xingchen0829
+      - (TG频道:@kxswa)
+      - 🇨🇳 TW 3 推广https://t.me/xingchen0829
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
-      - 🇨🇳 CN 13 推广https://t.me/xingchen0829
-      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77
-      - 🇨🇳 CN 11 推广https://t.me/xingchen0829
+      - 🇨🇳 CN 23 推广https://t.me/xingchen0829
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86
+      - RO_634
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - US_21
+      - 🇺🇸 US
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN 25 推广https://t.me/xingchen0829
-      - 🇨🇳 CN 14 推广https://t.me/xingchen0829
-      - RO_598
-      - 🇨🇳 CN 18 推广https://t.me/xingchen0829
-      - 🇨🇳 v2cross.com - 北京市移动 24
-      - 🇨🇳 CN 24 推广https://t.me/xingchen0829
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83
-      - CN_09 v2cross.com
+      - ZZ_1498
+      - 🇨🇳 CN 15 推广https://t.me/xingchen0829
+      - (TG频道:@kxswa)
+      - 🇨🇳 TW 3 推广https://t.me/xingchen0829
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
-      - 🇨🇳 CN 13 推广https://t.me/xingchen0829
-      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77
-      - 🇨🇳 CN 11 推广https://t.me/xingchen0829
+      - 🇨🇳 CN 23 推广https://t.me/xingchen0829
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86
+      - RO_634
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - US_21
+      - 🇺🇸 US
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN 25 推广https://t.me/xingchen0829
-      - 🇨🇳 CN 14 推广https://t.me/xingchen0829
-      - RO_598
-      - 🇨🇳 CN 18 推广https://t.me/xingchen0829
-      - 🇨🇳 v2cross.com - 北京市移动 24
-      - 🇨🇳 CN 24 推广https://t.me/xingchen0829
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83
-      - CN_09 v2cross.com
+      - ZZ_1498
+      - 🇨🇳 CN 15 推广https://t.me/xingchen0829
+      - (TG频道:@kxswa)
+      - 🇨🇳 TW 3 推广https://t.me/xingchen0829
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
-      - 🇨🇳 CN 13 推广https://t.me/xingchen0829
-      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77
-      - 🇨🇳 CN 11 推广https://t.me/xingchen0829
+      - 🇨🇳 CN 23 推广https://t.me/xingchen0829
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86
+      - RO_634
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - US_21
+      - 🇺🇸 US
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -162,18 +162,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN 25 推广https://t.me/xingchen0829
-      - 🇨🇳 CN 14 推广https://t.me/xingchen0829
-      - RO_598
-      - 🇨🇳 CN 18 推广https://t.me/xingchen0829
-      - 🇨🇳 v2cross.com - 北京市移动 24
-      - 🇨🇳 CN 24 推广https://t.me/xingchen0829
-      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_83
-      - CN_09 v2cross.com
+      - ZZ_1498
+      - 🇨🇳 CN 15 推广https://t.me/xingchen0829
+      - (TG频道:@kxswa)
+      - 🇨🇳 TW 3 推广https://t.me/xingchen0829
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
-      - 🇨🇳 CN 13 推广https://t.me/xingchen0829
-      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_77
-      - 🇨🇳 CN 11 推广https://t.me/xingchen0829
+      - 🇨🇳 CN 23 推广https://t.me/xingchen0829
+      - 🇨🇳 Relay_🇨🇳 CN-🇹🇼TW_86
+      - RO_634
+      - "@SSRSUB-V06-付费推荐:v2cross.com"
+      - US_21
+      - 🇺🇸 US
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
