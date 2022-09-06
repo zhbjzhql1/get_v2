@@ -5,165 +5,109 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27, server: kr.wangfuzheng.top, port: 443, type: vmess, uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: kr.wangfuzheng.top}}}
-  - {name: US_1347, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false}
-  - {name: RO_611, server: 185.126.116.123, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
-  - {name: US_14, server: 23.95.215.14, port: 35010, type: vmess, uuid: 48de385d-c809-4a0a-8ef5-bbbc7ea986e2, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🏁ZZ_24, server: us-nyc-ctg-04-v2.nodes.cjhh.one, port: 888, type: vmess, uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}}
-  - {name: 🇸🇬 SG 1 推广https://t.me/xingchen0829, server: 18.140.67.76, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: 🇦🇺 AU 3 推广https://t.me/xingchen0829, server: ttt1.swiftfalcon.app, port: 8443, type: trojan, password: coldwar2, skip-cert-verify: true}
-  - {name: RO_106 v2cross.com, server: 185.126.116.123, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
-  - {name: v2cross.com, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
-  - {name: CN_37 v2cross.com, server: 14.29.124.174, port: 11005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: "@SSRSUB-V05-付费推荐:v2cross.com", server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}}
-  - {name: 🇺🇸 US 17 推广https://t.me/xingchen0829, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, skip-cert-verify: true}
-  - {name: (TG频道:@kxswa), server: usamd.ptuu.gq, port: 443, type: vmess, uuid: 33653796-feef-43fd-e7cc-1adccd79b7c7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: usamd.ptuu.gq}}}
-  - {name: 🇨🇳 台湾(TG频道:@kxswa), server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: true}
-  - {name: US_800, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: v2cross.com, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com}
+  - {name: v2cross.com 2, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, sni: v2cross.com.02.v2ce.com}
+  - {name: v2cross.com 3, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com}
+  - {name: 🇨🇳 CN 1 → openitsub.com, server: aws2.raytrack.cloud, port: 24725, type: trojan, password: f6f16e37-c800-46d5-ac12-475b4b61c18b, skip-cert-verify: true}
+  - {name: 🇨🇳 v2cross.com - 广东省广州市移动 29, server: tw-tpe-hq-v2.node.inforun.work, port: 10188, type: vmess, uuid: b46e5bfe-739c-4026-91fd-686209ce6d85, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: tw-tpe-hq-v2.node.inforun.work}}}
+  - {name: 🇨🇦 v2cross.com - 加拿大  20, server: 823tw.tfzhc.top, port: 443, type: trojan, password: d09d2305-24db-43c4-b309-0e1d2737329f}
+  - {name: "@SSRSUB-V10-付费推荐:v2cross.com", server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 v2cross.com - 美国  31, server: 161.129.34.102, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 161.129.34.102}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
-      - US_1347
-      - RO_611
-      - US_14
-      - Relay_🏁ZZ-🏁ZZ_24
-      - 🇸🇬 SG 1 推广https://t.me/xingchen0829
-      - 🇦🇺 AU 3 推广https://t.me/xingchen0829
-      - RO_106 v2cross.com
       - v2cross.com
-      - CN_37 v2cross.com
-      - "@SSRSUB-V05-付费推荐:v2cross.com"
-      - 🇺🇸 US 17 推广https://t.me/xingchen0829
-      - (TG频道:@kxswa)
-      - 🇨🇳 台湾(TG频道:@kxswa)
-      - US_800
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省广州市移动 29
+      - 🇨🇦 v2cross.com - 加拿大  20
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - 🇺🇸 v2cross.com - 美国  31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
-      - US_1347
-      - RO_611
-      - US_14
-      - Relay_🏁ZZ-🏁ZZ_24
-      - 🇸🇬 SG 1 推广https://t.me/xingchen0829
-      - 🇦🇺 AU 3 推广https://t.me/xingchen0829
-      - RO_106 v2cross.com
       - v2cross.com
-      - CN_37 v2cross.com
-      - "@SSRSUB-V05-付费推荐:v2cross.com"
-      - 🇺🇸 US 17 推广https://t.me/xingchen0829
-      - (TG频道:@kxswa)
-      - 🇨🇳 台湾(TG频道:@kxswa)
-      - US_800
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省广州市移动 29
+      - 🇨🇦 v2cross.com - 加拿大  20
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - 🇺🇸 v2cross.com - 美国  31
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
-      - US_1347
-      - RO_611
-      - US_14
-      - Relay_🏁ZZ-🏁ZZ_24
-      - 🇸🇬 SG 1 推广https://t.me/xingchen0829
-      - 🇦🇺 AU 3 推广https://t.me/xingchen0829
-      - RO_106 v2cross.com
       - v2cross.com
-      - CN_37 v2cross.com
-      - "@SSRSUB-V05-付费推荐:v2cross.com"
-      - 🇺🇸 US 17 推广https://t.me/xingchen0829
-      - (TG频道:@kxswa)
-      - 🇨🇳 台湾(TG频道:@kxswa)
-      - US_800
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省广州市移动 29
+      - 🇨🇦 v2cross.com - 加拿大  20
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - 🇺🇸 v2cross.com - 美国  31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
-      - US_1347
-      - RO_611
-      - US_14
-      - Relay_🏁ZZ-🏁ZZ_24
-      - 🇸🇬 SG 1 推广https://t.me/xingchen0829
-      - 🇦🇺 AU 3 推广https://t.me/xingchen0829
-      - RO_106 v2cross.com
       - v2cross.com
-      - CN_37 v2cross.com
-      - "@SSRSUB-V05-付费推荐:v2cross.com"
-      - 🇺🇸 US 17 推广https://t.me/xingchen0829
-      - (TG频道:@kxswa)
-      - 🇨🇳 台湾(TG频道:@kxswa)
-      - US_800
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省广州市移动 29
+      - 🇨🇦 v2cross.com - 加拿大  20
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - 🇺🇸 v2cross.com - 美国  31
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
-      - US_1347
-      - RO_611
-      - US_14
-      - Relay_🏁ZZ-🏁ZZ_24
-      - 🇸🇬 SG 1 推广https://t.me/xingchen0829
-      - 🇦🇺 AU 3 推广https://t.me/xingchen0829
-      - RO_106 v2cross.com
       - v2cross.com
-      - CN_37 v2cross.com
-      - "@SSRSUB-V05-付费推荐:v2cross.com"
-      - 🇺🇸 US 17 推广https://t.me/xingchen0829
-      - (TG频道:@kxswa)
-      - 🇨🇳 台湾(TG频道:@kxswa)
-      - US_800
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省广州市移动 29
+      - 🇨🇦 v2cross.com - 加拿大  20
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - 🇺🇸 v2cross.com - 美国  31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
-      - US_1347
-      - RO_611
-      - US_14
-      - Relay_🏁ZZ-🏁ZZ_24
-      - 🇸🇬 SG 1 推广https://t.me/xingchen0829
-      - 🇦🇺 AU 3 推广https://t.me/xingchen0829
-      - RO_106 v2cross.com
       - v2cross.com
-      - CN_37 v2cross.com
-      - "@SSRSUB-V05-付费推荐:v2cross.com"
-      - 🇺🇸 US 17 推广https://t.me/xingchen0829
-      - (TG频道:@kxswa)
-      - 🇨🇳 台湾(TG频道:@kxswa)
-      - US_800
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省广州市移动 29
+      - 🇨🇦 v2cross.com - 加拿大  20
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - 🇺🇸 v2cross.com - 美国  31
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
-      - US_1347
-      - RO_611
-      - US_14
-      - Relay_🏁ZZ-🏁ZZ_24
-      - 🇸🇬 SG 1 推广https://t.me/xingchen0829
-      - 🇦🇺 AU 3 推广https://t.me/xingchen0829
-      - RO_106 v2cross.com
       - v2cross.com
-      - CN_37 v2cross.com
-      - "@SSRSUB-V05-付费推荐:v2cross.com"
-      - 🇺🇸 US 17 推广https://t.me/xingchen0829
-      - (TG频道:@kxswa)
-      - 🇨🇳 台湾(TG频道:@kxswa)
-      - US_800
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省广州市移动 29
+      - 🇨🇦 v2cross.com - 加拿大  20
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - 🇺🇸 v2cross.com - 美国  31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,21 +130,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 v2cross.com - 美国CloudFlare公司CDN节点 27
-      - US_1347
-      - RO_611
-      - US_14
-      - Relay_🏁ZZ-🏁ZZ_24
-      - 🇸🇬 SG 1 推广https://t.me/xingchen0829
-      - 🇦🇺 AU 3 推广https://t.me/xingchen0829
-      - RO_106 v2cross.com
       - v2cross.com
-      - CN_37 v2cross.com
-      - "@SSRSUB-V05-付费推荐:v2cross.com"
-      - 🇺🇸 US 17 推广https://t.me/xingchen0829
-      - (TG频道:@kxswa)
-      - 🇨🇳 台湾(TG频道:@kxswa)
-      - US_800
+      - v2cross.com 2
+      - v2cross.com 3
+      - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 v2cross.com - 广东省广州市移动 29
+      - 🇨🇦 v2cross.com - 加拿大  20
+      - "@SSRSUB-V10-付费推荐:v2cross.com"
+      - 🇺🇸 v2cross.com - 美国  31
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
