@@ -5,205 +5,221 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 中国(TG频道:@kxswa), server: xi.kanao.xyz, port: 58831, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: xi.kanao.xyz, skip-cert-verify: true}
-  - {name: v2cross.com, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com}
-  - {name: 🇫🇷 FR 2 → openitsub.com, server: 35.180.122.151, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V10-付费推荐:v2cross.com", server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
-  - {name: ZZ_1546, server: 103.159.132.102, port: 31372, type: vmess, uuid: c11236af-56a6-49b3-c1b9-7b54ac3acb42, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本(TG频道:@kxswa), server: 52.194.251.145, port: 30004, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_257 【tg@freevpn8】10.34Mb, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: v2cross.com 2, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
-  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: US_1367, server: 168.138.201.208, port: 10328, type: vmess, uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 34, server: 172.67.167.100, port: 443, type: vmess, uuid: f5e74e66-0241-447c-83a4-a4005f438536, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: m4.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 US 40 → openitsub.com, server: 54.218.99.141, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa), server: 45.45.177.2, port: 29588, type: ss, cipher: aes-256-gcm, password: a441bd6a-1bce-4ede-a26e-52af4149d555}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 2, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true}
-  - {name: 🇺🇸 US 43 → openitsub.com, server: 54.245.213.176, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: ZZ_13, server: 64.112.42.53, port: 16999, type: ss, cipher: aes-256-gcm, password: CBYyPc0GwoaQ9m2oqWdE}
-  - {name: 🇯🇵 JP 4 → openitsub.com, server: 54.249.153.131, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: 🇺🇸 US 30 → openitsub.com, server: 13.213.0.239, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: KH, server: 64.112.42.72, port: 16999, type: ss, cipher: aes-256-gcm, password: CBYyPc0GwoaQ9m2oqWdE}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: 54.151.212.220, port: 43214, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_48 v2cross.com, server: 14.29.124.174, port: 11007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇺🇸 美国(TG频道:@kxswa), server: 18.118.142.251, port: 30002, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26, server: ca1.vmess.tunnel.cx, port: 80, type: vmess, uuid: 0429f7ce-2c73-11ed-b9c2-8b16281b86ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca1.vmess.tunnel.cx}}}
+  - {name: CN_55 v2cross.com, server: 14.29.124.174, port: 11036, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇭🇰 香港-tg频道:@bpjzx2-18, server: hk-2.4g.mkvn.net, port: 80, type: vmess, uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4g.mkvn.net, headers: {Host: v9-vn.tiktokcdn.com}}}
+  - {name: 🇺🇸 US 33 → openitsub.com, server: shouer.libi.eu.org, port: 443, type: trojan, password: bca9817f-77ad-4705-897d-121b4613aa9c, skip-cert-verify: true}
+  - {name: v2cross.com, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
+  - {name: "", server: 152.70.235.207, port: 35412, type: vmess, uuid: 70d95308-2a61-4f93-f139-9103d0587fd9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 FR 4 → openitsub.com, server: 52.47.99.22, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: 🇯🇵 限时节点1·日本 | x0, server: bo1.paoche.work, port: 9999, type: trojan, password: 0fc39e24-c3f3-4a34-b277-90edae5891ea, sni: bo1.paoche.work, skip-cert-verify: true}
+  - {name: 🇳🇱 NL 1 → openitsub.com, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true}
+  - {name: 🇺🇸 US 8 → openitsub.com, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true}
+  - {name: 🇯🇵 JP 3 → openitsub.com, server: 13.112.247.141, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: "@SSRSUB-V03-付费推荐:v2cross.com", server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}}}
+  - {name: 🇺🇸 US 19 → openitsub.com, server: 8.9.30.35, port: 29544, type: trojan, password: rmo75mm5xK, skip-cert-verify: true}
+  - {name: CN_58 v2cross.com, server: 14.29.124.174, port: 11042, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 中国(TG频道:@kxswa), server: xi.kanao.xyz, port: 58832, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: xi.kanao.xyz, skip-cert-verify: true}
+  - {name: CN_59 v2cross.com, server: 14.29.124.174, port: 11044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: CN_54 v2cross.com, server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242, server: 14.29.124.174, port: 11005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - v2cross.com
-      - 🇫🇷 FR 2 → openitsub.com
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86
-      - "@SSRSUB-V10-付费推荐:v2cross.com"
-      - ZZ_1546
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - CN_257 【tg@freevpn8】10.34Mb
-      - v2cross.com 2
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
-      - US_1367
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 34
-      - 🇺🇸 US 40 → openitsub.com
+      - KH
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - CN_48 v2cross.com
       - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
-      - 🇺🇸 US 43 → openitsub.com
-      - ZZ_13
-      - 🇯🇵 JP 4 → openitsub.com
-      - 🇺🇸 US 30 → openitsub.com
+      - 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26
+      - CN_55 v2cross.com
+      - 🇭🇰 香港-tg频道:@bpjzx2-18
+      - 🇺🇸 US 33 → openitsub.com
+      - v2cross.com
+      - ""
+      - 🇫🇷 FR 4 → openitsub.com
+      - 🇯🇵 限时节点1·日本 | x0
+      - 🇳🇱 NL 1 → openitsub.com
+      - 🇺🇸 US 8 → openitsub.com
+      - 🇯🇵 JP 3 → openitsub.com
+      - "@SSRSUB-V03-付费推荐:v2cross.com"
+      - 🇺🇸 US 19 → openitsub.com
+      - CN_58 v2cross.com
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - CN_59 v2cross.com
+      - CN_54 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - v2cross.com
-      - 🇫🇷 FR 2 → openitsub.com
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86
-      - "@SSRSUB-V10-付费推荐:v2cross.com"
-      - ZZ_1546
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - CN_257 【tg@freevpn8】10.34Mb
-      - v2cross.com 2
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
-      - US_1367
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 34
-      - 🇺🇸 US 40 → openitsub.com
+      - KH
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - CN_48 v2cross.com
       - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
-      - 🇺🇸 US 43 → openitsub.com
-      - ZZ_13
-      - 🇯🇵 JP 4 → openitsub.com
-      - 🇺🇸 US 30 → openitsub.com
+      - 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26
+      - CN_55 v2cross.com
+      - 🇭🇰 香港-tg频道:@bpjzx2-18
+      - 🇺🇸 US 33 → openitsub.com
+      - v2cross.com
+      - ""
+      - 🇫🇷 FR 4 → openitsub.com
+      - 🇯🇵 限时节点1·日本 | x0
+      - 🇳🇱 NL 1 → openitsub.com
+      - 🇺🇸 US 8 → openitsub.com
+      - 🇯🇵 JP 3 → openitsub.com
+      - "@SSRSUB-V03-付费推荐:v2cross.com"
+      - 🇺🇸 US 19 → openitsub.com
+      - CN_58 v2cross.com
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - CN_59 v2cross.com
+      - CN_54 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - v2cross.com
-      - 🇫🇷 FR 2 → openitsub.com
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86
-      - "@SSRSUB-V10-付费推荐:v2cross.com"
-      - ZZ_1546
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - CN_257 【tg@freevpn8】10.34Mb
-      - v2cross.com 2
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
-      - US_1367
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 34
-      - 🇺🇸 US 40 → openitsub.com
+      - KH
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - CN_48 v2cross.com
       - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
-      - 🇺🇸 US 43 → openitsub.com
-      - ZZ_13
-      - 🇯🇵 JP 4 → openitsub.com
-      - 🇺🇸 US 30 → openitsub.com
+      - 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26
+      - CN_55 v2cross.com
+      - 🇭🇰 香港-tg频道:@bpjzx2-18
+      - 🇺🇸 US 33 → openitsub.com
+      - v2cross.com
+      - ""
+      - 🇫🇷 FR 4 → openitsub.com
+      - 🇯🇵 限时节点1·日本 | x0
+      - 🇳🇱 NL 1 → openitsub.com
+      - 🇺🇸 US 8 → openitsub.com
+      - 🇯🇵 JP 3 → openitsub.com
+      - "@SSRSUB-V03-付费推荐:v2cross.com"
+      - 🇺🇸 US 19 → openitsub.com
+      - CN_58 v2cross.com
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - CN_59 v2cross.com
+      - CN_54 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - v2cross.com
-      - 🇫🇷 FR 2 → openitsub.com
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86
-      - "@SSRSUB-V10-付费推荐:v2cross.com"
-      - ZZ_1546
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - CN_257 【tg@freevpn8】10.34Mb
-      - v2cross.com 2
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
-      - US_1367
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 34
-      - 🇺🇸 US 40 → openitsub.com
+      - KH
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - CN_48 v2cross.com
       - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
-      - 🇺🇸 US 43 → openitsub.com
-      - ZZ_13
-      - 🇯🇵 JP 4 → openitsub.com
-      - 🇺🇸 US 30 → openitsub.com
+      - 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26
+      - CN_55 v2cross.com
+      - 🇭🇰 香港-tg频道:@bpjzx2-18
+      - 🇺🇸 US 33 → openitsub.com
+      - v2cross.com
+      - ""
+      - 🇫🇷 FR 4 → openitsub.com
+      - 🇯🇵 限时节点1·日本 | x0
+      - 🇳🇱 NL 1 → openitsub.com
+      - 🇺🇸 US 8 → openitsub.com
+      - 🇯🇵 JP 3 → openitsub.com
+      - "@SSRSUB-V03-付费推荐:v2cross.com"
+      - 🇺🇸 US 19 → openitsub.com
+      - CN_58 v2cross.com
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - CN_59 v2cross.com
+      - CN_54 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - v2cross.com
-      - 🇫🇷 FR 2 → openitsub.com
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86
-      - "@SSRSUB-V10-付费推荐:v2cross.com"
-      - ZZ_1546
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - CN_257 【tg@freevpn8】10.34Mb
-      - v2cross.com 2
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
-      - US_1367
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 34
-      - 🇺🇸 US 40 → openitsub.com
+      - KH
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - CN_48 v2cross.com
       - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
-      - 🇺🇸 US 43 → openitsub.com
-      - ZZ_13
-      - 🇯🇵 JP 4 → openitsub.com
-      - 🇺🇸 US 30 → openitsub.com
+      - 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26
+      - CN_55 v2cross.com
+      - 🇭🇰 香港-tg频道:@bpjzx2-18
+      - 🇺🇸 US 33 → openitsub.com
+      - v2cross.com
+      - ""
+      - 🇫🇷 FR 4 → openitsub.com
+      - 🇯🇵 限时节点1·日本 | x0
+      - 🇳🇱 NL 1 → openitsub.com
+      - 🇺🇸 US 8 → openitsub.com
+      - 🇯🇵 JP 3 → openitsub.com
+      - "@SSRSUB-V03-付费推荐:v2cross.com"
+      - 🇺🇸 US 19 → openitsub.com
+      - CN_58 v2cross.com
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - CN_59 v2cross.com
+      - CN_54 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - v2cross.com
-      - 🇫🇷 FR 2 → openitsub.com
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86
-      - "@SSRSUB-V10-付费推荐:v2cross.com"
-      - ZZ_1546
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - CN_257 【tg@freevpn8】10.34Mb
-      - v2cross.com 2
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
-      - US_1367
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 34
-      - 🇺🇸 US 40 → openitsub.com
+      - KH
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - CN_48 v2cross.com
       - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
-      - 🇺🇸 US 43 → openitsub.com
-      - ZZ_13
-      - 🇯🇵 JP 4 → openitsub.com
-      - 🇺🇸 US 30 → openitsub.com
+      - 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26
+      - CN_55 v2cross.com
+      - 🇭🇰 香港-tg频道:@bpjzx2-18
+      - 🇺🇸 US 33 → openitsub.com
+      - v2cross.com
+      - ""
+      - 🇫🇷 FR 4 → openitsub.com
+      - 🇯🇵 限时节点1·日本 | x0
+      - 🇳🇱 NL 1 → openitsub.com
+      - 🇺🇸 US 8 → openitsub.com
+      - 🇯🇵 JP 3 → openitsub.com
+      - "@SSRSUB-V03-付费推荐:v2cross.com"
+      - 🇺🇸 US 19 → openitsub.com
+      - CN_58 v2cross.com
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - CN_59 v2cross.com
+      - CN_54 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - v2cross.com
-      - 🇫🇷 FR 2 → openitsub.com
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86
-      - "@SSRSUB-V10-付费推荐:v2cross.com"
-      - ZZ_1546
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - CN_257 【tg@freevpn8】10.34Mb
-      - v2cross.com 2
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
-      - US_1367
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 34
-      - 🇺🇸 US 40 → openitsub.com
+      - KH
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - CN_48 v2cross.com
       - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
-      - 🇺🇸 US 43 → openitsub.com
-      - ZZ_13
-      - 🇯🇵 JP 4 → openitsub.com
-      - 🇺🇸 US 30 → openitsub.com
+      - 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26
+      - CN_55 v2cross.com
+      - 🇭🇰 香港-tg频道:@bpjzx2-18
+      - 🇺🇸 US 33 → openitsub.com
+      - v2cross.com
+      - ""
+      - 🇫🇷 FR 4 → openitsub.com
+      - 🇯🇵 限时节点1·日本 | x0
+      - 🇳🇱 NL 1 → openitsub.com
+      - 🇺🇸 US 8 → openitsub.com
+      - 🇯🇵 JP 3 → openitsub.com
+      - "@SSRSUB-V03-付费推荐:v2cross.com"
+      - 🇺🇸 US 19 → openitsub.com
+      - CN_58 v2cross.com
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - CN_59 v2cross.com
+      - CN_54 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -226,26 +242,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - v2cross.com
-      - 🇫🇷 FR 2 → openitsub.com
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_86
-      - "@SSRSUB-V10-付费推荐:v2cross.com"
-      - ZZ_1546
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - CN_257 【tg@freevpn8】10.34Mb
-      - v2cross.com 2
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇹🇼TW_203
-      - US_1367
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_88
-      - 🇺🇸 v2cross.com - 美国CloudFlare节点 34
-      - 🇺🇸 US 40 → openitsub.com
+      - KH
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - CN_48 v2cross.com
       - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
-      - 🇺🇸 US 43 → openitsub.com
-      - ZZ_13
-      - 🇯🇵 JP 4 → openitsub.com
-      - 🇺🇸 US 30 → openitsub.com
+      - 🇨🇦 v2cross.com - 加拿大魁北克省博阿努瓦OVH数据中心 26
+      - CN_55 v2cross.com
+      - 🇭🇰 香港-tg频道:@bpjzx2-18
+      - 🇺🇸 US 33 → openitsub.com
+      - v2cross.com
+      - ""
+      - 🇫🇷 FR 4 → openitsub.com
+      - 🇯🇵 限时节点1·日本 | x0
+      - 🇳🇱 NL 1 → openitsub.com
+      - 🇺🇸 US 8 → openitsub.com
+      - 🇯🇵 JP 3 → openitsub.com
+      - "@SSRSUB-V03-付费推荐:v2cross.com"
+      - 🇺🇸 US 19 → openitsub.com
+      - CN_58 v2cross.com
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - CN_59 v2cross.com
+      - CN_54 v2cross.com
+      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_242
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
