@@ -5,117 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_18 v2cross.com, server: 14.29.124.174, port: 11039, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG 2 → openitsub.com, server: trojan2.udpgw.com, port: 443, type: trojan, password: a79da040-2e7c-11ed-91c2-1239d0255272, skip-cert-verify: true}
-  - {name: 🇪🇺 v2cross.com - 欧洲  23, server: mx1.v2rayserv.com, port: 80, type: vmess, uuid: f1b438a7-b8f3-4cd7-8aca-d54efdaf64e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mx1.v2rayserv.com}}}
-  - {name: v2cross.com, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, sni: v2cross.com.02.v2ce.com}
-  - {name: 🇻🇳 v2cross.com - 越南  16, server: hanoi-4.4g.mkvn.net, port: 443, type: trojan, password: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed}
-  - {name: CN_289 【tg@freevpn8】 7.33Mb, server: 14.29.124.174, port: 11004, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CN_22 v2cross.com, server: 14.29.124.174, port: 11050, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 v2cross.com - 美国3COM公司企业网 30, server: wangqifei.ga, port: 41477, type: trojan, password: 3oquVrpxPg}
+  - {name: "@SSRSUB-V12-付费推荐:v2cross.com", server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}}}
+  - {name: CN_10 v2cross.com, server: 14.29.124.174, port: 11035, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇺🇸 US 27 → openitsub.com, server: 13.40.126.229, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: 🇬🇧 GB 6 → openitsub.com, server: 3.10.209.85, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: IT_231, server: 5.181.132.235, port: 31372, type: vmess, uuid: 0bb88eea-73a5-4e37-ac8b-03090a57acba, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_64 v2cross.com, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: SG_611, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_29 v2cross.com, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: SG_611 v2cross.com, server: 194.124.35.42, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: v2cross.com - 亚太地区  19, server: id-herza.v2-ray.com, port: 80, type: vmess, uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: id-herza.v2-ray.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CN_18 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71
-      - 🇸🇬 SG 2 → openitsub.com
-      - 🇪🇺 v2cross.com - 欧洲  23
-      - v2cross.com
-      - 🇻🇳 v2cross.com - 越南  16
-      - CN_289 【tg@freevpn8】 7.33Mb
-      - CN_22 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 30
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - CN_10 v2cross.com
+      - 🇺🇸 US 27 → openitsub.com
+      - 🇬🇧 GB 6 → openitsub.com
+      - IT_231
+      - CN_64 v2cross.com
+      - SG_611
+      - CN_29 v2cross.com
+      - SG_611 v2cross.com
+      - v2cross.com - 亚太地区  19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CN_18 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71
-      - 🇸🇬 SG 2 → openitsub.com
-      - 🇪🇺 v2cross.com - 欧洲  23
-      - v2cross.com
-      - 🇻🇳 v2cross.com - 越南  16
-      - CN_289 【tg@freevpn8】 7.33Mb
-      - CN_22 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 30
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - CN_10 v2cross.com
+      - 🇺🇸 US 27 → openitsub.com
+      - 🇬🇧 GB 6 → openitsub.com
+      - IT_231
+      - CN_64 v2cross.com
+      - SG_611
+      - CN_29 v2cross.com
+      - SG_611 v2cross.com
+      - v2cross.com - 亚太地区  19
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_18 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71
-      - 🇸🇬 SG 2 → openitsub.com
-      - 🇪🇺 v2cross.com - 欧洲  23
-      - v2cross.com
-      - 🇻🇳 v2cross.com - 越南  16
-      - CN_289 【tg@freevpn8】 7.33Mb
-      - CN_22 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 30
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - CN_10 v2cross.com
+      - 🇺🇸 US 27 → openitsub.com
+      - 🇬🇧 GB 6 → openitsub.com
+      - IT_231
+      - CN_64 v2cross.com
+      - SG_611
+      - CN_29 v2cross.com
+      - SG_611 v2cross.com
+      - v2cross.com - 亚太地区  19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CN_18 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71
-      - 🇸🇬 SG 2 → openitsub.com
-      - 🇪🇺 v2cross.com - 欧洲  23
-      - v2cross.com
-      - 🇻🇳 v2cross.com - 越南  16
-      - CN_289 【tg@freevpn8】 7.33Mb
-      - CN_22 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 30
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - CN_10 v2cross.com
+      - 🇺🇸 US 27 → openitsub.com
+      - 🇬🇧 GB 6 → openitsub.com
+      - IT_231
+      - CN_64 v2cross.com
+      - SG_611
+      - CN_29 v2cross.com
+      - SG_611 v2cross.com
+      - v2cross.com - 亚太地区  19
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CN_18 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71
-      - 🇸🇬 SG 2 → openitsub.com
-      - 🇪🇺 v2cross.com - 欧洲  23
-      - v2cross.com
-      - 🇻🇳 v2cross.com - 越南  16
-      - CN_289 【tg@freevpn8】 7.33Mb
-      - CN_22 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 30
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - CN_10 v2cross.com
+      - 🇺🇸 US 27 → openitsub.com
+      - 🇬🇧 GB 6 → openitsub.com
+      - IT_231
+      - CN_64 v2cross.com
+      - SG_611
+      - CN_29 v2cross.com
+      - SG_611 v2cross.com
+      - v2cross.com - 亚太地区  19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CN_18 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71
-      - 🇸🇬 SG 2 → openitsub.com
-      - 🇪🇺 v2cross.com - 欧洲  23
-      - v2cross.com
-      - 🇻🇳 v2cross.com - 越南  16
-      - CN_289 【tg@freevpn8】 7.33Mb
-      - CN_22 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 30
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - CN_10 v2cross.com
+      - 🇺🇸 US 27 → openitsub.com
+      - 🇬🇧 GB 6 → openitsub.com
+      - IT_231
+      - CN_64 v2cross.com
+      - SG_611
+      - CN_29 v2cross.com
+      - SG_611 v2cross.com
+      - v2cross.com - 亚太地区  19
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_18 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71
-      - 🇸🇬 SG 2 → openitsub.com
-      - 🇪🇺 v2cross.com - 欧洲  23
-      - v2cross.com
-      - 🇻🇳 v2cross.com - 越南  16
-      - CN_289 【tg@freevpn8】 7.33Mb
-      - CN_22 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 30
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - CN_10 v2cross.com
+      - 🇺🇸 US 27 → openitsub.com
+      - 🇬🇧 GB 6 → openitsub.com
+      - IT_231
+      - CN_64 v2cross.com
+      - SG_611
+      - CN_29 v2cross.com
+      - SG_611 v2cross.com
+      - v2cross.com - 亚太地区  19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,15 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_18 v2cross.com
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_71
-      - 🇸🇬 SG 2 → openitsub.com
-      - 🇪🇺 v2cross.com - 欧洲  23
-      - v2cross.com
-      - 🇻🇳 v2cross.com - 越南  16
-      - CN_289 【tg@freevpn8】 7.33Mb
-      - CN_22 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 30
+      - "@SSRSUB-V12-付费推荐:v2cross.com"
+      - CN_10 v2cross.com
+      - 🇺🇸 US 27 → openitsub.com
+      - 🇬🇧 GB 6 → openitsub.com
+      - IT_231
+      - CN_64 v2cross.com
+      - SG_611
+      - CN_29 v2cross.com
+      - SG_611 v2cross.com
+      - v2cross.com - 亚太地区  19
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
