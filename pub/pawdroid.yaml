@@ -5,117 +5,69 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_30 v2cross.com, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: RO_532, server: 185.126.116.119, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
-  - {name: CN_35 v2cross.com, server: 14.29.124.174, port: 11035, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 v2cross.com - 美国3COM公司企业网 26, server: wangqifei.ga, port: 41477, type: trojan, password: 3oquVrpxPg}
-  - {name: Pool_🇳🇱 NL_381, server: 85.208.108.20, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255, server: 14.29.124.174, port: 11003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 US 11 → TG@SCINV, server: 54.188.171.13, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: v2cross.com, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com}
-  - {name: 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694, server: c10s1.jamjams3.net, port: 16522, type: ss, cipher: aes-256-gcm, password: QB7rUb6qjPro24E8}
+  - {name: 🇷🇴 v2cross.com - 罗马尼亚  8, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa), server: akazz-1048-v2-2.tyo-r-kcd-a.nd.cjhh.mom, port: 39928, type: vmess, uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: akazz-1048-v2-2.tyo-r-kcd-a.nd.cjhh.mom}}}
+  - {name: "@SSRSUB-V04-付费推荐:v2cross.com", server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CN_30 v2cross.com
-      - RO_532
-      - CN_35 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 26
-      - Pool_🇳🇱 NL_381
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255
-      - 🇺🇸 US 11 → TG@SCINV
-      - v2cross.com
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694
+      - 🇷🇴 v2cross.com - 罗马尼亚  8
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - "@SSRSUB-V04-付费推荐:v2cross.com"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CN_30 v2cross.com
-      - RO_532
-      - CN_35 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 26
-      - Pool_🇳🇱 NL_381
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255
-      - 🇺🇸 US 11 → TG@SCINV
-      - v2cross.com
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694
+      - 🇷🇴 v2cross.com - 罗马尼亚  8
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - "@SSRSUB-V04-付费推荐:v2cross.com"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_30 v2cross.com
-      - RO_532
-      - CN_35 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 26
-      - Pool_🇳🇱 NL_381
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255
-      - 🇺🇸 US 11 → TG@SCINV
-      - v2cross.com
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694
+      - 🇷🇴 v2cross.com - 罗马尼亚  8
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - "@SSRSUB-V04-付费推荐:v2cross.com"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CN_30 v2cross.com
-      - RO_532
-      - CN_35 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 26
-      - Pool_🇳🇱 NL_381
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255
-      - 🇺🇸 US 11 → TG@SCINV
-      - v2cross.com
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694
+      - 🇷🇴 v2cross.com - 罗马尼亚  8
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - "@SSRSUB-V04-付费推荐:v2cross.com"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CN_30 v2cross.com
-      - RO_532
-      - CN_35 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 26
-      - Pool_🇳🇱 NL_381
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255
-      - 🇺🇸 US 11 → TG@SCINV
-      - v2cross.com
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694
+      - 🇷🇴 v2cross.com - 罗马尼亚  8
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - "@SSRSUB-V04-付费推荐:v2cross.com"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CN_30 v2cross.com
-      - RO_532
-      - CN_35 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 26
-      - Pool_🇳🇱 NL_381
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255
-      - 🇺🇸 US 11 → TG@SCINV
-      - v2cross.com
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694
+      - 🇷🇴 v2cross.com - 罗马尼亚  8
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - "@SSRSUB-V04-付费推荐:v2cross.com"
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_30 v2cross.com
-      - RO_532
-      - CN_35 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 26
-      - Pool_🇳🇱 NL_381
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255
-      - 🇺🇸 US 11 → TG@SCINV
-      - v2cross.com
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694
+      - 🇷🇴 v2cross.com - 罗马尼亚  8
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - "@SSRSUB-V04-付费推荐:v2cross.com"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,15 +90,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_30 v2cross.com
-      - RO_532
-      - CN_35 v2cross.com
-      - 🇺🇸 v2cross.com - 美国3COM公司企业网 26
-      - Pool_🇳🇱 NL_381
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_255
-      - 🇺🇸 US 11 → TG@SCINV
-      - v2cross.com
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_694
+      - 🇷🇴 v2cross.com - 罗马尼亚  8
+      - 🇨🇳 中国(TG频道:@kxswa)
+      - "@SSRSUB-V04-付费推荐:v2cross.com"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
