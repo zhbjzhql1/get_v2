@@ -5,125 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_1246, server: 161.129.34.102, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇴 v2cross.com - 罗马尼亚  33, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: CN_50 v2cross.com, server: 14.29.124.174, port: 11050, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_14, server: njnax-1044-v2-1.fra-d-cn2.jd.cjhh.lol, port: 888, type: vmess, uuid: fc541302-7a84-4957-8e93-b974094cc7a0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13, server: 172.64.150.144, port: 443, type: vmess, uuid: fa94fb93-fef4-4055-bf54-244115640479, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /d612af774b29/, headers: {Host: jp.mywh.eu.org}}}
-  - {name: CN_49 v2cross.com, server: 14.29.124.174, port: 11049, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: "@SSRSUB-V17-付费推荐:v2cross.com", server: www.flieswiming.tk, port: 443, type: vmess, uuid: b7519a6f-c1de-4667-e606-b60c65d19078, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.flieswiming.tk}}}
-  - {name: 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228, server: 14.29.124.174, port: 11032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24, server: cs.jgwlxh.ga, port: 8080, type: vmess, uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: cs.jgwlxh.ga}}}
-  - {name: Relay_🏁 ZZ-🏁ZZ_1282, server: kvgwv-1037-v2-1.hkg-d-cmi.jd.cjhh.lol, port: 888, type: vmess, uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: node.inforun.work}}}
+  - {name: HK_237, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
+  - {name: unknown 4 → TG@SCINV, server: 64.112.42.73, port: 443, type: vmess, uuid: 4946f776-0af3-49f3-acad-d157475d253e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /P0S5U7NK, headers: {Host: "%7B%22Host%22:%2264.112.42.73%22%7D"}}}
+  - {name: v2cross.com, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com}
+  - {name: 🇺🇸 US 29 → TG@SCINV, server: wangqifei.ga, port: 41477, type: trojan, password: 3oquVrpxPg, skip-cert-verify: true}
+  - {name: v2cross.com 2, server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com}
+  - {name: Relay_🏁 ZZ-🏁ZZ_1246, server: mpdee-1042-v2-0.tyo-d-kcd.ap.cjhh.beauty, port: 888, type: vmess, uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: "%7B%22Host%22:%22mpdee-1042-v2-0.tyo-d-kcd.ap.cjhh.beauty%22%7D"}}}
+  - {name: US_645, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_1246
-      - 🇷🇴 v2cross.com - 罗马尼亚  33
-      - CN_50 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13
-      - CN_49 v2cross.com
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24
-      - Relay_🏁 ZZ-🏁ZZ_1282
+      - HK_237
+      - unknown 4 → TG@SCINV
+      - v2cross.com
+      - 🇺🇸 US 29 → TG@SCINV
+      - v2cross.com 2
+      - Relay_🏁 ZZ-🏁ZZ_1246
+      - US_645
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_1246
-      - 🇷🇴 v2cross.com - 罗马尼亚  33
-      - CN_50 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13
-      - CN_49 v2cross.com
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24
-      - Relay_🏁 ZZ-🏁ZZ_1282
+      - HK_237
+      - unknown 4 → TG@SCINV
+      - v2cross.com
+      - 🇺🇸 US 29 → TG@SCINV
+      - v2cross.com 2
+      - Relay_🏁 ZZ-🏁ZZ_1246
+      - US_645
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1246
-      - 🇷🇴 v2cross.com - 罗马尼亚  33
-      - CN_50 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13
-      - CN_49 v2cross.com
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24
-      - Relay_🏁 ZZ-🏁ZZ_1282
+      - HK_237
+      - unknown 4 → TG@SCINV
+      - v2cross.com
+      - 🇺🇸 US 29 → TG@SCINV
+      - v2cross.com 2
+      - Relay_🏁 ZZ-🏁ZZ_1246
+      - US_645
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_1246
-      - 🇷🇴 v2cross.com - 罗马尼亚  33
-      - CN_50 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13
-      - CN_49 v2cross.com
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24
-      - Relay_🏁 ZZ-🏁ZZ_1282
+      - HK_237
+      - unknown 4 → TG@SCINV
+      - v2cross.com
+      - 🇺🇸 US 29 → TG@SCINV
+      - v2cross.com 2
+      - Relay_🏁 ZZ-🏁ZZ_1246
+      - US_645
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_1246
-      - 🇷🇴 v2cross.com - 罗马尼亚  33
-      - CN_50 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13
-      - CN_49 v2cross.com
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24
-      - Relay_🏁 ZZ-🏁ZZ_1282
+      - HK_237
+      - unknown 4 → TG@SCINV
+      - v2cross.com
+      - 🇺🇸 US 29 → TG@SCINV
+      - v2cross.com 2
+      - Relay_🏁 ZZ-🏁ZZ_1246
+      - US_645
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_1246
-      - 🇷🇴 v2cross.com - 罗马尼亚  33
-      - CN_50 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13
-      - CN_49 v2cross.com
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24
-      - Relay_🏁 ZZ-🏁ZZ_1282
+      - HK_237
+      - unknown 4 → TG@SCINV
+      - v2cross.com
+      - 🇺🇸 US 29 → TG@SCINV
+      - v2cross.com 2
+      - Relay_🏁 ZZ-🏁ZZ_1246
+      - US_645
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1246
-      - 🇷🇴 v2cross.com - 罗马尼亚  33
-      - CN_50 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13
-      - CN_49 v2cross.com
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24
-      - Relay_🏁 ZZ-🏁ZZ_1282
+      - HK_237
+      - unknown 4 → TG@SCINV
+      - v2cross.com
+      - 🇺🇸 US 29 → TG@SCINV
+      - v2cross.com 2
+      - Relay_🏁 ZZ-🏁ZZ_1246
+      - US_645
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +122,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1246
-      - 🇷🇴 v2cross.com - 罗马尼亚  33
-      - CN_50 v2cross.com
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇸 Relay_🇺🇸US-🇯🇵JP_13
-      - CN_49 v2cross.com
-      - "@SSRSUB-V17-付费推荐:v2cross.com"
-      - 🇨🇳 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_228
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州弗里蒙特市Linode公司 24
-      - Relay_🏁 ZZ-🏁ZZ_1282
+      - HK_237
+      - unknown 4 → TG@SCINV
+      - v2cross.com
+      - 🇺🇸 US 29 → TG@SCINV
+      - v2cross.com 2
+      - Relay_🏁 ZZ-🏁ZZ_1246
+      - US_645
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
