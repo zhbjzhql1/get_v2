@@ -5,133 +5,133 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_239, server: 148.66.56.99, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: v2cross.com, server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com}
-  - {name: v2cross.com 2, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com}
-  - {name: US_28, server: 168.138.207.66, port: 21365, type: vmess, uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE 2 → TG@SCINV, server: 194.233.171.25, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glc.hruqoaw.cn, skip-cert-verify: false}
-  - {name: 🇨🇳 中国(TG频道:@kxswa), server: 117.164.185.220, port: 1115, type: vmess, uuid: e59c8dc9-8e33-4a87-8e1d-329ac480d572, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国(TG频道:@kxswa), server: 144.24.87.156, port: 80, type: vmess, uuid: 95413596-3a1f-4132-a4fa-b9d467308b44, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: appdownload.youku.com}}}
-  - {name: unknown 3 → TG@SCINV, server: 103.173.255.21, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glc.hruqoaw.cn, skip-cert-verify: false}
-  - {name: 🇺🇸 US 37 → TG@SCINV, server: 20.24.44.110, port: 28443, type: trojan, password: ffcd5d19-d085-4ff1-b724-af203eaeea04, sni: glc.hruqoaw.cn, skip-cert-verify: false}
-  - {name: CN_41 v2cross.com, server: 14.29.124.174, port: 11007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 v2cross.com - 美国  12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: Pool_🇳🇱NL_529, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 v2cross.com - 美国CloudFlare节点 18, server: 172.67.199.34, port: 80, type: vmess, uuid: 0d231b33-66c3-42bb-ae76-0f01faaf9719, alterId: 0, cipher: auto, tls: false, servername: biznet-s.nextvpn.cc, network: ws, ws-opts: {path: /, headers: {Host: biznet-s.nextvpn.cc}}}
+  - {name: 🇨🇳 CN 4 → TG@SCINV, server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇫🇷 v2cross.com - 法国OVH SAS 13, server: 193.70.33.128, port: 17772, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 193.70.33.128}}}
+  - {name: 🇺🇸 美国-tg频道:@bpjzx2-1, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win}
+  - {name: 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: CN_45 v2cross.com, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇸🇬 SG 4 → TG@SCINV, server: 54.255.235.191, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: "🇮🇪 Hotspot 🇮🇪[爱尔兰]", server: 34.248.69.233, port: 443, type: trojan, password: xxoo}
+  - {name: Pool_🇳🇱 NL_431, server: 85.208.108.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 v2cross.com - 美国  16, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - HK_239
-      - v2cross.com
-      - v2cross.com 2
-      - US_28
-      - 🇩🇪 DE 2 → TG@SCINV
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - unknown 3 → TG@SCINV
-      - 🇺🇸 US 37 → TG@SCINV
-      - CN_41 v2cross.com
-      - 🇺🇸 v2cross.com - 美国  12
+      - Pool_🇳🇱NL_529
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
+      - 🇨🇳 CN 4 → TG@SCINV
+      - 🇫🇷 v2cross.com - 法国OVH SAS 13
+      - 🇺🇸 美国-tg频道:@bpjzx2-1
+      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19
+      - CN_45 v2cross.com
+      - 🇸🇬 SG 4 → TG@SCINV
+      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - Pool_🇳🇱 NL_431
+      - 🇺🇸 v2cross.com - 美国  16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK_239
-      - v2cross.com
-      - v2cross.com 2
-      - US_28
-      - 🇩🇪 DE 2 → TG@SCINV
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - unknown 3 → TG@SCINV
-      - 🇺🇸 US 37 → TG@SCINV
-      - CN_41 v2cross.com
-      - 🇺🇸 v2cross.com - 美国  12
+      - Pool_🇳🇱NL_529
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
+      - 🇨🇳 CN 4 → TG@SCINV
+      - 🇫🇷 v2cross.com - 法国OVH SAS 13
+      - 🇺🇸 美国-tg频道:@bpjzx2-1
+      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19
+      - CN_45 v2cross.com
+      - 🇸🇬 SG 4 → TG@SCINV
+      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - Pool_🇳🇱 NL_431
+      - 🇺🇸 v2cross.com - 美国  16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_239
-      - v2cross.com
-      - v2cross.com 2
-      - US_28
-      - 🇩🇪 DE 2 → TG@SCINV
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - unknown 3 → TG@SCINV
-      - 🇺🇸 US 37 → TG@SCINV
-      - CN_41 v2cross.com
-      - 🇺🇸 v2cross.com - 美国  12
+      - Pool_🇳🇱NL_529
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
+      - 🇨🇳 CN 4 → TG@SCINV
+      - 🇫🇷 v2cross.com - 法国OVH SAS 13
+      - 🇺🇸 美国-tg频道:@bpjzx2-1
+      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19
+      - CN_45 v2cross.com
+      - 🇸🇬 SG 4 → TG@SCINV
+      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - Pool_🇳🇱 NL_431
+      - 🇺🇸 v2cross.com - 美国  16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK_239
-      - v2cross.com
-      - v2cross.com 2
-      - US_28
-      - 🇩🇪 DE 2 → TG@SCINV
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - unknown 3 → TG@SCINV
-      - 🇺🇸 US 37 → TG@SCINV
-      - CN_41 v2cross.com
-      - 🇺🇸 v2cross.com - 美国  12
+      - Pool_🇳🇱NL_529
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
+      - 🇨🇳 CN 4 → TG@SCINV
+      - 🇫🇷 v2cross.com - 法国OVH SAS 13
+      - 🇺🇸 美国-tg频道:@bpjzx2-1
+      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19
+      - CN_45 v2cross.com
+      - 🇸🇬 SG 4 → TG@SCINV
+      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - Pool_🇳🇱 NL_431
+      - 🇺🇸 v2cross.com - 美国  16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - HK_239
-      - v2cross.com
-      - v2cross.com 2
-      - US_28
-      - 🇩🇪 DE 2 → TG@SCINV
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - unknown 3 → TG@SCINV
-      - 🇺🇸 US 37 → TG@SCINV
-      - CN_41 v2cross.com
-      - 🇺🇸 v2cross.com - 美国  12
+      - Pool_🇳🇱NL_529
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
+      - 🇨🇳 CN 4 → TG@SCINV
+      - 🇫🇷 v2cross.com - 法国OVH SAS 13
+      - 🇺🇸 美国-tg频道:@bpjzx2-1
+      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19
+      - CN_45 v2cross.com
+      - 🇸🇬 SG 4 → TG@SCINV
+      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - Pool_🇳🇱 NL_431
+      - 🇺🇸 v2cross.com - 美国  16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK_239
-      - v2cross.com
-      - v2cross.com 2
-      - US_28
-      - 🇩🇪 DE 2 → TG@SCINV
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - unknown 3 → TG@SCINV
-      - 🇺🇸 US 37 → TG@SCINV
-      - CN_41 v2cross.com
-      - 🇺🇸 v2cross.com - 美国  12
+      - Pool_🇳🇱NL_529
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
+      - 🇨🇳 CN 4 → TG@SCINV
+      - 🇫🇷 v2cross.com - 法国OVH SAS 13
+      - 🇺🇸 美国-tg频道:@bpjzx2-1
+      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19
+      - CN_45 v2cross.com
+      - 🇸🇬 SG 4 → TG@SCINV
+      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - Pool_🇳🇱 NL_431
+      - 🇺🇸 v2cross.com - 美国  16
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_239
-      - v2cross.com
-      - v2cross.com 2
-      - US_28
-      - 🇩🇪 DE 2 → TG@SCINV
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - unknown 3 → TG@SCINV
-      - 🇺🇸 US 37 → TG@SCINV
-      - CN_41 v2cross.com
-      - 🇺🇸 v2cross.com - 美国  12
+      - Pool_🇳🇱NL_529
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
+      - 🇨🇳 CN 4 → TG@SCINV
+      - 🇫🇷 v2cross.com - 法国OVH SAS 13
+      - 🇺🇸 美国-tg频道:@bpjzx2-1
+      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19
+      - CN_45 v2cross.com
+      - 🇸🇬 SG 4 → TG@SCINV
+      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - Pool_🇳🇱 NL_431
+      - 🇺🇸 v2cross.com - 美国  16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,17 +154,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_239
-      - v2cross.com
-      - v2cross.com 2
-      - US_28
-      - 🇩🇪 DE 2 → TG@SCINV
-      - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - unknown 3 → TG@SCINV
-      - 🇺🇸 US 37 → TG@SCINV
-      - CN_41 v2cross.com
-      - 🇺🇸 v2cross.com - 美国  12
+      - Pool_🇳🇱NL_529
+      - 🇺🇸 v2cross.com - 美国CloudFlare节点 18
+      - 🇨🇳 CN 4 → TG@SCINV
+      - 🇫🇷 v2cross.com - 法国OVH SAS 13
+      - 🇺🇸 美国-tg频道:@bpjzx2-1
+      - 🇺🇸 v2cross.com - 美国弗吉尼亚州文特山农场OVH数据中心 19
+      - CN_45 v2cross.com
+      - 🇸🇬 SG 4 → TG@SCINV
+      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - Pool_🇳🇱 NL_431
+      - 🇺🇸 v2cross.com - 美国  16
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
