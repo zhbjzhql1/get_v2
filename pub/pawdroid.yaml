@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v2cross.com, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
-  - {name: v2cross.com 2, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com}
+  - {name: v2cross.com, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com}
+  - {name: v2cross.com 2, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
