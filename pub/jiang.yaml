@@ -11,6 +11,9 @@ proxies:
   - {name: 二爷翻墙 https://1808.ga --3, server: 172.67.147.28, port: 443, type: vmess, uuid: 2037d70b-fd46-4f17-a657-ccb04c62f073, alterId: 0, cipher: auto, tls: true, servername: rn.1808.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: rn.1808.cf}}}
   - {name: 二爷翻墙 https://1808.ga  cu, server: 172.64.148.9, port: 443, type: vmess, uuid: 2037d70b-fd46-4f17-a657-ccb04c62f073, alterId: 0, cipher: auto, tls: true, servername: rn.1808.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: rn.1808.cf}}}
   - {name: 二爷翻墙 https://1808.ga  cu 2, server: 104.20.171.50, port: 443, type: vmess, uuid: 2037d70b-fd46-4f17-a657-ccb04c62f073, alterId: 0, cipher: auto, tls: true, servername: rn.1808.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: rn.1808.cf}}}
+  - {name: 二爷翻墙4423, server: 172.67.73.213, port: 443, type: vmess, uuid: b71e3784-f171-4035-987a-df0ff4b4cd61, alterId: 0, cipher: auto, tls: true, servername: 1.731808.tk, network: ws, ws-opts: {path: /ceatvws, headers: {Host: 1.731808.tk}}}
+  - {name: 552, server: 172.67.73.213, port: 443, type: vmess, uuid: 3da2b3d1-0fe7-4715-8463-b4ab43b8d4c3, alterId: 0, cipher: auto, tls: true, servername: 3.731808.tk, network: ws, ws-opts: {path: /mntpvws, headers: {Host: 3.731808.tk}}}
+  - {name: 547, server: 172.67.73.213, port: 443, type: vmess, uuid: a798850e-554f-4ed9-96cb-fa5e205e08c8, alterId: 0, cipher: auto, tls: true, servername: 2.731808.tk, network: ws, ws-opts: {path: /hjyrvws, headers: {Host: 2.731808.tk}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,6 +26,9 @@ proxy-groups:
       - 二爷翻墙 https://1808.ga --3
       - 二爷翻墙 https://1808.ga  cu
       - 二爷翻墙 https://1808.ga  cu 2
+      - 二爷翻墙4423
+      - 552
+      - 547
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,6 +41,9 @@ proxy-groups:
       - 二爷翻墙 https://1808.ga --3
       - 二爷翻墙 https://1808.ga  cu
       - 二爷翻墙 https://1808.ga  cu 2
+      - 二爷翻墙4423
+      - 552
+      - 547
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -47,6 +56,9 @@ proxy-groups:
       - 二爷翻墙 https://1808.ga --3
       - 二爷翻墙 https://1808.ga  cu
       - 二爷翻墙 https://1808.ga  cu 2
+      - 二爷翻墙4423
+      - 552
+      - 547
   - name: 📲 电报信息
     type: select
     proxies:
@@ -58,6 +70,9 @@ proxy-groups:
       - 二爷翻墙 https://1808.ga --3
       - 二爷翻墙 https://1808.ga  cu
       - 二爷翻墙 https://1808.ga  cu 2
+      - 二爷翻墙4423
+      - 552
+      - 547
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -69,6 +84,9 @@ proxy-groups:
       - 二爷翻墙 https://1808.ga --3
       - 二爷翻墙 https://1808.ga  cu
       - 二爷翻墙 https://1808.ga  cu 2
+      - 二爷翻墙4423
+      - 552
+      - 547
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -80,6 +98,9 @@ proxy-groups:
       - 二爷翻墙 https://1808.ga --3
       - 二爷翻墙 https://1808.ga  cu
       - 二爷翻墙 https://1808.ga  cu 2
+      - 二爷翻墙4423
+      - 552
+      - 547
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -92,6 +113,9 @@ proxy-groups:
       - 二爷翻墙 https://1808.ga --3
       - 二爷翻墙 https://1808.ga  cu
       - 二爷翻墙 https://1808.ga  cu 2
+      - 二爷翻墙4423
+      - 552
+      - 547
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -120,6 +144,9 @@ proxy-groups:
       - 二爷翻墙 https://1808.ga --3
       - 二爷翻墙 https://1808.ga  cu
       - 二爷翻墙 https://1808.ga  cu 2
+      - 二爷翻墙4423
+      - 552
+      - 547
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
