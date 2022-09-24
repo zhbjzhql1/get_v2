@@ -5,261 +5,237 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国(TG频道:@kxswa), server: 158.247.234.209, port: 21008, type: vmess, uuid: 210f5d72-27f5-4b23-a2d6-1c07e89f586c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37, server: frm2.3320.top, port: 443, type: vmess, uuid: 4cc693c4-2f67-4637-bc98-76461fcbf09c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: frm2.3320.top}}}
-  - {name: 🇭🇰 香港 ❀原生❀小妮妮❀1x, server: xi.kanao.xyz, port: 58820, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: true}
-  - {name: 🇭🇰 HK-CN-刁包子专线, server: 120.232.132.120, port: 25682, type: trojan, password: M2e3c493, sni: cdnt24.dt1.fun, skip-cert-verify: true}
-  - {name: 🇺🇸 github.com/freefq - 美国  44, server: 152.70.235.207, port: 35412, type: vmess, uuid: 70d95308-2a61-4f93-f139-9103d0587fd9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  25, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 日本-tg频道:@bpjzx2-20, server: 172.105.192.230, port: 443, type: vmess, uuid: 0c58b166-cbb6-4c02-98b7-c239a7104c6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG电报@herhr6, headers: {Host: shoutingtoutiao.10010.com}}}
-  - {name: JP_210, server: 139.162.109.96, port: 10468, type: ss, cipher: chacha20-ietf-poly1305, password: 356e1761-3122-4e7f-b4f3-60c34cbb0045}
-  - {name: 🇨🇳 CN 23 → v2cross.com, server: 120.195.181.72, port: 12355, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡-tg频道:@bpjzx2-11, server: 120.195.181.72, port: 12333, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
-  - {name: 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47, server: 14.29.124.174, port: 11039, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇸🇬 v2cross.com - 新加坡OVH 45, server: sg-ovh1.v2-ray.com, port: 80, type: vmess, uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fastssh/ghhhur/632736634acba/, headers: {Host: sg-ovh1.v2-ray.com}}}
-  - {name: 🇨🇳 CN 21 → v2cross.com, server: 120.195.181.72, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true}
-  - {name: 🇺🇸 US 8 → v2cross.com, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true}
-  - {name: 🇨🇳 CN 37 → v2cross.com, server: 120.195.181.51, port: 12337, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡-tg频道:@bpjzx2-51, server: 124.71.16.99, port: 12334, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
+  - {name: 🇭🇰 香港-tg频道:@bpjzx2-25, server: 120.195.181.51, port: 12323, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
+  - {name: 🇯🇵 日本 ❀大妮妮❀1x, server: da.kanao.xyz, port: 58805, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: true}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  46, server: 80.66.64.17, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇩🇪 github.com/freefq - 德国  24, server: au1.3320.top, port: 443, type: vmess, uuid: c7938aaf-0c69-4bd2-ab22-7a580962c0ec, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: au1.3320.top}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23, server: in1.3320.top, port: 443, type: vmess, uuid: 9d476be9-eca3-4561-9b56-6ff4ec1017ba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: in1.3320.top}}}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50, server: 14.29.124.174, port: 11020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇸🇬 新加坡-tg频道:@bpjzx2-35, server: 124.71.16.99, port: 12335, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  13, server: 99tw03.tfzhc.top, port: 443, type: trojan, password: f089ab9d-dd52-42a0-b10c-980e70a00e1a}
+  - {name: 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436, server: v4.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡-tg频道:@bpjzx2-29, server: 120.195.181.51, port: 12336, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
+  - {name: 🇭🇰 香港GG, server: 120.195.181.51, port: 12324, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
   - {name: 🇨🇳 中国(TG频道:@kxswa), server: 120.195.181.51, port: 12355, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true}
-  - {name: 28, server: 921tw.tfzhc.top, port: 443, type: trojan, password: f089ab9d-dd52-42a0-b10c-980e70a00e1a, skip-cert-verify: true}
-  - {name: 🇨🇦 CA 7 → v2cross.com, server: 165.154.227.242, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false}
-  - {name: 🇺🇸 github.com/freefq - 美国  10, server: weixin.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /tech, headers: {Host: weixin.babazhuji.com}}}
-  - {name: 🇸🇬 新加坡-tg频道:@bpjzx2-5, server: 120.195.181.72, port: 12336, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
-  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47, server: arm.ptuu.gq, port: 443, type: vmess, uuid: 9821b817-5cb0-4af3-a3e3-7c137850935d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: arm.ptuu.gq}}}
-  - {name: 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41, server: 210.75.24.222, port: 443, type: vmess, uuid: 1bbf1ef7-3056-4160-9cab-491e024de705, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: sgamd.ptuu.ga}}}
-  - {name: 🇭🇰 香港-tg频道:@bpjzx2-14, server: 124.71.16.99, port: 12324, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12, server: frm2.3320.top, port: 443, type: vmess, uuid: 4cc693c4-2f67-4637-bc98-76461fcbf09c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: frm2.3320.top}}}
-  - {name: 🇨🇦 v2cross.com - 加拿大  55, server: 913tw.tfzhc.top, port: 44318, type: trojan, password: f089ab9d-dd52-42a0-b10c-980e70a00e1a}
-  - {name: 🇺🇸 v2cross.com - 美国加州 11, server: 64.112.42.53, port: 16999, type: vmess, uuid: 48fb27a4-e6fe-42cf-95bf-103d2318ed5d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 v2cross.com - 新加坡OVH 45, server: sg-ovh1.v2-ray.com, port: 80, type: vmess, uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fastssh/ghhhur/632736634acba/, headers: {Host: sg-ovh1.v2-ray.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国3COM公司企业网 35, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 152.67.218.38}}}
+  - {name: "@SSRSUB-V23-付费推荐:v2cross.com", server: ca2.3320.top, port: 443, type: vmess, uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ca2.3320.top}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60, server: 14.29.124.174, port: 11043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55, server: 14.29.124.174, port: 11015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29, server: sgp.purecloud.ga, port: 18888, type: trojan, password: 360c04ea-7509-4300-aed9-2d193732c99b}
+  - {name: GB_178, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43, server: mycfwork.herokuapp.com, port: 443, type: vmess, uuid: 07a3a1e3-d52e-4acc-958e-c301681b5f09, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mycfwork.herokuapp.com}}}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36, server: 46.29.161.247, port: 10022, type: vmess, uuid: eeb8093c-bf82-4e28-9604-57eae6b656e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27, server: sg2.3320.top, port: 443, type: vmess, uuid: 4111ed89-8dc3-4102-867c-ae807a759d0c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg2.3320.top}}}
+  - {name: 🇨🇳 台湾-tg频道:@bpjzx2-10, server: 120.195.181.72, port: 12356, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷 韩国(TG频道:@kxswa)
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 github.com/freefq - 美国  44
-      - 🇷🇴 github.com/freefq - 罗马尼亚  25
-      - 🇯🇵 日本-tg频道:@bpjzx2-20
-      - JP_210
-      - 🇨🇳 CN 23 → v2cross.com
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-11
-      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47
-      - 🇸🇬 v2cross.com - 新加坡OVH 45
-      - 🇨🇳 CN 21 → v2cross.com
-      - 🇺🇸 US 8 → v2cross.com
-      - 🇨🇳 CN 37 → v2cross.com
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-51
+      - 🇭🇰 香港-tg频道:@bpjzx2-25
+      - 🇯🇵 日本 ❀大妮妮❀1x
+      - 🇷🇺 github.com/freefq - 俄罗斯  46
+      - 🇩🇪 github.com/freefq - 德国  24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-35
+      - 🇨🇦 github.com/freefq - 加拿大  13
+      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-29
+      - 🇭🇰 香港GG
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 28
-      - 🇨🇦 CA 7 → v2cross.com
-      - 🇺🇸 github.com/freefq - 美国  10
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-5
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41
-      - 🇭🇰 香港-tg频道:@bpjzx2-14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12
-      - 🇨🇦 v2cross.com - 加拿大  55
-      - 🇺🇸 v2cross.com - 美国加州 11
+      - 🇸🇬 v2cross.com - 新加坡OVH 45
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 35
+      - "@SSRSUB-V23-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29
+      - GB_178
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43
+      - 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27
+      - 🇨🇳 台湾-tg频道:@bpjzx2-10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国(TG频道:@kxswa)
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 github.com/freefq - 美国  44
-      - 🇷🇴 github.com/freefq - 罗马尼亚  25
-      - 🇯🇵 日本-tg频道:@bpjzx2-20
-      - JP_210
-      - 🇨🇳 CN 23 → v2cross.com
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-11
-      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47
-      - 🇸🇬 v2cross.com - 新加坡OVH 45
-      - 🇨🇳 CN 21 → v2cross.com
-      - 🇺🇸 US 8 → v2cross.com
-      - 🇨🇳 CN 37 → v2cross.com
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-51
+      - 🇭🇰 香港-tg频道:@bpjzx2-25
+      - 🇯🇵 日本 ❀大妮妮❀1x
+      - 🇷🇺 github.com/freefq - 俄罗斯  46
+      - 🇩🇪 github.com/freefq - 德国  24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-35
+      - 🇨🇦 github.com/freefq - 加拿大  13
+      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-29
+      - 🇭🇰 香港GG
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 28
-      - 🇨🇦 CA 7 → v2cross.com
-      - 🇺🇸 github.com/freefq - 美国  10
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-5
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41
-      - 🇭🇰 香港-tg频道:@bpjzx2-14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12
-      - 🇨🇦 v2cross.com - 加拿大  55
-      - 🇺🇸 v2cross.com - 美国加州 11
+      - 🇸🇬 v2cross.com - 新加坡OVH 45
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 35
+      - "@SSRSUB-V23-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29
+      - GB_178
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43
+      - 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27
+      - 🇨🇳 台湾-tg频道:@bpjzx2-10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国(TG频道:@kxswa)
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 github.com/freefq - 美国  44
-      - 🇷🇴 github.com/freefq - 罗马尼亚  25
-      - 🇯🇵 日本-tg频道:@bpjzx2-20
-      - JP_210
-      - 🇨🇳 CN 23 → v2cross.com
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-11
-      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47
-      - 🇸🇬 v2cross.com - 新加坡OVH 45
-      - 🇨🇳 CN 21 → v2cross.com
-      - 🇺🇸 US 8 → v2cross.com
-      - 🇨🇳 CN 37 → v2cross.com
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-51
+      - 🇭🇰 香港-tg频道:@bpjzx2-25
+      - 🇯🇵 日本 ❀大妮妮❀1x
+      - 🇷🇺 github.com/freefq - 俄罗斯  46
+      - 🇩🇪 github.com/freefq - 德国  24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-35
+      - 🇨🇦 github.com/freefq - 加拿大  13
+      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-29
+      - 🇭🇰 香港GG
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 28
-      - 🇨🇦 CA 7 → v2cross.com
-      - 🇺🇸 github.com/freefq - 美国  10
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-5
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41
-      - 🇭🇰 香港-tg频道:@bpjzx2-14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12
-      - 🇨🇦 v2cross.com - 加拿大  55
-      - 🇺🇸 v2cross.com - 美国加州 11
+      - 🇸🇬 v2cross.com - 新加坡OVH 45
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 35
+      - "@SSRSUB-V23-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29
+      - GB_178
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43
+      - 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27
+      - 🇨🇳 台湾-tg频道:@bpjzx2-10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 韩国(TG频道:@kxswa)
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 github.com/freefq - 美国  44
-      - 🇷🇴 github.com/freefq - 罗马尼亚  25
-      - 🇯🇵 日本-tg频道:@bpjzx2-20
-      - JP_210
-      - 🇨🇳 CN 23 → v2cross.com
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-11
-      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47
-      - 🇸🇬 v2cross.com - 新加坡OVH 45
-      - 🇨🇳 CN 21 → v2cross.com
-      - 🇺🇸 US 8 → v2cross.com
-      - 🇨🇳 CN 37 → v2cross.com
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-51
+      - 🇭🇰 香港-tg频道:@bpjzx2-25
+      - 🇯🇵 日本 ❀大妮妮❀1x
+      - 🇷🇺 github.com/freefq - 俄罗斯  46
+      - 🇩🇪 github.com/freefq - 德国  24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-35
+      - 🇨🇦 github.com/freefq - 加拿大  13
+      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-29
+      - 🇭🇰 香港GG
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 28
-      - 🇨🇦 CA 7 → v2cross.com
-      - 🇺🇸 github.com/freefq - 美国  10
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-5
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41
-      - 🇭🇰 香港-tg频道:@bpjzx2-14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12
-      - 🇨🇦 v2cross.com - 加拿大  55
-      - 🇺🇸 v2cross.com - 美国加州 11
+      - 🇸🇬 v2cross.com - 新加坡OVH 45
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 35
+      - "@SSRSUB-V23-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29
+      - GB_178
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43
+      - 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27
+      - 🇨🇳 台湾-tg频道:@bpjzx2-10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷 韩国(TG频道:@kxswa)
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 github.com/freefq - 美国  44
-      - 🇷🇴 github.com/freefq - 罗马尼亚  25
-      - 🇯🇵 日本-tg频道:@bpjzx2-20
-      - JP_210
-      - 🇨🇳 CN 23 → v2cross.com
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-11
-      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47
-      - 🇸🇬 v2cross.com - 新加坡OVH 45
-      - 🇨🇳 CN 21 → v2cross.com
-      - 🇺🇸 US 8 → v2cross.com
-      - 🇨🇳 CN 37 → v2cross.com
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-51
+      - 🇭🇰 香港-tg频道:@bpjzx2-25
+      - 🇯🇵 日本 ❀大妮妮❀1x
+      - 🇷🇺 github.com/freefq - 俄罗斯  46
+      - 🇩🇪 github.com/freefq - 德国  24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-35
+      - 🇨🇦 github.com/freefq - 加拿大  13
+      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-29
+      - 🇭🇰 香港GG
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 28
-      - 🇨🇦 CA 7 → v2cross.com
-      - 🇺🇸 github.com/freefq - 美国  10
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-5
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41
-      - 🇭🇰 香港-tg频道:@bpjzx2-14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12
-      - 🇨🇦 v2cross.com - 加拿大  55
-      - 🇺🇸 v2cross.com - 美国加州 11
+      - 🇸🇬 v2cross.com - 新加坡OVH 45
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 35
+      - "@SSRSUB-V23-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29
+      - GB_178
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43
+      - 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27
+      - 🇨🇳 台湾-tg频道:@bpjzx2-10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 韩国(TG频道:@kxswa)
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 github.com/freefq - 美国  44
-      - 🇷🇴 github.com/freefq - 罗马尼亚  25
-      - 🇯🇵 日本-tg频道:@bpjzx2-20
-      - JP_210
-      - 🇨🇳 CN 23 → v2cross.com
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-11
-      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47
-      - 🇸🇬 v2cross.com - 新加坡OVH 45
-      - 🇨🇳 CN 21 → v2cross.com
-      - 🇺🇸 US 8 → v2cross.com
-      - 🇨🇳 CN 37 → v2cross.com
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-51
+      - 🇭🇰 香港-tg频道:@bpjzx2-25
+      - 🇯🇵 日本 ❀大妮妮❀1x
+      - 🇷🇺 github.com/freefq - 俄罗斯  46
+      - 🇩🇪 github.com/freefq - 德国  24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-35
+      - 🇨🇦 github.com/freefq - 加拿大  13
+      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-29
+      - 🇭🇰 香港GG
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 28
-      - 🇨🇦 CA 7 → v2cross.com
-      - 🇺🇸 github.com/freefq - 美国  10
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-5
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41
-      - 🇭🇰 香港-tg频道:@bpjzx2-14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12
-      - 🇨🇦 v2cross.com - 加拿大  55
-      - 🇺🇸 v2cross.com - 美国加州 11
+      - 🇸🇬 v2cross.com - 新加坡OVH 45
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 35
+      - "@SSRSUB-V23-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29
+      - GB_178
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43
+      - 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27
+      - 🇨🇳 台湾-tg频道:@bpjzx2-10
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国(TG频道:@kxswa)
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 github.com/freefq - 美国  44
-      - 🇷🇴 github.com/freefq - 罗马尼亚  25
-      - 🇯🇵 日本-tg频道:@bpjzx2-20
-      - JP_210
-      - 🇨🇳 CN 23 → v2cross.com
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-11
-      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47
-      - 🇸🇬 v2cross.com - 新加坡OVH 45
-      - 🇨🇳 CN 21 → v2cross.com
-      - 🇺🇸 US 8 → v2cross.com
-      - 🇨🇳 CN 37 → v2cross.com
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-51
+      - 🇭🇰 香港-tg频道:@bpjzx2-25
+      - 🇯🇵 日本 ❀大妮妮❀1x
+      - 🇷🇺 github.com/freefq - 俄罗斯  46
+      - 🇩🇪 github.com/freefq - 德国  24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-35
+      - 🇨🇦 github.com/freefq - 加拿大  13
+      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-29
+      - 🇭🇰 香港GG
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 28
-      - 🇨🇦 CA 7 → v2cross.com
-      - 🇺🇸 github.com/freefq - 美国  10
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-5
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41
-      - 🇭🇰 香港-tg频道:@bpjzx2-14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12
-      - 🇨🇦 v2cross.com - 加拿大  55
-      - 🇺🇸 v2cross.com - 美国加州 11
+      - 🇸🇬 v2cross.com - 新加坡OVH 45
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 35
+      - "@SSRSUB-V23-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29
+      - GB_178
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43
+      - 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27
+      - 🇨🇳 台湾-tg频道:@bpjzx2-10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -282,33 +258,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国(TG频道:@kxswa)
-      - 🇺🇸 v2cross.com - 美国加利福尼亚州费利蒙Linode数据中心 37
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 github.com/freefq - 美国  44
-      - 🇷🇴 github.com/freefq - 罗马尼亚  25
-      - 🇯🇵 日本-tg频道:@bpjzx2-20
-      - JP_210
-      - 🇨🇳 CN 23 → v2cross.com
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-11
-      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_47
-      - 🇸🇬 v2cross.com - 新加坡OVH 45
-      - 🇨🇳 CN 21 → v2cross.com
-      - 🇺🇸 US 8 → v2cross.com
-      - 🇨🇳 CN 37 → v2cross.com
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-51
+      - 🇭🇰 香港-tg频道:@bpjzx2-25
+      - 🇯🇵 日本 ❀大妮妮❀1x
+      - 🇷🇺 github.com/freefq - 俄罗斯  46
+      - 🇩🇪 github.com/freefq - 德国  24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 23
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_50
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-35
+      - 🇨🇦 github.com/freefq - 加拿大  13
+      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_436
+      - 🇸🇬 新加坡-tg频道:@bpjzx2-29
+      - 🇭🇰 香港GG
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 28
-      - 🇨🇦 CA 7 → v2cross.com
-      - 🇺🇸 github.com/freefq - 美国  10
-      - 🇸🇬 新加坡-tg频道:@bpjzx2-5
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 22
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 41
-      - 🇭🇰 香港-tg频道:@bpjzx2-14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 12
-      - 🇨🇦 v2cross.com - 加拿大  55
-      - 🇺🇸 v2cross.com - 美国加州 11
+      - 🇸🇬 v2cross.com - 新加坡OVH 45
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 35
+      - "@SSRSUB-V23-付费推荐:v2cross.com"
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_60
+      - 🇨🇳 Relay_🇨🇳 CN-🇭🇰HK_55
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 29
+      - GB_178
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 43
+      - 🇷🇺 github.com/freefq - 俄罗斯喀山JustHost 36
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 27
+      - 🇨🇳 台湾-tg频道:@bpjzx2-10
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
