@@ -5,11 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 二爷翻墙4423, server: 172.67.165.92, port: 443, type: vmess, uuid: b71e3784-f171-4035-987a-df0ff4b4cd61, alterId: 0, cipher: auto, tls: true, servername: 1.731808.tk, network: ws, ws-opts: {path: /ceatvws, headers: {Host: 1.731808.tk}}}
+  - {name: 二爷翻墙4423, server: 47.74.51.30, port: 443, type: vmess, uuid: b71e3784-f171-4035-987a-df0ff4b4cd61, alterId: 0, cipher: auto, tls: true, servername: 1.731808.tk, network: ws, ws-opts: {path: /ceatvws, headers: {Host: 1.731808.tk}}}
   - {name: 552, server: 172.67.165.92, port: 443, type: vmess, uuid: 3da2b3d1-0fe7-4715-8463-b4ab43b8d4c3, alterId: 0, cipher: auto, tls: true, servername: 3.731808.tk, network: ws, ws-opts: {path: /mntpvws, headers: {Host: 3.731808.tk}}}
-  - {name: 二爷翻墙网 Https://1808.ga, server: 172.67.165.92, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: experiment-gather-holly-young.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: experiment-gather-holly-young.trycloudflare.com}}}
-  - {name: 5472.1808.cf_vmess_ws, server: 5472.1808.cf, port: 443, type: vmess, uuid: cba97a89-351c-4f88-b19e-9a8cecf66dfa, alterId: 0, cipher: auto, tls: true, servername: 5472.1808.cf, network: ws, ws-opts: {path: /obnevws, headers: {Host: 5472.1808.cf}}}
   - {name: v, server: 47.74.51.30, port: 443, type: vmess, uuid: 96594214-1be5-402f-a6b2-6a68d31f507a, alterId: 0, cipher: auto, tls: true, servername: cc.1808.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: cc.1808.cf}}}
+  - {name: 二爷翻墙网 Https://1808.ga, server: 47.74.51.30, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, servername: fence-php-wide-standings.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: fence-php-wide-standings.trycloudflare.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -18,9 +17,8 @@ proxy-groups:
       - DIRECT
       - 二爷翻墙4423
       - 552
-      - 二爷翻墙网 Https://1808.ga
-      - 5472.1808.cf_vmess_ws
       - v
+      - 二爷翻墙网 Https://1808.ga
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -29,9 +27,8 @@ proxy-groups:
     proxies:
       - 二爷翻墙4423
       - 552
-      - 二爷翻墙网 Https://1808.ga
-      - 5472.1808.cf_vmess_ws
       - v
+      - 二爷翻墙网 Https://1808.ga
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -40,9 +37,8 @@ proxy-groups:
       - 🎯 全球直连
       - 二爷翻墙4423
       - 552
-      - 二爷翻墙网 Https://1808.ga
-      - 5472.1808.cf_vmess_ws
       - v
+      - 二爷翻墙网 Https://1808.ga
   - name: 📲 电报信息
     type: select
     proxies:
@@ -50,9 +46,8 @@ proxy-groups:
       - 🎯 全球直连
       - 二爷翻墙4423
       - 552
-      - 二爷翻墙网 Https://1808.ga
-      - 5472.1808.cf_vmess_ws
       - v
+      - 二爷翻墙网 Https://1808.ga
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -60,9 +55,8 @@ proxy-groups:
       - 🚀 节点选择
       - 二爷翻墙4423
       - 552
-      - 二爷翻墙网 Https://1808.ga
-      - 5472.1808.cf_vmess_ws
       - v
+      - 二爷翻墙网 Https://1808.ga
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -70,9 +64,8 @@ proxy-groups:
       - 🎯 全球直连
       - 二爷翻墙4423
       - 552
-      - 二爷翻墙网 Https://1808.ga
-      - 5472.1808.cf_vmess_ws
       - v
+      - 二爷翻墙网 Https://1808.ga
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -81,9 +74,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 二爷翻墙4423
       - 552
-      - 二爷翻墙网 Https://1808.ga
-      - 5472.1808.cf_vmess_ws
       - v
+      - 二爷翻墙网 Https://1808.ga
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,9 +100,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 二爷翻墙4423
       - 552
-      - 二爷翻墙网 Https://1808.ga
-      - 5472.1808.cf_vmess_ws
       - v
+      - 二爷翻墙网 Https://1808.ga
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
