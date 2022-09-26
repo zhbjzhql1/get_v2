@@ -11,6 +11,7 @@ proxies:
   - {name: DOSG, server: cf.naixii.top, port: 443, type: vmess, uuid: 3fad3b4c-8691-42f2-a46d-9875cacaeeb2, alterId: 0, cipher: auto, tls: true, servername: linode.sharecentre.xyz, network: ws, ws-opts: {path: /b472f/, headers: {Host: linode.sharecentre.xyz}}}
   - {name: DOSG 二爷翻墙网 Https://1808.ga, server: cf.731808.tk, port: 443, type: vmess, uuid: 3fad3b4c-8691-42f2-a46d-9875cacaeeb2, alterId: 0, cipher: auto, tls: true, servername: linode.sharecentre.xyz, network: ws, ws-opts: {path: /b472f/, headers: {Host: linode.sharecentre.xyz}}}
   - {name: 二爷翻墙网 Https://1808.ga 2, server: cf.731808.tk, port: 443, type: vmess, uuid: b86d9844-43ee-4ef4-bf68-41ffd6345e36, alterId: 0, cipher: auto, tls: true, servername: cc.1808.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: cc.1808.cf}}}
+  - {name: 2.731808.tk_vmess_ws, server: cf.731808.tk, port: 443, type: vmess, uuid: 257709e2-d0f4-41d0-8a73-61d15cf00d51, alterId: 0, cipher: auto, tls: true, servername: 2.731808.tk, network: ws, ws-opts: {path: /xpkbvws, headers: {Host: 2.731808.tk}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,6 +24,7 @@ proxy-groups:
       - DOSG
       - DOSG 二爷翻墙网 Https://1808.ga
       - 二爷翻墙网 Https://1808.ga 2
+      - 2.731808.tk_vmess_ws
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,6 +37,7 @@ proxy-groups:
       - DOSG
       - DOSG 二爷翻墙网 Https://1808.ga
       - 二爷翻墙网 Https://1808.ga 2
+      - 2.731808.tk_vmess_ws
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -47,6 +50,7 @@ proxy-groups:
       - DOSG
       - DOSG 二爷翻墙网 Https://1808.ga
       - 二爷翻墙网 Https://1808.ga 2
+      - 2.731808.tk_vmess_ws
   - name: 📲 电报信息
     type: select
     proxies:
@@ -58,6 +62,7 @@ proxy-groups:
       - DOSG
       - DOSG 二爷翻墙网 Https://1808.ga
       - 二爷翻墙网 Https://1808.ga 2
+      - 2.731808.tk_vmess_ws
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -69,6 +74,7 @@ proxy-groups:
       - DOSG
       - DOSG 二爷翻墙网 Https://1808.ga
       - 二爷翻墙网 Https://1808.ga 2
+      - 2.731808.tk_vmess_ws
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -80,6 +86,7 @@ proxy-groups:
       - DOSG
       - DOSG 二爷翻墙网 Https://1808.ga
       - 二爷翻墙网 Https://1808.ga 2
+      - 2.731808.tk_vmess_ws
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -92,6 +99,7 @@ proxy-groups:
       - DOSG
       - DOSG 二爷翻墙网 Https://1808.ga
       - 二爷翻墙网 Https://1808.ga 2
+      - 2.731808.tk_vmess_ws
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -120,6 +128,7 @@ proxy-groups:
       - DOSG
       - DOSG 二爷翻墙网 Https://1808.ga
       - 二爷翻墙网 Https://1808.ga 2
+      - 2.731808.tk_vmess_ws
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
