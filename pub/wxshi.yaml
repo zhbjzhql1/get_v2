@@ -1,0 +1,10 @@
+proxies:
+- {"name":"🇮🇩 ID_102 TG@peekfun","server":"id2-trojan.bonds.id","port":443,"type":"trojan","country":"🇮🇩 ID","password":"8d4ab0f0-79be-11eb-be0b-1239d0255272","skip-cert-verify":true,"udp":true}
+- {"name":"🇮🇹 IT_103 TG@peekfun","server":"ca-trojan.bonds.id","port":443,"type":"trojan","country":"🇮🇹 IT","password":"YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272","skip-cert-verify":true,"udp":true}
+- {"name":"🇮🇹 IT_104 TG@peekfun","server":"hk-gz-hk-hkt-tr-b.cdn.savoy.click","port":889,"type":"trojan","country":"🇮🇹 IT","password":"kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf","skip-cert-verify":true,"udp":true}
+- {"name":"🇰🇷 KR_131 TG@peekfun","server":"jgw3.gaox.ml","port":443,"type":"trojan","country":"🇰🇷 KR","password":"a1718180-d616-4b71-9bb6-3e96ba20f921","skip-cert-verify":true,"udp":true}
+- {"name":"🇳🇴 NO_133 TG@peekfun","server":"138.124.183.226","port":443,"type":"trojan","country":"🇳🇴 NO","password":"xxoo","skip-cert-verify":true,"udp":true}
+- {"name":"🇷🇴 RO_134 TG@peekfun","server":"185.126.116.235","port":443,"type":"trojan","country":"🇷🇴 RO","password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+- {"name":"🇷🇴 RO_135 TG@peekfun","server":"185.126.116.235","port":443,"type":"trojan","country":"🇷🇴 RO","password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+- {"name":"🇷🇴 RO_136 TG@peekfun","server":"185.126.116.235","port":443,"type":"trojan","country":"🇷🇴 RO","password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_181 TG@peekfun","server":"103.173.155.72","port":28443,"type":"trojan","country":"🏁 ZZ","password":"6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4","skip-cert-verify":true,"udp":true}
