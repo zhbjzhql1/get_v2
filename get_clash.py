@@ -16,8 +16,10 @@ print(changfengoss)
 dirname = time.strftime("%Y_%m_%d", time.localtime(time.time()))
 yamlUtils = YamlUtils(changfengoss)
 yamlUtils.clone_repo("https://ghproxy.com/https://github.com/changfengoss/pub.git")
-yamlUtils.make_template_dict("yaml", dirname)
-yamlUtils.save_file("pub/changfengoss.yaml")
+# yamlUtils.make_template_dict("yaml", dirname)
+with open("pub/changfengoss.yaml", "w", encoding="utf8") as outfile:
+    yml.write(template, pathToYaml)
+# yamlUtils.save_file()
 shutil.rmtree(changfengoss)
 
 bhqz = os.path.join("bhqz")
