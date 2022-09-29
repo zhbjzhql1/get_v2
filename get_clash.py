@@ -10,30 +10,42 @@ from utils.cfmem import get_content as cfmem_content
 from utils.pawdroid import get_content as pawdroid_content
 from utils.mattkaydiary import get_content as mattkaydiary_content
 
-pathToYamllist = json.loads(requests.get(
-    'https://api.github.com/repos/changfengoss/pub/git/trees/main?recursive=1').text)["tree"]
-last_file = pathToYamllist[-1]["path"]
-date = last_file.split('/')[1]
-yamls = list(filter(lambda x: x["path"].__contains__(date) and x["path"].endswith(".yaml"), pathToYamllist))
+try:
+    pathToYamllist = json.loads(requests.get(
+        'https://api.github.com/repos/changfengoss/pub/git/trees/main?recursive=1').text)["tree"]
+    last_file = pathToYamllist[-1]["path"]
+    date = last_file.split('/')[1]
+    yamls = list(filter(lambda x: x["path"].__contains__(date) and x["path"].endswith(".yaml"), pathToYamllist))
 
-for (index, item) in enumerate(yamls):
-    data = requests.get("https://raw.githubusercontent.com/changfengoss/pub/main/%s" % item["path"]).text
-    
-    with open("pub/changfengoss%d.yaml" % index, 'w') as output:
-        output.write(data)
+    for (index, item) in enumerate(yamls):
+        data = requests.get("https://raw.githubusercontent.com/changfengoss/pub/main/%s" % item["path"]).text
+
+        with open("pub/changfengoss%d.yaml" % index, 'w') as output:
+            output.write(data)
+except:
+    pass
         
         
-source1 = requests.get('https://proxies.bihai.cf/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
-with open("pub/bihai.yaml", 'w') as output:
-    output.write(source1)
+try:
+    source1 = requests.get('https://proxies.bihai.cf/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
+    with open("pub/bihai.yaml", 'w') as output:
+        output.write(source1)
+except: 
+    pass
     
-source2 = requests.get('http://wxshi.top:9090/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
-with open("pub/wxshi.yaml", 'w') as output:
-    output.write(source2)
+try:
+    source2 = requests.get('http://wxshi.top:9090/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
+    with open("pub/wxshi.yaml", 'w') as output:
+        output.write(source2)
+except:
+    pass
     
-source3 = requests.get('https://raw.githubusercontent.com/misersun/config003/main/config_all.yaml').text
-with open("pub/misersun-config003.yaml", 'w') as output:
-    output.write(source3)
+try:
+    source3 = requests.get('https://raw.githubusercontent.com/misersun/config003/main/config_all.yaml').text
+    with open("pub/misersun-config003.yaml", 'w') as output:
+        output.write(source3)
+except:
+    pass
         
 
 bhqz = os.path.join("bhqz")
