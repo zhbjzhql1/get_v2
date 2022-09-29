@@ -3,6 +3,7 @@ import time
 import shutil
 import requests
 import json
+from shutil import copyfile
 from utils.yamlUtils import YamlUtils
 from utils.jiang import get_content as jiang_content
 from utils.cfmem import get_content as cfmem_content
@@ -17,9 +18,10 @@ dirname = time.strftime("%Y_%m_%d", time.localtime(time.time()))
 yamlUtils = YamlUtils(changfengoss)
 yamlUtils.clone_repo("https://ghproxy.com/https://github.com/changfengoss/pub.git")
 # yamlUtils.make_template_dict("yaml", dirname)
-with open("pub/changfengoss.yaml", "w", encoding="utf8") as outfile:
-    yml.write(template, pathToYaml)
+# with open("pub/changfengoss.yaml", "w", encoding="utf8") as outfile:
+#     outfile.write(template, pathToYaml)
 # yamlUtils.save_file()
+copyfile(os.path.join(changfengoss, pathToYamlsplit[2]), "pub/changfengoss.yaml")
 shutil.rmtree(changfengoss)
 
 bhqz = os.path.join("bhqz")
