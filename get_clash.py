@@ -23,17 +23,17 @@ for (index, item) in enumerate(yamls):
         output.write(data)
         
         
-pathToYamllist = requests.get('https://proxies.bihai.cf/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
+source1 = requests.get('https://proxies.bihai.cf/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
 with open("pub/bihai.yaml", 'w') as output:
-    output.write(pathToYamllist)
+    output.write(source1)
     
-pathToYamllist = requests.get('http://wxshi.top:9090/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
+source2 = requests.get('http://wxshi.top:9090/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
 with open("pub/wxshi.yaml", 'w') as output:
-    output.write(pathToYamllist)
+    output.write(source2)
     
-pathToYamllist = requests.get('https://raw.githubusercontent.com/misersun/config003/main/config_all.yaml').text
+source3 = requests.get('https://raw.githubusercontent.com/misersun/config003/main/config_all.yaml').text
 with open("pub/misersun-config003.yaml", 'w') as output:
-    output.write(pathToYamllist)
+    output.write(source3)
         
 
 bhqz = os.path.join("bhqz")
