@@ -1,6 +1,7 @@
 import os
 import time
 import shutil
+import requests
 from utils.yamlUtils import YamlUtils
 from utils.jiang import get_content as jiang_content
 from utils.cfmem import get_content as cfmem_content
@@ -10,9 +11,10 @@ from utils.mattkaydiary import get_content as mattkaydiary_content
 changfengoss = os.path.join("changfengoss")
 dirname = time.strftime("%Y_%m_%d", time.localtime(time.time()))
 yamlUtils = YamlUtils(changfengoss)
-yamlUtils.clone_repo("https://ghproxy.com/https://github.com/changfengoss/pub.git")
+# yamlUtils.clone_repo("https://ghproxy.com/https://github.com/changfengoss/pub.git")
 yamlUtils.make_template_dict("yaml", dirname)
-yamlUtils.save_file("pub/changfengoss.yaml")
+pathToYaml = json.loads(requests.get('https://api.github.com/repos/changfengoss/pub/git/trees/main?recursive=1').text)["tree"][-1]["path"]
+yamlUtils.save_file("pub/" + pathToYaml)
 shutil.rmtree(changfengoss)
 
 bhqz = os.path.join("bhqz")
