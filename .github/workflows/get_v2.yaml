@@ -38,7 +38,7 @@ jobs:
       - name: 同步到gitee
         uses: Yikun/hub-mirror-action@master
         with:
-          src: github/ronghuaxueleng
+          src: github/mahdibland
           dst: gitee/getready
           static_list: "get_v2"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
