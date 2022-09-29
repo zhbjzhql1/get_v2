@@ -22,6 +22,19 @@ for (index, item) in enumerate(yamls):
     with open("pub/changfengoss%d.yaml" % index, 'w') as output:
         output.write(data)
         
+        
+pathToYamllist = requests.get('https://proxies.bihai.cf/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
+with open("pub/bihai.yaml" % index, 'w') as output:
+    output.write(pathToYamllist)
+    
+pathToYamllist = requests.get('http://wxshi.top:9090/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
+with open("pub/wxshi.yaml" % index, 'w') as output:
+    output.write(pathToYamllist)
+    
+pathToYamllist = requests.get('https://raw.githubusercontent.com/misersun/config003/main/config_all.yaml').text
+with open("pub/misersun-config003.yaml" % index, 'w') as output:
+    output.write(pathToYamllist)
+        
 
 bhqz = os.path.join("bhqz")
 yamlUtils = YamlUtils(bhqz)
