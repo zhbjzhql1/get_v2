@@ -12,9 +12,9 @@ from utils.mattkaydiary import get_content as mattkaydiary_content
 
 pathToYamllist = json.loads(requests.get(
     'https://api.github.com/repos/changfengoss/pub/git/trees/main?recursive=1').text)["tree"]
-pathToYamllist = pathToYamllist[-1]["path"]
-date = pathToYaml.split('/')[1]
-yamls = list(filter(lambda x: x["path"].__contains__(date) and x["path"].endswith(".yaml"), iterable))
+last_file = pathToYamllist[-1]["path"]
+date = last_file.split('/')[1]
+yamls = list(filter(lambda x: x["path"].__contains__(date) and x["path"].endswith(".yaml"), pathToYamllist))
 
 for (index, item) in enumerate(yamls):
     data = requests.get("https://raw.githubusercontent.com/changfengoss/pub/main/%s" % item["path"]).text
