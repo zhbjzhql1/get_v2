@@ -47,6 +47,15 @@ try:
 except:
     pass
         
+    
+try:
+    source4 = requests.get('https://raw.githubusercontent.com/rezasalimi01/Matsuri/main/Servers.yml').text
+    parts = source4.split('\n')
+    real_parts = list(filter(lambda x: x.__contains__('://') and x.__len__() > 50, parts))
+    with open("pub/Matsuri", 'w') as output:
+        output.write("\n".join(real_parts))
+except:
+    pass
 
 bhqz = os.path.join("bhqz")
 yamlUtils = YamlUtils(bhqz)
