@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-05 16:20:48
+#  创建时间：2022-10-06 14:47:55
 #  模版：v2rayse默认模版
-#  节点数量：10
+#  节点数量：20
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,109 +13,179 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇭🇰_HK_香港_1","http-opts":{"path":["/"],"headers":{"Host":["47.243.248.22"]}},"server":"47.243.248.22","port":38120,"uuid":"29d435a4-b7fb-44db-9119-4ede4e22c250","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"🇭🇰_HK_香港_2","http-opts":{"path":["/"],"headers":{"Host":["47.242.86.208"]}},"server":"47.242.86.208","port":48788,"uuid":"46664d6f-f900-47eb-976c-f3893d1def3e","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"🇭🇰_HK_香港_3","http-opts":{"path":["/"],"headers":{"Host":["47.242.164.139"]}},"server":"47.242.164.139","port":21853,"uuid":"5a67daf6-438b-46d6-9343-e7bc84fd2038","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"trojan","name":"🇭🇰_HK_香港_4","server":"1002hk1326.tfzhc.top","port":443,"password":"2be3639a-f4cd-4161-ba78-49842b2269f6","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇱🇺_LU_卢森堡->🇷🇺_RU_俄罗斯联邦","server":"81.28.13.90","port":20004,"uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇭🇰_HK_香港_5","http-opts":{"path":["/"],"headers":{"Host":["47.243.241.250"]}},"server":"47.243.241.250","port":54703,"uuid":"95b8821c-3432-4630-ad55-35ab873a0796","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_1","server":"spotted.bigkangaroo.net","port":443,"password":"ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"138.2.113.248","port":443,"password":"9c822f05-cfdc-479a-9534-60f3d4127435","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇭🇰_HK_香港_6","http-opts":{"path":["/"],"headers":{"Host":["47.243.250.75"]}},"server":"47.243.250.75","port":36073,"uuid":"e3358af4-6a11-423e-889e-7f19d8835549","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"🇭🇰_HK_香港_7","http-opts":{"path":["/"],"headers":{"Host":["47.243.53.166"]}},"server":"47.243.53.166","port":53132,"uuid":"dd9503be-4542-451b-a2a0-3cf26d4af98d","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"ss","name":"fn600mliness016.fnline.info","server":"fn600mliness016.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"bd04a7b470fb","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness016.fnline.info","tls":true}}
+  - {"type":"ss","name":"fn600mliness019.fnline.xyz","server":"fn600mliness019.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"61f301daaf4e","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness019.fnline.xyz","tls":true}}
+  - {"type":"ss","name":"fndx600mtwline010tr.fnline.xyz","server":"fndx600mtwline010tr.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"d0760c7c21f8","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fndx600mtwline010tr.fnline.xyz","tls":true}}
+  - {"type":"ss","name":"fn600mlines006.flylines.club","server":"fn600mlines006.flylines.club","port":443,"cipher":"chacha20-ietf-poly1305","password":"83557d72ee61","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines006.flylines.club","tls":true}}
+  - {"type":"ss","name":"exkkdx600mtwlines008.fnline.me","server":"exkkdx600mtwlines008.fnline.me","port":443,"cipher":"chacha20-ietf-poly1305","password":"9022610bd94","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"exkkdx600mtwlines008.fnline.me","tls":true}}
+  - {"type":"ss","name":"fnhk1000new009.servicesline.info","server":"fnhk1000new009.servicesline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"3585b4f2b6b","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fnhk1000new009.servicesline.info","tls":true}}
+  - {"type":"ss","name":"fnhk1000snews009.kuainiaojs.info","server":"fnhk1000snews009.kuainiaojs.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"3f7ea2797a29","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fnhk1000snews009.kuainiaojs.info","tls":true}}
+  - {"type":"ss","name":"exyfdx600mtwline006.fnline.me","server":"exyfdx600mtwline006.fnline.me","port":443,"cipher":"chacha20-ietf-poly1305","password":"6ce44899de19","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"exyfdx600mtwline006.fnline.me","tls":true}}
+  - {"type":"ss","name":"fn600mlines024.fnline.xyz","server":"fn600mlines024.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"943129db5db0","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines024.fnline.xyz","tls":true}}
+  - {"type":"ss","name":"fn600mliness009re.fnline.info","server":"fn600mliness009re.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"1ce509eb12ce","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness009re.fnline.info","tls":true}}
+  - {"type":"ss","name":"fn600mlines022.fnline.info","server":"fn600mlines022.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"57a10279872","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines022.fnline.info","tls":true}}
+  - {"type":"ss","name":"fn600mlines007.flylines.club","server":"fn600mlines007.flylines.club","port":443,"cipher":"chacha20-ietf-poly1305","password":"253b1c6ea7c2","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines007.flylines.club","tls":true}}
+  - {"type":"ss","name":"fnhk1000snews008.kuainiaojs.info","server":"fnhk1000snews008.kuainiaojs.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"1230fd0ddad3","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fnhk1000snews008.kuainiaojs.info","tls":true}}
+  - {"type":"ss","name":"fn600mlines027.fnline.me","server":"fn600mlines027.fnline.me","port":443,"cipher":"chacha20-ietf-poly1305","password":"b23b621d9e9","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines027.fnline.me","tls":true}}
+  - {"type":"ss","name":"fnhk1000snews006.kuainiaojs.info","server":"fnhk1000snews006.kuainiaojs.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"07a8fb6baeb5","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fnhk1000snews006.kuainiaojs.info","tls":true}}
+  - {"type":"ss","name":"fnhk1000snews004.kuainiaojs.info","server":"fnhk1000snews004.kuainiaojs.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"ab28d1af17f","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fnhk1000snews004.kuainiaojs.info","tls":true}}
+  - {"type":"ss","name":"fndxus1000mline002new.fnline.vip","server":"fndxus1000mline002new.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"2073b2f6ded","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fndxus1000mline002new.fnline.vip","tls":true}}
+  - {"type":"ss","name":"fn600mlines008.fnline.vip","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"c568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines008.fnline.vip","tls":true}}
+  - {"type":"ss","name":"fn600mliness013.fnline.vip","server":"fn600mliness013.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"1b584982dbdc","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness013.fnline.vip","tls":true}}
+  - {"type":"ss","name":"fn600mliness010.fnline.vip","server":"fn600mliness010.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"e3dfbbe3dca","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness010.fnline.vip","tls":true}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇱🇺_LU_卢森堡->🇷🇺_RU_俄罗斯联邦
-      - 🇭🇰_HK_香港_5
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - fn600mliness016.fnline.info
+      - fn600mliness019.fnline.xyz
+      - fndx600mtwline010tr.fnline.xyz
+      - fn600mlines006.flylines.club
+      - exkkdx600mtwlines008.fnline.me
+      - fnhk1000new009.servicesline.info
+      - fnhk1000snews009.kuainiaojs.info
+      - exyfdx600mtwline006.fnline.me
+      - fn600mlines024.fnline.xyz
+      - fn600mliness009re.fnline.info
+      - fn600mlines022.fnline.info
+      - fn600mlines007.flylines.club
+      - fnhk1000snews008.kuainiaojs.info
+      - fn600mlines027.fnline.me
+      - fnhk1000snews006.kuainiaojs.info
+      - fnhk1000snews004.kuainiaojs.info
+      - fndxus1000mline002new.fnline.vip
+      - fn600mlines008.fnline.vip
+      - fn600mliness013.fnline.vip
+      - fn600mliness010.fnline.vip
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇱🇺_LU_卢森堡->🇷🇺_RU_俄罗斯联邦
-      - 🇭🇰_HK_香港_5
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - fn600mliness016.fnline.info
+      - fn600mliness019.fnline.xyz
+      - fndx600mtwline010tr.fnline.xyz
+      - fn600mlines006.flylines.club
+      - exkkdx600mtwlines008.fnline.me
+      - fnhk1000new009.servicesline.info
+      - fnhk1000snews009.kuainiaojs.info
+      - exyfdx600mtwline006.fnline.me
+      - fn600mlines024.fnline.xyz
+      - fn600mliness009re.fnline.info
+      - fn600mlines022.fnline.info
+      - fn600mlines007.flylines.club
+      - fnhk1000snews008.kuainiaojs.info
+      - fn600mlines027.fnline.me
+      - fnhk1000snews006.kuainiaojs.info
+      - fnhk1000snews004.kuainiaojs.info
+      - fndxus1000mline002new.fnline.vip
+      - fn600mlines008.fnline.vip
+      - fn600mliness013.fnline.vip
+      - fn600mliness010.fnline.vip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇱🇺_LU_卢森堡->🇷🇺_RU_俄罗斯联邦
-      - 🇭🇰_HK_香港_5
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - fn600mliness016.fnline.info
+      - fn600mliness019.fnline.xyz
+      - fndx600mtwline010tr.fnline.xyz
+      - fn600mlines006.flylines.club
+      - exkkdx600mtwlines008.fnline.me
+      - fnhk1000new009.servicesline.info
+      - fnhk1000snews009.kuainiaojs.info
+      - exyfdx600mtwline006.fnline.me
+      - fn600mlines024.fnline.xyz
+      - fn600mliness009re.fnline.info
+      - fn600mlines022.fnline.info
+      - fn600mlines007.flylines.club
+      - fnhk1000snews008.kuainiaojs.info
+      - fn600mlines027.fnline.me
+      - fnhk1000snews006.kuainiaojs.info
+      - fnhk1000snews004.kuainiaojs.info
+      - fndxus1000mline002new.fnline.vip
+      - fn600mlines008.fnline.vip
+      - fn600mliness013.fnline.vip
+      - fn600mliness010.fnline.vip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇱🇺_LU_卢森堡->🇷🇺_RU_俄罗斯联邦
-      - 🇭🇰_HK_香港_5
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - fn600mliness016.fnline.info
+      - fn600mliness019.fnline.xyz
+      - fndx600mtwline010tr.fnline.xyz
+      - fn600mlines006.flylines.club
+      - exkkdx600mtwlines008.fnline.me
+      - fnhk1000new009.servicesline.info
+      - fnhk1000snews009.kuainiaojs.info
+      - exyfdx600mtwline006.fnline.me
+      - fn600mlines024.fnline.xyz
+      - fn600mliness009re.fnline.info
+      - fn600mlines022.fnline.info
+      - fn600mlines007.flylines.club
+      - fnhk1000snews008.kuainiaojs.info
+      - fn600mlines027.fnline.me
+      - fnhk1000snews006.kuainiaojs.info
+      - fnhk1000snews004.kuainiaojs.info
+      - fndxus1000mline002new.fnline.vip
+      - fn600mlines008.fnline.vip
+      - fn600mliness013.fnline.vip
+      - fn600mliness010.fnline.vip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇱🇺_LU_卢森堡->🇷🇺_RU_俄罗斯联邦
-      - 🇭🇰_HK_香港_5
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - fn600mliness016.fnline.info
+      - fn600mliness019.fnline.xyz
+      - fndx600mtwline010tr.fnline.xyz
+      - fn600mlines006.flylines.club
+      - exkkdx600mtwlines008.fnline.me
+      - fnhk1000new009.servicesline.info
+      - fnhk1000snews009.kuainiaojs.info
+      - exyfdx600mtwline006.fnline.me
+      - fn600mlines024.fnline.xyz
+      - fn600mliness009re.fnline.info
+      - fn600mlines022.fnline.info
+      - fn600mlines007.flylines.club
+      - fnhk1000snews008.kuainiaojs.info
+      - fn600mlines027.fnline.me
+      - fnhk1000snews006.kuainiaojs.info
+      - fnhk1000snews004.kuainiaojs.info
+      - fndxus1000mline002new.fnline.vip
+      - fn600mlines008.fnline.vip
+      - fn600mliness013.fnline.vip
+      - fn600mliness010.fnline.vip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇱🇺_LU_卢森堡->🇷🇺_RU_俄罗斯联邦
-      - 🇭🇰_HK_香港_5
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - fn600mliness016.fnline.info
+      - fn600mliness019.fnline.xyz
+      - fndx600mtwline010tr.fnline.xyz
+      - fn600mlines006.flylines.club
+      - exkkdx600mtwlines008.fnline.me
+      - fnhk1000new009.servicesline.info
+      - fnhk1000snews009.kuainiaojs.info
+      - exyfdx600mtwline006.fnline.me
+      - fn600mlines024.fnline.xyz
+      - fn600mliness009re.fnline.info
+      - fn600mlines022.fnline.info
+      - fn600mlines007.flylines.club
+      - fnhk1000snews008.kuainiaojs.info
+      - fn600mlines027.fnline.me
+      - fnhk1000snews006.kuainiaojs.info
+      - fnhk1000snews004.kuainiaojs.info
+      - fndxus1000mline002new.fnline.vip
+      - fn600mlines008.fnline.vip
+      - fn600mliness013.fnline.vip
+      - fn600mliness010.fnline.vip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,16 +208,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇭🇰_HK_香港_4
-      - 🇱🇺_LU_卢森堡->🇷🇺_RU_俄罗斯联邦
-      - 🇭🇰_HK_香港_5
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_6
-      - 🇭🇰_HK_香港_7
+      - fn600mliness016.fnline.info
+      - fn600mliness019.fnline.xyz
+      - fndx600mtwline010tr.fnline.xyz
+      - fn600mlines006.flylines.club
+      - exkkdx600mtwlines008.fnline.me
+      - fnhk1000new009.servicesline.info
+      - fnhk1000snews009.kuainiaojs.info
+      - exyfdx600mtwline006.fnline.me
+      - fn600mlines024.fnline.xyz
+      - fn600mliness009re.fnline.info
+      - fn600mlines022.fnline.info
+      - fn600mlines007.flylines.club
+      - fnhk1000snews008.kuainiaojs.info
+      - fn600mlines027.fnline.me
+      - fnhk1000snews006.kuainiaojs.info
+      - fnhk1000snews004.kuainiaojs.info
+      - fndxus1000mline002new.fnline.vip
+      - fn600mlines008.fnline.vip
+      - fn600mliness013.fnline.vip
+      - fn600mliness010.fnline.vip
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
