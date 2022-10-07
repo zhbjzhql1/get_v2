@@ -15,71 +15,133 @@ dns:
     - tls://dns.google:853
 proxies:
   - {"type":"vmess","name":"香港_tg+univstar_1","http-opts":{"path":["/"],"headers":{"Host":["47.243.143.215"]}},"server":"47.243.143.215","port":"64008","uuid":"dae844ab-4613-4884-893e-14b74ba4b687","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_2","http-opts":{"path":["/"],"headers":{"Host":["47.243.108.35"]}},"server":"47.243.108.35","port":"39729","uuid":"dc47d16f-d3e0-4b37-bde4-218e90144a8f","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_3","http-opts":{"path":["/"],"headers":{"Host":["47.242.86.208"]}},"server":"47.242.86.208","port":"48788","uuid":"46664d6f-f900-47eb-976c-f3893d1def3e","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_4","http-opts":{"path":["/"],"headers":{"Host":["47.243.247.109"]}},"server":"47.243.247.109","port":"53314","uuid":"8c232a9e-6760-43b5-851e-a65b9965b5ee","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_5","http-opts":{"path":["/"],"headers":{"Host":["47.243.187.152"]}},"server":"47.243.187.152","port":"61847","uuid":"af998f95-c214-418c-9ad2-cdf55ed755b2","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_6","http-opts":{"path":["/"],"headers":{"Host":["47.243.250.21"]}},"server":"47.243.250.21","port":"32895","uuid":"ae7f10da-663f-4fe2-a141-a23eab12e83e","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_7","http-opts":{"path":["/"],"headers":{"Host":["47.243.247.109"]}},"server":"47.243.247.109","port":"53314","uuid":"8c232a9e-6760-43b5-851e-a65b9965b5ee","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_8","http-opts":{"path":["/"],"headers":{"Host":["47.243.187.152"]}},"server":"47.243.187.152","port":"61847","uuid":"af998f95-c214-418c-9ad2-cdf55ed755b2","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_9","http-opts":{"path":["/"],"headers":{"Host":["47.243.248.22"]}},"server":"47.243.248.22","port":"38120","uuid":"29d435a4-b7fb-44db-9119-4ede4e22c250","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_10","ws-opts":{"path":"/a.189.cn","headers":{"host":"baidu.com"}},"server":"text2.xbywwcp.us","port":"80","uuid":"a85b6f89-7615-393a-bd9a-f6e20867ab7d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港_tg+univstar_11","http-opts":{"path":["/"],"headers":{"Host":["47.242.200.131"]}},"server":"47.242.200.131","port":"26508","uuid":"cf84576f-a31d-4d7b-a077-3a2b3d5bd7fa","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_12","http-opts":{"path":["/"],"headers":{"Host":["47.242.86.208"]}},"server":"47.242.86.208","port":"48788","uuid":"46664d6f-f900-47eb-976c-f3893d1def3e","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_13","http-opts":{"path":["/"],"headers":{"Host":["47.243.248.22"]}},"server":"47.243.248.22","port":"38120","uuid":"29d435a4-b7fb-44db-9119-4ede4e22c250","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_14","http-opts":{"path":["/"],"headers":{"Host":["47.242.185.162"]}},"server":"47.242.185.162","port":"46143","uuid":"5a6a6f9f-fc53-4fa8-8352-f8cc34bcf131","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_15","http-opts":{"path":["/"],"headers":{"Host":["47.243.248.22"]}},"server":"47.243.248.22","port":"38120","uuid":"29d435a4-b7fb-44db-9119-4ede4e22c250","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_16","ws-opts":{"path":"/a.189.cn","headers":{"host":"baidu.com"}},"server":"text1.xbywwcp.us","port":"80","uuid":"a85b6f89-7615-393a-bd9a-f6e20867ab7d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港_tg+univstar_17","http-opts":{"path":["/"],"headers":{"Host":["47.243.241.250"]}},"server":"47.243.241.250","port":"54703","uuid":"95b8821c-3432-4630-ad55-35ab873a0796","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_18","http-opts":{"path":["/"],"headers":{"Host":["47.243.187.152"]}},"server":"47.243.187.152","port":"61847","uuid":"af998f95-c214-418c-9ad2-cdf55ed755b2","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_19","http-opts":{"path":["/"],"headers":{"Host":["47.242.200.131"]}},"server":"47.242.200.131","port":"26508","uuid":"cf84576f-a31d-4d7b-a077-3a2b3d5bd7fa","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"美国_tg+univstar_20","ws-opts":{"path":"/xxxxxx","headers":{"host":"a.189.cn"}},"server":"text4.xbywwcp.us","port":"80","uuid":"a85b6f89-7615-393a-bd9a-f6e20867ab7d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港_tg+univstar_21","http-opts":{"path":["/"],"headers":{"Host":["8.210.125.63"]}},"server":"8.210.125.63","port":"56911","uuid":"602dc255-5441-40c5-bcf6-2ca4a12d90a4","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"美国_tg+univstar_22","ws-opts":{"path":"/a.189.cn","headers":{"host":"baidu.com"}},"server":"text3.xbywwcp.us","port":"80","uuid":"a85b6f89-7615-393a-bd9a-f6e20867ab7d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"中国_tg+univstar_23","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"香港_tg+univstar_24","http-opts":{"path":["/"],"headers":{"Host":["47.243.244.200"]}},"server":"47.243.244.200","port":"51535","uuid":"98a2ba95-d179-4563-82be-ea5c897be747","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"tg+univstar_25","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.zhujicn2.com"}},"server":"141.101.115.2","port":"443","uuid":"a5ba8b2b-8fc5-4521-a35e-9281be61c1c3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"中国_tg+univstar_26","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国_tg+univstar_27","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.zhujicn2.com"}},"server":"172.64.154.150","port":"443","uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_tg+univstar_28","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.zhujicn2.com"}},"server":"172.64.154.155","port":"443","uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_tg+univstar_29","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.zhujicn2.com"}},"server":"172.64.153.150","port":"443","uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"tg+univstar_30","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg2.zhujicn2.com"}},"server":"141.101.114.2","port":"443","uuid":"105c635f-918d-4b2a-8c9d-d5426e94eb4b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"tg+univstar_31","server":"realhk-1.tiktokcdn.sbs","port":12425,"password":"7rfcbuZdkU","udp":true,"skip-cert-verify":true,"sni":"realhk-1.tiktokcdn.sbs"}
-  - {"type":"vmess","name":"新加坡_tg+univstar_32","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"ip48.ip-139-99-117.net"}},"server":"sgp.naixii.xyz","port":"443","uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"新加坡_tg+univstar_33","server":"81.90.188.58","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"vmess","name":"香港_tg+univstar_34","http-opts":{"path":["/"],"headers":{"Host":["47.242.185.162"]}},"server":"47.242.185.162","port":"46143","uuid":"5a6a6f9f-fc53-4fa8-8352-f8cc34bcf131","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ss","name":"美国_tg+univstar_35","server":"103.138.73.247","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"vmess","name":"美国_tg+univstar_36","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.153.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"台湾_tg+univstar_37","server":"fn600mliness017.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"8812c0e4e2b0","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"fn600mliness017.fnline.xyz"}}
-  - {"type":"ss","name":"美国_tg+univstar_38","server":"38.54.33.116","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"tg+univstar_39","server":"31.222.229.40","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"瑞典_tg+univstar_40","server":"185.243.215.210","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"英国_tg+univstar_41","server":"142.202.51.98","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"葡萄牙_tg+univstar_42","server":"185.113.140.247","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"vmess","name":"香港_tg+univstar_43","http-opts":{"path":["/"],"headers":{"Host":["47.243.247.109"]}},"server":"47.243.247.109","port":"53314","uuid":"8c232a9e-6760-43b5-851e-a65b9965b5ee","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ss","name":"tg+univstar_44","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"fc568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"fn600mlines008.fnline.vip"}}
-  - {"type":"vmess","name":"韩国_tg+univstar_45","server":"152.67.213.242","port":"443","uuid":"9aa80017-3427-4165-a522-f5f9a11330d0","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"韩国_tg+univstar_46","ws-opts":{"path":"/"},"server":"158.247.223.123","port":"10020","uuid":"f1f45005-f074-430b-a4db-7109f50c3bce","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"tg+univstar_47","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"fc568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines008.fnline.vip"}}
-  - {"type":"vmess","name":"tg+univstar_48","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.zhujicn2.com"}},"server":"198.41.212.20","port":"443","uuid":"a5ba8b2b-8fc5-4521-a35e-9281be61c1c3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"法国_tg+univstar_49","server":"194.32.78.116","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"台湾_tg+univstar_50","server":"fn600mliness018.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"55011c8548ff","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness018.fnline.xyz"}}
-  - {"type":"vmess","name":"tg+univstar_51","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg2.zhujicn2.com"}},"server":"198.41.212.30","port":"443","uuid":"105c635f-918d-4b2a-8c9d-d5426e94eb4b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_tg+univstar_52","ws-opts":{"path":"/","headers":{"host":"ar-bue.daycat.space"}},"server":"ar-bue.daycat.space","port":"443","uuid":"A9A56660-4554-4278-863A-D3CE30294B59","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"德国_tg+univstar_53","server":"3.125.45.20","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"台湾_tg+univstar_54","server":"fn600mliness017.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"8812c0e4e2b0","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness017.fnline.xyz"}}
-  - {"type":"ss","name":"台湾_tg+univstar_55","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"fn600mlines021.fnline.info"}}
-  - {"type":"vmess","name":"tg+univstar_56","ws-opts":{"path":"/ray","headers":{"host":"eu.ptuu.tk"}},"server":"104.21.59.76","port":"443","uuid":"70d9bf20-3e6b-4cd3-ff28-b62567ff5a23","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"加拿大_tg+univstar_57","server":"3.99.152.11","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"vmess","name":"香港_tg+univstar_58","http-opts":{"path":["/"],"headers":{"Host":["47.243.241.250"]}},"server":"47.243.241.250","port":"54703","uuid":"95b8821c-3432-4630-ad55-35ab873a0796","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"tg+univstar_59","ws-opts":{"path":"/123","headers":{"host":"jparm.fineyoo.ml"}},"server":"jparm.fineyoo.ml","port":"443","uuid":"10ba478e-9de1-4aa9-c09e-7707025334d3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_tg+univstar_60","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"香港_tg+univstar_61","http-opts":{"path":["/"],"headers":{"Host":["47.243.143.215"]}},"server":"47.243.143.215","port":"64008","uuid":"dae844ab-4613-4884-893e-14b74ba4b687","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ss","name":"德国_tg+univstar_62","server":"193.108.118.202","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"台湾_tg+univstar_63","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines021.fnline.info"}}
-  - {"type":"vmess","name":"美国_tg+univstar_64","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"香港_tg+univstar_65","http-opts":{"path":["/"],"headers":{"Host":["8.210.125.63"]}},"server":"8.210.125.63","port":"56911","uuid":"602dc255-5441-40c5-bcf6-2ca4a12d90a4","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ss","name":"美国_tg+univstar_66","server":"79.133.109.65","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"vmess","name":"香港_tg+univstar_2","http-opts":{"path":["/"],"headers":{"Host":["47.243.241.250"]}},"server":"47.243.241.250","port":"54703","uuid":"95b8821c-3432-4630-ad55-35ab873a0796","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"中国_tg+univstar_3","server":"da.kanao.xyz","port":58801,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_4","server":"xi.kanao.xyz","port":58804,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"vmess","name":"香港_tg+univstar_5","http-opts":{"path":["/"]},"server":"47.242.86.208","port":"48788","uuid":"46664d6f-f900-47eb-976c-f3893d1def3e","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_6","http-opts":{"path":["/"],"headers":{"Host":["47.243.244.200"]}},"server":"47.243.244.200","port":"51535","uuid":"98a2ba95-d179-4563-82be-ea5c897be747","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_7","http-opts":{"path":["/"]},"server":"47.243.248.22","port":"38120","uuid":"29d435a4-b7fb-44db-9119-4ede4e22c250","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"中国_tg+univstar_8","server":"xi.kanao.xyz","port":58820,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"vmess","name":"中国_tg+univstar_9","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}},"server":"112.45.34.140","port":"80","uuid":"4a85a357-9e6a-4035-bc5e-b7da792beadb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"香港_tg+univstar_10","http-opts":{"path":["/"],"headers":{"Host":["8.210.194.59"]}},"server":"8.210.194.59","port":"52523","uuid":"f36fbdd6-d613-4481-8464-c77d4a4edeab","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_11","http-opts":{"path":["/"],"headers":{"Host":["47.242.185.162"]}},"server":"47.242.185.162","port":"46143","uuid":"5a6a6f9f-fc53-4fa8-8352-f8cc34bcf131","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"中国_tg+univstar_12","server":"da.kanao.xyz","port":58819,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_13","server":"xi.kanao.xyz","port":58808,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"ss","name":"日本_tg+univstar_14","server":"193.38.139.203","port":811,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"香港_tg+univstar_15","http-opts":{"path":["/"],"headers":{"Host":["47.243.108.35"]}},"server":"47.243.108.35","port":"39729","uuid":"dc47d16f-d3e0-4b37-bde4-218e90144a8f","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_16","http-opts":{"path":["/"]},"server":"47.243.187.152","port":"61847","uuid":"af998f95-c214-418c-9ad2-cdf55ed755b2","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_17","http-opts":{"path":["/"],"headers":{"Host":["47.243.187.152"]}},"server":"47.243.187.152","port":"61847","uuid":"af998f95-c214-418c-9ad2-cdf55ed755b2","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_18","http-opts":{"path":["/"],"headers":{"Host":["47.243.247.109"]}},"server":"47.243.247.109","port":"53314","uuid":"8c232a9e-6760-43b5-851e-a65b9965b5ee","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"中国_tg+univstar_19","server":"da.kanao.xyz","port":58803,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_20","server":"xi.kanao.xyz","port":58802,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_21","server":"da.kanao.xyz","port":58805,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_22","server":"xi.kanao.xyz","port":58831,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"ss","name":"日本_tg+univstar_23","server":"193.38.139.203","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"香港_tg+univstar_24","http-opts":{"path":["/"],"headers":{"Host":["47.242.200.131"]}},"server":"47.242.200.131","port":"26508","uuid":"cf84576f-a31d-4d7b-a077-3a2b3d5bd7fa","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_25","http-opts":{"path":["/"],"headers":{"Host":["47.242.164.139"]}},"server":"47.242.164.139","port":"21853","uuid":"5a67daf6-438b-46d6-9343-e7bc84fd2038","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_26","http-opts":{"path":["/"]},"server":"8.210.194.59","port":"52523","uuid":"f36fbdd6-d613-4481-8464-c77d4a4edeab","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"中国_tg+univstar_27","server":"da.kanao.xyz","port":58807,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_28","server":"da.kanao.xyz","port":58825,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_29","server":"da.kanao.xyz","port":58814,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"vmess","name":"中国_tg+univstar_30","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}},"server":"in01.my1188.org","port":"63086","uuid":"d78c0bf3-b5bb-3948-b5af-83379d8c917f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"日本_tg+univstar_31","server":"193.38.139.203","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"日本_tg+univstar_32","server":"193.38.139.203","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"中国_tg+univstar_33","server":"xi.kanao.xyz","port":58830,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_34","server":"da.kanao.xyz","port":58809,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"ssr","name":"中国_tg+univstar_35","server":"223.166.145.153","port":568,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"53925:hjgjuy6t655jjg"}
+  - {"type":"ss","name":"日本_tg+univstar_36","server":"193.38.139.203","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"日本_tg+univstar_37","server":"193.38.139.203","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"香港_tg+univstar_38","http-opts":{"path":["/"]},"server":"47.243.241.250","port":"54703","uuid":"95b8821c-3432-4630-ad55-35ab873a0796","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"中国_tg+univstar_39","server":"xi.kanao.xyz","port":58810,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"俄罗斯联邦_tg+univstar_40","server":"921tw.tfzhc.top","port":44319,"password":"7c877b3a-5fa0-47e7-ae3e-8e045788569b","udp":true,"skip-cert-verify":true,"sni":"921tw.tfzhc.top"}
+  - {"type":"vmess","name":"香港_tg+univstar_41","http-opts":{"path":["/"]},"server":"47.243.53.166","port":"53132","uuid":"dd9503be-4542-451b-a2a0-3cf26d4af98d","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"日本_tg+univstar_42","server":"193.38.139.203","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"香港_tg+univstar_43","http-opts":{"path":["/"]},"server":"47.243.143.215","port":"64008","uuid":"dae844ab-4613-4884-893e-14b74ba4b687","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ssr","name":"中国_tg+univstar_44","server":"183.232.141.82","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"53925:hjgjuy6t655jjg"}
+  - {"type":"vmess","name":"香港_tg+univstar_45","http-opts":{"path":["/"],"headers":{"Host":["47.242.86.208"]}},"server":"47.242.86.208","port":"48788","uuid":"46664d6f-f900-47eb-976c-f3893d1def3e","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_46","http-opts":{"path":["/"]},"server":"8.210.125.63","port":"56911","uuid":"602dc255-5441-40c5-bcf6-2ca4a12d90a4","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"中国_tg+univstar_47","ws-opts":{"path":"/hinet04","headers":{"host":"gz.daxun.cyou"}},"server":"gz.daxun.cyou","port":"20631","uuid":"4a4db4cd-6475-4d20-a353-776378e68072","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ssr","name":"中国_tg+univstar_48","server":"183.232.141.87","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"53925:hjgjuy6t655jjg"}
+  - {"type":"trojan","name":"新加坡_tg+univstar_49","server":"1002tw.tfzhc.top","port":443,"password":"7c877b3a-5fa0-47e7-ae3e-8e045788569b","udp":true,"skip-cert-verify":true,"sni":"1002tw.tfzhc.top"}
+  - {"type":"vmess","name":"中国_tg+univstar_50","ws-opts":{"path":"/japanese03","headers":{"host":"gz.daxun.cyou"}},"server":"gz.daxun.cyou","port":"20631","uuid":"4a4db4cd-6475-4d20-a353-776378e68072","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"中国_tg+univstar_51","ws-opts":{"path":"/doxjp06","headers":{"host":"gz.daxun.cyou"}},"server":"gz.daxun.cyou","port":"20631","uuid":"4a4db4cd-6475-4d20-a353-776378e68072","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"日本_tg+univstar_52","server":"193.38.139.203","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"新加坡_tg+univstar_53","ws-opts":{"path":"/b472f/","headers":{"host":"linode.sharecentre.xyz"}},"server":"103.253.146.88","port":"443","uuid":"3fad3b4c-8691-42f2-a46d-9875cacaeeb2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"中国_tg+univstar_54","server":"xi.kanao.xyz","port":58813,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"ss","name":"日本_tg+univstar_55","server":"193.38.139.203","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"中国_tg+univstar_56","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_tg+univstar_57","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"ip48.ip-139-99-117.net"}},"server":"sgp.naixii.xyz","port":"443","uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"中国_tg+univstar_58","server":"xi.kanao.xyz","port":58832,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"ss","name":"台湾_tg+univstar_59","server":"fn600mliness017.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"8812c0e4e2b0","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness017.fnline.xyz"}}
+  - {"type":"trojan","name":"中国_tg+univstar_60","server":"xi.kanao.xyz","port":58812,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"trojan","name":"中国_tg+univstar_61","server":"da.kanao.xyz","port":58828,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"ss","name":"新加坡_tg+univstar_62","server":"165.232.169.142","port":29332,"cipher":"aes-256-cfb","password":"1e5111699c45496da84112f35db665c4"}
+  - {"type":"trojan","name":"中国_tg+univstar_63","server":"da.kanao.xyz","port":58816,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"vmess","name":"香港_tg+univstar_64","http-opts":{"path":["/"]},"server":"47.242.185.162","port":"46143","uuid":"5a6a6f9f-fc53-4fa8-8352-f8cc34bcf131","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"台湾_tg+univstar_65","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines021.fnline.info"}}
+  - {"type":"vmess","name":"中国_tg+univstar_66","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国_tg+univstar_67","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.155.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国_tg+univstar_68","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.zhujicn2.com"}},"server":"172.64.154.150","port":"443","uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港_tg+univstar_69","http-opts":{"path":["/"],"headers":{"Host":["8.210.125.63"]}},"server":"8.210.125.63","port":"56911","uuid":"602dc255-5441-40c5-bcf6-2ca4a12d90a4","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"tg+univstar_70","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.zhujicn2.com"}},"server":"141.101.115.150","port":"443","uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国_tg+univstar_71","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.154.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国_tg+univstar_72","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.155.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"中国_tg+univstar_73","ws-opts":{"path":"/JPZZ01","headers":{"host":"gz.daxun.cyou"}},"server":"gz.daxun.cyou","port":"20631","uuid":"4a4db4cd-6475-4d20-a353-776378e68072","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新加坡_tg+univstar_74","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"sgp.naixii.xyz"}},"server":"sgp.naixii.xyz","port":"443","uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国_tg+univstar_75","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg3.zhujicn2.com"}},"server":"172.64.144.100","port":"443","uuid":"6e9217de-ad7e-4a67-bd17-a6dca951733b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"中国_tg+univstar_76","server":"xi.kanao.xyz","port":58806,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"vmess","name":"中国_tg+univstar_77","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_tg+univstar_78","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"sgp.naixii.xyz"}},"server":"sgp.naixii.xyz","port":"443","uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国_tg+univstar_79","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg3.zhujicn2.com"}},"server":"172.64.153.100","port":"443","uuid":"6e9217de-ad7e-4a67-bd17-a6dca951733b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"中国_tg+univstar_80","server":"116.162.120.23","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"WkVNMWRGcFRPVEpqUnpWdldWaFI","protocol-param":"53923:hjgjuy6t655jjg"}
+  - {"type":"vmess","name":"香港_tg+univstar_81","http-opts":{"path":["/"]},"server":"47.243.187.152","port":"61847","uuid":"af998f95-c214-418c-9ad2-cdf55ed755b2","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"新加坡_tg+univstar_82","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"139.99.117.48"}},"server":"139.99.117.48","port":"443","uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"台湾_tg+univstar_83","server":"fn600mliness018.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"55011c8548ff","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"fn600mliness018.fnline.xyz"}}
+  - {"type":"ss","name":"tg+univstar_84","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"fc568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"fn600mlines008.fnline.vip"}}
+  - {"type":"ssr","name":"中国_tg+univstar_85","server":"116.162.120.23","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"WkVNMWRGcFRPVEpqUnpWdldWaFI","protocol-param":"53923:hjgjuy6t655jjg"}
+  - {"type":"trojan","name":"美国_tg+univstar_86","server":"138.2.45.243","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"澳门_tg+univstar_87","server":"45.64.22.5","port":443,"password":"Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS","udp":true,"skip-cert-verify":true,"sni":"motivate.meijireform.com"}
+  - {"type":"vmess","name":"新加坡_tg+univstar_88","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"139.99.117.48"}},"server":"139.99.117.48","port":"443","uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"中国_tg+univstar_89","ws-opts":{"path":"/doxjp03","headers":{"host":"gz.daxun.cyou"}},"server":"gz.daxun.cyou","port":"20631","uuid":"4a4db4cd-6475-4d20-a353-776378e68072","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新加坡_tg+univstar_90","server":"168.138.171.65","port":"443","uuid":"4af6fd9a-e8b4-46f2-da3a-207f4577656c","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"韩国_tg+univstar_91","server":"kr1.api-aws.com","port":443,"password":"ffd553fe-7d14-4ab2-acba-e7307d41e4f4","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"tg+univstar_92","ws-opts":{"path":"/aries","headers":{"host":"ee.cloudflare.quest"}},"server":"ee.cloudflare.quest","port":"80","uuid":"f9247df4-02d5-4b31-acc5-4022652c5953","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"中国_tg+univstar_93","server":"111.23.252.218","port":"59902","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"tg+univstar_94","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"fc568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines008.fnline.vip"}}
+  - {"type":"ssr","name":"中国_tg+univstar_95","server":"116.162.120.23","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJ","protocol-param":"53923:hjgjuy6t655jjg"}
+  - {"type":"vmess","name":"新加坡_tg+univstar_96","server":"168.138.171.65","port":"443","uuid":"4af6fd9a-e8b4-46f2-da3a-207f4577656c","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"澳门_tg+univstar_97","server":"45.64.22.22","port":443,"password":"Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS","udp":true,"skip-cert-verify":true,"sni":"upwardly.meijireform.com"}
+  - {"type":"ss","name":"台湾_tg+univstar_98","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"fn600mlines021.fnline.info"}}
+  - {"type":"trojan","name":"美国_tg+univstar_99","server":"116.fastea.top","port":53316,"password":"6e1f9a92-be51-4f65-9aa6-ff3a54b4ab42","udp":true,"skip-cert-verify":true,"sni":"116.fastea.top"}
+  - {"type":"ss","name":"卢森堡_tg+univstar_100","server":"37.61.229.144","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"trojan","name":"澳大利亚_tg+univstar_101","server":"152.67.98.30","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"美国_tg+univstar_102","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"美国_tg+univstar_103","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"新加坡_tg+univstar_104","server":"168.138.171.65","port":"443","uuid":"4af6fd9a-e8b4-46f2-da3a-207f4577656c","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"ss","name":"美国_tg+univstar_105","server":"79.133.109.65","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"trojan","name":"新加坡_tg+univstar_106","server":"165.154.253.15","port":49001,"password":"562c4c98-00c9-4037-a966-c7fc6a81367c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"荷兰_tg+univstar_107","ws-opts":{"path":"/vmess"},"server":"51.15.110.0","port":"80","uuid":"0aaf081d-b23c-4b6a-a85f-ed4bffcb1a2c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"英国_tg+univstar_108","server":"132.145.51.172","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"美国_tg+univstar_109","server":"150.230.249.42","port":443,"password":"0Y9gOHSdRt","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"tg+univstar_110","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.zhujicn2.com"}},"server":"198.41.212.150","port":"443","uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"新加坡_tg+univstar_111","server":"165.154.253.15","port":49004,"password":"562c4c98-00c9-4037-a966-c7fc6a81367c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"美国_tg+univstar_112","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"中国_tg+univstar_113","server":"924hk02.tfzhc.top","port":44388,"password":"7c877b3a-5fa0-47e7-ae3e-8e045788569b","udp":true,"skip-cert-verify":true,"sni":"924hk02.tfzhc.top"}
+  - {"type":"vmess","name":"美国_tg+univstar_114","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"auto","tls":true}
+  - {"type":"vmess","name":"tg+univstar_115","ws-opts":{"path":"/ray","headers":{"host":"eu.ptuu.tk"}},"server":"104.21.59.76","port":"443","uuid":"70d9bf20-3e6b-4cd3-ff28-b62567ff5a23","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国_tg+univstar_116","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"auto","tls":true}
+  - {"type":"trojan","name":"中国_tg+univstar_117","server":"da.kanao.xyz","port":58824,"password":"f9bd7760-9fc5-471f-9254-78257a7dbfa1","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"vmess","name":"美国_tg+univstar_118","ws-opts":{"path":"/b472f/","headers":{"host":"linode.sharecentre.xyz"}},"server":"cf.naixii.top","port":"443","uuid":"3fad3b4c-8691-42f2-a46d-9875cacaeeb2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"日本_tg+univstar_119","ws-opts":{"path":"/path/243535322906"},"server":"185.160.24.48","port":"443","uuid":"a8a7fc23-c6e6-4505-a173-ae67dfb06f28","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港_tg+univstar_120","http-opts":{"path":["/"]},"server":"47.243.247.109","port":"53314","uuid":"8c232a9e-6760-43b5-851e-a65b9965b5ee","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"韩国_tg+univstar_121","server":"152.67.213.242","port":"443","uuid":"9aa80017-3427-4165-a522-f5f9a11330d0","alterId":"0","cipher":"auto","network":"auto","tls":true}
+  - {"type":"trojan","name":"韩国_tg+univstar_122","server":"kr1.api-aws.com","port":443,"password":"ca3a57c6-9bb5-4d19-876d-4552de4bb959","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"俄罗斯联邦_tg+univstar_123","server":"5.189.223.250","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"vmess","name":"香港_tg+univstar_124","http-opts":{"path":["/"]},"server":"47.243.244.200","port":"51535","uuid":"98a2ba95-d179-4563-82be-ea5c897be747","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"墨西哥_tg+univstar_125","server":"191.96.145.108","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"vmess","name":"中国_tg+univstar_126","ws-opts":{"path":"/123","headers":{"host":"jparm.fineyoo.cf"}},"server":"210.75.24.220","port":"443","uuid":"bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"中国_tg+univstar_127","server":"116.162.120.23","port":610,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJ","protocol-param":"53923:hjgjuy6t655jjg"}
+  - {"type":"vmess","name":"荷兰_tg+univstar_128","ws-opts":{"path":"/vmess"},"server":"51.15.110.0","port":"80","uuid":"0aaf081d-b23c-4b6a-a85f-ed4bffcb1a2c","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -88,70 +150,132 @@ proxy-groups:
       - DIRECT
       - 香港_tg+univstar_1
       - 香港_tg+univstar_2
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_4
+      - 中国_tg+univstar_3
+      - 中国_tg+univstar_4
       - 香港_tg+univstar_5
       - 香港_tg+univstar_6
       - 香港_tg+univstar_7
-      - 香港_tg+univstar_8
-      - 香港_tg+univstar_9
+      - 中国_tg+univstar_8
+      - 中国_tg+univstar_9
       - 香港_tg+univstar_10
       - 香港_tg+univstar_11
-      - 香港_tg+univstar_12
-      - 香港_tg+univstar_13
-      - 香港_tg+univstar_14
+      - 中国_tg+univstar_12
+      - 中国_tg+univstar_13
+      - 日本_tg+univstar_14
       - 香港_tg+univstar_15
       - 香港_tg+univstar_16
       - 香港_tg+univstar_17
       - 香港_tg+univstar_18
-      - 香港_tg+univstar_19
-      - 美国_tg+univstar_20
-      - 香港_tg+univstar_21
-      - 美国_tg+univstar_22
-      - 中国_tg+univstar_23
+      - 中国_tg+univstar_19
+      - 中国_tg+univstar_20
+      - 中国_tg+univstar_21
+      - 中国_tg+univstar_22
+      - 日本_tg+univstar_23
       - 香港_tg+univstar_24
-      - tg+univstar_25
-      - 中国_tg+univstar_26
-      - 美国_tg+univstar_27
-      - 美国_tg+univstar_28
-      - 美国_tg+univstar_29
-      - tg+univstar_30
-      - tg+univstar_31
-      - 新加坡_tg+univstar_32
-      - 新加坡_tg+univstar_33
-      - 香港_tg+univstar_34
-      - 美国_tg+univstar_35
-      - 美国_tg+univstar_36
-      - 台湾_tg+univstar_37
-      - 美国_tg+univstar_38
-      - tg+univstar_39
-      - 瑞典_tg+univstar_40
-      - 英国_tg+univstar_41
-      - 葡萄牙_tg+univstar_42
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_26
+      - 中国_tg+univstar_27
+      - 中国_tg+univstar_28
+      - 中国_tg+univstar_29
+      - 中国_tg+univstar_30
+      - 日本_tg+univstar_31
+      - 日本_tg+univstar_32
+      - 中国_tg+univstar_33
+      - 中国_tg+univstar_34
+      - 中国_tg+univstar_35
+      - 日本_tg+univstar_36
+      - 日本_tg+univstar_37
+      - 香港_tg+univstar_38
+      - 中国_tg+univstar_39
+      - 俄罗斯联邦_tg+univstar_40
+      - 香港_tg+univstar_41
+      - 日本_tg+univstar_42
       - 香港_tg+univstar_43
-      - tg+univstar_44
-      - 韩国_tg+univstar_45
-      - 韩国_tg+univstar_46
-      - tg+univstar_47
-      - tg+univstar_48
-      - 法国_tg+univstar_49
-      - 台湾_tg+univstar_50
-      - tg+univstar_51
-      - 美国_tg+univstar_52
-      - 德国_tg+univstar_53
-      - 台湾_tg+univstar_54
-      - 台湾_tg+univstar_55
-      - tg+univstar_56
-      - 加拿大_tg+univstar_57
-      - 香港_tg+univstar_58
-      - tg+univstar_59
-      - 美国_tg+univstar_60
-      - 香港_tg+univstar_61
-      - 德国_tg+univstar_62
-      - 台湾_tg+univstar_63
-      - 美国_tg+univstar_64
-      - 香港_tg+univstar_65
-      - 美国_tg+univstar_66
+      - 中国_tg+univstar_44
+      - 香港_tg+univstar_45
+      - 香港_tg+univstar_46
+      - 中国_tg+univstar_47
+      - 中国_tg+univstar_48
+      - 新加坡_tg+univstar_49
+      - 中国_tg+univstar_50
+      - 中国_tg+univstar_51
+      - 日本_tg+univstar_52
+      - 新加坡_tg+univstar_53
+      - 中国_tg+univstar_54
+      - 日本_tg+univstar_55
+      - 中国_tg+univstar_56
+      - 新加坡_tg+univstar_57
+      - 中国_tg+univstar_58
+      - 台湾_tg+univstar_59
+      - 中国_tg+univstar_60
+      - 中国_tg+univstar_61
+      - 新加坡_tg+univstar_62
+      - 中国_tg+univstar_63
+      - 香港_tg+univstar_64
+      - 台湾_tg+univstar_65
+      - 中国_tg+univstar_66
+      - 美国_tg+univstar_67
+      - 美国_tg+univstar_68
+      - 香港_tg+univstar_69
+      - tg+univstar_70
+      - 美国_tg+univstar_71
+      - 美国_tg+univstar_72
+      - 中国_tg+univstar_73
+      - 新加坡_tg+univstar_74
+      - 美国_tg+univstar_75
+      - 中国_tg+univstar_76
+      - 中国_tg+univstar_77
+      - 新加坡_tg+univstar_78
+      - 美国_tg+univstar_79
+      - 中国_tg+univstar_80
+      - 香港_tg+univstar_81
+      - 新加坡_tg+univstar_82
+      - 台湾_tg+univstar_83
+      - tg+univstar_84
+      - 中国_tg+univstar_85
+      - 美国_tg+univstar_86
+      - 澳门_tg+univstar_87
+      - 新加坡_tg+univstar_88
+      - 中国_tg+univstar_89
+      - 新加坡_tg+univstar_90
+      - 韩国_tg+univstar_91
+      - tg+univstar_92
+      - 中国_tg+univstar_93
+      - tg+univstar_94
+      - 中国_tg+univstar_95
+      - 新加坡_tg+univstar_96
+      - 澳门_tg+univstar_97
+      - 台湾_tg+univstar_98
+      - 美国_tg+univstar_99
+      - 卢森堡_tg+univstar_100
+      - 澳大利亚_tg+univstar_101
+      - 美国_tg+univstar_102
+      - 美国_tg+univstar_103
+      - 新加坡_tg+univstar_104
+      - 美国_tg+univstar_105
+      - 新加坡_tg+univstar_106
+      - 荷兰_tg+univstar_107
+      - 英国_tg+univstar_108
+      - 美国_tg+univstar_109
+      - tg+univstar_110
+      - 新加坡_tg+univstar_111
+      - 美国_tg+univstar_112
+      - 中国_tg+univstar_113
+      - 美国_tg+univstar_114
+      - tg+univstar_115
+      - 美国_tg+univstar_116
+      - 中国_tg+univstar_117
+      - 美国_tg+univstar_118
+      - 日本_tg+univstar_119
+      - 香港_tg+univstar_120
+      - 韩国_tg+univstar_121
+      - 韩国_tg+univstar_122
+      - 俄罗斯联邦_tg+univstar_123
+      - 香港_tg+univstar_124
+      - 墨西哥_tg+univstar_125
+      - 中国_tg+univstar_126
+      - 中国_tg+univstar_127
+      - 荷兰_tg+univstar_128
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
@@ -160,70 +284,132 @@ proxy-groups:
     proxies:
       - 香港_tg+univstar_1
       - 香港_tg+univstar_2
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_4
+      - 中国_tg+univstar_3
+      - 中国_tg+univstar_4
       - 香港_tg+univstar_5
       - 香港_tg+univstar_6
       - 香港_tg+univstar_7
-      - 香港_tg+univstar_8
-      - 香港_tg+univstar_9
+      - 中国_tg+univstar_8
+      - 中国_tg+univstar_9
       - 香港_tg+univstar_10
       - 香港_tg+univstar_11
-      - 香港_tg+univstar_12
-      - 香港_tg+univstar_13
-      - 香港_tg+univstar_14
+      - 中国_tg+univstar_12
+      - 中国_tg+univstar_13
+      - 日本_tg+univstar_14
       - 香港_tg+univstar_15
       - 香港_tg+univstar_16
       - 香港_tg+univstar_17
       - 香港_tg+univstar_18
-      - 香港_tg+univstar_19
-      - 美国_tg+univstar_20
-      - 香港_tg+univstar_21
-      - 美国_tg+univstar_22
-      - 中国_tg+univstar_23
+      - 中国_tg+univstar_19
+      - 中国_tg+univstar_20
+      - 中国_tg+univstar_21
+      - 中国_tg+univstar_22
+      - 日本_tg+univstar_23
       - 香港_tg+univstar_24
-      - tg+univstar_25
-      - 中国_tg+univstar_26
-      - 美国_tg+univstar_27
-      - 美国_tg+univstar_28
-      - 美国_tg+univstar_29
-      - tg+univstar_30
-      - tg+univstar_31
-      - 新加坡_tg+univstar_32
-      - 新加坡_tg+univstar_33
-      - 香港_tg+univstar_34
-      - 美国_tg+univstar_35
-      - 美国_tg+univstar_36
-      - 台湾_tg+univstar_37
-      - 美国_tg+univstar_38
-      - tg+univstar_39
-      - 瑞典_tg+univstar_40
-      - 英国_tg+univstar_41
-      - 葡萄牙_tg+univstar_42
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_26
+      - 中国_tg+univstar_27
+      - 中国_tg+univstar_28
+      - 中国_tg+univstar_29
+      - 中国_tg+univstar_30
+      - 日本_tg+univstar_31
+      - 日本_tg+univstar_32
+      - 中国_tg+univstar_33
+      - 中国_tg+univstar_34
+      - 中国_tg+univstar_35
+      - 日本_tg+univstar_36
+      - 日本_tg+univstar_37
+      - 香港_tg+univstar_38
+      - 中国_tg+univstar_39
+      - 俄罗斯联邦_tg+univstar_40
+      - 香港_tg+univstar_41
+      - 日本_tg+univstar_42
       - 香港_tg+univstar_43
-      - tg+univstar_44
-      - 韩国_tg+univstar_45
-      - 韩国_tg+univstar_46
-      - tg+univstar_47
-      - tg+univstar_48
-      - 法国_tg+univstar_49
-      - 台湾_tg+univstar_50
-      - tg+univstar_51
-      - 美国_tg+univstar_52
-      - 德国_tg+univstar_53
-      - 台湾_tg+univstar_54
-      - 台湾_tg+univstar_55
-      - tg+univstar_56
-      - 加拿大_tg+univstar_57
-      - 香港_tg+univstar_58
-      - tg+univstar_59
-      - 美国_tg+univstar_60
-      - 香港_tg+univstar_61
-      - 德国_tg+univstar_62
-      - 台湾_tg+univstar_63
-      - 美国_tg+univstar_64
-      - 香港_tg+univstar_65
-      - 美国_tg+univstar_66
+      - 中国_tg+univstar_44
+      - 香港_tg+univstar_45
+      - 香港_tg+univstar_46
+      - 中国_tg+univstar_47
+      - 中国_tg+univstar_48
+      - 新加坡_tg+univstar_49
+      - 中国_tg+univstar_50
+      - 中国_tg+univstar_51
+      - 日本_tg+univstar_52
+      - 新加坡_tg+univstar_53
+      - 中国_tg+univstar_54
+      - 日本_tg+univstar_55
+      - 中国_tg+univstar_56
+      - 新加坡_tg+univstar_57
+      - 中国_tg+univstar_58
+      - 台湾_tg+univstar_59
+      - 中国_tg+univstar_60
+      - 中国_tg+univstar_61
+      - 新加坡_tg+univstar_62
+      - 中国_tg+univstar_63
+      - 香港_tg+univstar_64
+      - 台湾_tg+univstar_65
+      - 中国_tg+univstar_66
+      - 美国_tg+univstar_67
+      - 美国_tg+univstar_68
+      - 香港_tg+univstar_69
+      - tg+univstar_70
+      - 美国_tg+univstar_71
+      - 美国_tg+univstar_72
+      - 中国_tg+univstar_73
+      - 新加坡_tg+univstar_74
+      - 美国_tg+univstar_75
+      - 中国_tg+univstar_76
+      - 中国_tg+univstar_77
+      - 新加坡_tg+univstar_78
+      - 美国_tg+univstar_79
+      - 中国_tg+univstar_80
+      - 香港_tg+univstar_81
+      - 新加坡_tg+univstar_82
+      - 台湾_tg+univstar_83
+      - tg+univstar_84
+      - 中国_tg+univstar_85
+      - 美国_tg+univstar_86
+      - 澳门_tg+univstar_87
+      - 新加坡_tg+univstar_88
+      - 中国_tg+univstar_89
+      - 新加坡_tg+univstar_90
+      - 韩国_tg+univstar_91
+      - tg+univstar_92
+      - 中国_tg+univstar_93
+      - tg+univstar_94
+      - 中国_tg+univstar_95
+      - 新加坡_tg+univstar_96
+      - 澳门_tg+univstar_97
+      - 台湾_tg+univstar_98
+      - 美国_tg+univstar_99
+      - 卢森堡_tg+univstar_100
+      - 澳大利亚_tg+univstar_101
+      - 美国_tg+univstar_102
+      - 美国_tg+univstar_103
+      - 新加坡_tg+univstar_104
+      - 美国_tg+univstar_105
+      - 新加坡_tg+univstar_106
+      - 荷兰_tg+univstar_107
+      - 英国_tg+univstar_108
+      - 美国_tg+univstar_109
+      - tg+univstar_110
+      - 新加坡_tg+univstar_111
+      - 美国_tg+univstar_112
+      - 中国_tg+univstar_113
+      - 美国_tg+univstar_114
+      - tg+univstar_115
+      - 美国_tg+univstar_116
+      - 中国_tg+univstar_117
+      - 美国_tg+univstar_118
+      - 日本_tg+univstar_119
+      - 香港_tg+univstar_120
+      - 韩国_tg+univstar_121
+      - 韩国_tg+univstar_122
+      - 俄罗斯联邦_tg+univstar_123
+      - 香港_tg+univstar_124
+      - 墨西哥_tg+univstar_125
+      - 中国_tg+univstar_126
+      - 中国_tg+univstar_127
+      - 荷兰_tg+univstar_128
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -232,70 +418,132 @@ proxy-groups:
       - 🎯 全球直连
       - 香港_tg+univstar_1
       - 香港_tg+univstar_2
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_4
+      - 中国_tg+univstar_3
+      - 中国_tg+univstar_4
       - 香港_tg+univstar_5
       - 香港_tg+univstar_6
       - 香港_tg+univstar_7
-      - 香港_tg+univstar_8
-      - 香港_tg+univstar_9
+      - 中国_tg+univstar_8
+      - 中国_tg+univstar_9
       - 香港_tg+univstar_10
       - 香港_tg+univstar_11
-      - 香港_tg+univstar_12
-      - 香港_tg+univstar_13
-      - 香港_tg+univstar_14
+      - 中国_tg+univstar_12
+      - 中国_tg+univstar_13
+      - 日本_tg+univstar_14
       - 香港_tg+univstar_15
       - 香港_tg+univstar_16
       - 香港_tg+univstar_17
       - 香港_tg+univstar_18
-      - 香港_tg+univstar_19
-      - 美国_tg+univstar_20
-      - 香港_tg+univstar_21
-      - 美国_tg+univstar_22
-      - 中国_tg+univstar_23
+      - 中国_tg+univstar_19
+      - 中国_tg+univstar_20
+      - 中国_tg+univstar_21
+      - 中国_tg+univstar_22
+      - 日本_tg+univstar_23
       - 香港_tg+univstar_24
-      - tg+univstar_25
-      - 中国_tg+univstar_26
-      - 美国_tg+univstar_27
-      - 美国_tg+univstar_28
-      - 美国_tg+univstar_29
-      - tg+univstar_30
-      - tg+univstar_31
-      - 新加坡_tg+univstar_32
-      - 新加坡_tg+univstar_33
-      - 香港_tg+univstar_34
-      - 美国_tg+univstar_35
-      - 美国_tg+univstar_36
-      - 台湾_tg+univstar_37
-      - 美国_tg+univstar_38
-      - tg+univstar_39
-      - 瑞典_tg+univstar_40
-      - 英国_tg+univstar_41
-      - 葡萄牙_tg+univstar_42
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_26
+      - 中国_tg+univstar_27
+      - 中国_tg+univstar_28
+      - 中国_tg+univstar_29
+      - 中国_tg+univstar_30
+      - 日本_tg+univstar_31
+      - 日本_tg+univstar_32
+      - 中国_tg+univstar_33
+      - 中国_tg+univstar_34
+      - 中国_tg+univstar_35
+      - 日本_tg+univstar_36
+      - 日本_tg+univstar_37
+      - 香港_tg+univstar_38
+      - 中国_tg+univstar_39
+      - 俄罗斯联邦_tg+univstar_40
+      - 香港_tg+univstar_41
+      - 日本_tg+univstar_42
       - 香港_tg+univstar_43
-      - tg+univstar_44
-      - 韩国_tg+univstar_45
-      - 韩国_tg+univstar_46
-      - tg+univstar_47
-      - tg+univstar_48
-      - 法国_tg+univstar_49
-      - 台湾_tg+univstar_50
-      - tg+univstar_51
-      - 美国_tg+univstar_52
-      - 德国_tg+univstar_53
-      - 台湾_tg+univstar_54
-      - 台湾_tg+univstar_55
-      - tg+univstar_56
-      - 加拿大_tg+univstar_57
-      - 香港_tg+univstar_58
-      - tg+univstar_59
-      - 美国_tg+univstar_60
-      - 香港_tg+univstar_61
-      - 德国_tg+univstar_62
-      - 台湾_tg+univstar_63
-      - 美国_tg+univstar_64
-      - 香港_tg+univstar_65
-      - 美国_tg+univstar_66
+      - 中国_tg+univstar_44
+      - 香港_tg+univstar_45
+      - 香港_tg+univstar_46
+      - 中国_tg+univstar_47
+      - 中国_tg+univstar_48
+      - 新加坡_tg+univstar_49
+      - 中国_tg+univstar_50
+      - 中国_tg+univstar_51
+      - 日本_tg+univstar_52
+      - 新加坡_tg+univstar_53
+      - 中国_tg+univstar_54
+      - 日本_tg+univstar_55
+      - 中国_tg+univstar_56
+      - 新加坡_tg+univstar_57
+      - 中国_tg+univstar_58
+      - 台湾_tg+univstar_59
+      - 中国_tg+univstar_60
+      - 中国_tg+univstar_61
+      - 新加坡_tg+univstar_62
+      - 中国_tg+univstar_63
+      - 香港_tg+univstar_64
+      - 台湾_tg+univstar_65
+      - 中国_tg+univstar_66
+      - 美国_tg+univstar_67
+      - 美国_tg+univstar_68
+      - 香港_tg+univstar_69
+      - tg+univstar_70
+      - 美国_tg+univstar_71
+      - 美国_tg+univstar_72
+      - 中国_tg+univstar_73
+      - 新加坡_tg+univstar_74
+      - 美国_tg+univstar_75
+      - 中国_tg+univstar_76
+      - 中国_tg+univstar_77
+      - 新加坡_tg+univstar_78
+      - 美国_tg+univstar_79
+      - 中国_tg+univstar_80
+      - 香港_tg+univstar_81
+      - 新加坡_tg+univstar_82
+      - 台湾_tg+univstar_83
+      - tg+univstar_84
+      - 中国_tg+univstar_85
+      - 美国_tg+univstar_86
+      - 澳门_tg+univstar_87
+      - 新加坡_tg+univstar_88
+      - 中国_tg+univstar_89
+      - 新加坡_tg+univstar_90
+      - 韩国_tg+univstar_91
+      - tg+univstar_92
+      - 中国_tg+univstar_93
+      - tg+univstar_94
+      - 中国_tg+univstar_95
+      - 新加坡_tg+univstar_96
+      - 澳门_tg+univstar_97
+      - 台湾_tg+univstar_98
+      - 美国_tg+univstar_99
+      - 卢森堡_tg+univstar_100
+      - 澳大利亚_tg+univstar_101
+      - 美国_tg+univstar_102
+      - 美国_tg+univstar_103
+      - 新加坡_tg+univstar_104
+      - 美国_tg+univstar_105
+      - 新加坡_tg+univstar_106
+      - 荷兰_tg+univstar_107
+      - 英国_tg+univstar_108
+      - 美国_tg+univstar_109
+      - tg+univstar_110
+      - 新加坡_tg+univstar_111
+      - 美国_tg+univstar_112
+      - 中国_tg+univstar_113
+      - 美国_tg+univstar_114
+      - tg+univstar_115
+      - 美国_tg+univstar_116
+      - 中国_tg+univstar_117
+      - 美国_tg+univstar_118
+      - 日本_tg+univstar_119
+      - 香港_tg+univstar_120
+      - 韩国_tg+univstar_121
+      - 韩国_tg+univstar_122
+      - 俄罗斯联邦_tg+univstar_123
+      - 香港_tg+univstar_124
+      - 墨西哥_tg+univstar_125
+      - 中国_tg+univstar_126
+      - 中国_tg+univstar_127
+      - 荷兰_tg+univstar_128
   - name: 📲 电报信息
     type: select
     proxies:
@@ -303,70 +551,132 @@ proxy-groups:
       - 🎯 全球直连
       - 香港_tg+univstar_1
       - 香港_tg+univstar_2
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_4
+      - 中国_tg+univstar_3
+      - 中国_tg+univstar_4
       - 香港_tg+univstar_5
       - 香港_tg+univstar_6
       - 香港_tg+univstar_7
-      - 香港_tg+univstar_8
-      - 香港_tg+univstar_9
+      - 中国_tg+univstar_8
+      - 中国_tg+univstar_9
       - 香港_tg+univstar_10
       - 香港_tg+univstar_11
-      - 香港_tg+univstar_12
-      - 香港_tg+univstar_13
-      - 香港_tg+univstar_14
+      - 中国_tg+univstar_12
+      - 中国_tg+univstar_13
+      - 日本_tg+univstar_14
       - 香港_tg+univstar_15
       - 香港_tg+univstar_16
       - 香港_tg+univstar_17
       - 香港_tg+univstar_18
-      - 香港_tg+univstar_19
-      - 美国_tg+univstar_20
-      - 香港_tg+univstar_21
-      - 美国_tg+univstar_22
-      - 中国_tg+univstar_23
+      - 中国_tg+univstar_19
+      - 中国_tg+univstar_20
+      - 中国_tg+univstar_21
+      - 中国_tg+univstar_22
+      - 日本_tg+univstar_23
       - 香港_tg+univstar_24
-      - tg+univstar_25
-      - 中国_tg+univstar_26
-      - 美国_tg+univstar_27
-      - 美国_tg+univstar_28
-      - 美国_tg+univstar_29
-      - tg+univstar_30
-      - tg+univstar_31
-      - 新加坡_tg+univstar_32
-      - 新加坡_tg+univstar_33
-      - 香港_tg+univstar_34
-      - 美国_tg+univstar_35
-      - 美国_tg+univstar_36
-      - 台湾_tg+univstar_37
-      - 美国_tg+univstar_38
-      - tg+univstar_39
-      - 瑞典_tg+univstar_40
-      - 英国_tg+univstar_41
-      - 葡萄牙_tg+univstar_42
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_26
+      - 中国_tg+univstar_27
+      - 中国_tg+univstar_28
+      - 中国_tg+univstar_29
+      - 中国_tg+univstar_30
+      - 日本_tg+univstar_31
+      - 日本_tg+univstar_32
+      - 中国_tg+univstar_33
+      - 中国_tg+univstar_34
+      - 中国_tg+univstar_35
+      - 日本_tg+univstar_36
+      - 日本_tg+univstar_37
+      - 香港_tg+univstar_38
+      - 中国_tg+univstar_39
+      - 俄罗斯联邦_tg+univstar_40
+      - 香港_tg+univstar_41
+      - 日本_tg+univstar_42
       - 香港_tg+univstar_43
-      - tg+univstar_44
-      - 韩国_tg+univstar_45
-      - 韩国_tg+univstar_46
-      - tg+univstar_47
-      - tg+univstar_48
-      - 法国_tg+univstar_49
-      - 台湾_tg+univstar_50
-      - tg+univstar_51
-      - 美国_tg+univstar_52
-      - 德国_tg+univstar_53
-      - 台湾_tg+univstar_54
-      - 台湾_tg+univstar_55
-      - tg+univstar_56
-      - 加拿大_tg+univstar_57
-      - 香港_tg+univstar_58
-      - tg+univstar_59
-      - 美国_tg+univstar_60
-      - 香港_tg+univstar_61
-      - 德国_tg+univstar_62
-      - 台湾_tg+univstar_63
-      - 美国_tg+univstar_64
-      - 香港_tg+univstar_65
-      - 美国_tg+univstar_66
+      - 中国_tg+univstar_44
+      - 香港_tg+univstar_45
+      - 香港_tg+univstar_46
+      - 中国_tg+univstar_47
+      - 中国_tg+univstar_48
+      - 新加坡_tg+univstar_49
+      - 中国_tg+univstar_50
+      - 中国_tg+univstar_51
+      - 日本_tg+univstar_52
+      - 新加坡_tg+univstar_53
+      - 中国_tg+univstar_54
+      - 日本_tg+univstar_55
+      - 中国_tg+univstar_56
+      - 新加坡_tg+univstar_57
+      - 中国_tg+univstar_58
+      - 台湾_tg+univstar_59
+      - 中国_tg+univstar_60
+      - 中国_tg+univstar_61
+      - 新加坡_tg+univstar_62
+      - 中国_tg+univstar_63
+      - 香港_tg+univstar_64
+      - 台湾_tg+univstar_65
+      - 中国_tg+univstar_66
+      - 美国_tg+univstar_67
+      - 美国_tg+univstar_68
+      - 香港_tg+univstar_69
+      - tg+univstar_70
+      - 美国_tg+univstar_71
+      - 美国_tg+univstar_72
+      - 中国_tg+univstar_73
+      - 新加坡_tg+univstar_74
+      - 美国_tg+univstar_75
+      - 中国_tg+univstar_76
+      - 中国_tg+univstar_77
+      - 新加坡_tg+univstar_78
+      - 美国_tg+univstar_79
+      - 中国_tg+univstar_80
+      - 香港_tg+univstar_81
+      - 新加坡_tg+univstar_82
+      - 台湾_tg+univstar_83
+      - tg+univstar_84
+      - 中国_tg+univstar_85
+      - 美国_tg+univstar_86
+      - 澳门_tg+univstar_87
+      - 新加坡_tg+univstar_88
+      - 中国_tg+univstar_89
+      - 新加坡_tg+univstar_90
+      - 韩国_tg+univstar_91
+      - tg+univstar_92
+      - 中国_tg+univstar_93
+      - tg+univstar_94
+      - 中国_tg+univstar_95
+      - 新加坡_tg+univstar_96
+      - 澳门_tg+univstar_97
+      - 台湾_tg+univstar_98
+      - 美国_tg+univstar_99
+      - 卢森堡_tg+univstar_100
+      - 澳大利亚_tg+univstar_101
+      - 美国_tg+univstar_102
+      - 美国_tg+univstar_103
+      - 新加坡_tg+univstar_104
+      - 美国_tg+univstar_105
+      - 新加坡_tg+univstar_106
+      - 荷兰_tg+univstar_107
+      - 英国_tg+univstar_108
+      - 美国_tg+univstar_109
+      - tg+univstar_110
+      - 新加坡_tg+univstar_111
+      - 美国_tg+univstar_112
+      - 中国_tg+univstar_113
+      - 美国_tg+univstar_114
+      - tg+univstar_115
+      - 美国_tg+univstar_116
+      - 中国_tg+univstar_117
+      - 美国_tg+univstar_118
+      - 日本_tg+univstar_119
+      - 香港_tg+univstar_120
+      - 韩国_tg+univstar_121
+      - 韩国_tg+univstar_122
+      - 俄罗斯联邦_tg+univstar_123
+      - 香港_tg+univstar_124
+      - 墨西哥_tg+univstar_125
+      - 中国_tg+univstar_126
+      - 中国_tg+univstar_127
+      - 荷兰_tg+univstar_128
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -374,70 +684,132 @@ proxy-groups:
       - 🚀 节点选择
       - 香港_tg+univstar_1
       - 香港_tg+univstar_2
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_4
+      - 中国_tg+univstar_3
+      - 中国_tg+univstar_4
       - 香港_tg+univstar_5
       - 香港_tg+univstar_6
       - 香港_tg+univstar_7
-      - 香港_tg+univstar_8
-      - 香港_tg+univstar_9
+      - 中国_tg+univstar_8
+      - 中国_tg+univstar_9
       - 香港_tg+univstar_10
       - 香港_tg+univstar_11
-      - 香港_tg+univstar_12
-      - 香港_tg+univstar_13
-      - 香港_tg+univstar_14
+      - 中国_tg+univstar_12
+      - 中国_tg+univstar_13
+      - 日本_tg+univstar_14
       - 香港_tg+univstar_15
       - 香港_tg+univstar_16
       - 香港_tg+univstar_17
       - 香港_tg+univstar_18
-      - 香港_tg+univstar_19
-      - 美国_tg+univstar_20
-      - 香港_tg+univstar_21
-      - 美国_tg+univstar_22
-      - 中国_tg+univstar_23
+      - 中国_tg+univstar_19
+      - 中国_tg+univstar_20
+      - 中国_tg+univstar_21
+      - 中国_tg+univstar_22
+      - 日本_tg+univstar_23
       - 香港_tg+univstar_24
-      - tg+univstar_25
-      - 中国_tg+univstar_26
-      - 美国_tg+univstar_27
-      - 美国_tg+univstar_28
-      - 美国_tg+univstar_29
-      - tg+univstar_30
-      - tg+univstar_31
-      - 新加坡_tg+univstar_32
-      - 新加坡_tg+univstar_33
-      - 香港_tg+univstar_34
-      - 美国_tg+univstar_35
-      - 美国_tg+univstar_36
-      - 台湾_tg+univstar_37
-      - 美国_tg+univstar_38
-      - tg+univstar_39
-      - 瑞典_tg+univstar_40
-      - 英国_tg+univstar_41
-      - 葡萄牙_tg+univstar_42
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_26
+      - 中国_tg+univstar_27
+      - 中国_tg+univstar_28
+      - 中国_tg+univstar_29
+      - 中国_tg+univstar_30
+      - 日本_tg+univstar_31
+      - 日本_tg+univstar_32
+      - 中国_tg+univstar_33
+      - 中国_tg+univstar_34
+      - 中国_tg+univstar_35
+      - 日本_tg+univstar_36
+      - 日本_tg+univstar_37
+      - 香港_tg+univstar_38
+      - 中国_tg+univstar_39
+      - 俄罗斯联邦_tg+univstar_40
+      - 香港_tg+univstar_41
+      - 日本_tg+univstar_42
       - 香港_tg+univstar_43
-      - tg+univstar_44
-      - 韩国_tg+univstar_45
-      - 韩国_tg+univstar_46
-      - tg+univstar_47
-      - tg+univstar_48
-      - 法国_tg+univstar_49
-      - 台湾_tg+univstar_50
-      - tg+univstar_51
-      - 美国_tg+univstar_52
-      - 德国_tg+univstar_53
-      - 台湾_tg+univstar_54
-      - 台湾_tg+univstar_55
-      - tg+univstar_56
-      - 加拿大_tg+univstar_57
-      - 香港_tg+univstar_58
-      - tg+univstar_59
-      - 美国_tg+univstar_60
-      - 香港_tg+univstar_61
-      - 德国_tg+univstar_62
-      - 台湾_tg+univstar_63
-      - 美国_tg+univstar_64
-      - 香港_tg+univstar_65
-      - 美国_tg+univstar_66
+      - 中国_tg+univstar_44
+      - 香港_tg+univstar_45
+      - 香港_tg+univstar_46
+      - 中国_tg+univstar_47
+      - 中国_tg+univstar_48
+      - 新加坡_tg+univstar_49
+      - 中国_tg+univstar_50
+      - 中国_tg+univstar_51
+      - 日本_tg+univstar_52
+      - 新加坡_tg+univstar_53
+      - 中国_tg+univstar_54
+      - 日本_tg+univstar_55
+      - 中国_tg+univstar_56
+      - 新加坡_tg+univstar_57
+      - 中国_tg+univstar_58
+      - 台湾_tg+univstar_59
+      - 中国_tg+univstar_60
+      - 中国_tg+univstar_61
+      - 新加坡_tg+univstar_62
+      - 中国_tg+univstar_63
+      - 香港_tg+univstar_64
+      - 台湾_tg+univstar_65
+      - 中国_tg+univstar_66
+      - 美国_tg+univstar_67
+      - 美国_tg+univstar_68
+      - 香港_tg+univstar_69
+      - tg+univstar_70
+      - 美国_tg+univstar_71
+      - 美国_tg+univstar_72
+      - 中国_tg+univstar_73
+      - 新加坡_tg+univstar_74
+      - 美国_tg+univstar_75
+      - 中国_tg+univstar_76
+      - 中国_tg+univstar_77
+      - 新加坡_tg+univstar_78
+      - 美国_tg+univstar_79
+      - 中国_tg+univstar_80
+      - 香港_tg+univstar_81
+      - 新加坡_tg+univstar_82
+      - 台湾_tg+univstar_83
+      - tg+univstar_84
+      - 中国_tg+univstar_85
+      - 美国_tg+univstar_86
+      - 澳门_tg+univstar_87
+      - 新加坡_tg+univstar_88
+      - 中国_tg+univstar_89
+      - 新加坡_tg+univstar_90
+      - 韩国_tg+univstar_91
+      - tg+univstar_92
+      - 中国_tg+univstar_93
+      - tg+univstar_94
+      - 中国_tg+univstar_95
+      - 新加坡_tg+univstar_96
+      - 澳门_tg+univstar_97
+      - 台湾_tg+univstar_98
+      - 美国_tg+univstar_99
+      - 卢森堡_tg+univstar_100
+      - 澳大利亚_tg+univstar_101
+      - 美国_tg+univstar_102
+      - 美国_tg+univstar_103
+      - 新加坡_tg+univstar_104
+      - 美国_tg+univstar_105
+      - 新加坡_tg+univstar_106
+      - 荷兰_tg+univstar_107
+      - 英国_tg+univstar_108
+      - 美国_tg+univstar_109
+      - tg+univstar_110
+      - 新加坡_tg+univstar_111
+      - 美国_tg+univstar_112
+      - 中国_tg+univstar_113
+      - 美国_tg+univstar_114
+      - tg+univstar_115
+      - 美国_tg+univstar_116
+      - 中国_tg+univstar_117
+      - 美国_tg+univstar_118
+      - 日本_tg+univstar_119
+      - 香港_tg+univstar_120
+      - 韩国_tg+univstar_121
+      - 韩国_tg+univstar_122
+      - 俄罗斯联邦_tg+univstar_123
+      - 香港_tg+univstar_124
+      - 墨西哥_tg+univstar_125
+      - 中国_tg+univstar_126
+      - 中国_tg+univstar_127
+      - 荷兰_tg+univstar_128
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -445,70 +817,132 @@ proxy-groups:
       - 🎯 全球直连
       - 香港_tg+univstar_1
       - 香港_tg+univstar_2
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_4
+      - 中国_tg+univstar_3
+      - 中国_tg+univstar_4
       - 香港_tg+univstar_5
       - 香港_tg+univstar_6
       - 香港_tg+univstar_7
-      - 香港_tg+univstar_8
-      - 香港_tg+univstar_9
+      - 中国_tg+univstar_8
+      - 中国_tg+univstar_9
       - 香港_tg+univstar_10
       - 香港_tg+univstar_11
-      - 香港_tg+univstar_12
-      - 香港_tg+univstar_13
-      - 香港_tg+univstar_14
+      - 中国_tg+univstar_12
+      - 中国_tg+univstar_13
+      - 日本_tg+univstar_14
       - 香港_tg+univstar_15
       - 香港_tg+univstar_16
       - 香港_tg+univstar_17
       - 香港_tg+univstar_18
-      - 香港_tg+univstar_19
-      - 美国_tg+univstar_20
-      - 香港_tg+univstar_21
-      - 美国_tg+univstar_22
-      - 中国_tg+univstar_23
+      - 中国_tg+univstar_19
+      - 中国_tg+univstar_20
+      - 中国_tg+univstar_21
+      - 中国_tg+univstar_22
+      - 日本_tg+univstar_23
       - 香港_tg+univstar_24
-      - tg+univstar_25
-      - 中国_tg+univstar_26
-      - 美国_tg+univstar_27
-      - 美国_tg+univstar_28
-      - 美国_tg+univstar_29
-      - tg+univstar_30
-      - tg+univstar_31
-      - 新加坡_tg+univstar_32
-      - 新加坡_tg+univstar_33
-      - 香港_tg+univstar_34
-      - 美国_tg+univstar_35
-      - 美国_tg+univstar_36
-      - 台湾_tg+univstar_37
-      - 美国_tg+univstar_38
-      - tg+univstar_39
-      - 瑞典_tg+univstar_40
-      - 英国_tg+univstar_41
-      - 葡萄牙_tg+univstar_42
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_26
+      - 中国_tg+univstar_27
+      - 中国_tg+univstar_28
+      - 中国_tg+univstar_29
+      - 中国_tg+univstar_30
+      - 日本_tg+univstar_31
+      - 日本_tg+univstar_32
+      - 中国_tg+univstar_33
+      - 中国_tg+univstar_34
+      - 中国_tg+univstar_35
+      - 日本_tg+univstar_36
+      - 日本_tg+univstar_37
+      - 香港_tg+univstar_38
+      - 中国_tg+univstar_39
+      - 俄罗斯联邦_tg+univstar_40
+      - 香港_tg+univstar_41
+      - 日本_tg+univstar_42
       - 香港_tg+univstar_43
-      - tg+univstar_44
-      - 韩国_tg+univstar_45
-      - 韩国_tg+univstar_46
-      - tg+univstar_47
-      - tg+univstar_48
-      - 法国_tg+univstar_49
-      - 台湾_tg+univstar_50
-      - tg+univstar_51
-      - 美国_tg+univstar_52
-      - 德国_tg+univstar_53
-      - 台湾_tg+univstar_54
-      - 台湾_tg+univstar_55
-      - tg+univstar_56
-      - 加拿大_tg+univstar_57
-      - 香港_tg+univstar_58
-      - tg+univstar_59
-      - 美国_tg+univstar_60
-      - 香港_tg+univstar_61
-      - 德国_tg+univstar_62
-      - 台湾_tg+univstar_63
-      - 美国_tg+univstar_64
-      - 香港_tg+univstar_65
-      - 美国_tg+univstar_66
+      - 中国_tg+univstar_44
+      - 香港_tg+univstar_45
+      - 香港_tg+univstar_46
+      - 中国_tg+univstar_47
+      - 中国_tg+univstar_48
+      - 新加坡_tg+univstar_49
+      - 中国_tg+univstar_50
+      - 中国_tg+univstar_51
+      - 日本_tg+univstar_52
+      - 新加坡_tg+univstar_53
+      - 中国_tg+univstar_54
+      - 日本_tg+univstar_55
+      - 中国_tg+univstar_56
+      - 新加坡_tg+univstar_57
+      - 中国_tg+univstar_58
+      - 台湾_tg+univstar_59
+      - 中国_tg+univstar_60
+      - 中国_tg+univstar_61
+      - 新加坡_tg+univstar_62
+      - 中国_tg+univstar_63
+      - 香港_tg+univstar_64
+      - 台湾_tg+univstar_65
+      - 中国_tg+univstar_66
+      - 美国_tg+univstar_67
+      - 美国_tg+univstar_68
+      - 香港_tg+univstar_69
+      - tg+univstar_70
+      - 美国_tg+univstar_71
+      - 美国_tg+univstar_72
+      - 中国_tg+univstar_73
+      - 新加坡_tg+univstar_74
+      - 美国_tg+univstar_75
+      - 中国_tg+univstar_76
+      - 中国_tg+univstar_77
+      - 新加坡_tg+univstar_78
+      - 美国_tg+univstar_79
+      - 中国_tg+univstar_80
+      - 香港_tg+univstar_81
+      - 新加坡_tg+univstar_82
+      - 台湾_tg+univstar_83
+      - tg+univstar_84
+      - 中国_tg+univstar_85
+      - 美国_tg+univstar_86
+      - 澳门_tg+univstar_87
+      - 新加坡_tg+univstar_88
+      - 中国_tg+univstar_89
+      - 新加坡_tg+univstar_90
+      - 韩国_tg+univstar_91
+      - tg+univstar_92
+      - 中国_tg+univstar_93
+      - tg+univstar_94
+      - 中国_tg+univstar_95
+      - 新加坡_tg+univstar_96
+      - 澳门_tg+univstar_97
+      - 台湾_tg+univstar_98
+      - 美国_tg+univstar_99
+      - 卢森堡_tg+univstar_100
+      - 澳大利亚_tg+univstar_101
+      - 美国_tg+univstar_102
+      - 美国_tg+univstar_103
+      - 新加坡_tg+univstar_104
+      - 美国_tg+univstar_105
+      - 新加坡_tg+univstar_106
+      - 荷兰_tg+univstar_107
+      - 英国_tg+univstar_108
+      - 美国_tg+univstar_109
+      - tg+univstar_110
+      - 新加坡_tg+univstar_111
+      - 美国_tg+univstar_112
+      - 中国_tg+univstar_113
+      - 美国_tg+univstar_114
+      - tg+univstar_115
+      - 美国_tg+univstar_116
+      - 中国_tg+univstar_117
+      - 美国_tg+univstar_118
+      - 日本_tg+univstar_119
+      - 香港_tg+univstar_120
+      - 韩国_tg+univstar_121
+      - 韩国_tg+univstar_122
+      - 俄罗斯联邦_tg+univstar_123
+      - 香港_tg+univstar_124
+      - 墨西哥_tg+univstar_125
+      - 中国_tg+univstar_126
+      - 中国_tg+univstar_127
+      - 荷兰_tg+univstar_128
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -533,70 +967,132 @@ proxy-groups:
       - ♻️ 自动选择
       - 香港_tg+univstar_1
       - 香港_tg+univstar_2
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_4
+      - 中国_tg+univstar_3
+      - 中国_tg+univstar_4
       - 香港_tg+univstar_5
       - 香港_tg+univstar_6
       - 香港_tg+univstar_7
-      - 香港_tg+univstar_8
-      - 香港_tg+univstar_9
+      - 中国_tg+univstar_8
+      - 中国_tg+univstar_9
       - 香港_tg+univstar_10
       - 香港_tg+univstar_11
-      - 香港_tg+univstar_12
-      - 香港_tg+univstar_13
-      - 香港_tg+univstar_14
+      - 中国_tg+univstar_12
+      - 中国_tg+univstar_13
+      - 日本_tg+univstar_14
       - 香港_tg+univstar_15
       - 香港_tg+univstar_16
       - 香港_tg+univstar_17
       - 香港_tg+univstar_18
-      - 香港_tg+univstar_19
-      - 美国_tg+univstar_20
-      - 香港_tg+univstar_21
-      - 美国_tg+univstar_22
-      - 中国_tg+univstar_23
+      - 中国_tg+univstar_19
+      - 中国_tg+univstar_20
+      - 中国_tg+univstar_21
+      - 中国_tg+univstar_22
+      - 日本_tg+univstar_23
       - 香港_tg+univstar_24
-      - tg+univstar_25
-      - 中国_tg+univstar_26
-      - 美国_tg+univstar_27
-      - 美国_tg+univstar_28
-      - 美国_tg+univstar_29
-      - tg+univstar_30
-      - tg+univstar_31
-      - 新加坡_tg+univstar_32
-      - 新加坡_tg+univstar_33
-      - 香港_tg+univstar_34
-      - 美国_tg+univstar_35
-      - 美国_tg+univstar_36
-      - 台湾_tg+univstar_37
-      - 美国_tg+univstar_38
-      - tg+univstar_39
-      - 瑞典_tg+univstar_40
-      - 英国_tg+univstar_41
-      - 葡萄牙_tg+univstar_42
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_26
+      - 中国_tg+univstar_27
+      - 中国_tg+univstar_28
+      - 中国_tg+univstar_29
+      - 中国_tg+univstar_30
+      - 日本_tg+univstar_31
+      - 日本_tg+univstar_32
+      - 中国_tg+univstar_33
+      - 中国_tg+univstar_34
+      - 中国_tg+univstar_35
+      - 日本_tg+univstar_36
+      - 日本_tg+univstar_37
+      - 香港_tg+univstar_38
+      - 中国_tg+univstar_39
+      - 俄罗斯联邦_tg+univstar_40
+      - 香港_tg+univstar_41
+      - 日本_tg+univstar_42
       - 香港_tg+univstar_43
-      - tg+univstar_44
-      - 韩国_tg+univstar_45
-      - 韩国_tg+univstar_46
-      - tg+univstar_47
-      - tg+univstar_48
-      - 法国_tg+univstar_49
-      - 台湾_tg+univstar_50
-      - tg+univstar_51
-      - 美国_tg+univstar_52
-      - 德国_tg+univstar_53
-      - 台湾_tg+univstar_54
-      - 台湾_tg+univstar_55
-      - tg+univstar_56
-      - 加拿大_tg+univstar_57
-      - 香港_tg+univstar_58
-      - tg+univstar_59
-      - 美国_tg+univstar_60
-      - 香港_tg+univstar_61
-      - 德国_tg+univstar_62
-      - 台湾_tg+univstar_63
-      - 美国_tg+univstar_64
-      - 香港_tg+univstar_65
-      - 美国_tg+univstar_66
+      - 中国_tg+univstar_44
+      - 香港_tg+univstar_45
+      - 香港_tg+univstar_46
+      - 中国_tg+univstar_47
+      - 中国_tg+univstar_48
+      - 新加坡_tg+univstar_49
+      - 中国_tg+univstar_50
+      - 中国_tg+univstar_51
+      - 日本_tg+univstar_52
+      - 新加坡_tg+univstar_53
+      - 中国_tg+univstar_54
+      - 日本_tg+univstar_55
+      - 中国_tg+univstar_56
+      - 新加坡_tg+univstar_57
+      - 中国_tg+univstar_58
+      - 台湾_tg+univstar_59
+      - 中国_tg+univstar_60
+      - 中国_tg+univstar_61
+      - 新加坡_tg+univstar_62
+      - 中国_tg+univstar_63
+      - 香港_tg+univstar_64
+      - 台湾_tg+univstar_65
+      - 中国_tg+univstar_66
+      - 美国_tg+univstar_67
+      - 美国_tg+univstar_68
+      - 香港_tg+univstar_69
+      - tg+univstar_70
+      - 美国_tg+univstar_71
+      - 美国_tg+univstar_72
+      - 中国_tg+univstar_73
+      - 新加坡_tg+univstar_74
+      - 美国_tg+univstar_75
+      - 中国_tg+univstar_76
+      - 中国_tg+univstar_77
+      - 新加坡_tg+univstar_78
+      - 美国_tg+univstar_79
+      - 中国_tg+univstar_80
+      - 香港_tg+univstar_81
+      - 新加坡_tg+univstar_82
+      - 台湾_tg+univstar_83
+      - tg+univstar_84
+      - 中国_tg+univstar_85
+      - 美国_tg+univstar_86
+      - 澳门_tg+univstar_87
+      - 新加坡_tg+univstar_88
+      - 中国_tg+univstar_89
+      - 新加坡_tg+univstar_90
+      - 韩国_tg+univstar_91
+      - tg+univstar_92
+      - 中国_tg+univstar_93
+      - tg+univstar_94
+      - 中国_tg+univstar_95
+      - 新加坡_tg+univstar_96
+      - 澳门_tg+univstar_97
+      - 台湾_tg+univstar_98
+      - 美国_tg+univstar_99
+      - 卢森堡_tg+univstar_100
+      - 澳大利亚_tg+univstar_101
+      - 美国_tg+univstar_102
+      - 美国_tg+univstar_103
+      - 新加坡_tg+univstar_104
+      - 美国_tg+univstar_105
+      - 新加坡_tg+univstar_106
+      - 荷兰_tg+univstar_107
+      - 英国_tg+univstar_108
+      - 美国_tg+univstar_109
+      - tg+univstar_110
+      - 新加坡_tg+univstar_111
+      - 美国_tg+univstar_112
+      - 中国_tg+univstar_113
+      - 美国_tg+univstar_114
+      - tg+univstar_115
+      - 美国_tg+univstar_116
+      - 中国_tg+univstar_117
+      - 美国_tg+univstar_118
+      - 日本_tg+univstar_119
+      - 香港_tg+univstar_120
+      - 韩国_tg+univstar_121
+      - 韩国_tg+univstar_122
+      - 俄罗斯联邦_tg+univstar_123
+      - 香港_tg+univstar_124
+      - 墨西哥_tg+univstar_125
+      - 中国_tg+univstar_126
+      - 中国_tg+univstar_127
+      - 荷兰_tg+univstar_128
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
