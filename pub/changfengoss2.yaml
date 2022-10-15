@@ -45,12 +45,12 @@ proxies:
   - {"type":"vmess","name":"中国_1014593","server":"s1.mine.com.cn","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"中国_1014223","server":"s3.mine.com.cn","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"专线_tg+univstar_13","server":"119.23.45.18","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"台湾B|tg频道:@univstar","server":"165.154.253.210","port":"443","uuid":"5ff06f6b-69a6-436b-a8e8-2db071b2fd65","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"台湾B|tg频道:@ripaojiedian","server":"165.154.253.210","port":"443","uuid":"5ff06f6b-69a6-436b-a8e8-2db071b2fd65","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇪🇸中转🇪🇸ES2TG:@univstar","server":"116.129.254.6","port":"11926","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"tg频道:@sharingnode","ws-opts":{"path":"/path/120208301422","headers":{"host":"www.48816626.xyz"}},"server":"67.21.72.44","port":"443","uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国_1014530","ws-opts":{"path":"/path/120208301422"},"server":"67.21.72.44","port":"443","uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国_10141330","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.zhujicn2.com"}},"server":"172.64.154.150","port":"443","uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡1|tg频道:@univstar","server":"54.151.172.209","port":"443","uuid":"5ff06f6b-69a6-436b-a8e8-2db071b2fd65","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡1|tg频道:@ripaojiedian","server":"54.151.172.209","port":"443","uuid":"5ff06f6b-69a6-436b-a8e8-2db071b2fd65","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"ss","name":"CN+477+SSS","server":"14.29.124.174","port":11038,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"vmess","name":"CN【付费推荐：wxfz.ml】102","server":"116.129.254.6","port":"9029","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"中国_1014656","server":"s2.mine.com.cn","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
@@ -91,7 +91,7 @@ proxies:
   - {"type":"vmess","name":"美国洛杉矶|解锁流媒体","ws-opts":{"path":"/guolicheng/us1?ed=2048","headers":{"host":"us1.meizhiyuanya.xyz"}},"server":"141.101.115.116","port":"443","uuid":"750a29bf-0a40-437f-b120-38de74ae7eaf","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国圣何塞|解锁流媒体","ws-opts":{"path":"/guolicheng/us2?ed=2048","headers":{"host":"us2.meizhiyuanya.xyz"}},"server":"198.41.208.175","port":"443","uuid":"750a29bf-0a40-437f-b120-38de74ae7eaf","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"美国圣何塞-2号+|+解锁流媒体","server":"45.82.253.234","port":28443,"password":"750a29bf-0a40-437f-b120-38de74ae7eaf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"vmess","name":"伊朗(TG频道:@univstar)","ws-opts":{"path":"/user","headers":{"host":"stream.azadrah22.com"}},"server":"stream.azadrah22.com","port":"80","uuid":"76e151a7-9980-4077-bd52-07ef4e9cb496","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"伊朗(TG频道:@kxswa)","ws-opts":{"path":"/user","headers":{"host":"stream.azadrah22.com"}},"server":"stream.azadrah22.com","port":"80","uuid":"76e151a7-9980-4077-bd52-07ef4e9cb496","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"美国西雅图|解锁流媒体","ws-opts":{"path":"/guolicheng/us3?ed=2048","headers":{"host":"us3.meizhiyuanya.xyz"}},"server":"198.41.209.68","port":"443","uuid":"750a29bf-0a40-437f-b120-38de74ae7eaf","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"德国+|+解锁流媒体","server":"89.163.220.99","port":28443,"password":"750a29bf-0a40-437f-b120-38de74ae7eaf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
   - {"type":"trojan","name":"台湾Hinet+|+解锁流媒体","server":"download1tw.windowsupdate1.com","port":28443,"password":"750a29bf-0a40-437f-b120-38de74ae7eaf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
@@ -103,7 +103,7 @@ proxies:
   - {"type":"vmess","name":"台湾Hinet-1号线路|解锁流媒体","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.meizhiyuanya.xyz"}},"server":"141.101.115.158","port":"443","uuid":"750a29bf-0a40-437f-b120-38de74ae7eaf","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"德国2+|+解锁流媒体","server":"80.78.132.177","port":28443,"password":"750a29bf-0a40-437f-b120-38de74ae7eaf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
   - {"type":"trojan","name":"🇩🇪+DE+1+TG:@univstar","server":"89.163.220.99","port":28443,"password":"750a29bf-0a40-437f-b120-38de74ae7eaf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"vmess","name":"美国(TG频道:@univstar)","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.154.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国(TG频道:@kxswa)","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.154.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -126,12 +126,12 @@ proxy-groups:
       - 中国_1014593
       - 中国_1014223
       - 专线_tg+univstar_13
-      - 台湾B|tg频道:@univstar
+      - 台湾B|tg频道:@ripaojiedian
       - 🇪🇸中转🇪🇸ES2TG:@univstar
       - tg频道:@sharingnode
       - 美国_1014530
       - 美国_10141330
-      - 新加坡1|tg频道:@univstar
+      - 新加坡1|tg频道:@ripaojiedian
       - CN+477+SSS
       - CN【付费推荐：wxfz.ml】102
       - 中国_1014656
@@ -172,7 +172,7 @@ proxy-groups:
       - 美国洛杉矶|解锁流媒体
       - 美国圣何塞|解锁流媒体
       - 美国圣何塞-2号+|+解锁流媒体
-      - 伊朗(TG频道:@univstar)
+      - 伊朗(TG频道:@kxswa)
       - 美国西雅图|解锁流媒体
       - 德国+|+解锁流媒体
       - 台湾Hinet+|+解锁流媒体
@@ -184,7 +184,7 @@ proxy-groups:
       - 台湾Hinet-1号线路|解锁流媒体
       - 德国2+|+解锁流媒体
       - 🇩🇪+DE+1+TG:@univstar
-      - 美国(TG频道:@univstar)
+      - 美国(TG频道:@kxswa)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
@@ -207,12 +207,12 @@ proxy-groups:
       - 中国_1014593
       - 中国_1014223
       - 专线_tg+univstar_13
-      - 台湾B|tg频道:@univstar
+      - 台湾B|tg频道:@ripaojiedian
       - 🇪🇸中转🇪🇸ES2TG:@univstar
       - tg频道:@sharingnode
       - 美国_1014530
       - 美国_10141330
-      - 新加坡1|tg频道:@univstar
+      - 新加坡1|tg频道:@ripaojiedian
       - CN+477+SSS
       - CN【付费推荐：wxfz.ml】102
       - 中国_1014656
@@ -253,7 +253,7 @@ proxy-groups:
       - 美国洛杉矶|解锁流媒体
       - 美国圣何塞|解锁流媒体
       - 美国圣何塞-2号+|+解锁流媒体
-      - 伊朗(TG频道:@univstar)
+      - 伊朗(TG频道:@kxswa)
       - 美国西雅图|解锁流媒体
       - 德国+|+解锁流媒体
       - 台湾Hinet+|+解锁流媒体
@@ -265,7 +265,7 @@ proxy-groups:
       - 台湾Hinet-1号线路|解锁流媒体
       - 德国2+|+解锁流媒体
       - 🇩🇪+DE+1+TG:@univstar
-      - 美国(TG频道:@univstar)
+      - 美国(TG频道:@kxswa)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -288,12 +288,12 @@ proxy-groups:
       - 中国_1014593
       - 中国_1014223
       - 专线_tg+univstar_13
-      - 台湾B|tg频道:@univstar
+      - 台湾B|tg频道:@ripaojiedian
       - 🇪🇸中转🇪🇸ES2TG:@univstar
       - tg频道:@sharingnode
       - 美国_1014530
       - 美国_10141330
-      - 新加坡1|tg频道:@univstar
+      - 新加坡1|tg频道:@ripaojiedian
       - CN+477+SSS
       - CN【付费推荐：wxfz.ml】102
       - 中国_1014656
@@ -334,7 +334,7 @@ proxy-groups:
       - 美国洛杉矶|解锁流媒体
       - 美国圣何塞|解锁流媒体
       - 美国圣何塞-2号+|+解锁流媒体
-      - 伊朗(TG频道:@univstar)
+      - 伊朗(TG频道:@kxswa)
       - 美国西雅图|解锁流媒体
       - 德国+|+解锁流媒体
       - 台湾Hinet+|+解锁流媒体
@@ -346,7 +346,7 @@ proxy-groups:
       - 台湾Hinet-1号线路|解锁流媒体
       - 德国2+|+解锁流媒体
       - 🇩🇪+DE+1+TG:@univstar
-      - 美国(TG频道:@univstar)
+      - 美国(TG频道:@kxswa)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -368,12 +368,12 @@ proxy-groups:
       - 中国_1014593
       - 中国_1014223
       - 专线_tg+univstar_13
-      - 台湾B|tg频道:@univstar
+      - 台湾B|tg频道:@ripaojiedian
       - 🇪🇸中转🇪🇸ES2TG:@univstar
       - tg频道:@sharingnode
       - 美国_1014530
       - 美国_10141330
-      - 新加坡1|tg频道:@univstar
+      - 新加坡1|tg频道:@ripaojiedian
       - CN+477+SSS
       - CN【付费推荐：wxfz.ml】102
       - 中国_1014656
@@ -414,7 +414,7 @@ proxy-groups:
       - 美国洛杉矶|解锁流媒体
       - 美国圣何塞|解锁流媒体
       - 美国圣何塞-2号+|+解锁流媒体
-      - 伊朗(TG频道:@univstar)
+      - 伊朗(TG频道:@kxswa)
       - 美国西雅图|解锁流媒体
       - 德国+|+解锁流媒体
       - 台湾Hinet+|+解锁流媒体
@@ -426,7 +426,7 @@ proxy-groups:
       - 台湾Hinet-1号线路|解锁流媒体
       - 德国2+|+解锁流媒体
       - 🇩🇪+DE+1+TG:@univstar
-      - 美国(TG频道:@univstar)
+      - 美国(TG频道:@kxswa)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -448,12 +448,12 @@ proxy-groups:
       - 中国_1014593
       - 中国_1014223
       - 专线_tg+univstar_13
-      - 台湾B|tg频道:@univstar
+      - 台湾B|tg频道:@ripaojiedian
       - 🇪🇸中转🇪🇸ES2TG:@univstar
       - tg频道:@sharingnode
       - 美国_1014530
       - 美国_10141330
-      - 新加坡1|tg频道:@univstar
+      - 新加坡1|tg频道:@ripaojiedian
       - CN+477+SSS
       - CN【付费推荐：wxfz.ml】102
       - 中国_1014656
@@ -494,7 +494,7 @@ proxy-groups:
       - 美国洛杉矶|解锁流媒体
       - 美国圣何塞|解锁流媒体
       - 美国圣何塞-2号+|+解锁流媒体
-      - 伊朗(TG频道:@univstar)
+      - 伊朗(TG频道:@kxswa)
       - 美国西雅图|解锁流媒体
       - 德国+|+解锁流媒体
       - 台湾Hinet+|+解锁流媒体
@@ -506,7 +506,7 @@ proxy-groups:
       - 台湾Hinet-1号线路|解锁流媒体
       - 德国2+|+解锁流媒体
       - 🇩🇪+DE+1+TG:@univstar
-      - 美国(TG频道:@univstar)
+      - 美国(TG频道:@kxswa)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -528,12 +528,12 @@ proxy-groups:
       - 中国_1014593
       - 中国_1014223
       - 专线_tg+univstar_13
-      - 台湾B|tg频道:@univstar
+      - 台湾B|tg频道:@ripaojiedian
       - 🇪🇸中转🇪🇸ES2TG:@univstar
       - tg频道:@sharingnode
       - 美国_1014530
       - 美国_10141330
-      - 新加坡1|tg频道:@univstar
+      - 新加坡1|tg频道:@ripaojiedian
       - CN+477+SSS
       - CN【付费推荐：wxfz.ml】102
       - 中国_1014656
@@ -574,7 +574,7 @@ proxy-groups:
       - 美国洛杉矶|解锁流媒体
       - 美国圣何塞|解锁流媒体
       - 美国圣何塞-2号+|+解锁流媒体
-      - 伊朗(TG频道:@univstar)
+      - 伊朗(TG频道:@kxswa)
       - 美国西雅图|解锁流媒体
       - 德国+|+解锁流媒体
       - 台湾Hinet+|+解锁流媒体
@@ -586,7 +586,7 @@ proxy-groups:
       - 台湾Hinet-1号线路|解锁流媒体
       - 德国2+|+解锁流媒体
       - 🇩🇪+DE+1+TG:@univstar
-      - 美国(TG频道:@univstar)
+      - 美国(TG频道:@kxswa)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -625,12 +625,12 @@ proxy-groups:
       - 中国_1014593
       - 中国_1014223
       - 专线_tg+univstar_13
-      - 台湾B|tg频道:@univstar
+      - 台湾B|tg频道:@ripaojiedian
       - 🇪🇸中转🇪🇸ES2TG:@univstar
       - tg频道:@sharingnode
       - 美国_1014530
       - 美国_10141330
-      - 新加坡1|tg频道:@univstar
+      - 新加坡1|tg频道:@ripaojiedian
       - CN+477+SSS
       - CN【付费推荐：wxfz.ml】102
       - 中国_1014656
@@ -671,7 +671,7 @@ proxy-groups:
       - 美国洛杉矶|解锁流媒体
       - 美国圣何塞|解锁流媒体
       - 美国圣何塞-2号+|+解锁流媒体
-      - 伊朗(TG频道:@univstar)
+      - 伊朗(TG频道:@kxswa)
       - 美国西雅图|解锁流媒体
       - 德国+|+解锁流媒体
       - 台湾Hinet+|+解锁流媒体
@@ -683,7 +683,7 @@ proxy-groups:
       - 台湾Hinet-1号线路|解锁流媒体
       - 德国2+|+解锁流媒体
       - 🇩🇪+DE+1+TG:@univstar
-      - 美国(TG频道:@univstar)
+      - 美国(TG频道:@kxswa)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
