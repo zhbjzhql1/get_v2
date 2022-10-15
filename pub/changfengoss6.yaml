@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-15 10:10:41
+#  创建时间：2022-10-15 18:24:45
 #  模版：v2rayse默认模版
-#  节点数量：8
+#  节点数量：10
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,95 +13,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"github.com/Pawdroid-美国CloudFlare公司CDN节点22","ws-opts":{"path":"/aries","headers":{"host":"dosg.cloudflare.quest"}},"server":"shopify.com","port":"2086","uuid":"147c190d-0407-4133-f2b8-47d11297d771","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚","ws-opts":{"path":"/chat","headers":{"host":"vau1.0bad.com"}},"server":"vau1.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/Pawdroid-希腊11","ws-opts":{"path":"/getweather"},"server":"aop.ssfree.ru","port":"443","uuid":"180cae9c-4b10-11ed-bfc7-000017022008","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com-美国CloudFlare节点16","ws-opts":{"path":"/Telegram/ShareCentrePro/mknnix"},"server":"sg.prpr.link","port":443,"uuid":"cea42161-bddc-4230-a9b9-e43187967ffa","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/Pawdroid-浙江省台州市移动34","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"s3.cjhh.beauty"}},"server":"ecdyd-1049-v2-7.hkg-r-kcd-c.ap.cjhh.beauty","port":"29938","uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/Pawdroid-美国CloudFlare节点23","ws-opts":{"path":"/Telegram/ShareCentrePro/mknnix"},"server":"sg.prpr.link","port":443,"uuid":"cea42161-bddc-4230-a9b9-e43187967ffa","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/Pawdroid-美国CloudFlare节点14","ws-opts":{"path":"/SCP-914"},"server":"us.kapok.buzz","port":443,"uuid":"eb4550a1-bd63-4f9c-b4b6-fdd24b440728","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_1067","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk06.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":10009,"uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇰🇷_KR_韩国","server":"kr1.api-aws.com","port":443,"password":"545034ab-8179-46ea-a7d4-a5c992cce000","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇫🇷_FR_法国_1","server":"content-provider5.cdn-delivery.akamaicd.com","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","server":"us6b31-node.aiqiche123.com","port":8190,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8653","alterId":10,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","server":"107.148.202.10","port":8190,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8653","alterId":10,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"🇳🇱_NL_荷兰","server":"content-provider23.cdn-delivery.akamaicd.com","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇫🇷_FR_法国_2","server":"content-provider12.cdn-delivery.akamaicd.com","port":443,"password":"origin","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_1","ws-opts":{"path":"/ray","headers":{"host":"m5.v2rayfree1.xyz"}},"server":"172.64.144.154","port":443,"uuid":"94887268-f3cb-48be-ade3-87d42faae3e4","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇫🇷_FR_法国_3","server":"141.94.76.177","port":443,"password":"6e3b4240-38f9-4321-9b3c-bc669a34b848","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇮🇷_IR_伊朗->🇫🇷_FR_法国","ws-opts":{"path":"/user","headers":{"host":"stream.azadrah22.com"}},"server":"stream.azadrah22.com","port":80,"uuid":"76e151a7-9980-4077-bd52-07ef4e9cb496","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"fhcarm1.gaox.ml","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github.com/Pawdroid-美国CloudFlare公司CDN节点22
-      - 🇦🇺_AU_澳大利亚
-      - github.com/Pawdroid-希腊11
-      - v2cross.com-美国CloudFlare节点16
-      - github.com/Pawdroid-浙江省台州市移动34
-      - github.com/Pawdroid-美国CloudFlare节点23
-      - github.com/Pawdroid-美国CloudFlare节点14
-      - Relay_🇺🇸US-🇺🇸US_1067
+      - 🇰🇷_KR_韩国
+      - 🇫🇷_FR_法国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇳🇱_NL_荷兰
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_3
+      - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github.com/Pawdroid-美国CloudFlare公司CDN节点22
-      - 🇦🇺_AU_澳大利亚
-      - github.com/Pawdroid-希腊11
-      - v2cross.com-美国CloudFlare节点16
-      - github.com/Pawdroid-浙江省台州市移动34
-      - github.com/Pawdroid-美国CloudFlare节点23
-      - github.com/Pawdroid-美国CloudFlare节点14
-      - Relay_🇺🇸US-🇺🇸US_1067
+      - 🇰🇷_KR_韩国
+      - 🇫🇷_FR_法国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇳🇱_NL_荷兰
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_3
+      - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/Pawdroid-美国CloudFlare公司CDN节点22
-      - 🇦🇺_AU_澳大利亚
-      - github.com/Pawdroid-希腊11
-      - v2cross.com-美国CloudFlare节点16
-      - github.com/Pawdroid-浙江省台州市移动34
-      - github.com/Pawdroid-美国CloudFlare节点23
-      - github.com/Pawdroid-美国CloudFlare节点14
-      - Relay_🇺🇸US-🇺🇸US_1067
+      - 🇰🇷_KR_韩国
+      - 🇫🇷_FR_法国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇳🇱_NL_荷兰
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_3
+      - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/Pawdroid-美国CloudFlare公司CDN节点22
-      - 🇦🇺_AU_澳大利亚
-      - github.com/Pawdroid-希腊11
-      - v2cross.com-美国CloudFlare节点16
-      - github.com/Pawdroid-浙江省台州市移动34
-      - github.com/Pawdroid-美国CloudFlare节点23
-      - github.com/Pawdroid-美国CloudFlare节点14
-      - Relay_🇺🇸US-🇺🇸US_1067
+      - 🇰🇷_KR_韩国
+      - 🇫🇷_FR_法国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇳🇱_NL_荷兰
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_3
+      - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github.com/Pawdroid-美国CloudFlare公司CDN节点22
-      - 🇦🇺_AU_澳大利亚
-      - github.com/Pawdroid-希腊11
-      - v2cross.com-美国CloudFlare节点16
-      - github.com/Pawdroid-浙江省台州市移动34
-      - github.com/Pawdroid-美国CloudFlare节点23
-      - github.com/Pawdroid-美国CloudFlare节点14
-      - Relay_🇺🇸US-🇺🇸US_1067
+      - 🇰🇷_KR_韩国
+      - 🇫🇷_FR_法国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇳🇱_NL_荷兰
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_3
+      - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/Pawdroid-美国CloudFlare公司CDN节点22
-      - 🇦🇺_AU_澳大利亚
-      - github.com/Pawdroid-希腊11
-      - v2cross.com-美国CloudFlare节点16
-      - github.com/Pawdroid-浙江省台州市移动34
-      - github.com/Pawdroid-美国CloudFlare节点23
-      - github.com/Pawdroid-美国CloudFlare节点14
-      - Relay_🇺🇸US-🇺🇸US_1067
+      - 🇰🇷_KR_韩国
+      - 🇫🇷_FR_法国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇳🇱_NL_荷兰
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_3
+      - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,14 +138,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/Pawdroid-美国CloudFlare公司CDN节点22
-      - 🇦🇺_AU_澳大利亚
-      - github.com/Pawdroid-希腊11
-      - v2cross.com-美国CloudFlare节点16
-      - github.com/Pawdroid-浙江省台州市移动34
-      - github.com/Pawdroid-美国CloudFlare节点23
-      - github.com/Pawdroid-美国CloudFlare节点14
-      - Relay_🇺🇸US-🇺🇸US_1067
+      - 🇰🇷_KR_韩国
+      - 🇫🇷_FR_法国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇳🇱_NL_荷兰
+      - 🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国_1
+      - 🇫🇷_FR_法国_3
+      - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
