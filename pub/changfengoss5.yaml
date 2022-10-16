@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-15 10:23:03
+#  创建时间：2022-10-16 16:39:38
 #  模版：v2rayse默认模版
-#  节点数量：24
+#  节点数量：10
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,207 +13,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"@vpn_proxy66🇨🇦","server":"nice-ca01.tiktokcdn.buzz","port":443,"password":"ff37081f-9043-476a-a6ea-854297b06839","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"@vpn_proxy66|KR_1","ws-opts":{"path":"/"},"server":"152.67.218.38","port":443,"uuid":"b5e9480a-b7aa-40a4-f9a7-5299b5e363b4","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"@vpn_proxy66|🇬🇧","server":"5.181.132.234","port":31372,"uuid":"c40b4d06-7684-4c09-d8d9-8de7186b293a","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"@vpn_proxy66|CZ","server":"185.253.46.121","port":443,"password":"kGrwqmB1nEKUsDwE","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"@vpn_proxy66🇰🇷","server":"152.70.241.18","port":26676,"uuid":"ecd274c0-175d-45f7-8276-a3da93786632","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"@vpn_proxy66🇯🇵_1","server":"jgwdj4.gaox.ml","port":443,"password":"c09eb137-bf68-4658-84e0-102d94b74168","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"@vpn_proxy66_us","ws-opts":{"path":"/123","headers":{"host":"usamd.ptuu.tk"}},"server":"usamd.ptuu.tk","port":443,"uuid":"009a2a72-afe7-4521-fec0-391908a088c6","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"@vpn_proxy66🇯🇵_2","server":"202.8.9.27","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"mzy.hruqoaw.cn"}
-  - {"type":"trojan","name":"@vpn_proxy66🇯🇵_3","server":"jgwdj3.gaox.ml","port":443,"password":"da777aae-defb-41d0-a183-2c27da2b4677","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"@vpn_proxy66🇯🇵_4","server":"150.230.217.213","port":443,"password":"c09eb137-bf68-4658-84e0-102d94b74168","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"@vpn_proxy66|JP_1","server":"54.178.46.155","port":43857,"password":"P9qGW38zz7","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"@vpn_proxy66🇺🇸","server":"138.124.183.222","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"@vpn_proxy66|US_1","server":"138.2.45.243","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"@vpn_proxy66🇺🇸US_1","ws-opts":{"path":"/123","headers":{"host":"usamd.ptuu.gq"}},"server":"usamd.ptuu.gq","port":443,"uuid":"33653796-feef-43fd-e7cc-1adccd79b7c7","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@vpn_proxy66|KR_2","server":"129.154.57.134","port":26282,"uuid":"cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"@vpn_proxy66|US_2","ws-opts":{"path":"/123"},"server":"sgamd.ptuu.tk","port":443,"uuid":"80f1e736-4b86-4e31-80d1-aac867666095","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"@vpn_proxy66🇺🇸US_2","server":"150.230.96.103","port":443,"password":"da777aae-defb-41d0-a183-2c27da2b4677","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"@vpn_proxy66🇩🇪","server":"89.163.220.99","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"mzy.hruqoaw.cn"}
-  - {"type":"trojan","name":"@vpn_proxy66🇸🇬","server":"194.233.88.109","port":443,"password":"123456","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"@vpn_proxy66|SG","server":"138.2.86.43","port":32574,"uuid":"6e0aae55-230c-45a0-8591-7fce1ec7a326","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"@vpn_proxy66|JP_2","server":"150.230.199.177","port":21696,"uuid":"6b745caf-e7f6-49f1-9b63-e5c416303bac","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"@vpn_proxy66|JP_3","server":"167.179.88.75","port":12363,"uuid":"8ee75e76-9d9d-4f37-bd62-7f7733f49458","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"@vpn_proxy66_TG","ws-opts":{"path":"/ray","headers":{"host":"usarm.ptuu.cf"}},"server":"usarm.ptuu.cf","port":443,"uuid":"cb7c9465-ca11-44c8-ab8f-3585631fa640","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"@vpn_proxy66|DE","server":"18.194.238.243","port":443,"password":"137032ae-1bdb-445d-85e0-6edd7d343afb","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇭🇰_HK_香港_1","http-opts":{"path":["/"],"headers":{"Host":["47.243.177.72"]}},"server":"47.243.177.72","port":27991,"uuid":"7f25b2a0-188a-4fea-89cb-e3a4f6e3434a","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"🇭🇰_HK_香港_2","http-opts":{"path":["/"],"headers":{"Host":["47.243.18.69"]}},"server":"47.243.18.69","port":39941,"uuid":"f2f964e9-1a9b-43f9-82a5-b80ee2ccb4f7","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"🇳🇱_NL_荷兰","server":"94.177.8.87","port":44443,"uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"🇩🇪_DE_德国","server":"188.40.251.19","port":443,"password":"origin","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国","server":"us.tzccwz.fit","port":46390,"uuid":"87e44243-191a-4a16-d4b2-8b92a0a2800b","alterId":0,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇬🇧_GB_英国","server":"185.194.30.40","port":44443,"uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇭🇰_HK_香港_3","http-opts":{"path":["/"],"headers":{"Host":["47.243.100.254"]}},"server":"47.243.100.254","port":20373,"uuid":"180c6326-6679-4192-b418-457df58e8ba9","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"🇰🇷_KR_韩国","server":"kr1.api-aws.com","port":443,"password":"edeb6377-0d40-483b-869a-8b3be9d74850","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇭🇰_HK_香港_4","http-opts":{"path":["/"],"headers":{"Host":["47.242.60.8"]}},"server":"47.242.60.8","port":44161,"uuid":"bb170858-0779-484a-a708-7dc1728921cf","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"🇭🇰_HK_香港_5","http-opts":{"path":["/"],"headers":{"Host":["47.243.134.223"]}},"server":"47.243.134.223","port":36079,"uuid":"73eb2fee-b1aa-44a6-af18-224c0ab348e6","alterId":0,"cipher":"auto","network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@vpn_proxy66🇨🇦'
-      - '@vpn_proxy66|KR_1'
-      - '@vpn_proxy66|🇬🇧'
-      - '@vpn_proxy66|CZ'
-      - '@vpn_proxy66🇰🇷'
-      - '@vpn_proxy66🇯🇵_1'
-      - '@vpn_proxy66_us'
-      - '@vpn_proxy66🇯🇵_2'
-      - '@vpn_proxy66🇯🇵_3'
-      - '@vpn_proxy66🇯🇵_4'
-      - '@vpn_proxy66|JP_1'
-      - '@vpn_proxy66🇺🇸'
-      - '@vpn_proxy66|US_1'
-      - '@vpn_proxy66🇺🇸US_1'
-      - '@vpn_proxy66|KR_2'
-      - '@vpn_proxy66|US_2'
-      - '@vpn_proxy66🇺🇸US_2'
-      - '@vpn_proxy66🇩🇪'
-      - '@vpn_proxy66🇸🇬'
-      - '@vpn_proxy66|SG'
-      - '@vpn_proxy66|JP_2'
-      - '@vpn_proxy66|JP_3'
-      - '@vpn_proxy66_TG'
-      - '@vpn_proxy66|DE'
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇳🇱_NL_荷兰
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇭🇰_HK_香港_3
+      - 🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '@vpn_proxy66🇨🇦'
-      - '@vpn_proxy66|KR_1'
-      - '@vpn_proxy66|🇬🇧'
-      - '@vpn_proxy66|CZ'
-      - '@vpn_proxy66🇰🇷'
-      - '@vpn_proxy66🇯🇵_1'
-      - '@vpn_proxy66_us'
-      - '@vpn_proxy66🇯🇵_2'
-      - '@vpn_proxy66🇯🇵_3'
-      - '@vpn_proxy66🇯🇵_4'
-      - '@vpn_proxy66|JP_1'
-      - '@vpn_proxy66🇺🇸'
-      - '@vpn_proxy66|US_1'
-      - '@vpn_proxy66🇺🇸US_1'
-      - '@vpn_proxy66|KR_2'
-      - '@vpn_proxy66|US_2'
-      - '@vpn_proxy66🇺🇸US_2'
-      - '@vpn_proxy66🇩🇪'
-      - '@vpn_proxy66🇸🇬'
-      - '@vpn_proxy66|SG'
-      - '@vpn_proxy66|JP_2'
-      - '@vpn_proxy66|JP_3'
-      - '@vpn_proxy66_TG'
-      - '@vpn_proxy66|DE'
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇳🇱_NL_荷兰
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇭🇰_HK_香港_3
+      - 🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@vpn_proxy66🇨🇦'
-      - '@vpn_proxy66|KR_1'
-      - '@vpn_proxy66|🇬🇧'
-      - '@vpn_proxy66|CZ'
-      - '@vpn_proxy66🇰🇷'
-      - '@vpn_proxy66🇯🇵_1'
-      - '@vpn_proxy66_us'
-      - '@vpn_proxy66🇯🇵_2'
-      - '@vpn_proxy66🇯🇵_3'
-      - '@vpn_proxy66🇯🇵_4'
-      - '@vpn_proxy66|JP_1'
-      - '@vpn_proxy66🇺🇸'
-      - '@vpn_proxy66|US_1'
-      - '@vpn_proxy66🇺🇸US_1'
-      - '@vpn_proxy66|KR_2'
-      - '@vpn_proxy66|US_2'
-      - '@vpn_proxy66🇺🇸US_2'
-      - '@vpn_proxy66🇩🇪'
-      - '@vpn_proxy66🇸🇬'
-      - '@vpn_proxy66|SG'
-      - '@vpn_proxy66|JP_2'
-      - '@vpn_proxy66|JP_3'
-      - '@vpn_proxy66_TG'
-      - '@vpn_proxy66|DE'
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇳🇱_NL_荷兰
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇭🇰_HK_香港_3
+      - 🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@vpn_proxy66🇨🇦'
-      - '@vpn_proxy66|KR_1'
-      - '@vpn_proxy66|🇬🇧'
-      - '@vpn_proxy66|CZ'
-      - '@vpn_proxy66🇰🇷'
-      - '@vpn_proxy66🇯🇵_1'
-      - '@vpn_proxy66_us'
-      - '@vpn_proxy66🇯🇵_2'
-      - '@vpn_proxy66🇯🇵_3'
-      - '@vpn_proxy66🇯🇵_4'
-      - '@vpn_proxy66|JP_1'
-      - '@vpn_proxy66🇺🇸'
-      - '@vpn_proxy66|US_1'
-      - '@vpn_proxy66🇺🇸US_1'
-      - '@vpn_proxy66|KR_2'
-      - '@vpn_proxy66|US_2'
-      - '@vpn_proxy66🇺🇸US_2'
-      - '@vpn_proxy66🇩🇪'
-      - '@vpn_proxy66🇸🇬'
-      - '@vpn_proxy66|SG'
-      - '@vpn_proxy66|JP_2'
-      - '@vpn_proxy66|JP_3'
-      - '@vpn_proxy66_TG'
-      - '@vpn_proxy66|DE'
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇳🇱_NL_荷兰
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇭🇰_HK_香港_3
+      - 🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@vpn_proxy66🇨🇦'
-      - '@vpn_proxy66|KR_1'
-      - '@vpn_proxy66|🇬🇧'
-      - '@vpn_proxy66|CZ'
-      - '@vpn_proxy66🇰🇷'
-      - '@vpn_proxy66🇯🇵_1'
-      - '@vpn_proxy66_us'
-      - '@vpn_proxy66🇯🇵_2'
-      - '@vpn_proxy66🇯🇵_3'
-      - '@vpn_proxy66🇯🇵_4'
-      - '@vpn_proxy66|JP_1'
-      - '@vpn_proxy66🇺🇸'
-      - '@vpn_proxy66|US_1'
-      - '@vpn_proxy66🇺🇸US_1'
-      - '@vpn_proxy66|KR_2'
-      - '@vpn_proxy66|US_2'
-      - '@vpn_proxy66🇺🇸US_2'
-      - '@vpn_proxy66🇩🇪'
-      - '@vpn_proxy66🇸🇬'
-      - '@vpn_proxy66|SG'
-      - '@vpn_proxy66|JP_2'
-      - '@vpn_proxy66|JP_3'
-      - '@vpn_proxy66_TG'
-      - '@vpn_proxy66|DE'
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇳🇱_NL_荷兰
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇭🇰_HK_香港_3
+      - 🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@vpn_proxy66🇨🇦'
-      - '@vpn_proxy66|KR_1'
-      - '@vpn_proxy66|🇬🇧'
-      - '@vpn_proxy66|CZ'
-      - '@vpn_proxy66🇰🇷'
-      - '@vpn_proxy66🇯🇵_1'
-      - '@vpn_proxy66_us'
-      - '@vpn_proxy66🇯🇵_2'
-      - '@vpn_proxy66🇯🇵_3'
-      - '@vpn_proxy66🇯🇵_4'
-      - '@vpn_proxy66|JP_1'
-      - '@vpn_proxy66🇺🇸'
-      - '@vpn_proxy66|US_1'
-      - '@vpn_proxy66🇺🇸US_1'
-      - '@vpn_proxy66|KR_2'
-      - '@vpn_proxy66|US_2'
-      - '@vpn_proxy66🇺🇸US_2'
-      - '@vpn_proxy66🇩🇪'
-      - '@vpn_proxy66🇸🇬'
-      - '@vpn_proxy66|SG'
-      - '@vpn_proxy66|JP_2'
-      - '@vpn_proxy66|JP_3'
-      - '@vpn_proxy66_TG'
-      - '@vpn_proxy66|DE'
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇳🇱_NL_荷兰
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇭🇰_HK_香港_3
+      - 🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -236,30 +138,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@vpn_proxy66🇨🇦'
-      - '@vpn_proxy66|KR_1'
-      - '@vpn_proxy66|🇬🇧'
-      - '@vpn_proxy66|CZ'
-      - '@vpn_proxy66🇰🇷'
-      - '@vpn_proxy66🇯🇵_1'
-      - '@vpn_proxy66_us'
-      - '@vpn_proxy66🇯🇵_2'
-      - '@vpn_proxy66🇯🇵_3'
-      - '@vpn_proxy66🇯🇵_4'
-      - '@vpn_proxy66|JP_1'
-      - '@vpn_proxy66🇺🇸'
-      - '@vpn_proxy66|US_1'
-      - '@vpn_proxy66🇺🇸US_1'
-      - '@vpn_proxy66|KR_2'
-      - '@vpn_proxy66|US_2'
-      - '@vpn_proxy66🇺🇸US_2'
-      - '@vpn_proxy66🇩🇪'
-      - '@vpn_proxy66🇸🇬'
-      - '@vpn_proxy66|SG'
-      - '@vpn_proxy66|JP_2'
-      - '@vpn_proxy66|JP_3'
-      - '@vpn_proxy66_TG'
-      - '@vpn_proxy66|DE'
+      - 🇭🇰_HK_香港_1
+      - 🇭🇰_HK_香港_2
+      - 🇳🇱_NL_荷兰
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇭🇰_HK_香港_3
+      - 🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
