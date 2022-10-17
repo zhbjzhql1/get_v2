@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-17 08:36:54
+#  创建时间：2022-10-18 01:38:51
 #  模版：v2rayse默认模版
-#  节点数量：8
+#  节点数量：3
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,95 +13,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"www.dongtaiwang.com洛杉矶1","server":"ssrfree.zhujicn2.net","port":20001,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
-  - {"type":"ssr","name":"www.dongtaiwang.com洛杉矶2","server":"ssrfree.zhujicn2.net","port":20002,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
-  - {"type":"ssr","name":"www.dongtaiwang.com洛杉矶3","server":"ssrfree.zhujicn2.net","port":20003,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
-  - {"type":"ssr","name":"www.dongtaiwang.com洛杉矶4","server":"ssrfree.zhujicn2.net","port":20004,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
-  - {"type":"ssr","name":"www.dongtaiwang.com洛杉矶5","server":"ssrfree.zhujicn2.net","port":20005,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
-  - {"type":"ssr","name":"www.dongtaiwang.com洛杉矶6","server":"ssrfree.zhujicn2.net","port":20006,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
-  - {"type":"ssr","name":"www.dongtaiwang.com洛杉矶7","server":"ssrfree.zhujicn2.net","port":20007,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
-  - {"type":"ssr","name":"www.dongtaiwang.com洛杉矶8","server":"ssrfree.zhujicn2.net","port":20008,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
+  - {"type":"ss","name":"default_name_1","server":"103.172.116.6","port":9037,"cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"type":"trojan","name":"🇮🇳_IN_印度","server":"jgwhdlb2.gaox.ml","port":443,"password":"54080134-2cba-4535-8599-95650bd9aa54","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"default_name_2","server":"103.172.116.6","port":9006,"cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - www.dongtaiwang.com洛杉矶1
-      - www.dongtaiwang.com洛杉矶2
-      - www.dongtaiwang.com洛杉矶3
-      - www.dongtaiwang.com洛杉矶4
-      - www.dongtaiwang.com洛杉矶5
-      - www.dongtaiwang.com洛杉矶6
-      - www.dongtaiwang.com洛杉矶7
-      - www.dongtaiwang.com洛杉矶8
+      - default_name_1
+      - 🇮🇳_IN_印度
+      - default_name_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - www.dongtaiwang.com洛杉矶1
-      - www.dongtaiwang.com洛杉矶2
-      - www.dongtaiwang.com洛杉矶3
-      - www.dongtaiwang.com洛杉矶4
-      - www.dongtaiwang.com洛杉矶5
-      - www.dongtaiwang.com洛杉矶6
-      - www.dongtaiwang.com洛杉矶7
-      - www.dongtaiwang.com洛杉矶8
+      - default_name_1
+      - 🇮🇳_IN_印度
+      - default_name_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - www.dongtaiwang.com洛杉矶1
-      - www.dongtaiwang.com洛杉矶2
-      - www.dongtaiwang.com洛杉矶3
-      - www.dongtaiwang.com洛杉矶4
-      - www.dongtaiwang.com洛杉矶5
-      - www.dongtaiwang.com洛杉矶6
-      - www.dongtaiwang.com洛杉矶7
-      - www.dongtaiwang.com洛杉矶8
+      - default_name_1
+      - 🇮🇳_IN_印度
+      - default_name_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - www.dongtaiwang.com洛杉矶1
-      - www.dongtaiwang.com洛杉矶2
-      - www.dongtaiwang.com洛杉矶3
-      - www.dongtaiwang.com洛杉矶4
-      - www.dongtaiwang.com洛杉矶5
-      - www.dongtaiwang.com洛杉矶6
-      - www.dongtaiwang.com洛杉矶7
-      - www.dongtaiwang.com洛杉矶8
+      - default_name_1
+      - 🇮🇳_IN_印度
+      - default_name_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - www.dongtaiwang.com洛杉矶1
-      - www.dongtaiwang.com洛杉矶2
-      - www.dongtaiwang.com洛杉矶3
-      - www.dongtaiwang.com洛杉矶4
-      - www.dongtaiwang.com洛杉矶5
-      - www.dongtaiwang.com洛杉矶6
-      - www.dongtaiwang.com洛杉矶7
-      - www.dongtaiwang.com洛杉矶8
+      - default_name_1
+      - 🇮🇳_IN_印度
+      - default_name_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - www.dongtaiwang.com洛杉矶1
-      - www.dongtaiwang.com洛杉矶2
-      - www.dongtaiwang.com洛杉矶3
-      - www.dongtaiwang.com洛杉矶4
-      - www.dongtaiwang.com洛杉矶5
-      - www.dongtaiwang.com洛杉矶6
-      - www.dongtaiwang.com洛杉矶7
-      - www.dongtaiwang.com洛杉矶8
+      - default_name_1
+      - 🇮🇳_IN_印度
+      - default_name_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,14 +89,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - www.dongtaiwang.com洛杉矶1
-      - www.dongtaiwang.com洛杉矶2
-      - www.dongtaiwang.com洛杉矶3
-      - www.dongtaiwang.com洛杉矶4
-      - www.dongtaiwang.com洛杉矶5
-      - www.dongtaiwang.com洛杉矶6
-      - www.dongtaiwang.com洛杉矶7
-      - www.dongtaiwang.com洛杉矶8
+      - default_name_1
+      - 🇮🇳_IN_印度
+      - default_name_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
