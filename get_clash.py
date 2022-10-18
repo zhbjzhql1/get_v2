@@ -27,7 +27,7 @@ except:
         
         
 try:
-    source1 = requests.get('https://proxies.bihai.cf/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
+    source1 = requests.get("https://proxies.bihai.cf/clash/proxies?c=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU").text
     with open("pub/bihai.yaml", 'w') as output:
         output.write(source1)
 except: 
