@@ -19,7 +19,6 @@ proxies:
   - {"type":"trojan","name":"v2rayse_test_4","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true}
   - {"type":"http","name":"http_proxy","server":"124.15.12.24","port":251,"username":"username","password":"password","udp":true}
   - {"type":"socks5","name":"socks5_proxy","server":"124.15.12.24","port":2312,"udp":true}
-  - {"type":"vless","name":"test","server":"1.2.3.4","port":7777,"uuid":"abc-def-ghi-fge-zsx","skip-cert-verify":true,"network":"tcp","tls":true,"udp":true}
   - {"type":"socks5","name":"telegram_proxy","server":"1.2.3.4","port":123,"username":"username","password":"password","udp":true}
   - {"type":"vmess","name":"🇯🇵_JP_日本","ws-opts":{"path":"/chat","headers":{"host":"vjp1.0bad.com"}},"server":"vjp1.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇰🇷_KR_韩国","ws-opts":{"path":"/58a5342f7a/"},"server":"www.apulnion.com","port":443,"uuid":"7b8c370d-8610-4988-b0a7-cde74aa0713b","alterId":0,"cipher":"auto","network":"ws","tls":true}
