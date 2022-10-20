@@ -2,7 +2,7 @@ import requests
 import urllib.parse
 
 url = "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1020.txt"
-host = "http://127.0.0.1:25500"
+host = "http://0.0.0.0:25500"
 
 url = urllib.parse.quote(url, safe='')
 try:
