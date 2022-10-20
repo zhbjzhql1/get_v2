@@ -1,4 +1,4 @@
-name: sub_merge
+name: sub_convert
 
 # 触发条件
 on:
@@ -35,6 +35,6 @@ jobs:
       run: |
         wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/download/v0.7.2/subconverter_linux64.tar.gz
         tar -zxvf subconverter.tar.gz -C ./
-        chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter
+        chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
         python ./utils/test.py
       
