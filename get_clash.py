@@ -2,6 +2,7 @@ import os
 import time
 import shutil
 import requests
+from requests.adapters import HTTPAdapter
 import json
 from shutil import copyfile
 from utils.yamlUtils import YamlUtils
@@ -24,17 +25,10 @@ try:
             output.write(data)
 except:
     pass
-        
-        
-try:
-    source1 = requests.get("https://proxies.bihai.cf/clash/proxies?c=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU").text
-    with open("pub/bihai.yaml", 'w') as output:
-        output.write(source1)
-except: 
-    pass
+
     
 try:
-    source2 = requests.get('http://wxshi.top:9090/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU').text
+    source2 = requests.get('http://wxshi.top:9090/clash/proxies').text
     with open("pub/wxshi.yaml", 'w') as output:
         output.write(source2)
 except:
@@ -49,11 +43,23 @@ except:
         
     
 try:
-    source4 = requests.get('https://raw.githubusercontent.com/rezasalimi01/Matsuri/main/Servers.yml').text
-    parts = source4.split('\n')
-    real_parts = list(filter(lambda x: x.__contains__('://') and x.__len__() > 50, parts))
+    source4 = requests.get('https://base64-api-production.up.railway.app/get-base64?content=https://raw.githubusercontent.com/rezasalimi01/Matsuri/main/Servers.yml').text
+#     parts = source4.split('\n')
+#     real_parts = list(filter(lambda x: x.__contains__('://') and x.__len__() > 50, parts))
+#     source4 = requests.get('').text
     with open("pub/Matsuri", 'w') as output:
-        output.write("\n".join(real_parts))
+        output.write(source4)
+except:
+    pass
+
+try:
+    s = requests.Session()
+    s.mount('http://', HTTPAdapter(max_retries=2))
+    s.mount('https://', HTTPAdapter(max_retries=2))
+    s.get('https://free.dswang.ga/clash/proxies', timeout=10)
+    source5 = s.get('https://free.dswang.ga/clash/proxies', timeout=10).text
+    with open("pub/dswang.yaml", 'w') as output:
+        output.write(source5)
 except:
     pass
 
