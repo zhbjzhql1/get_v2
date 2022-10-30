@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-29 16:37:01
+#  创建时间：2022-10-30 15:51:25
 #  模版：v2rayse默认模版
-#  节点数量：2
+#  节点数量：1
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,53 +13,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇮🇩_ID_印度尼西亚","server":"idc1.vpn-akcelluler.my.id","port":443,"password":"idc117okt","udp":true,"skip-cert-verify":true,"sni":"idc1.vpn-akcelluler.my.id"}
-  - {"type":"trojan","name":"🇲🇴_MO_澳门","server":"45.64.22.55","port":443,"password":"Me650d5Uec2c3iwJ","udp":true,"skip-cert-verify":true,"sni":"service.fireplay.io"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇳🇱_NL_荷兰","server":"223.111.122.199","port":30090,"password":"275d9aa8-b271-43d1-b1cf-1f3e6e881047","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇩_ID_印度尼西亚
-      - 🇲🇴_MO_澳门
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇩_ID_印度尼西亚
-      - 🇲🇴_MO_澳门
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇩_ID_印度尼西亚
-      - 🇲🇴_MO_澳门
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇩_ID_印度尼西亚
-      - 🇲🇴_MO_澳门
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇮🇩_ID_印度尼西亚
-      - 🇲🇴_MO_澳门
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇩_ID_印度尼西亚
-      - 🇲🇴_MO_澳门
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇩_ID_印度尼西亚
-      - 🇲🇴_MO_澳门
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
