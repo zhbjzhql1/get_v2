@@ -1,12 +1,7 @@
-name: 获取V2ray订阅
+name: test2
 on:
-  schedule:
-    - cron: '0 */2 * * *'
   workflow_dispatch:
-    watch:
-      types: started
-    repository_dispatch:
-      types: get_v2ray
+  
 jobs:
   get_v2ray:
     runs-on: ubuntu-latest
