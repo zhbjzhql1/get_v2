@@ -13,16 +13,34 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@v2
     - name: Setup Node.js environment
       uses: actions/setup-node@v3.5.1
       with:
         node-version: '18.x'
+    - name: npm/yarn/pnpm install
+      uses: Jaid/action-npm-install@v1.2.4
     - name: Install Python
       uses: actions/setup-python@v4.3.0
       with:
         python-version: '3.x'
+    - name: Load Cache
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
     - name: Set Timezone
       run: sudo timedatectl set-timezone 'Asia/Tehran'
+    - name: Install Requirements
+      run: |
+        pip install -r ./utils/temp-requirements.txt
+    - name: Install Requirements 2
+      run: |
+        cd ./localserver
+        npm i
     - name: Running Tasks
       run: |
         # wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/download/v0.7.2/subconverter_linux64.tar.gz
