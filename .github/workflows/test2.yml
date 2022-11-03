@@ -19,8 +19,12 @@ jobs:
       uses: actions/setup-node@v3.5.1
       with:
         node-version: '18.x'
-    - name: npm/yarn/pnpm install
-      uses: Jaid/action-npm-install@v1.2.4
+    #- name: npm/yarn/pnpm install
+    #  uses: Jaid/action-npm-install@v1.2.4
+    - name: NPM or Yarn install with caching
+      uses: bahmutov/npm-install@v1.6.0
+      with:
+        working-directory: ./localserver
     - name: Install Python
       uses: actions/setup-python@v4.3.0
       with:
