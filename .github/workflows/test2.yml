@@ -47,6 +47,6 @@ jobs:
         # tar -zxvf subconverter.tar.gz -C ./
         # chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
         # python ./utils/test.py
-        node ./localserver/index.js
+        node ./localserver/index.js &
         sleep 2
         python ./utils/test2.py
