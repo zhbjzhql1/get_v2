@@ -50,3 +50,6 @@ jobs:
         node ./localserver/index.js &
         sleep 2
         python ./utils/test2.py
+        ls
+        cd ./.cache
+        ls
