@@ -1,5 +1,7 @@
-name: test2
+name: 获取V2ray订阅
 on:
+  schedule:
+    - cron: '0 */2 * * *'
   workflow_dispatch:
   
 jobs:
@@ -11,7 +13,7 @@ jobs:
       - name: 'Set up Python'
         uses: actions/setup-python@v1
         with:
-          python-version: 3.7
+          python-version: 3.x
       - name: 'Install requests'
         run: |
           pip install -r requirements.txt
