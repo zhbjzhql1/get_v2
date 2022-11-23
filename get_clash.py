@@ -2,6 +2,7 @@ import os
 import time
 import shutil
 import requests
+import base64
 from requests.adapters import HTTPAdapter
 import json
 from shutil import copyfile
@@ -43,12 +44,14 @@ except:
         
     
 try:
-    source4 = requests.get('https://base64-api-production.up.railway.app/get-base64?content=https://raw.githubusercontent.com/rezasalimi01/Matsuri/main/Servers.yml').text
-#     parts = source4.split('\n')
-#     real_parts = list(filter(lambda x: x.__contains__('://') and x.__len__() > 50, parts))
-#     source4 = requests.get('').text
+    source4 = requests.get('https://raw.githubusercontent.com/rezasalimi01/Matsuri/main/Servers.yml').text
+    parts = source4.split('\n')
+    real_parts = list(filter(lambda x: x.__contains__('://') and x.__len__() > 50, parts))
+    
+    base64_content = base64.b64encode(
+            "\n".join(real_parts).encode('utf-8')).decode('ascii')
     with open("pub/Matsuri", 'w') as output:
-        output.write(source4)
+        output.write(base64_content)
 except:
     pass
 
