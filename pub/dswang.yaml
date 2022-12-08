@@ -1,92 +1,29 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Argo Tunnel error | free.dswang.ga | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
-
-
-<script>
-(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1033,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
-b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
-</script>
-
-<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
-</head>
-<body>
-  <div id="cf-wrapper">
-    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-    <div id="cf-error-details" class="p-0">
-      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
-         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
-           <span data-translate="error">Error</span>
-           <span>1033</span>
-         </h1>
-         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 7765748febd03107 &bull;</span>
-         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2022-12-08 12:20:28 UTC</span>
-        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">Argo Tunnel error</h2>
-      </header>
-
-      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
-          <div id="what-happened-section" class="w-1/2 md:w-full">
-            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
-            <p>You've requested a page on a website (free.dswang.ga) that is on the <a href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a> network. The host (free.dswang.ga) is configured as an Argo Tunnel, and Cloudflare is currently unable to resolve it.
-            
-          </div>
-
-          
-          <div id="resolution-copy-section" class="w-1/2 mt-6 text-15 leading-normal">
-            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_can_i_do">What can I do?</h2>
-            <p><strong>If you are a visitor of this website:</strong><br />Please try again in a few minutes.</p><p><strong>If you are the owner of this website:</strong><br />Ensure that cloudflared is running and can reach the network. You may wish to enable <a rel="noopener noreferrer" href="https://developers.cloudflare.com/argo-tunnel/reference/load-balancing/">load balancing</a> for your tunnel.</p>
-          </div>
-          
-      </section>
-
-      <div class="feedback-hidden py-8 text-center" id="error-feedback">
-    <div id="error-feedback-survey" class="footer-line-wrapper">
-        Was this page helpful?
-        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
-        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
-    </div>
-    <div class="feedback-success feedback-hidden" id="error-feedback-success">
-        Thank you for your feedback!
-    </div>
-</div>
-
-
-      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-  <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">7765748febd03107</strong></span>
-    <span class="cf-footer-separator sm:hidden">&bull;</span>
-    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
-      Your IP:
-      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-      <span class="hidden" id="cf-footer-ip">13.91.21.70</span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-    </span>
-    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-    
-  </p>
-  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
-</div><!-- /.error-footer -->
-
-
-    </div><!-- /#cf-error-details -->
-  </div><!-- /#cf-wrapper -->
-
-  <script>
-  window._cf_translation = {};
-  
-  
-</script>
-
-</body>
-</html>
-
+proxies:
+- {"name":"Relay_🇨🇳CN-🇹🇼TW_01","server":"i1.go001.buzz","type":"ss","country":"🇨🇳CN","port":32201,"password":"bBEXIq","cipher":"aes-256-gcm"}
+- {"name":"Relay_🇨🇳CN-🇺🇸US_02","server":"aliyun.install02.vnupgcn.cn","type":"vmess","country":"🇨🇳CN","port":11933,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","servername":"aliyun.install02.vnupgcn.cn","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇨🇳CN-🇸🇬SG_03","server":"113.142.205.92","type":"vmess","country":"🇨🇳CN","port":443,"uuid":"400a1ff6-c0fb-49f9-dc82-83fc6f7f09ef","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","servername":"sgserverme.tk","ws-headers":{"HOST":"sgserverme.tk"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"Relay_🇨🇳CN-🇹🇼TW_04","server":"120.240.55.137","type":"vmess","country":"🇨🇳CN","port":38201,"uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":0,"cipher":"auto","network":"ws","ws-path":"/hls/cctv5phd.m3u8","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇩🇪DE_05","server":"193.108.118.30","type":"ss","country":"🇩🇪DE","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+- {"name":"🇭🇰HK_06","server":"103.218.243.21","type":"vmess","country":"🇭🇰HK","port":10003,"uuid":"4fe413ef-e3a2-40df-fba0-6d151dd3b2b4","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇭🇰HK_07","server":"ajapq-1043-v2-0.hkg-d-hgc.nd.cjhh.mom","type":"vmess","country":"🇭🇰HK","port":888,"uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":0,"cipher":"auto","network":"ws","ws-path":"/je5x3pBN1vez3NQudNkB","servername":"edge.cjhh.mom","ws-headers":{"HOST":"edge.cjhh.mom"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"Relay_🇮🇳IN-🇮🇳IN_08","server":"jklahblog.com","type":"vmess","country":"🇮🇳IN","port":443,"uuid":"96edbdf0-c8b8-49f2-839e-940698bbf83d","alterId":2,"cipher":"auto","network":"ws","ws-path":"/af81144dc252b94/","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"🇷🇴RO_09","server":"185.126.116.123","type":"ss","country":"🇷🇴RO","port":9005,"password":"ZET59LF6DvCC8KVt","cipher":"aes-256-cfb"}
+- {"name":"🇷🇴RO_10","server":"185.126.116.123","type":"ss","country":"🇷🇴RO","port":9001,"password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb"}
+- {"name":"🇷🇺RU_11","server":"91.206.92.176","type":"ss","country":"🇷🇺RU","port":35030,"password":"FCx0i7b33H9G","cipher":"chacha20-ietf-poly1305"}
+- {"name":"Relay_🇸🇬SG-🇸🇬SG_12","server":"v-2.sshcf.xyz","type":"vmess","country":"🇸🇬SG","port":443,"uuid":"eead95f8-cb1f-4045-98bc-29d67e6b3541","alterId":0,"cipher":"auto","network":"ws","ws-path":"/vpnstunnel/","servername":"mm.net.my","ws-headers":{"HOST":"mm.net.my"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"🇺🇸US_13","server":"20.211.107.37","type":"ss","country":"🇺🇸US","port":8080,"password":"d218e51a-258f-43d2-8ce3-c8872611bf28","cipher":"aes-256-gcm"}
+- {"name":"🇺🇸US_14","server":"20.104.96.194","type":"ss","country":"🇺🇸US","port":8080,"password":"da45bc49-e9b5-4109-aa5f-ad02efa2f340","cipher":"aes-256-gcm"}
+- {"name":"🇺🇸US_15","server":"20.104.183.100","type":"ss","country":"🇺🇸US","port":8080,"password":"bbc60352-fa0b-4ec6-8b33-bd1df051e9c1","cipher":"aes-256-gcm"}
+- {"name":"🇺🇸US_16","server":"20.231.111.125","type":"ss","country":"🇺🇸US","port":8080,"password":"bbc60352-fa0b-4ec6-8b33-bd1df051e9c1","cipher":"aes-256-gcm"}
+- {"name":"🇺🇸US_17","server":"20.9.46.251","type":"ss","country":"🇺🇸US","port":8080,"password":"bbc60352-fa0b-4ec6-8b33-bd1df051e9c1","cipher":"aes-256-gcm"}
+- {"name":"🇺🇸US_18","server":"198.148.116.134","type":"vmess","country":"🇺🇸US","port":51730,"uuid":"8ce6bf5a-2a69-47de-992d-3f33164534fb","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_19","server":"hg.cycfly.xyz","type":"vmess","country":"🇺🇸US","port":53525,"uuid":"e4da905b-b046-4bbe-8031-6a6d6a7fc21d","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","servername":"hg.cycfly.xyz","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇺🇸US_20","server":"20.211.107.37","type":"vmess","country":"🇺🇸US","port":80,"uuid":"d218e51a-258f-43d2-8ce3-c8872611bf28","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇺🇸US_21","server":"198.148.116.134","type":"vmess","country":"🇺🇸US","port":52015,"uuid":"086e9fd4-1d86-49f0-fdab-a58822a36b29","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_22","server":"jgwus.jgwaad.tk","type":"vmess","country":"🇺🇸US","port":443,"uuid":"0c7caa09-5c69-42dc-8048-8e8b0d7efd4a","alterId":0,"cipher":"auto","network":"ws","ws-path":"/cctv13/hd.m3u8","servername":"jgwus.jgwaad.tk","ws-headers":{"HOST":"jgwus.jgwaad.tk"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇺🇸US_23","server":"198.148.116.134","type":"vmess","country":"🇺🇸US","port":22618,"uuid":"8b7321e5-d6aa-4d81-8156-b671a3b59067","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇺🇸US_24","server":"168.138.171.65","type":"vmess","country":"🇺🇸US","port":443,"uuid":"4af6fd9a-e8b4-46f2-da3a-207f4577656c","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_25","server":"rbobosz.tk","type":"vmess","country":"🇺🇸US","port":40762,"uuid":"5115f550-3f8c-44fe-a064-eb02e2fbb89b","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_26","server":"gyyjj-1038-v2-0.sjc-d-cn2.jd.cjhh.lol","type":"vmess","country":"🇺🇸US","port":888,"uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":0,"cipher":"auto","network":"ws","ws-path":"/je5x3pBN1vez3NQudNkB","servername":"node.inforun.work","ws-headers":{"HOST":"node.inforun.work"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_27","server":"free.us2.ecydy.com","type":"vmess","country":"🇺🇸US","port":443,"uuid":"c4831574-6b86-332e-a229-4d47812b0bb4","alterId":0,"cipher":"auto","network":"ws","ws-path":"/ecy","servername":"free.us2.ecydy.com","ws-headers":{"HOST":"free.us2.ecydy.com"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"🏁ZZ_28","server":"64.112.42.73","type":"vmess","country":"🏁ZZ","port":443,"uuid":"4946f776-0af3-49f3-acad-d157475d253e","alterId":0,"cipher":"auto","network":"ws","ws-path":"/P0S5U7NK","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
