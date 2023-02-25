@@ -5,12 +5,35 @@ import requests
 import base64
 from requests.adapters import HTTPAdapter
 import json
+import re
 from shutil import copyfile
 from utils.yamlUtils import YamlUtils
 from utils.jiang import get_content as jiang_content
 from utils.cfmem import get_content as cfmem_content
 from utils.pawdroid import get_content as pawdroid_content
 from utils.mattkaydiary import get_content as mattkaydiary_content
+
+
+try:
+    response = requests.get("https://vpn.fail/free-proxy/type/v2ray").text
+
+    ips = re.findall("				<a href=\"https://vpn\.fail/free-proxy/ip/(.*?)\" style=", response)
+
+    links = []
+    for ip in ips:
+        try:
+            response = requests.get(f"https://vpn.fail/free-proxy/ip/{ip}").text
+            link = response.split('class="form-control text-center" id="pp2" value="')[1].split('"')[0]
+            links.append(link)
+        except:
+            pass
+    
+    base64_content = base64.b64encode(
+            "\n".join(links).encode('utf-8')).decode('ascii')
+    with open("vpn.fail/free-proxy", 'w') as output:
+        output.write(base64_content)
+except:
+    pass
 
 try:
     pathToYamllist = json.loads(requests.get(
