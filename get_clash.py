@@ -30,7 +30,7 @@ try:
     
     base64_content = base64.b64encode(
             "\n".join(links).encode('utf-8')).decode('ascii')
-    with open("vpn.fail/free-proxy", 'w') as output:
+    with open("pub/vpn.fail", 'w') as output:
         output.write(base64_content)
 except:
     pass
