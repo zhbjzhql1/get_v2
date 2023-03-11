@@ -181,6 +181,7 @@ rules:
  - DOMAIN-SUFFIX,lan,🎯 全球直连
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - DOMAIN-SUFFIX,localhost,🎯 全球直连
+ - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
  - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
@@ -239,7 +240,6 @@ rules:
  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
  - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
  - DOMAIN-KEYWORD,adwords,🛑 全球拦截
- - DOMAIN-KEYWORD,analysis,🛑 全球拦截
  - DOMAIN-KEYWORD,applovin,🛑 全球拦截
  - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
  - DOMAIN-KEYWORD,domob,🛑 全球拦截
@@ -2362,7 +2362,6 @@ rules:
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
  - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
- - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -2373,7 +2372,6 @@ rules:
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
  - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
  - DOMAIN-SUFFIX,notion.so,🚀 节点选择
- - DOMAIN-SUFFIX,openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
@@ -2387,7 +2385,6 @@ rules:
  - DOMAIN-SUFFIX,sg,🚀 节点选择
  - DOMAIN-SUFFIX,tw,🚀 节点选择
  - DOMAIN-SUFFIX,uk,🚀 节点选择
- - DOMAIN-SUFFIX,us,🚀 节点选择
  - DOMAIN-KEYWORD,1e100,🚀 节点选择
  - DOMAIN-KEYWORD,abema,🚀 节点选择
  - DOMAIN-KEYWORD,appledaily,🚀 节点选择
@@ -2654,6 +2651,9 @@ rules:
  - IP-CIDR,119.235.236.0/23,🚀 节点选择,no-resolve
  - IP-CIDR,147.92.128.0/17,🚀 节点选择,no-resolve
  - IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+ - DOMAIN-SUFFIX,ai.com,🚀 节点选择
  - DOMAIN-KEYWORD,1drv,🚀 节点选择
  - DOMAIN-KEYWORD,onedrive,🚀 节点选择
  - DOMAIN-KEYWORD,skydrive,🚀 节点选择
@@ -3144,7 +3144,6 @@ rules:
  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
- - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
  - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
