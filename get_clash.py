@@ -89,6 +89,28 @@ try:
 except:
     pass
 
+try:
+    source6 = requests.get('https://raw.githubusercontent.com/MrPooyaX/SansorchiFucker/main/data.txt').text
+    with open("pub/sansor", 'w') as output:
+        output.write(source6)
+except:
+    pass
+    
+try:
+    source7 = requests.get('https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt').text
+    with open("pub/shenzo", 'w') as output:
+        output.write(source7)
+except:
+    pass
+
+
+try:
+    source8 = requests.get('https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config').text
+    with open("pub/ircp", 'w') as output:
+        output.write(source8)
+except:
+    pass
+
 bhqz = os.path.join("bhqz")
 yamlUtils = YamlUtils(bhqz)
 yamlUtils.clone_repo("https://github.com/bhqz/bhqz.git")
