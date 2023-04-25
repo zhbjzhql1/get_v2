@@ -106,8 +106,12 @@ except:
 
 try:
     source8 = requests.get('https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config').text
+    real_lines = list(filter(lambda x: x != '', source8.split('\n')))
+    
+    base64_content = base64.b64encode(
+            "\n".join(real_lines).encode('utf-8')).decode('ascii')
     with open("pub/ircp", 'w') as output:
-        output.write(source8)
+        output.write(base64_content)
 except:
     pass
 
