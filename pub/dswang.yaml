@@ -1,7 +1,14 @@
-<html>
-<head><title>403 Forbidden</title></head>
+<!doctype html>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_KC666tqkQWuHDuqa8/1B5aCok4lWUomzxGt/SwuJDo1hayN7JR9u0gPAtLpZVm0Zc9zytehw1iVPMQc07gvHJg==" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+</head>
 <body>
-<center><h1>403 Forbidden</h1></center>
-<hr><center>nginx</center>
+<div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiYmE2MjBmMTItM2IxZi00MzJhLWJjODktMDBiNzc4ZWQ2N2QyIiwicGFnZV90aW1lIjoxNjkxODEzNjUxLCJwYWdlX3VybCI6Imh0dHA6Ly93dzI1LmZyZWUuZHN3YW5nLmdhL2NsYXNoL3Byb3hpZXM/c3ViaWQxPTIwMjMwODEyLTE0MTQtMTA1MC1hMzYxLTYyZjQ2MTU4NTc2YyIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7InN1YmlkMSI6IjIwMjMwODEyLTE0MTQtMTA1MC1hMzYxLTYyZjQ2MTU4NTc2YyJ9LCJwYWdlX2hlYWRlcnMiOnsicmVmZXJlciI6WyIiXX0sImhvc3QiOiJ3dzI1LmZyZWUuZHN3YW5nLmdhIiwiaXAiOiIxMy44Ni4yMi42MCJ9Cg==";</script>
+<script src="/js/parking.2.106.5.js"></script>
 </body>
 </html>
