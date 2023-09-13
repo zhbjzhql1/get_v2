@@ -1,14 +1,7 @@
-<!doctype html>
-<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_M28GvdmS47FC4jHxPPn/1aCscCG4uTRAfWNaqjgjAbkRNrQ8CZ1AitFxsNuNjQKGpzJ8qJ3i6vD31ggoz2pJhw==" lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
-    <link rel="preconnect" href="https://www.google.com" crossorigin>
-</head>
+<html>
+<head><title>403 Forbidden</title></head>
 <body>
-<div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiYWIyNTAyN2EtNTIyMi00OWY0LTkyNzItMjQyY2Q0YThiM2UxIiwicGFnZV90aW1lIjoxNjk0NTU2NzYyLCJwYWdlX3VybCI6Imh0dHA6Ly93dzI1LmZyZWUuZHN3YW5nLmdhL2NsYXNoL3Byb3hpZXM/c3ViaWQxPTIwMjMwOTEzLTA4MTItNDJlZS1iZmZhLWU4ZTRhMTJkZjA1YyIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7InN1YmlkMSI6IjIwMjMwOTEzLTA4MTItNDJlZS1iZmZhLWU4ZTRhMTJkZjA1YyJ9LCJwYWdlX2hlYWRlcnMiOnt9LCJob3N0Ijoid3cyNS5mcmVlLmRzd2FuZy5nYSIsImlwIjoiMTA0LjIxMC4xMzMuMjQifQo=";</script>
-<script src="/aRNoUuleb.js"></script>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
 </body>
 </html>
