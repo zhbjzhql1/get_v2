@@ -970,6 +970,7 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -2616,6 +2617,8 @@ rules:
   - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
   - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
   - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,oaistatic.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,oaiusercontent.com,🌍 国外媒体
   - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
@@ -2710,6 +2713,7 @@ rules:
   - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
+  - DOMAIN-SUFFIX,buzzsprout.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
   - DOMAIN-SUFFIX,hk,🚀 节点选择
   - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -2867,6 +2871,8 @@ rules:
   - DOMAIN-KEYWORD,uk-live,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
@@ -3022,6 +3028,7 @@ rules:
   - DOMAIN-SUFFIX,ypncdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,pixiv.net,🚀 节点选择
   - DOMAIN-SUFFIX,pximg.net,🚀 节点选择
+  - DOMAIN-SUFFIX,fanbox.cc,🚀 节点选择
   - DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
   - DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
   - DOMAIN-SUFFIX,hockeyapp.net,🚀 节点选择
@@ -3096,6 +3103,8 @@ rules:
   - DOMAIN-SUFFIX,wikiversity.org,🚀 节点选择
   - DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
   - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
+  - DOMAIN-SUFFIX,zoom.us,🚀 节点选择
+  - DOMAIN-SUFFIX,zoomgov.com,🚀 节点选择
   - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
